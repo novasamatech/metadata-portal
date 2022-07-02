@@ -88,6 +88,7 @@ impl Default for Chain {
         Self {
             name: "polkadot".to_string(),
             color: color_default(),
+            logo: "Polkadot.svg",
             rpc_endpoint: "wss://example.com".to_string(),
             genesis_hash: None,
             token_unit: None,
