@@ -44,7 +44,7 @@ genesis_hash = "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee605
 [[chains]]
 name = "westmint"
 color = "#77bb77"
-logo = "Westmin_Testnet.svg"
+logo = "Westmint_Testnet.svg"
 rpc_endpoint = "wss://westmint-rpc.polkadot.io"
 
 [[chains]]
