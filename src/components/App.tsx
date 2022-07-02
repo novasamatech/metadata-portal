@@ -76,6 +76,7 @@ export default function App() {
 
   document.body.style.backgroundColor = "#F5F5F5";
   const { color } = allChains[currentNetwork] || { color: "#9C9C9C" };
+  const { logo } = allChains[currentNetwork];
   const qr = allChains[currentNetwork]?.metadataQr;
 
   if (!specs) {
@@ -131,6 +132,7 @@ export default function App() {
           setLocalStorageNetwork={setLocalStorageNetwork}
           setCurrentNetwork={setCurrentNetwork}
           color={color}
+          logo = {logo}
         />
         {/** darker layer*/}
         {isOpen && (
