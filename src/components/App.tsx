@@ -76,7 +76,7 @@ export default function App() {
 
   document.body.style.backgroundColor = "#F5F5F5";
   const { color } = allChains[currentNetwork] || { color: "#9C9C9C" };
-  const { logo } = allChains[currentNetwork];
+  const logo = allChains[currentNetwork]?.logo;
   const qr = allChains[currentNetwork]?.metadataQr;
 
   if (!specs) {
