@@ -71,6 +71,7 @@ pub(crate) struct Chain {
     pub(crate) name: String,
     #[serde(default = "color_default")]
     pub(crate) color: String,
+    pub(crate) logo: String,
     pub(crate) rpc_endpoint: String,
     pub(crate) genesis_hash: Option<String>,
     pub(crate) token_unit: Option<String>,

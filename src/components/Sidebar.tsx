@@ -8,8 +8,7 @@ interface Props {
   currentNetwork: string;
   setCurrentNetwork: Dispatch<SetStateAction<string>>;
   setLocalStorageNetwork: Dispatch<SetStateAction<string>>;
-  color: string;
-  logo: string
+  color: string
 }
 
 const searchStringInArray = (str: string, strArray: string[]) => {
@@ -27,7 +26,6 @@ export default function Sidebar({
   setCurrentNetwork,
   setLocalStorageNetwork,
   color,
-  logo,
 }: Props): JSX.Element {
   const [searchResults, setSearchResults] = useState<string[]>(
     Object.keys(allChains)
@@ -62,7 +60,7 @@ export default function Sidebar({
                 style={{ backgroundColor: color }}
               >
                 <div className="flex items-center text-xl text-white font-inter">
-                  <div><img src={process.env.PUBLIC_URL + "/chains/" + logo}/> </div>
+                  <div><img src={process.env.PUBLIC_URL + "/chains/" + allChains[c].logo}/> </div>
                   <div className="network_name">{capitalizeFirstLetter(c)}</div>
                 </div>
               </div>
@@ -75,7 +73,7 @@ export default function Sidebar({
                 }}
               >
                 <div className="flex items-center text-xl font-inter">
-                  <div className="text-[#9E9E9E]"><img src={process.env.PUBLIC_URL + "/chains/" + logo}/></div>
+                  <div className="text-[#9E9E9E]"><img src={process.env.PUBLIC_URL + "/chains/" + allChains[c].logo}/></div>
                   <div className="network_name">{capitalizeFirstLetter(c)}</div>
                 </div>
               </div>
