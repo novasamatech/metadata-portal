@@ -116,14 +116,14 @@
     "base58prefix": 110,
     "logo": "ParallelHeiko.svg",
     "decimals": 12,
-    "metadataVersion": 188,
+    "metadataVersion": 189,
     "metadataQr": {
-      "path": "/qr/heiko_metadata_188.apng",
+      "path": "/qr/heiko_metadata_189.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://heiko-rpc.parallel.fi",
-        "block": "0xadfac86ac6bcd1985e8f5ad9f1195cd98027c0dbfe5930a63a1c3b4cbab76814"
+        "block": "0xe77e4421e8e2240b07a1d481f14055cccf12fa83774dc7def9cf941aa7cf27cc"
       }
     },
     "nextMetadataVersion": null,
