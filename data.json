@@ -8,14 +8,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Kusama.svg",
     "decimals": 0,
-    "metadataVersion": 944,
+    "metadataVersion": 946,
     "metadataQr": {
-      "path": "/qr/bifrost_metadata_944.apng",
+      "path": "/qr/bifrost_metadata_946.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x76e48b62ce4e1bcc7a332757338e78129bc394cd664b8366c892a983b0fe2125"
+        "block": "0x4c8beb059f522e0d7dcdf489f72a77b61633eeb62422c1a524cc3e107078a195"
       }
     },
     "nextMetadataVersion": null,
