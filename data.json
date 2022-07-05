@@ -242,6 +242,87 @@
       "source": null
     }
   },
+  "kilt-spiritnet": {
+    "name": "kilt-spiritnet",
+    "color": "#8c145a",
+    "rpcEndpoint": "wss://spiritnet.kilt.io/",
+    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
+    "unit": "KILT",
+    "base58prefix": 38,
+    "logo": "KILT_Spiritnet.svg",
+    "decimals": 15,
+    "metadataVersion": 10620,
+    "metadataQr": {
+      "path": "/qr/kilt-spiritnet_metadata_10620.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://spiritnet.kilt.io/",
+        "block": "0x10855c9465ff3b3753db518bc31ffdde98dcfaa21e52cb829ba327453c1a839a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/kilt-spiritnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "calamari": {
+    "name": "calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "logo": "Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 3200,
+    "metadataQr": {
+      "path": "/qr/calamari_metadata_3200.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://ws.calamari.systems/",
+        "block": "0xbe4373577b7119ea57026d94fe1bf9083f36d36921a6f4f5b7b64e727ba82074"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "quartz": {
+    "name": "quartz",
+    "color": "#FF4D6A",
+    "rpcEndpoint": "wss://quartz.unique.network",
+    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "unit": "QTZ",
+    "base58prefix": 255,
+    "logo": "Quartz.svg",
+    "decimals": 18,
+    "metadataVersion": 924000,
+    "metadataQr": {
+      "path": "/qr/quartz_metadata_924000.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://quartz.unique.network",
+        "block": "0xb04431de50407e7442005dcaf981bfdc3c93892b82761423251c2d0d0058c08f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/quartz_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "westmint": {
     "name": "westmint",
     "color": "#77bb77",
