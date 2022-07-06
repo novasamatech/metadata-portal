@@ -10,7 +10,7 @@
     "decimals": 0,
     "metadataVersion": 946,
     "metadataQr": {
-      "path": "/qr/bifrost_metadata_946.apng",
+      "path": "qr/bifrost_metadata_946.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -20,8 +20,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/bifrost_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/bifrost_specs.png",
+      "path": "qr/bifrost_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -37,7 +38,7 @@
     "decimals": 0,
     "metadataVersion": 2082,
     "metadataQr": {
-      "path": "/qr/acala_metadata_2082.apng",
+      "path": "qr/acala_metadata_2082.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -47,8 +48,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/acala_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/acala_specs.png",
+      "path": "qr/acala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -64,7 +66,7 @@
     "decimals": 12,
     "metadataVersion": 9230,
     "metadataQr": {
-      "path": "/qr/statemine_metadata_9230.apng",
+      "path": "qr/statemine_metadata_9230.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -74,8 +76,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/statemine_specs.png",
+      "path": "qr/statemine_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -91,7 +94,7 @@
     "decimals": 0,
     "metadataVersion": 2082,
     "metadataQr": {
-      "path": "/qr/karura_metadata_2082.apng",
+      "path": "qr/karura_metadata_2082.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -101,8 +104,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/karura_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/karura_specs.png",
+      "path": "qr/karura_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -118,7 +122,7 @@
     "decimals": 12,
     "metadataVersion": 189,
     "metadataQr": {
-      "path": "/qr/heiko_metadata_189.apng",
+      "path": "qr/heiko_metadata_189.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -128,8 +132,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/heiko_specs.png",
+      "path": "qr/heiko_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -145,7 +150,7 @@
     "decimals": 18,
     "metadataVersion": 59,
     "metadataQr": {
-      "path": "/qr/shiden_metadata_59.apng",
+      "path": "qr/shiden_metadata_59.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -155,8 +160,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/shiden_specs.png",
+      "path": "qr/shiden_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -172,7 +178,7 @@
     "decimals": 12,
     "metadataVersion": 55,
     "metadataQr": {
-      "path": "/qr/basilisk_metadata_55.apng",
+      "path": "qr/basilisk_metadata_55.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -182,8 +188,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/basilisk_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/basilisk_specs.png",
+      "path": "qr/basilisk_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -199,7 +206,7 @@
     "decimals": 18,
     "metadataVersion": 1015,
     "metadataQr": {
-      "path": "/qr/altair_metadata_1015.apng",
+      "path": "qr/altair_metadata_1015.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -209,8 +216,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/altair_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/altair_specs.png",
+      "path": "qr/altair_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -226,7 +234,7 @@
     "decimals": 12,
     "metadataVersion": 1160,
     "metadataQr": {
-      "path": "/qr/khala_metadata_1160.apng",
+      "path": "qr/khala_metadata_1160.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -236,8 +244,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/khala_specs.png",
+      "path": "qr/khala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -253,7 +262,7 @@
     "decimals": 15,
     "metadataVersion": 10620,
     "metadataQr": {
-      "path": "/qr/kilt-spiritnet_metadata_10620.apng",
+      "path": "qr/kilt-spiritnet_metadata_10620.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -263,8 +272,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/kilt-spiritnet_specs.png",
+      "path": "qr/kilt-spiritnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -280,7 +290,7 @@
     "decimals": 12,
     "metadataVersion": 3200,
     "metadataQr": {
-      "path": "/qr/calamari_metadata_3200.apng",
+      "path": "qr/calamari_metadata_3200.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -290,8 +300,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/calamari_specs.png",
+      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -307,7 +318,7 @@
     "decimals": 18,
     "metadataVersion": 924000,
     "metadataQr": {
-      "path": "/qr/quartz_metadata_924000.apng",
+      "path": "qr/quartz_metadata_924000.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -317,8 +328,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/quartz_specs.png",
+      "path": "qr/quartz_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -334,7 +346,7 @@
     "decimals": 12,
     "metadataVersion": 9230,
     "metadataQr": {
-      "path": "/qr/westmint_metadata_9230.apng",
+      "path": "qr/westmint_metadata_9230.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -344,8 +356,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/westmint_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/westmint_specs.png",
+      "path": "qr/westmint_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -361,7 +374,7 @@
     "decimals": 0,
     "metadataVersion": 2064,
     "metadataQr": {
-      "path": "/qr/mandala_metadata_2064.apng",
+      "path": "qr/mandala_metadata_2064.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
@@ -371,8 +384,9 @@
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
+    "latestMetadata": "qr/mandala_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/mandala_specs.png",
+      "path": "qr/mandala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
