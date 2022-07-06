@@ -22,8 +22,7 @@ export default function SpecsTab({ specs }: SpecsProps) {
   return (
     <div className="px-2">
       <div className="py-5 border-b border-neutral-300">
-        <ul>{row("RPC endpoint", <>{rpcEndpoint}</>, true)}
-        </ul>
+        <ul>{row("RPC endpoint", <>{rpcEndpoint}</>, true)}</ul>
         <ul className="flex">
           {row("Genesis hash", <Hash value={genesisHash} />)}
           {row("Address prefix", base58prefix.toString())}
