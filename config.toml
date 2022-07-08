@@ -85,7 +85,7 @@ rpc_endpoint = "wss://ws.calamari.systems/"
 name = "quartz"
 color = "#FF4D6A"
 logo = "Quartz.svg"
-rpc_endpoint = "wss://quartz.unique.network"
+rpc_endpoint = "wss://quartz.api.onfinality.io/public-ws"
 
 [[chains]]
 name = "pioneer-runtime"
@@ -152,6 +152,30 @@ name = "zeitgeist"
 color = "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)"
 logo = "Zeitgeist.svg"
 rpc_endpoint = "wss://zeitgeist-rpc.dwellir.com"
+
+[[chains]]
+name = "kico"
+color = "#29B58D"
+logo = "KICO.svg"
+rpc_endpoint = "wss://rpc.kico.dico.io"
+
+[[chains]]
+name = "litmus-parachain"
+color = "#6822fb"
+logo = "Litmus.svg"
+rpc_endpoint = "wss://rpc.litmus-parachain.litentry.io"
+
+[[chains]]
+name = "crab parachain"
+color = "#7C30DD"
+logo = "Crab.svg"
+rpc_endpoint = "wss://crab-parachain-rpc.darwinia.network/"
+
+[[chains]]
+name = "subsocial-parachain"
+color = "#69058C"
+logo = "Subsocial_Parachain.svg"
+rpc_endpoint = "wss://para.subsocial.network"
 
 # Test networks
 [[chains]]
