@@ -316,14 +316,14 @@
     "base58prefix": 255,
     "logo": "Quartz.svg",
     "decimals": 18,
-    "metadataVersion": 924000,
+    "metadataVersion": 924010,
     "metadataQr": {
-      "path": "qr/quartz_metadata_924000.apng",
+      "path": "qr/quartz_metadata_924010.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://quartz.unique.network",
-        "block": "0xb04431de50407e7442005dcaf981bfdc3c93892b82761423251c2d0d0058c08f"
+        "block": "0xe2a174836b230f8e5f30bfda8f4e15fb1f30a915565b8220cae0dfcbb5d68b74"
       }
     },
     "nextMetadataVersion": null,
