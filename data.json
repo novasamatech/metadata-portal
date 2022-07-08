@@ -643,6 +643,34 @@
       "source": null
     }
   },
+  "hydradx": {
+    "name": "hydradx",
+    "color": "#f653a2",
+    "rpcEndpoint": "wss://rpc-01.hydradx.io",
+    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "unit": "HDX",
+    "base58prefix": 63,
+    "logo": "HydraDX.svg",
+    "decimals": 12,
+    "metadataVersion": 108,
+    "metadataQr": {
+      "path": "qr/hydradx_metadata_108.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://rpc-01.hydradx.io",
+        "block": "0xfbc431f5475ef5b8a19a7a2f6fe470e578c8cf0694a544e97ff6dc68d427a66f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/hydradx_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/hydradx_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "westmint": {
     "name": "westmint",
     "color": "#77bb77",
