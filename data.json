@@ -204,14 +204,14 @@
     "base58prefix": 136,
     "logo": "Altair.svg",
     "decimals": 18,
-    "metadataVersion": 1015,
+    "metadataVersion": 1016,
     "metadataQr": {
-      "path": "qr/altair_metadata_1015.apng",
+      "path": "qr/altair_metadata_1016.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://fullnode.altair.centrifuge.io",
-        "block": "0xda956268aebea08e6af328a8bd3c35730062e4895f13b782d8018a373cd350b7"
+        "block": "0x41657f6564ab6264271b08170b17e726cd0204b21763cdc0eb94ca6f3c675654"
       }
     },
     "nextMetadataVersion": null,
