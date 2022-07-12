@@ -32,13 +32,14 @@ External users (chain owners) will be able to deploy their versions of metadata 
 | 21     | Robonomics          | Kusama parachain   |
 | 22     | Kintsugi            | Kusama parachain   |
 | 23     | Picasso             | Kusama parachain   |
-| 24     | Zeitgeist           | Kusama parachain   |
-| 25     | KICO                | Kusama parachain   |
-| 26     | Litmus              | Kusama parachain   |
-| 27     | Crab                | Kusama parachain   |
-| 28     | Subsocial Parachain | Kusama parachain   |
-| 29     | Westmint            | Westend parachain  |
-| 30     | Mandala             | Solo test chain    |
+ | 24     | Zeitgeist           | Kusama parachain   |
+ | 25     | HydraDX             | Polkadot parachain |
+ | 26     | KICO                | Kusama parachain   |
+ | 27     | Litmus              | Kusama parachain   |
+ | 28     | Crab                | Kusama parachain   |
+ | 29     | Subsocial Parachain | Kusama parachain   |
+| 26     | Westmint            | Westend parachain  |
+| 27     | Mandala             | Solo test chain    |
 
 
 ## How does it work?
