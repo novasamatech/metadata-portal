@@ -58,7 +58,7 @@
   "statemine": {
     "name": "statemine",
     "color": "#113911",
-    "rpcEndpoint": "wss://statemine-rpc.polkadot.io",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
@@ -92,14 +92,14 @@
     "base58prefix": 8,
     "logo": "Karura.svg",
     "decimals": 0,
-    "metadataVersion": 2082,
+    "metadataVersion": 2083,
     "metadataQr": {
-      "path": "qr/karura_metadata_2082.apng",
+      "path": "qr/karura_metadata_2083.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://karura-rpc-0.aca-api.network",
-        "block": "0x45913148a4d3d4a0cbb24ca16acb6b434328f5cb2008c43b22586384117d42d3"
+        "block": "0x516566306b9a0606dbc58d7e55d2048776dc12246136de1a80b444fd02c0101d"
       }
     },
     "nextMetadataVersion": null,
@@ -148,14 +148,14 @@
     "base58prefix": 5,
     "logo": "Shiden.svg",
     "decimals": 18,
-    "metadataVersion": 59,
+    "metadataVersion": 61,
     "metadataQr": {
-      "path": "qr/shiden_metadata_59.apng",
+      "path": "qr/shiden_metadata_61.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.shiden.astar.network",
-        "block": "0xd845384fc186d248dd3aef71cfe964d687d0461e235042420a0eeb08a3413cfa"
+        "block": "0x3b04b95c0c49c0339407b0879b9e4435a05eebe26558c0ead1d55ca101521e27"
       }
     },
     "nextMetadataVersion": null,
@@ -310,7 +310,7 @@
   "quartz": {
     "name": "quartz",
     "color": "#FF4D6A",
-    "rpcEndpoint": "wss://quartz.unique.network",
+    "rpcEndpoint": "wss://quartz.api.onfinality.io/public-ws",
     "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
     "unit": "QTZ",
     "base58prefix": 255,
@@ -344,14 +344,14 @@
     "base58prefix": 268,
     "logo": "Bit.Country_Pioneer.svg",
     "decimals": 18,
-    "metadataVersion": 6,
+    "metadataVersion": 7,
     "metadataQr": {
-      "path": "qr/pioneer-runtime_metadata_6.apng",
+      "path": "qr/pioneer-runtime_metadata_7.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://pioneer.api.onfinality.io/public-ws",
-        "block": "0x6033cc1b20eff88ef21ab388c6cdcd865dadac4459fad588e60a2f19ec0b3697"
+        "block": "0xf6d0fd39e48f0e4eac392e5dd5fa5ebad80c50c0f85eb611bcdde5dfcab97b27"
       }
     },
     "nextMetadataVersion": null,
@@ -428,14 +428,14 @@
     "base58prefix": 128,
     "logo": "CLV_Parachain.svg",
     "decimals": 18,
-    "metadataVersion": 19,
+    "metadataVersion": 20,
     "metadataQr": {
-      "path": "qr/clover-mainnet_metadata_19.apng",
+      "path": "qr/clover-mainnet_metadata_20.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-para.clover.finance",
-        "block": "0x6c7f478a06f5f723bc9c722f271e4b99848e4ee5be8605b7c4757fe7c95a1d93"
+        "block": "0x3d58377793d21b777f5ddd1ed794699ab3be919263b719dc64e0a5e0169c12c6"
       }
     },
     "nextMetadataVersion": null,
@@ -456,14 +456,14 @@
     "base58prefix": 0,
     "logo": "Statemint.svg",
     "decimals": 10,
-    "metadataVersion": 900,
+    "metadataVersion": 9230,
     "metadataQr": {
-      "path": "qr/statemint_metadata_900.apng",
+      "path": "qr/statemint_metadata_9230.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://statemint-rpc.polkadot.io",
-        "block": "0x638af6c403c14f143402c6a400a52ccbf0cfa02b3fa48fc0c27e3b434194cb76"
+        "block": "0xd4ccb81b29a6d59c392fb789acf4b8d3e5992b3bd857d515aba5e7440256b3b9"
       }
     },
     "nextMetadataVersion": null,
@@ -667,6 +667,118 @@
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "kico": {
+    "name": "kico",
+    "color": "#29B58D",
+    "rpcEndpoint": "wss://rpc.kico.dico.io",
+    "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
+    "unit": "KICO",
+    "base58prefix": 42,
+    "logo": "KICO.svg",
+    "decimals": 14,
+    "metadataVersion": 1310,
+    "metadataQr": {
+      "path": "qr/kico_metadata_1310.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://rpc.kico.dico.io",
+        "block": "0x7b262f87a92669be20b9d2a5d1626adf2e3bfbad55b405d56fbef875b8e1f80a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kico_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kico_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "litmus-parachain": {
+    "name": "litmus-parachain",
+    "color": "#6822fb",
+    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
+    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "unit": "LIT",
+    "base58prefix": 131,
+    "logo": "Litmus.svg",
+    "decimals": 12,
+    "metadataVersion": 9080,
+    "metadataQr": {
+      "path": "qr/litmus-parachain_metadata_9080.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://rpc.litmus-parachain.litentry.io",
+        "block": "0x43caef668f49444cc60940eb258057b2427e4ce1f462e7a70ef6b93fbc3c33e7"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litmus-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "crab parachain": {
+    "name": "crab parachain",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://crab-parachain-rpc.darwinia.network/",
+    "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "logo": "Crab.svg",
+    "decimals": 18,
+    "metadataVersion": 5300,
+    "metadataQr": {
+      "path": "qr/crab parachain_metadata_5300.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://crab-parachain-rpc.darwinia.network/",
+        "block": "0x4041fab1ed060018fd80a365f499605bbd3cd606f6cfb16c86eef1da8f41fd01"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crab parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "subsocial-parachain": {
+    "name": "subsocial-parachain",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.subsocial.network",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "logo": "Subsocial_Parachain.svg",
+    "decimals": 10,
+    "metadataVersion": 12,
+    "metadataQr": {
+      "path": "qr/subsocial-parachain_metadata_12.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://para.subsocial.network",
+        "block": "0x56ea9b368ffeb8c33e51457b99f3882e4eb332204b93dd486f9bb55e8479eb75"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
