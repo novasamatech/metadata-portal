@@ -8,14 +8,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Kusama.svg",
     "decimals": 0,
-    "metadataVersion": 946,
+    "metadataVersion": 948,
     "metadataQr": {
-      "path": "qr/bifrost_metadata_946.apng",
+      "path": "qr/bifrost_metadata_948.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x4c8beb059f522e0d7dcdf489f72a77b61633eeb62422c1a524cc3e107078a195"
+        "block": "0x2af465b040473d63a066bdbaf6236b4e99155b60c20996e549b42f21a2c4ff24"
       }
     },
     "nextMetadataVersion": null,
@@ -36,14 +36,14 @@
     "base58prefix": 10,
     "logo": "Acala.svg",
     "decimals": 0,
-    "metadataVersion": 2082,
+    "metadataVersion": 2083,
     "metadataQr": {
-      "path": "qr/acala_metadata_2082.apng",
+      "path": "qr/acala_metadata_2083.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://acala-rpc.dwellir.com",
-        "block": "0xd2916dc40924d378e5fa42630103a50067950f1210ab844618a5ee0a30cfe715"
+        "block": "0x92e03c17a0fd2686b2f551afd2f47a6feae704f4f8e738827686b49cdcc0aa14"
       }
     },
     "nextMetadataVersion": null,
@@ -148,14 +148,14 @@
     "base58prefix": 5,
     "logo": "Shiden.svg",
     "decimals": 18,
-    "metadataVersion": 61,
+    "metadataVersion": 63,
     "metadataQr": {
-      "path": "qr/shiden_metadata_61.apng",
+      "path": "qr/shiden_metadata_63.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.shiden.astar.network",
-        "block": "0x3b04b95c0c49c0339407b0879b9e4435a05eebe26558c0ead1d55ca101521e27"
+        "block": "0xb39c530b8a3866e1bc9efdb186d0a428a1ef74e7463d9f8b9c055d5257f0e30f"
       }
     },
     "nextMetadataVersion": null,
@@ -176,14 +176,14 @@
     "base58prefix": 10041,
     "logo": "Basilisk.svg",
     "decimals": 12,
-    "metadataVersion": 55,
+    "metadataVersion": 65,
     "metadataQr": {
-      "path": "qr/basilisk_metadata_55.apng",
+      "path": "qr/basilisk_metadata_65.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-01.basilisk.hydradx.io",
-        "block": "0xae1873d3230212e8ff0517cfe38e046d284afca0dd75ec99af3918302e827bb7"
+        "block": "0x00fa26a998499e29bad46ad3b04dadcc366cdaca374bc6c1228aadf69909be0b"
       }
     },
     "nextMetadataVersion": null,
@@ -708,14 +708,14 @@
     "base58prefix": 131,
     "logo": "Litmus.svg",
     "decimals": 12,
-    "metadataVersion": 9080,
+    "metadataVersion": 9083,
     "metadataQr": {
-      "path": "qr/litmus-parachain_metadata_9080.apng",
+      "path": "qr/litmus-parachain_metadata_9083.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.litmus-parachain.litentry.io",
-        "block": "0x43caef668f49444cc60940eb258057b2427e4ce1f462e7a70ef6b93fbc3c33e7"
+        "block": "0xbecc86d7b1df887302acebb1206c70504529025a2314a92a46ef9ec0a2d4ae1e"
       }
     },
     "nextMetadataVersion": null,
