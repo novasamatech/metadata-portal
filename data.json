@@ -596,14 +596,14 @@
     "base58prefix": 49,
     "logo": "Picasso.svg",
     "decimals": 12,
-    "metadataVersion": 1200,
+    "metadataVersion": 1400,
     "metadataQr": {
-      "path": "qr/picasso_metadata_1200.apng",
+      "path": "qr/picasso_metadata_1400.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://picasso-rpc.composable.finance",
-        "block": "0x6b0fc813d9757d3fe6d237d94b2e090f88b1445599e52fd158d44e579c4b36e7"
+        "block": "0x95c10615dac1a08a6089382c226d86c21041aa600619b3b03b7039a166edad46"
       }
     },
     "nextMetadataVersion": null,
@@ -736,14 +736,14 @@
     "base58prefix": 42,
     "logo": "Crab.svg",
     "decimals": 18,
-    "metadataVersion": 5300,
+    "metadataVersion": 5310,
     "metadataQr": {
-      "path": "qr/crab parachain_metadata_5300.apng",
+      "path": "qr/crab parachain_metadata_5310.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://crab-parachain-rpc.darwinia.network/",
-        "block": "0x4041fab1ed060018fd80a365f499605bbd3cd606f6cfb16c86eef1da8f41fd01"
+        "block": "0x0f2faaf6f9eedc203a5e168d2ec6b979527d91c5c1004b7beba505125c331e7a"
       }
     },
     "nextMetadataVersion": null,
