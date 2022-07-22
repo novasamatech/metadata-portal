@@ -183,6 +183,69 @@ color = "#69058C"
 logo = "Subsocial_Parachain.svg"
 rpc_endpoint = "wss://para.subsocial.network"
 
+#todo crust shadow
+#[[chains]]
+#name = "Crust Shadow"
+#color = "#ff8812"
+#logo = "Crust_Shadow.svg"
+#rpc_endpoint = "wss://rpc2-shadow.crust.network/"
+
+[[chains]]
+name = "integritee-parachain"
+color = "#658ea9"
+logo = "Integritee.svg"
+rpc_endpoint = "wss://integritee-kusama.api.onfinality.io/public-ws"
+
+[[chains]]
+name = "centrifuge"
+color = "#fcc367"
+logo = "Centrifuge.svg"
+rpc_endpoint = "wss://fullnode.parachain.centrifuge.io"
+
+[[chains]]
+name = "efinity"
+color = "#496ddb"
+logo = "Efinity.svg"
+rpc_endpoint = "wss://rpc.efinity.io"
+
+[[chains]]
+name = "interlay-parachain"
+color = "#3E96FF"
+logo = "Interlay.svg"
+rpc_endpoint = "wss://interlay.api.onfinality.io/public-ws"
+
+[[chains]]
+name = "nodle-para"
+color = "#1ab394"
+logo = "Nodle.svg"
+rpc_endpoint = "wss://nodle-parachain.api.onfinality.io/public-ws"
+
+[[chains]]
+name = "turing"
+color = "#A8278C"
+logo = "Turing.svg"
+rpc_endpoint = "wss://turing.api.onfinality.io/public-ws"
+
+[[chains]]
+name = "aleph"
+color = "#00CCAB"
+logo = "AlephZero.svg"
+rpc_endpoint = "wss://ws.azero.dev"
+
+#todo Composable finance
+#[[chains]]
+#name = "composable-finance"
+#color = "#C90E8A"
+#logo = "Composable.svg"
+#rpc_endpoint = "wss://composable-rpc.dwellir.com"
+
+[[chains]]
+name = "polkadex-solochain"
+color = "#7C30DD"
+logo = "Polkadex.svg"
+rpc_endpoint = "wss://polkadex.api.onfinality.io/public-ws"
+
+
 # Test networks
 [[chains]]
 name = "westmint"
@@ -195,3 +258,4 @@ name = "mandala"
 color = "#173DC9"
 logo = "Acala_Mandala_Testnet.svg"
 rpc_endpoint = "wss://acala-mandala.api.onfinality.io/public-ws/"
+

@@ -26,29 +26,37 @@ External users (chain owners) will be able to deploy their versions of metadata 
 | 13     | Litmus              |
 | 14     | Crab                |
 | 15     | Subsocial Parachain |
+| 16     | Centrifuge          |
+| 17     | Efinity             |
+| 18     | Interlay            |
+| 19     | Nodle               |
 
 
 ## Kusama parachains
-| Number | Chain name          |
-|--------|---------------------|
-| 1      | Bifrost             |
-| 2      | Statemine           |
-| 3      | Karura              |
-| 4      | Parallel Heiko      |
-| 5      | Shiden              |
-| 6      | Basilisk            |
-| 7      | Khala               |
-| 8      | Altari              |
-| 9      | KILT Spiritnet      |
-| 10     | Calamari            |
-| 11     | Quartz              |
-| 12     | Bit.Country Pioneer |
+| Number | Chain name            |
+|--------|-----------------------|
+| 1      | Bifrost               |
+| 2      | Statemine             |
+| 3      | Karura                |
+| 4      | Parallel Heiko        |
+| 5      | Shiden                |
+| 6      | Basilisk              |
+| 7      | Khala                 |
+| 8      | Altari                |
+| 9      | KILT Spiritnet        |
+| 10     | Calamari              |
+| 11     | Quartz                |
+| 12     | Bit.Country Pioneer   |
+| 13     | Integritee Parachain  |
+| 14     | Turing                |
 
 
 ## Solo chains
 | Number | Chain name |
 |--------|------------|
 | 1      | Subsocial  |
+| 2      | Aleph Zero |
+| 3      | Polkadex   |
 
 
 ## Test networks & parachains
