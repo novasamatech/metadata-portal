@@ -986,7 +986,7 @@
     "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
     "unit": "OTP",
     "base58prefix": 101,
-    "logo": "OriginTral.svg",
+    "logo": "OriginTrail.svg",
     "decimals": 12,
     "metadataVersion": 102,
     "metadataQr": {
