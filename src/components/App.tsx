@@ -3,7 +3,7 @@ import { Chains } from "../scheme";
 import { useLocation } from "react-router-dom";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { Tab } from "@headlessui/react";
-import {capitalizeFirstLetter, getChainColor} from "../utils";
+import { capitalizeFirstLetter, getChainColor } from "../utils";
 
 import "./App.css";
 import Sidebar from "./Sidebar";

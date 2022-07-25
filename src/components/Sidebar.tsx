@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
 import { Chains } from "../scheme";
-import {capitalizeFirstLetter, getChainColor} from "../utils";
+import { capitalizeFirstLetter, getChainColor } from "../utils";
 import { ArrowSmRightIcon } from "@heroicons/react/solid";
 
 interface Props {

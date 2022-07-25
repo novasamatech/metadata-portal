@@ -3,5 +3,7 @@ export function capitalizeFirstLetter(string: string) {
 }
 
 export function getChainColor(color: string) {
-  return color.includes("linear-gradient") ? {backgroundImage: color} : { backgroundColor: color };
+  return color.includes("linear-gradient")
+    ? { backgroundImage: color }
+    : { backgroundColor: color };
 }

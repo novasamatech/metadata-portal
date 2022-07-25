@@ -3,7 +3,7 @@ import { ChainSpec } from "../scheme";
 import "./SpecsTab.css";
 import Hash from "./Hash";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
-import {getChainColor} from "../utils";
+import { getChainColor } from "../utils";
 
 interface SpecsProps {
   specs: ChainSpec;
