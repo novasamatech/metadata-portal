@@ -260,14 +260,14 @@
     "base58prefix": 38,
     "logo": "KILT_Spiritnet.svg",
     "decimals": 15,
-    "metadataVersion": 10620,
+    "metadataVersion": 10700,
     "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10620.apng",
+      "path": "qr/kilt-spiritnet_metadata_10700.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://spiritnet.kilt.io/",
-        "block": "0x10855c9465ff3b3753db518bc31ffdde98dcfaa21e52cb829ba327453c1a839a"
+        "block": "0x2a9380ab6875351dcb2ffb0e1d1f1c7e7358f2312efd66ad555ae2a56bf03711"
       }
     },
     "nextMetadataVersion": null,
@@ -652,14 +652,14 @@
     "base58prefix": 63,
     "logo": "HydraDX.svg",
     "decimals": 12,
-    "metadataVersion": 108,
+    "metadataVersion": 109,
     "metadataQr": {
-      "path": "qr/hydradx_metadata_108.apng",
+      "path": "qr/hydradx_metadata_109.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-01.hydradx.io",
-        "block": "0xfbc431f5475ef5b8a19a7a2f6fe470e578c8cf0694a544e97ff6dc68d427a66f"
+        "block": "0x8156d88bb3ee0acae39b136921122b923a0b281f6a33868c007d3e7d76db2106"
       }
     },
     "nextMetadataVersion": null,
