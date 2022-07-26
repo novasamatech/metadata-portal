@@ -290,11 +290,11 @@ logo = "Pichiu.svg"
 rpc_endpoint = "wss://kusama.kylin-node.co.uk"
 
 # TODO the node is not available
-#[[chains]]
-#name = "kabocha"
-#color = "#f53485"
-#logo = "Kabocha.svg"
-#rpc_endpoint = "wss://kabocha.jelliedowl.com"
+[[chains]]
+name = "kabocha-parachain"
+color = "#f53485"
+logo = "Kabocha.svg"
+rpc_endpoint = "wss://kabocha.jelliedowl.com"
 
 [[chains]]
 name = "datahighway-parachain"
@@ -308,7 +308,7 @@ color = "#161212"
 logo = "Bajun.svg"
 rpc_endpoint = "wss://rpc-parachain.bajun.network"
 
-# TODO the node is not available
+#todo Imbue. SS58 code is different.
 #[[chains]]
 #name = "imbue"
 #color = "#baff36"
