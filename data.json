@@ -176,14 +176,14 @@
     "base58prefix": 10041,
     "logo": "Basilisk.svg",
     "decimals": 12,
-    "metadataVersion": 65,
+    "metadataVersion": 69,
     "metadataQr": {
-      "path": "qr/basilisk_metadata_65.apng",
+      "path": "qr/basilisk_metadata_69.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-01.basilisk.hydradx.io",
-        "block": "0x00fa26a998499e29bad46ad3b04dadcc366cdaca374bc6c1228aadf69909be0b"
+        "block": "0x1ebc2fdc230ee5f6a3c619bc304a87a6f7f2774af79b05f1b98bbd3380adf05e"
       }
     },
     "nextMetadataVersion": null,
@@ -316,14 +316,14 @@
     "base58prefix": 255,
     "logo": "Quartz.svg",
     "decimals": 18,
-    "metadataVersion": 924011,
+    "metadataVersion": 924012,
     "metadataQr": {
-      "path": "qr/quartz_metadata_924011.apng",
+      "path": "qr/quartz_metadata_924012.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://quartz.api.onfinality.io/public-ws",
-        "block": "0xe2a174836b230f8e5f30bfda8f4e15fb1f30a915565b8220cae0dfcbb5d68b74"
+        "block": "0x230c07a2a8ff67b729d1e1131352a6a161005133f50061f0544c62f182911544"
       }
     },
     "nextMetadataVersion": null,
@@ -779,6 +779,34 @@
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "crust-collator": {
+    "name": "crust-collator",
+    "color": "#ff8812",
+    "rpcEndpoint": "wss://rpc2-shadow.crust.network/",
+    "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
+    "unit": "CSM",
+    "base58prefix": 66,
+    "logo": "Crust_Shadow.svg",
+    "decimals": 12,
+    "metadataVersion": 13,
+    "metadataQr": {
+      "path": "qr/crust-collator_metadata_13.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://rpc2-shadow.crust.network/",
+        "block": "0x70633b3bf4e9fd6f5b5d38d01f52058a2f794be33710bf3f683eb156e70b0c76"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crust-collator_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crust-collator_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
