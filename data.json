@@ -1,6 +1,6 @@
 {
   "bifrost": {
-    "name": "bifrost",
+    "title": "Birfrost",
     "color": "#5a25f0",
     "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
@@ -15,7 +15,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x2af465b040473d63a066bdbaf6236b4e99155b60c20996e549b42f21a2c4ff24"
+        "block": "0x9cbaec803ef251aed4bc5792f0f869eb54cbefc4bb36e628128f19c04c1649af"
       }
     },
     "nextMetadataVersion": null,
@@ -28,7 +28,7 @@
     }
   },
   "acala": {
-    "name": "acala",
+    "title": "Acala",
     "color": "#645AFF",
     "rpcEndpoint": "wss://acala-rpc.dwellir.com",
     "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -43,7 +43,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://acala-rpc.dwellir.com",
-        "block": "0x92e03c17a0fd2686b2f551afd2f47a6feae704f4f8e738827686b49cdcc0aa14"
+        "block": "0x3acc4d0f7b7b7c4e85db77d7517a5571264d8861d4ae850887c75850ee0c699f"
       }
     },
     "nextMetadataVersion": null,
@@ -56,7 +56,7 @@
     }
   },
   "statemine": {
-    "name": "statemine",
+    "title": "Statemine",
     "color": "#113911",
     "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
@@ -70,8 +70,8 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://statemine-rpc.polkadot.io",
-        "block": "0xc46bb6de789caf5085bfe7a6212f21bb9df8aa3756ceebf029db11dcc472fff2"
+        "url": "wss://statemine.api.onfinality.io/public-ws",
+        "block": "0xda8e798374fceafd4f0353ed399272bfb38961b5d2e38394e6d9e038f430bf8e"
       }
     },
     "nextMetadataVersion": null,
@@ -84,7 +84,7 @@
     }
   },
   "karura": {
-    "name": "karura",
+    "title": "Karura",
     "color": "#ff4c3b",
     "rpcEndpoint": "wss://karura-rpc-0.aca-api.network",
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -99,7 +99,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://karura-rpc-0.aca-api.network",
-        "block": "0x516566306b9a0606dbc58d7e55d2048776dc12246136de1a80b444fd02c0101d"
+        "block": "0x24b22e0473a929af0426cb9ddc3e7b7a616d1f919078e697433e2389f82e262b"
       }
     },
     "nextMetadataVersion": null,
@@ -112,7 +112,7 @@
     }
   },
   "heiko": {
-    "name": "heiko",
+    "title": "Parallel Heiko",
     "color": "#42d5de",
     "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
     "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
@@ -127,7 +127,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://heiko-rpc.parallel.fi",
-        "block": "0xe77e4421e8e2240b07a1d481f14055cccf12fa83774dc7def9cf941aa7cf27cc"
+        "block": "0xd1b7a12368b6204d2ba5ddd81acfb79d60a4745ac210ba0e8bdd2bd9fd7bafe7"
       }
     },
     "nextMetadataVersion": null,
@@ -140,7 +140,7 @@
     }
   },
   "shiden": {
-    "name": "shiden",
+    "title": "Shiden",
     "color": "#5923B2",
     "rpcEndpoint": "wss://rpc.shiden.astar.network",
     "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
@@ -155,7 +155,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.shiden.astar.network",
-        "block": "0xb39c530b8a3866e1bc9efdb186d0a428a1ef74e7463d9f8b9c055d5257f0e30f"
+        "block": "0xf10f55c57a1ff5a0a1a62ef355aa22d9f5e35a8c4d6f7fbab28fc633ab80e94d"
       }
     },
     "nextMetadataVersion": null,
@@ -168,7 +168,7 @@
     }
   },
   "basilisk": {
-    "name": "basilisk",
+    "title": "Basilisk",
     "color": "#9eec1b",
     "rpcEndpoint": "wss://rpc-01.basilisk.hydradx.io",
     "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
@@ -183,7 +183,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-01.basilisk.hydradx.io",
-        "block": "0x1ebc2fdc230ee5f6a3c619bc304a87a6f7f2774af79b05f1b98bbd3380adf05e"
+        "block": "0x2aa9c28a4e0735f727f91ccc51bdb9fbaf2a3e70f87c774f81d4748c2850b174"
       }
     },
     "nextMetadataVersion": null,
@@ -196,7 +196,7 @@
     }
   },
   "altair": {
-    "name": "altair",
+    "title": "Altair",
     "color": "#ffb700",
     "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
     "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
@@ -211,7 +211,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://fullnode.altair.centrifuge.io",
-        "block": "0x41657f6564ab6264271b08170b17e726cd0204b21763cdc0eb94ca6f3c675654"
+        "block": "0xa130bfdeafe78be03e0f05d52f8ff0c1ebf7d0354cd1465119558ced06bb1101"
       }
     },
     "nextMetadataVersion": null,
@@ -224,7 +224,7 @@
     }
   },
   "khala": {
-    "name": "khala",
+    "title": "Khala",
     "color": "#03f3f3",
     "rpcEndpoint": "wss://khala-api.phala.network/ws",
     "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -239,7 +239,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://khala-api.phala.network/ws",
-        "block": "0xbda8a8eab0dcdab0d2756d025fc93e85adcfa8db6471dd6d874ae7f68af609fc"
+        "block": "0x0161b474786d5799633df826f27cb8be4d970e062df75ba276c894289095bcd6"
       }
     },
     "nextMetadataVersion": null,
@@ -252,7 +252,7 @@
     }
   },
   "kilt-spiritnet": {
-    "name": "kilt-spiritnet",
+    "title": "KILT Spiritnet",
     "color": "#8c145a",
     "rpcEndpoint": "wss://spiritnet.kilt.io/",
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
@@ -267,7 +267,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://spiritnet.kilt.io/",
-        "block": "0x74c44a3824bd3fb56ea20313daccec7a02c32ea516cf7d77fec6d6ecdf6909c7"
+        "block": "0xa2f5d381e8ce2a218af2172e6514653a921bfc59eaceec8f9d563312b0def1d1"
       }
     },
     "nextMetadataVersion": null,
@@ -280,7 +280,7 @@
     }
   },
   "calamari": {
-    "name": "calamari",
+    "title": "Calamari",
     "color": "#000000",
     "rpcEndpoint": "wss://ws.calamari.systems/",
     "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
@@ -295,7 +295,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://ws.calamari.systems/",
-        "block": "0xbe4373577b7119ea57026d94fe1bf9083f36d36921a6f4f5b7b64e727ba82074"
+        "block": "0xa6ef26d458eeb32b04480baa947d5562ea9e098aa3c0c9f12779355b00f3fe7e"
       }
     },
     "nextMetadataVersion": null,
@@ -308,7 +308,7 @@
     }
   },
   "quartz": {
-    "name": "quartz",
+    "title": "QUARTZ",
     "color": "#FF4D6A",
     "rpcEndpoint": "wss://quartz.api.onfinality.io/public-ws",
     "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
@@ -323,7 +323,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://quartz.api.onfinality.io/public-ws",
-        "block": "0x230c07a2a8ff67b729d1e1131352a6a161005133f50061f0544c62f182911544"
+        "block": "0x05b8f2d7c89c776fdcd0c6b7481c70c3c24e9527fb27b39e8c1dedb169b274a9"
       }
     },
     "nextMetadataVersion": null,
@@ -336,7 +336,7 @@
     }
   },
   "pioneer-runtime": {
-    "name": "pioneer-runtime",
+    "title": "Bit.Country Pioneer",
     "color": "#000000",
     "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
     "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
@@ -351,7 +351,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://pioneer.api.onfinality.io/public-ws",
-        "block": "0xf6d0fd39e48f0e4eac392e5dd5fa5ebad80c50c0f85eb611bcdde5dfcab97b27"
+        "block": "0x79d5da3ee0ba0a9bfa6714946993e4c4a4e4dc271c4d7d4f38afbac619b4e007"
       }
     },
     "nextMetadataVersion": null,
@@ -364,7 +364,7 @@
     }
   },
   "astar": {
-    "name": "astar",
+    "title": "Astar",
     "color": "#1b6dc1d9",
     "rpcEndpoint": "wss://astar.api.onfinality.io/public-ws",
     "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
@@ -372,14 +372,14 @@
     "base58prefix": 5,
     "logo": "Astar.svg",
     "decimals": 18,
-    "metadataVersion": 23,
+    "metadataVersion": 30,
     "metadataQr": {
-      "path": "qr/astar_metadata_23.apng",
+      "path": "qr/astar_metadata_30.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.astar.network",
-        "block": "0xe57bd9eb6b14ea072ecc3bc5b29d53057e895823efdb7a3f8b7d3fc77b8f25bf"
+        "url": "wss://astar.api.onfinality.io/public-ws",
+        "block": "0xf06c15a08e2d4e79f5a83b6d44bb5f3adabf42022db502365c5a9790db5018ff"
       }
     },
     "nextMetadataVersion": null,
@@ -392,7 +392,7 @@
     }
   },
   "parallel": {
-    "name": "parallel",
+    "title": "Parallel",
     "color": "#ef18ac",
     "rpcEndpoint": "wss://rpc.parallel.fi",
     "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
@@ -407,7 +407,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.parallel.fi",
-        "block": "0xe218787e6c20904a9aaef237ce34708175bbefe9987ddb0032fa26bc420c5542"
+        "block": "0xf156a5642fd8fb516d5308d0819cf5f59901922a7542946106e25b28a57035d3"
       }
     },
     "nextMetadataVersion": null,
@@ -420,7 +420,7 @@
     }
   },
   "clover-mainnet": {
-    "name": "clover-mainnet",
+    "title": "CLV Parachain",
     "color": "linear-gradient(to right, #52ad75, #7cc773)",
     "rpcEndpoint": "wss://rpc-para.clover.finance",
     "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
@@ -428,14 +428,14 @@
     "base58prefix": 128,
     "logo": "CLV_Parachain.svg",
     "decimals": 18,
-    "metadataVersion": 20,
+    "metadataVersion": 21,
     "metadataQr": {
-      "path": "qr/clover-mainnet_metadata_20.apng",
+      "path": "qr/clover-mainnet_metadata_21.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-para.clover.finance",
-        "block": "0x3d58377793d21b777f5ddd1ed794699ab3be919263b719dc64e0a5e0169c12c6"
+        "block": "0x436c54f954c274ea0b9268efe88ac4632df41c40ff4710a260f616615fc21023"
       }
     },
     "nextMetadataVersion": null,
@@ -448,7 +448,7 @@
     }
   },
   "statemint": {
-    "name": "statemint",
+    "title": "Statemint",
     "color": "#86e62a",
     "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
@@ -463,7 +463,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://statemint-rpc.polkadot.io",
-        "block": "0xd4ccb81b29a6d59c392fb789acf4b8d3e5992b3bd857d515aba5e7440256b3b9"
+        "block": "0xa8178affaa12842a05c7e87d532e7f88c11110b64f4dbb73f7f1201f0064cd1f"
       }
     },
     "nextMetadataVersion": null,
@@ -476,7 +476,7 @@
     }
   },
   "subsocial": {
-    "name": "subsocial",
+    "title": "Subsocial Solochain",
     "color": "#b9018c",
     "rpcEndpoint": "wss://arch.subsocial.network",
     "genesisHash": "0x0bd72c1c305172e1275278aaeb3f161e02eccb7a819e63f62d47bd53a28189f8",
@@ -491,7 +491,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://arch.subsocial.network",
-        "block": "0x259cce1e05b1ac375a9fb78d3758582eb0a22a28a4ad0d327aa3665c02f0dd7d"
+        "block": "0xc429a2b385c944f9f268629eb04978240d36f1ad192111999c16e9f5291bce23"
       }
     },
     "nextMetadataVersion": null,
@@ -504,7 +504,7 @@
     }
   },
   "robonomics": {
-    "name": "robonomics",
+    "title": "Robonomics",
     "color": "#2949d3",
     "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
     "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
@@ -519,7 +519,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://kusama.rpc.robonomics.network/",
-        "block": "0x7674590406446516958c40c26039086625ec5e39a5713a5913613e359bede876"
+        "block": "0xa20c127044328f5fdb96a4dbcabd288261da3735b0b20caac6a72c38c698bd6f"
       }
     },
     "nextMetadataVersion": null,
@@ -532,7 +532,7 @@
     }
   },
   "encointer-parachain": {
-    "name": "encointer-parachain",
+    "title": "Encointer",
     "color": "#0000cc",
     "rpcEndpoint": "wss://api.kusama.encointer.org",
     "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
@@ -547,7 +547,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://api.kusama.encointer.org",
-        "block": "0xb867242e0f095e493992607dc8ec99a135b12b8af885edef91e8bdd2a7ca126f"
+        "block": "0x411fdff7a957ed01a4f5d8b95236cc2a3139b17d8e11aa0dbb5e4dc8e6c70fe0"
       }
     },
     "nextMetadataVersion": null,
@@ -560,7 +560,7 @@
     }
   },
   "kintsugi-parachain": {
-    "name": "kintsugi-parachain",
+    "title": "Kintsugi",
     "color": "#1a0a2d",
     "rpcEndpoint": "wss://api-kusama.interlay.io/parachain",
     "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
@@ -568,14 +568,14 @@
     "base58prefix": 2092,
     "logo": "Kintsugi.svg",
     "decimals": 0,
-    "metadataVersion": 19,
+    "metadataVersion": 1017000,
     "metadataQr": {
-      "path": "qr/kintsugi-parachain_metadata_19.apng",
+      "path": "qr/kintsugi-parachain_metadata_1017000.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://api-kusama.interlay.io/parachain",
-        "block": "0xd06edff6ddcb5e0170a3175087dea48c7f6d150f9d7a6de5229cdd8d55ab62f4"
+        "block": "0x6b7ec7039d3a637526194b23f1f3b93f7c121170195bc23362fc8f9f612f0541"
       }
     },
     "nextMetadataVersion": null,
@@ -588,7 +588,7 @@
     }
   },
   "picasso": {
-    "name": "picasso",
+    "title": "Picasso",
     "color": "#000000",
     "rpcEndpoint": "wss://picasso-rpc.composable.finance",
     "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
@@ -603,7 +603,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://picasso-rpc.composable.finance",
-        "block": "0x95c10615dac1a08a6089382c226d86c21041aa600619b3b03b7039a166edad46"
+        "block": "0xa2eae3b0ad256fa78923f65bdb240933cc18a6a32e67ec7291c6bf5c131c60c5"
       }
     },
     "nextMetadataVersion": null,
@@ -616,7 +616,7 @@
     }
   },
   "zeitgeist": {
-    "name": "zeitgeist",
+    "title": "Zeitgeist",
     "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
     "rpcEndpoint": "wss://zeitgeist-rpc.dwellir.com",
     "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
@@ -631,7 +631,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://zeitgeist-rpc.dwellir.com",
-        "block": "0xcbdc1d98712d7ea246315435b02918d62ad1281710f2173a65d6e18418cd5174"
+        "block": "0x44e70601fd7c60f0958358760b3b217cd8e9bcb53535641f4462d2f6592a0500"
       }
     },
     "nextMetadataVersion": null,
@@ -644,7 +644,7 @@
     }
   },
   "hydradx": {
-    "name": "hydradx",
+    "title": "HydraDX",
     "color": "#f653a2",
     "rpcEndpoint": "wss://rpc-01.hydradx.io",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -659,7 +659,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-01.hydradx.io",
-        "block": "0xc9176c51c68a58636e2deabc24216afe0cf9afc803d41f8b219eec69ac513966"
+        "block": "0x8c020a2e15bc2ea96d05ff40670bde098ff9d4f343174a48404ccc8c19bae444"
       }
     },
     "nextMetadataVersion": null,
@@ -672,7 +672,7 @@
     }
   },
   "kico": {
-    "name": "kico",
+    "title": "KICO",
     "color": "#29B58D",
     "rpcEndpoint": "wss://rpc.kico.dico.io",
     "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
@@ -680,14 +680,14 @@
     "base58prefix": 42,
     "logo": "KICO.svg",
     "decimals": 14,
-    "metadataVersion": 2022072401,
+    "metadataVersion": 2022072701,
     "metadataQr": {
-      "path": "qr/kico_metadata_2022072401.apng",
+      "path": "qr/kico_metadata_2022072701.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.kico.dico.io",
-        "block": "0xc2a399ff04ce8a5b6b7a9385b7a1ba017b35ef4137f623bfcc16749a98277be1"
+        "block": "0xbb15d52550b0ed6a3b3996122606a4628df68c4a1e4536fc818d54503f52c0e3"
       }
     },
     "nextMetadataVersion": null,
@@ -700,7 +700,7 @@
     }
   },
   "litmus-parachain": {
-    "name": "litmus-parachain",
+    "title": "Litmus",
     "color": "#6822fb",
     "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
     "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
@@ -715,7 +715,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.litmus-parachain.litentry.io",
-        "block": "0xbecc86d7b1df887302acebb1206c70504529025a2314a92a46ef9ec0a2d4ae1e"
+        "block": "0xa5c668da79f65efc75d78ed342fb0c9c034176683b6d9c4a5f206680d88a6363"
       }
     },
     "nextMetadataVersion": null,
@@ -728,7 +728,7 @@
     }
   },
   "crab parachain": {
-    "name": "crab parachain",
+    "title": "Crab",
     "color": "#7C30DD",
     "rpcEndpoint": "wss://crab-parachain-rpc.darwinia.network/",
     "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
@@ -743,7 +743,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://crab-parachain-rpc.darwinia.network/",
-        "block": "0x0f2faaf6f9eedc203a5e168d2ec6b979527d91c5c1004b7beba505125c331e7a"
+        "block": "0xe0f607e8d0fa92b36f41f2c40545d26f6472fd671478d8941213fc52e3dabc6f"
       }
     },
     "nextMetadataVersion": null,
@@ -756,7 +756,7 @@
     }
   },
   "subsocial-parachain": {
-    "name": "subsocial-parachain",
+    "title": "Subsocial Parachain",
     "color": "#69058C",
     "rpcEndpoint": "wss://para.subsocial.network",
     "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
@@ -771,7 +771,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://para.subsocial.network",
-        "block": "0x56ea9b368ffeb8c33e51457b99f3882e4eb332204b93dd486f9bb55e8479eb75"
+        "block": "0xdde04d90bca26b5f16552e51b6187e242a57b93bd1682ad40ef7f9e398d566ad"
       }
     },
     "nextMetadataVersion": null,
@@ -784,7 +784,7 @@
     }
   },
   "crust-collator": {
-    "name": "crust-collator",
+    "title": "Crust Shadow",
     "color": "#ff8812",
     "rpcEndpoint": "wss://rpc2-shadow.crust.network/",
     "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
@@ -799,7 +799,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc2-shadow.crust.network/",
-        "block": "0x70633b3bf4e9fd6f5b5d38d01f52058a2f794be33710bf3f683eb156e70b0c76"
+        "block": "0x2d1e569631541ecbffe8afc70d20f902944c6c527be231908eba9c237f1fa96d"
       }
     },
     "nextMetadataVersion": null,
@@ -812,7 +812,7 @@
     }
   },
   "integritee-parachain": {
-    "name": "integritee-parachain",
+    "title": "Integritee Parachain",
     "color": "#658ea9",
     "rpcEndpoint": "wss://integritee-kusama.api.onfinality.io/public-ws",
     "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
@@ -827,7 +827,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://integritee-kusama.api.onfinality.io/public-ws",
-        "block": "0xc77d4ee51e0c7a67b964877e7705bb3400635693a286b29fcc4f8cb12be7036b"
+        "block": "0x8d6ff6224a2450a7b9b4ea5cca8199962e35fe427bf15ae681fa57b99e1b4e15"
       }
     },
     "nextMetadataVersion": null,
@@ -840,7 +840,7 @@
     }
   },
   "centrifuge": {
-    "name": "centrifuge",
+    "title": "Centrifuge Parachain",
     "color": "#fcc367",
     "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
     "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
@@ -855,7 +855,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://fullnode.parachain.centrifuge.io",
-        "block": "0xddac9720505e4a59f85c1e281c66dc774c69b114bb30ce998c3c8d157c8724e7"
+        "block": "0x52996cf5fa44f1ab912a373be68bfbf9552a2a02e9bb83d38e04fd0e4bb83069"
       }
     },
     "nextMetadataVersion": null,
@@ -868,7 +868,7 @@
     }
   },
   "efinity": {
-    "name": "efinity",
+    "title": "Efinity",
     "color": "#496ddb",
     "rpcEndpoint": "wss://rpc.efinity.io",
     "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
@@ -883,7 +883,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.efinity.io",
-        "block": "0x4546a8c58d216c02b27a3962591bd9f8ab314dda27b30c89a544c688e572081c"
+        "block": "0xa1ea84df3888713f80811e9378b17f4a1f8ae5f7d874e600132a0c8ab44bab26"
       }
     },
     "nextMetadataVersion": null,
@@ -896,7 +896,7 @@
     }
   },
   "interlay-parachain": {
-    "name": "interlay-parachain",
+    "title": "Interlay",
     "color": "#3E96FF",
     "rpcEndpoint": "wss://interlay.api.onfinality.io/public-ws",
     "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
@@ -904,14 +904,14 @@
     "base58prefix": 2032,
     "logo": "Interlay.svg",
     "decimals": 0,
-    "metadataVersion": 4,
+    "metadataVersion": 1018000,
     "metadataQr": {
-      "path": "qr/interlay-parachain_metadata_4.apng",
+      "path": "qr/interlay-parachain_metadata_1018000.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://interlay.api.onfinality.io/public-ws",
-        "block": "0x57b60722a8c3f46e78c0bd4446c50ffa34230faa373dae937a76bdeaabe8a4ec"
+        "block": "0x0b3f987f694ff023c41877143adac43939e8eaaf43589cadbb5e2cf5df435c9e"
       }
     },
     "nextMetadataVersion": null,
@@ -924,7 +924,7 @@
     }
   },
   "nodle-para": {
-    "name": "nodle-para",
+    "title": "Nodle Parachain",
     "color": "#1ab394",
     "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
@@ -939,7 +939,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://nodle-parachain.api.onfinality.io/public-ws",
-        "block": "0x06a854ef33ab5628cbf591c4b2697ad8c7fb29b7f1f5812f58a0eaef6c6f85e7"
+        "block": "0x5db25eb2cb5d97393de442a696d5ebfa31887d95ec983fba233f1cd1cd85137e"
       }
     },
     "nextMetadataVersion": null,
@@ -952,7 +952,7 @@
     }
   },
   "turing": {
-    "name": "turing",
+    "title": "Turing",
     "color": "#A8278C",
     "rpcEndpoint": "wss://turing.api.onfinality.io/public-ws",
     "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
@@ -967,7 +967,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://turing.api.onfinality.io/public-ws",
-        "block": "0x1ecabcccc38e6adcb002eeb76a3032de4bbcfff7dad8bcd9071e7d1079c3e43f"
+        "block": "0xd9a769e5a6b457a097c01896deb92b2b1675751230129640768f6d05ef5b6c27"
       }
     },
     "nextMetadataVersion": null,
@@ -980,7 +980,7 @@
     }
   },
   "aleph-node": {
-    "name": "aleph-node",
+    "title": "Aleph Zero",
     "color": "#00CCAB",
     "rpcEndpoint": "wss://ws.azero.dev",
     "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
@@ -995,7 +995,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://ws.azero.dev",
-        "block": "0xec3490f85a2987e7f94d41a313c84ff093b709b2876c5c6050eb45a95aaca825"
+        "block": "0xca8b1af1b2b4d5b36292b4dbf73664e2529e91db2b95514e9869a9fc3825a9a2"
       }
     },
     "nextMetadataVersion": null,
@@ -1007,8 +1007,36 @@
       "source": null
     }
   },
+  "node": {
+    "title": "Polkadex Solochain",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "logo": "Polkadex.svg",
+    "decimals": 12,
+    "metadataVersion": 276,
+    "metadataQr": {
+      "path": "qr/node_metadata_276.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "url": "wss://polkadex.api.onfinality.io/public-ws",
+        "block": "0xec6bf68b7570760818b55b7110c0fa68aebaf588edf54ce400dd982ef3ad63ce"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "origintrail-parachain": {
-    "name": "origintrail-parachain",
+    "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
     "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
     "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
@@ -1023,7 +1051,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://parachain-rpc.origin-trail.network",
-        "block": "0xe5e888745760aeab20328e74cae08b5f998addd5c47486389f9b5a43c4f3f905"
+        "block": "0x6feaa7a4c5741934621c2abd486a50867e5158c89560676d339700c7cb09e5a4"
       }
     },
     "nextMetadataVersion": null,
@@ -1036,7 +1064,7 @@
     }
   },
   "bifrost_polkadot": {
-    "name": "bifrost_polkadot",
+    "title": "Bifrost Polkadot",
     "color": "#5a25f0",
     "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
     "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -1051,7 +1079,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "block": "0x44377cfcc87007c64e017decd83d175a3d93e2672b23e1843ff6179c195dd6f2"
+        "block": "0xd82778ddfe99ec4edb3bffae0a09f56986eb9da36d097dc1c509b72b3b1b7418"
       }
     },
     "nextMetadataVersion": null,
@@ -1064,7 +1092,7 @@
     }
   },
   "litentry-parachain": {
-    "name": "litentry-parachain",
+    "title": "Litentry",
     "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
     "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
     "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
@@ -1079,7 +1107,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.litentry-parachain.litentry.io",
-        "block": "0xadbbc9fbe7e8ac6e8dca2c8adb60b5521c1500c8ca8be8aed4ea34bdd53e4f4f"
+        "block": "0x34abee04539d43dd52888627eea76a616dfb4356c3c27aedf35f66afaab3e194"
       }
     },
     "nextMetadataVersion": null,
@@ -1092,7 +1120,7 @@
     }
   },
   "unique": {
-    "name": "unique",
+    "title": "UNIQUE",
     "color": "#40BCFF",
     "rpcEndpoint": "wss://eu-ws.unique.network/",
     "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
@@ -1107,7 +1135,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://eu-ws.unique.network/",
-        "block": "0x3cc1d5a5c6be58f2eafa5e5c42b763b11b9f6b8b9a6b038d23cd6fb0aaaa9d72"
+        "block": "0x912cf1491aa2f2f3d7b29d1b272323189a9ce1ef67dae14ffecb40d3596ff368"
       }
     },
     "nextMetadataVersion": null,
@@ -1120,7 +1148,7 @@
     }
   },
   "dora ksm parachain": {
-    "name": "dora ksm parachain",
+    "title": "Dora Factory",
     "color": "#FF761C",
     "rpcEndpoint": "wss://kusama.dorafactory.org",
     "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
@@ -1135,7 +1163,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://kusama.dorafactory.org",
-        "block": "0x3c32a9c1d36988030950e4b33eb1d79bf77ce133e17fa25cefdee6948a936e35"
+        "block": "0x53b163510ce7d04b308548497cdeb3b11ee9011b1c47218608ea055cc97ee228"
       }
     },
     "nextMetadataVersion": null,
@@ -1148,7 +1176,7 @@
     }
   },
   "mangata-parachain": {
-    "name": "mangata-parachain",
+    "title": "Mangata X",
     "color": "#030408",
     "rpcEndpoint": "wss://mangata-x.api.onfinality.io/public-ws",
     "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
@@ -1163,7 +1191,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://mangata-x.api.onfinality.io/public-ws",
-        "block": "0xa14944cd41d2da50f8d7d9418200e303245eb17876225cac6488240c6cb13dfb"
+        "block": "0xa996da542769fcfdc60c0cf78a8a77886b1817f9b5793017f7b70eac21d50886"
       }
     },
     "nextMetadataVersion": null,
@@ -1176,7 +1204,7 @@
     }
   },
   "pichiu": {
-    "name": "pichiu",
+    "title": "Pichiu",
     "color": "#ed007e",
     "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
     "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
@@ -1191,7 +1219,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://kusama.kylin-node.co.uk",
-        "block": "0x978b3ec94a570892f63871178ed6e59ee4839424878e015ab7d45e6ce941e0ef"
+        "block": "0x8fcb1c9b9b233eeb4e97d80df8a680c446aab12a3b746186c5afd1c52650010e"
       }
     },
     "nextMetadataVersion": null,
@@ -1204,7 +1232,7 @@
     }
   },
   "kabocha-parachain": {
-    "name": "kabocha-parachain",
+    "title": "Kabocha",
     "color": "#f53485",
     "rpcEndpoint": "wss://kabocha.jelliedowl.com",
     "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
@@ -1219,7 +1247,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://kabocha.jelliedowl.com",
-        "block": "0x0706112a6b722131259fbf307ff264879a2153bb1baf1eb062b4e2f55057fc20"
+        "block": "0x76056f2c067228b27e573ccaac49042d52b118f7eff7c2f75572f74133f94bbb"
       }
     },
     "nextMetadataVersion": null,
@@ -1232,7 +1260,7 @@
     }
   },
   "datahighway-parachain": {
-    "name": "datahighway-parachain",
+    "title": "Tanganika",
     "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
     "rpcEndpoint": "wss://tanganika.datahighway.com",
     "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
@@ -1240,14 +1268,14 @@
     "base58prefix": 33,
     "logo": "Tanganika_DataHighway.svg",
     "decimals": 18,
-    "metadataVersion": 3,
+    "metadataVersion": 4,
     "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_3.apng",
+      "path": "qr/datahighway-parachain_metadata_4.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://tanganika.datahighway.com",
-        "block": "0xbdbb158e2826a3cdd462bf9d708967806d1460b2ac6dd11564a45eae4ad850f8"
+        "block": "0x09d702280bf5e621ef915836e9a77f8a7b936808090fdfce12fe0a49a16471ea"
       }
     },
     "nextMetadataVersion": null,
@@ -1260,7 +1288,7 @@
     }
   },
   "bajun": {
-    "name": "bajun",
+    "title": "Bajun",
     "color": "#161212",
     "rpcEndpoint": "wss://rpc-parachain.bajun.network",
     "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
@@ -1275,7 +1303,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://rpc-parachain.bajun.network",
-        "block": "0xd869e1779253f1358bab3c6f296038a47631f1de13e3629df1ff7882fa6ef78b"
+        "block": "0xd13c2d6a488fbba9c6b03f46927a9fb86334cf6157c983edbf8ec79e3c6a38b5"
       }
     },
     "nextMetadataVersion": null,
@@ -1288,7 +1316,7 @@
     }
   },
   "westmint": {
-    "name": "westmint",
+    "title": "Westmint",
     "color": "#77bb77",
     "rpcEndpoint": "wss://westmint-rpc.polkadot.io",
     "genesisHash": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
@@ -1303,7 +1331,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://westmint-rpc.polkadot.io",
-        "block": "0x995f60be18066b6827f757b9325bf44cb0b28c1ea3e14be03ca301e690994f2f"
+        "block": "0xe580d5fc27190620a5d71469b76607d81059607568a49232180d5b75b4e0a1bc"
       }
     },
     "nextMetadataVersion": null,
@@ -1316,7 +1344,7 @@
     }
   },
   "mandala": {
-    "name": "mandala",
+    "title": "Mandala",
     "color": "#173DC9",
     "rpcEndpoint": "wss://acala-mandala.api.onfinality.io/public-ws/",
     "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
@@ -1331,7 +1359,7 @@
       "source": {
         "type": "Rpc",
         "url": "wss://acala-mandala.api.onfinality.io/public-ws/",
-        "block": "0x3b64860c70f0ee19a8f375fec51e62044c199f50523db99cb3ff7718750ce8b2"
+        "block": "0x984aebab9d3782c837ce860c65da087fbf5e2acd7e02bfb3a61905346bc54648"
       }
     },
     "nextMetadataVersion": null,
