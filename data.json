@@ -8,14 +8,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Kusama.svg",
     "decimals": 0,
-    "metadataVersion": 948,
+    "metadataVersion": 952,
     "metadataQr": {
-      "path": "qr/bifrost_metadata_948.apng",
+      "path": "qr/bifrost_metadata_952.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x9cbaec803ef251aed4bc5792f0f869eb54cbefc4bb36e628128f19c04c1649af"
+        "block": "0x83a856eb3bc4f904441d45d6d36ce2979043caea877347977166d8fd3fa65cfd"
       }
     },
     "nextMetadataVersion": null,
@@ -1156,14 +1156,14 @@
     "base58prefix": 128,
     "logo": "DoraFactory.svg",
     "decimals": 12,
-    "metadataVersion": 20,
+    "metadataVersion": 21,
     "metadataQr": {
-      "path": "qr/dora ksm parachain_metadata_20.apng",
+      "path": "qr/dora ksm parachain_metadata_21.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://kusama.dorafactory.org",
-        "block": "0x53b163510ce7d04b308548497cdeb3b11ee9011b1c47218608ea055cc97ee228"
+        "block": "0x66c5b7e13613be71057696867a170912efc31a8e1d6d32c31e4a3ab1d1bad957"
       }
     },
     "nextMetadataVersion": null,
