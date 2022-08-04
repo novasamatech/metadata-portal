@@ -36,14 +36,14 @@
     "base58prefix": 10,
     "logo": "Acala.svg",
     "decimals": 0,
-    "metadataVersion": 2083,
+    "metadataVersion": 2091,
     "metadataQr": {
-      "path": "qr/acala_metadata_2083.apng",
+      "path": "qr/acala_metadata_2091.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://acala-rpc.dwellir.com",
-        "block": "0x3acc4d0f7b7b7c4e85db77d7517a5571264d8861d4ae850887c75850ee0c699f"
+        "block": "0xe6162cbe813bd7c45acda994084ccf36e29217ccc630e6e5a87749f0e199124d"
       }
     },
     "nextMetadataVersion": null,
@@ -92,14 +92,14 @@
     "base58prefix": 8,
     "logo": "Karura.svg",
     "decimals": 0,
-    "metadataVersion": 2083,
+    "metadataVersion": 2091,
     "metadataQr": {
-      "path": "qr/karura_metadata_2083.apng",
+      "path": "qr/karura_metadata_2091.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://karura-rpc-0.aca-api.network",
-        "block": "0x24b22e0473a929af0426cb9ddc3e7b7a616d1f919078e697433e2389f82e262b"
+        "block": "0x6625acc7b689edde6efcbe2a3438d5ec7e1c09577752d2d1a1b0d3e8fad64e95"
       }
     },
     "nextMetadataVersion": null,
@@ -120,14 +120,14 @@
     "base58prefix": 110,
     "logo": "ParallelHeiko.svg",
     "decimals": 12,
-    "metadataVersion": 189,
+    "metadataVersion": 190,
     "metadataQr": {
-      "path": "qr/heiko_metadata_189.apng",
+      "path": "qr/heiko_metadata_190.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://heiko-rpc.parallel.fi",
-        "block": "0xd1b7a12368b6204d2ba5ddd81acfb79d60a4745ac210ba0e8bdd2bd9fd7bafe7"
+        "block": "0xe8d3a3a50f220aa9f95f9cd231a0d26af79e895f91a745a54c4b0d9bb9083c20"
       }
     },
     "nextMetadataVersion": null,
@@ -1072,14 +1072,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Polkadot.svg",
     "decimals": 12,
-    "metadataVersion": 950,
+    "metadataVersion": 952,
     "metadataQr": {
-      "path": "qr/bifrost_polkadot_metadata_950.apng",
+      "path": "qr/bifrost_polkadot_metadata_952.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "block": "0xd82778ddfe99ec4edb3bffae0a09f56986eb9da36d097dc1c509b72b3b1b7418"
+        "block": "0x29e6e65481674c7962696e477fee24d2ada92b88f975abbe304dd3ec87d8d3de"
       }
     },
     "nextMetadataVersion": null,
