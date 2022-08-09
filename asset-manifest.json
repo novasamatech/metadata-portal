@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/metadata-portal/static/css/main.2f04d9cf.css",
-    "main.js": "/metadata-portal/static/js/main.2ce32c18.js",
+    "main.css": "/metadata-portal/static/css/main.6b22fafc.css",
+    "main.js": "/metadata-portal/static/js/main.36860418.js",
     "static/media/Inter-Bold.woff": "/metadata-portal/static/media/Inter-Bold.00dc41b74c73bd548602.woff",
     "static/media/Web3-Regular.woff": "/metadata-portal/static/media/Web3-Regular.5471d3ea491575c4087a.woff",
     "static/media/Web3-Regular.woff2": "/metadata-portal/static/media/Web3-Regular.a0e473333c74d873ba89.woff2",
     "index.html": "/metadata-portal/index.html",
-    "main.2f04d9cf.css.map": "/metadata-portal/static/css/main.2f04d9cf.css.map",
-    "main.2ce32c18.js.map": "/metadata-portal/static/js/main.2ce32c18.js.map"
+    "main.6b22fafc.css.map": "/metadata-portal/static/css/main.6b22fafc.css.map",
+    "main.36860418.js.map": "/metadata-portal/static/js/main.36860418.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f04d9cf.css",
-    "static/js/main.2ce32c18.js"
+    "static/css/main.6b22fafc.css",
+    "static/js/main.36860418.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bifrost": {
-    "title": "Birfrost",
+    "title": "Bifrost",
     "color": "#5a25f0",
     "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
@@ -8,14 +8,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Kusama.svg",
     "decimals": 0,
-    "metadataVersion": 952,
+    "metadataVersion": 954,
     "metadataQr": {
-      "path": "qr/bifrost_metadata_952.apng",
+      "path": "qr/bifrost_metadata_954.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x83a856eb3bc4f904441d45d6d36ce2979043caea877347977166d8fd3fa65cfd"
+        "block": "0x10b4bc59eb33c46f633131e65f9f98f88cb4c037a759036fe3a000d054ced735"
       }
     },
     "nextMetadataVersion": null,
@@ -86,7 +86,7 @@
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
-    "rpcEndpoint": "wss://karura-rpc-0.aca-api.network",
+    "rpcEndpoint": "wss://karura.api.onfinality.io/public-ws",
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "unit": "UNIT",
     "base58prefix": 8,
@@ -400,14 +400,14 @@
     "base58prefix": 172,
     "logo": "Parallel.svg",
     "decimals": 12,
-    "metadataVersion": 189,
+    "metadataVersion": 190,
     "metadataQr": {
-      "path": "qr/parallel_metadata_189.apng",
+      "path": "qr/parallel_metadata_190.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://rpc.parallel.fi",
-        "block": "0xf156a5642fd8fb516d5308d0819cf5f59901922a7542946106e25b28a57035d3"
+        "block": "0x6e7e24be0e867da789f3ebaf741c21011ce645308a0b53a0e4c51d20471c62ea"
       }
     },
     "nextMetadataVersion": null,
@@ -568,14 +568,14 @@
     "base58prefix": 2092,
     "logo": "Kintsugi.svg",
     "decimals": 0,
-    "metadataVersion": 1017000,
+    "metadataVersion": 1018000,
     "metadataQr": {
-      "path": "qr/kintsugi-parachain_metadata_1017000.apng",
+      "path": "qr/kintsugi-parachain_metadata_1018000.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://api-kusama.interlay.io/parachain",
-        "block": "0x6b7ec7039d3a637526194b23f1f3b93f7c121170195bc23362fc8f9f612f0541"
+        "block": "0x1ca5add3800777c495ba60f05eca4c59863aca91720865e54c02a15fc6b13618"
       }
     },
     "nextMetadataVersion": null,
@@ -764,14 +764,14 @@
     "base58prefix": 28,
     "logo": "Subsocial_Parachain.svg",
     "decimals": 10,
-    "metadataVersion": 12,
+    "metadataVersion": 13,
     "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_12.apng",
+      "path": "qr/subsocial-parachain_metadata_13.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://para.subsocial.network",
-        "block": "0xdde04d90bca26b5f16552e51b6187e242a57b93bd1682ad40ef7f9e398d566ad"
+        "block": "0xeb67d0ed1520d126cb9211773af4d396911d38950c6899220ac69f0289a2cb47"
       }
     },
     "nextMetadataVersion": null,
@@ -1352,14 +1352,14 @@
     "base58prefix": 42,
     "logo": "Acala_Mandala_Testnet.svg",
     "decimals": 0,
-    "metadataVersion": 2090,
+    "metadataVersion": 2091,
     "metadataQr": {
-      "path": "qr/mandala_metadata_2090.apng",
+      "path": "qr/mandala_metadata_2091.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://acala-mandala.api.onfinality.io/public-ws/",
-        "block": "0x984aebab9d3782c837ce860c65da087fbf5e2acd7e02bfb3a61905346bc54648"
+        "block": "0xca9505745ca233ecaf224babcffafd4aa19f7204ea90f183bd65f84e5c0156b3"
       }
     },
     "nextMetadataVersion": null,
