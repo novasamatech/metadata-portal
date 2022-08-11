@@ -1240,14 +1240,14 @@
     "base58prefix": 27,
     "logo": "Kabocha.svg",
     "decimals": 12,
-    "metadataVersion": 6,
+    "metadataVersion": 8,
     "metadataQr": {
-      "path": "qr/kabocha-parachain_metadata_6.apng",
+      "path": "qr/kabocha-parachain_metadata_8.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://kabocha.jelliedowl.com",
-        "block": "0x76056f2c067228b27e573ccaac49042d52b118f7eff7c2f75572f74133f94bbb"
+        "block": "0x0bc3d74e6192ed9b7b6ad5723588be469836930fbd99184df8d3aca51d42e067"
       }
     },
     "nextMetadataVersion": null,
