@@ -1072,14 +1072,14 @@
     "base58prefix": 6,
     "logo": "Bifrost_Polkadot.svg",
     "decimals": 12,
-    "metadataVersion": 952,
+    "metadataVersion": 954,
     "metadataQr": {
-      "path": "qr/bifrost_polkadot_metadata_952.apng",
+      "path": "qr/bifrost_polkadot_metadata_954.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "block": "0x29e6e65481674c7962696e477fee24d2ada92b88f975abbe304dd3ec87d8d3de"
+        "block": "0x399d76e35f615dffe561f4fde9ea80d72671ed7aa960be8a971c776431743dfd"
       }
     },
     "nextMetadataVersion": null,
