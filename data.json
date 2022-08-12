@@ -954,20 +954,20 @@
   "turing": {
     "title": "Turing",
     "color": "#A8278C",
-    "rpcEndpoint": "wss://turing.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://rpc.turing.oak.tech",
     "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
     "unit": "TUR",
     "base58prefix": 51,
     "logo": "Turing.svg",
     "decimals": 10,
-    "metadataVersion": 284,
+    "metadataVersion": 285,
     "metadataQr": {
-      "path": "qr/turing_metadata_284.apng",
+      "path": "qr/turing_metadata_285.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://turing.api.onfinality.io/public-ws",
-        "block": "0xd9a769e5a6b457a097c01896deb92b2b1675751230129640768f6d05ef5b6c27"
+        "url": "wss://rpc.turing.oak.tech",
+        "block": "0x8f57b1df3f070ded944cf862555fe3b5cf1792fa488b11603c9f9bdfbf5f045c"
       }
     },
     "nextMetadataVersion": null,
@@ -1324,14 +1324,14 @@
     "base58prefix": 42,
     "logo": "Westmint_Testnet.svg",
     "decimals": 12,
-    "metadataVersion": 9230,
+    "metadataVersion": 9270,
     "metadataQr": {
-      "path": "qr/westmint_metadata_9230.apng",
+      "path": "qr/westmint_metadata_9270.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
         "url": "wss://westmint-rpc.polkadot.io",
-        "block": "0xe580d5fc27190620a5d71469b76607d81059607568a49232180d5b75b4e0a1bc"
+        "block": "0xeaa45144b7a2322a83bb184b5e0f940a48f2dbea114fcb7e6797f257b8a33f27"
       }
     },
     "nextMetadataVersion": null,
