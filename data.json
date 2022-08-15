@@ -14,7 +14,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
         "block": "0x10b4bc59eb33c46f633131e65f9f98f88cb4c037a759036fe3a000d054ced735"
       }
     },
@@ -42,7 +41,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://acala-rpc.dwellir.com",
         "block": "0xe6162cbe813bd7c45acda994084ccf36e29217ccc630e6e5a87749f0e199124d"
       }
     },
@@ -70,7 +68,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://statemine.api.onfinality.io/public-ws",
         "block": "0xda8e798374fceafd4f0353ed399272bfb38961b5d2e38394e6d9e038f430bf8e"
       }
     },
@@ -98,7 +95,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://karura-rpc-0.aca-api.network",
         "block": "0x6625acc7b689edde6efcbe2a3438d5ec7e1c09577752d2d1a1b0d3e8fad64e95"
       }
     },
@@ -126,7 +122,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://heiko-rpc.parallel.fi",
         "block": "0xe8d3a3a50f220aa9f95f9cd231a0d26af79e895f91a745a54c4b0d9bb9083c20"
       }
     },
@@ -154,7 +149,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.shiden.astar.network",
         "block": "0xf10f55c57a1ff5a0a1a62ef355aa22d9f5e35a8c4d6f7fbab28fc633ab80e94d"
       }
     },
@@ -182,7 +176,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc-01.basilisk.hydradx.io",
         "block": "0x2aa9c28a4e0735f727f91ccc51bdb9fbaf2a3e70f87c774f81d4748c2850b174"
       }
     },
@@ -210,7 +203,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://fullnode.altair.centrifuge.io",
         "block": "0xa130bfdeafe78be03e0f05d52f8ff0c1ebf7d0354cd1465119558ced06bb1101"
       }
     },
@@ -238,7 +230,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://khala-api.phala.network/ws",
         "block": "0x0161b474786d5799633df826f27cb8be4d970e062df75ba276c894289095bcd6"
       }
     },
@@ -266,7 +257,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://spiritnet.kilt.io/",
         "block": "0xa2f5d381e8ce2a218af2172e6514653a921bfc59eaceec8f9d563312b0def1d1"
       }
     },
@@ -288,14 +278,13 @@
     "base58prefix": 78,
     "logo": "Calamari.svg",
     "decimals": 12,
-    "metadataVersion": 3200,
+    "metadataVersion": 3210,
     "metadataQr": {
-      "path": "qr/calamari_metadata_3200.apng",
+      "path": "qr/calamari_metadata_3210.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://ws.calamari.systems/",
-        "block": "0xa6ef26d458eeb32b04480baa947d5562ea9e098aa3c0c9f12779355b00f3fe7e"
+        "block": "0x2364f5691e78f18421c579a97b8ff4190747d94f02c14faf35625bcca3e25148"
       }
     },
     "nextMetadataVersion": null,
@@ -322,7 +311,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://quartz.api.onfinality.io/public-ws",
         "block": "0x05b8f2d7c89c776fdcd0c6b7481c70c3c24e9527fb27b39e8c1dedb169b274a9"
       }
     },
@@ -350,7 +338,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://pioneer.api.onfinality.io/public-ws",
         "block": "0x79d5da3ee0ba0a9bfa6714946993e4c4a4e4dc271c4d7d4f38afbac619b4e007"
       }
     },
@@ -378,7 +365,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://astar.api.onfinality.io/public-ws",
         "block": "0xf06c15a08e2d4e79f5a83b6d44bb5f3adabf42022db502365c5a9790db5018ff"
       }
     },
@@ -406,7 +392,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.parallel.fi",
         "block": "0x6e7e24be0e867da789f3ebaf741c21011ce645308a0b53a0e4c51d20471c62ea"
       }
     },
@@ -434,7 +419,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc-para.clover.finance",
         "block": "0x436c54f954c274ea0b9268efe88ac4632df41c40ff4710a260f616615fc21023"
       }
     },
@@ -462,7 +446,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://statemint-rpc.polkadot.io",
         "block": "0xa8178affaa12842a05c7e87d532e7f88c11110b64f4dbb73f7f1201f0064cd1f"
       }
     },
@@ -490,7 +473,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://arch.subsocial.network",
         "block": "0xc429a2b385c944f9f268629eb04978240d36f1ad192111999c16e9f5291bce23"
       }
     },
@@ -518,7 +500,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://kusama.rpc.robonomics.network/",
         "block": "0xa20c127044328f5fdb96a4dbcabd288261da3735b0b20caac6a72c38c698bd6f"
       }
     },
@@ -546,7 +527,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://api.kusama.encointer.org",
         "block": "0x411fdff7a957ed01a4f5d8b95236cc2a3139b17d8e11aa0dbb5e4dc8e6c70fe0"
       }
     },
@@ -574,7 +554,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://api-kusama.interlay.io/parachain",
         "block": "0x1ca5add3800777c495ba60f05eca4c59863aca91720865e54c02a15fc6b13618"
       }
     },
@@ -602,7 +581,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://picasso-rpc.composable.finance",
         "block": "0xa2eae3b0ad256fa78923f65bdb240933cc18a6a32e67ec7291c6bf5c131c60c5"
       }
     },
@@ -630,7 +608,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://zeitgeist-rpc.dwellir.com",
         "block": "0x44e70601fd7c60f0958358760b3b217cd8e9bcb53535641f4462d2f6592a0500"
       }
     },
@@ -658,7 +635,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc-01.hydradx.io",
         "block": "0x8c020a2e15bc2ea96d05ff40670bde098ff9d4f343174a48404ccc8c19bae444"
       }
     },
@@ -686,7 +662,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.kico.dico.io",
         "block": "0xbb15d52550b0ed6a3b3996122606a4628df68c4a1e4536fc818d54503f52c0e3"
       }
     },
@@ -714,7 +689,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.litmus-parachain.litentry.io",
         "block": "0xa5c668da79f65efc75d78ed342fb0c9c034176683b6d9c4a5f206680d88a6363"
       }
     },
@@ -742,7 +716,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://crab-parachain-rpc.darwinia.network/",
         "block": "0xe0f607e8d0fa92b36f41f2c40545d26f6472fd671478d8941213fc52e3dabc6f"
       }
     },
@@ -770,7 +743,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://para.subsocial.network",
         "block": "0xeb67d0ed1520d126cb9211773af4d396911d38950c6899220ac69f0289a2cb47"
       }
     },
@@ -798,7 +770,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc2-shadow.crust.network/",
         "block": "0x2d1e569631541ecbffe8afc70d20f902944c6c527be231908eba9c237f1fa96d"
       }
     },
@@ -826,7 +797,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://integritee-kusama.api.onfinality.io/public-ws",
         "block": "0x8d6ff6224a2450a7b9b4ea5cca8199962e35fe427bf15ae681fa57b99e1b4e15"
       }
     },
@@ -854,7 +824,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://fullnode.parachain.centrifuge.io",
         "block": "0x52996cf5fa44f1ab912a373be68bfbf9552a2a02e9bb83d38e04fd0e4bb83069"
       }
     },
@@ -882,7 +851,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.efinity.io",
         "block": "0xa1ea84df3888713f80811e9378b17f4a1f8ae5f7d874e600132a0c8ab44bab26"
       }
     },
@@ -910,7 +878,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://interlay.api.onfinality.io/public-ws",
         "block": "0x0b3f987f694ff023c41877143adac43939e8eaaf43589cadbb5e2cf5df435c9e"
       }
     },
@@ -938,7 +905,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://nodle-parachain.api.onfinality.io/public-ws",
         "block": "0x5db25eb2cb5d97393de442a696d5ebfa31887d95ec983fba233f1cd1cd85137e"
       }
     },
@@ -966,7 +932,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.turing.oak.tech",
         "block": "0x8f57b1df3f070ded944cf862555fe3b5cf1792fa488b11603c9f9bdfbf5f045c"
       }
     },
@@ -994,7 +959,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://ws.azero.dev",
         "block": "0xca8b1af1b2b4d5b36292b4dbf73664e2529e91db2b95514e9869a9fc3825a9a2"
       }
     },
@@ -1022,7 +986,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://polkadex.api.onfinality.io/public-ws",
         "block": "0xec6bf68b7570760818b55b7110c0fa68aebaf588edf54ce400dd982ef3ad63ce"
       }
     },
@@ -1050,7 +1013,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://parachain-rpc.origin-trail.network",
         "block": "0x6feaa7a4c5741934621c2abd486a50867e5158c89560676d339700c7cb09e5a4"
       }
     },
@@ -1078,7 +1040,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
         "block": "0x399d76e35f615dffe561f4fde9ea80d72671ed7aa960be8a971c776431743dfd"
       }
     },
@@ -1106,7 +1067,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc.litentry-parachain.litentry.io",
         "block": "0x34abee04539d43dd52888627eea76a616dfb4356c3c27aedf35f66afaab3e194"
       }
     },
@@ -1134,7 +1094,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://eu-ws.unique.network/",
         "block": "0x912cf1491aa2f2f3d7b29d1b272323189a9ce1ef67dae14ffecb40d3596ff368"
       }
     },
@@ -1162,7 +1121,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://kusama.dorafactory.org",
         "block": "0x66c5b7e13613be71057696867a170912efc31a8e1d6d32c31e4a3ab1d1bad957"
       }
     },
@@ -1190,7 +1148,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://mangata-x.api.onfinality.io/public-ws",
         "block": "0xa996da542769fcfdc60c0cf78a8a77886b1817f9b5793017f7b70eac21d50886"
       }
     },
@@ -1218,7 +1175,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://kusama.kylin-node.co.uk",
         "block": "0x8fcb1c9b9b233eeb4e97d80df8a680c446aab12a3b746186c5afd1c52650010e"
       }
     },
@@ -1246,7 +1202,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://kabocha.jelliedowl.com",
         "block": "0x0bc3d74e6192ed9b7b6ad5723588be469836930fbd99184df8d3aca51d42e067"
       }
     },
@@ -1274,7 +1229,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://tanganika.datahighway.com",
         "block": "0x09d702280bf5e621ef915836e9a77f8a7b936808090fdfce12fe0a49a16471ea"
       }
     },
@@ -1302,7 +1256,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://rpc-parachain.bajun.network",
         "block": "0xd13c2d6a488fbba9c6b03f46927a9fb86334cf6157c983edbf8ec79e3c6a38b5"
       }
     },
@@ -1330,7 +1283,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://westmint-rpc.polkadot.io",
         "block": "0xeaa45144b7a2322a83bb184b5e0f940a48f2dbea114fcb7e6797f257b8a33f27"
       }
     },
@@ -1358,7 +1310,6 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "url": "wss://acala-mandala.api.onfinality.io/public-ws/",
         "block": "0xca9505745ca233ecaf224babcffafd4aa19f7204ea90f183bd65f84e5c0156b3"
       }
     },
