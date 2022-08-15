@@ -215,6 +215,33 @@
       "source": null
     }
   },
+  "khala": {
+    "title": "Khala",
+    "color": "#03f3f3",
+    "rpcEndpoint": "wss://khala-api.phala.network/ws",
+    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+    "unit": "PHA",
+    "base58prefix": 30,
+    "logo": "Khala.svg",
+    "decimals": 12,
+    "metadataVersion": 1170,
+    "metadataQr": {
+      "path": "qr/khala_metadata_1170.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc23e8da312655e88aa591b6e2ccbfe326866dabb82391c5fe9b3c215a9e23b2e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/khala_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/khala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "kilt-spiritnet": {
     "title": "KILT Spiritnet",
     "color": "#8c145a",
@@ -481,6 +508,33 @@
     "latestMetadata": "qr/robonomics_metadata_latest.apng",
     "specsQr": {
       "path": "qr/robonomics_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "encointer-parachain": {
+    "title": "Encointer",
+    "color": "#0000cc",
+    "rpcEndpoint": "wss://api.kusama.encointer.org",
+    "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "logo": "Encointer.svg",
+    "decimals": 12,
+    "metadataVersion": 8,
+    "metadataQr": {
+      "path": "qr/encointer-parachain_metadata_8.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa451999236aa8d13781978e8a8326b73a286cc70028155b38273507fbc21728e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/encointer-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
