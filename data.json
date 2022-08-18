@@ -2,7 +2,7 @@
   "bifrost": {
     "title": "Bifrost",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-wss",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
     "base58prefix": 6,
@@ -56,7 +56,7 @@
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
-    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-wss",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
