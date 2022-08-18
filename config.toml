@@ -11,7 +11,7 @@ name = "bifrost"
 title = "Bifrost"
 color = "#5a25f0"
 logo = "Bifrost_Kusama.svg"
-rpc_endpoints = ["wss://bifrost-parachain.api.onfinality.io/public-ws", "wss://bifrost-rpc.liebi.com/ws", "wss://bifrost-rpc.dwellir.com"]
+rpc_endpoints = ["wss://bifrost-parachain.api.onfinality.io/public-wss", "wss://bifrost-rpc.liebi.com/wss", "wss://bifrost-rpc.dwellir.com"]
 genesis_hash = "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed"
 
 [[chains]]
@@ -27,7 +27,7 @@ name = "statemine"
 title = "Statemine"
 color = "#113911"
 logo = "Statemine.svg"
-rpc_endpoints = ["wss://statemine.api.onfinality.io/public-ws", "wss://statemine-rpc.polkadot.io", "wss://statemine-rpc.dwellir.com"]
+rpc_endpoints = ["wss://statemine.api.onfinality.io/public-wss", "wss://statemine-rpc.polkadot.ios", "wss://statemine-rpc.dwellir.coms"]
 genesis_hash = "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a"
 
 [[chains]]
