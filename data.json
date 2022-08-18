@@ -413,13 +413,13 @@
     "base58prefix": 128,
     "logo": "CLV_Parachain.svg",
     "decimals": 18,
-    "metadataVersion": 21,
+    "metadataVersion": 23,
     "metadataQr": {
-      "path": "qr/clover-mainnet_metadata_21.apng",
+      "path": "qr/clover-mainnet_metadata_23.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x436c54f954c274ea0b9268efe88ac4632df41c40ff4710a260f616615fc21023"
+        "block": "0x2afef7bc91879aad28b08230451eed44b5773310fbbbf37a08af57cd951b141f"
       }
     },
     "nextMetadataVersion": null,
