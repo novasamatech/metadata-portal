@@ -15,7 +15,7 @@ updater:
 	cargo run --release update
 
 updsigner:
-	cargo run --release update --sign --signing-key ${signing-key}
+	cargo run --release update --sign --signing-key ${signing-key} --source ${source}
 
 collector:
 	cargo run --release collect
