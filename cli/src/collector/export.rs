@@ -36,9 +36,9 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
         }
         let metadata_qr = metadata_qr_result.unwrap();
         let specs_qr = specs_qrs
-          .get(chain.name.as_str())
-          .with_context(|| format!("No specs qr found for {}", chain.name))?
-          .clone();
+            .get(chain.name.as_str())
+            .with_context(|| format!("No specs qr found for {}", chain.name))?
+            .clone();
         let next_version = next_metadata_version(&metadata_qrs, &chain.name, active_version)?;
 
         let next_metadata_qr = next_version
