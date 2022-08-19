@@ -35,13 +35,13 @@
     "base58prefix": 10,
     "logo": "Acala.svg",
     "decimals": 0,
-    "metadataVersion": 2091,
+    "metadataVersion": 2092,
     "metadataQr": {
-      "path": "qr/acala_metadata_2091.apng",
+      "path": "qr/acala_metadata_2092.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0xe6162cbe813bd7c45acda994084ccf36e29217ccc630e6e5a87749f0e199124d"
+        "block": "0xc76ac35d100c574c705d6ffebb306870dfe60794e8d786cca2a6662d2596e1c7"
       }
     },
     "nextMetadataVersion": null,
