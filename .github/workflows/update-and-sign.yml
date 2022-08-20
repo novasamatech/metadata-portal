@@ -76,7 +76,7 @@ jobs:
         shell: bash {0}
 
       - name: ⚙ Run cleaner
-        if: steps.collect.outputs.chainsSkipped == 'false'
+        if: ${{ steps.collect.outputs.chainsSkipped == 'false' }}
         id: cleaner
         run: make cleaner
 
