@@ -76,6 +76,7 @@ jobs:
         shell: bash {0}
 
       - name: ⚙ Run cleaner
+        id: cleaner
         run: make cleaner
 
       - name: 📌 Commit changes if PR exists
@@ -163,7 +164,7 @@ jobs:
 
       - name: Send collect warning to Matrix channel
         uses: s3krit/matrix-message-action@v0.0.3
-        if: ${{ steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
+        if: ${{ steps.cleaner.outputs.outcome == 'failure' && steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
         with:
           room_id: ${{ secrets.MATRIX_ROOM_ID }}
           access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
@@ -172,7 +173,7 @@ jobs:
 
       - name: Send collect warning to Telegram channel
         uses: appleboy/telegram-action@master
-        if: ${{ steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
+        if: ${{ steps.cleaner.outputs.outcome == 'failure' && steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
