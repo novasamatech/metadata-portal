@@ -29,7 +29,7 @@ jobs:
       - name: ⚙ Run collector
         id: collect
         run: |
-          make collector
+          cargo run --release collect
           exit_code=$?
           if [ $exit_code -eq 12 ]
           then
