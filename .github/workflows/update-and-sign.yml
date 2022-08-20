@@ -62,7 +62,18 @@ jobs:
           cargo run --release update --sign --signing-key ${{secrets.SIGNING_KEY}} --source github
 
       - name: ⚙ Run collector
-        run: make collector
+        id: collect
+        run: |
+          cargo run --release collect
+          exit_code=$?
+          if [ $exit_code -eq 12 ]
+          then
+            echo "::set-output name=chainsSkipped::true"
+            exit 0
+          fi
+          echo "::set-output name=chainsSkipped::false"
+          exit $exit_code
+        shell: bash {0}
 
       - name: ⚙ Run cleaner
         run: make cleaner
@@ -145,6 +156,23 @@ jobs:
       - name: Send update warning to Telegram channel
         uses: appleboy/telegram-action@master
         if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
+
+      - name: Send collect warning to Matrix channel
+        uses: s3krit/matrix-message-action@v0.0.3
+        if: ${{ steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
+        with:
+          room_id: ${{ secrets.MATRIX_ROOM_ID }}
+          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
+          server: ${{ secrets.MATRIX_SERVER }}
+          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
+
+      - name: Send collect warning to Telegram channel
+        uses: appleboy/telegram-action@master
+        if: ${{ steps.collect.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
