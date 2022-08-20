@@ -2,7 +2,7 @@
   "bifrost": {
     "title": "Bifrost",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-parachain.api.onfinalitsdfdsfy.io/public-ws",
+    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
     "base58prefix": 6,
@@ -697,6 +697,33 @@
     "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/litmus-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "crab parachain": {
+    "title": "Crab",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://crab-parachain-rpc.darwinia.network/",
+    "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "logo": "Crab.svg",
+    "decimals": 18,
+    "metadataVersion": 5310,
+    "metadataQr": {
+      "path": "qr/crab parachain_metadata_5310.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe0f607e8d0fa92b36f41f2c40545d26f6472fd671478d8941213fc52e3dabc6f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crab parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
