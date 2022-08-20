@@ -133,6 +133,23 @@ jobs:
             ❌️ Error updating metadata! ❌
             ${{ env.GITHUB_WORKFLOW_URL }}
 
+      - name: Send update warning to Matrix channel
+        uses: s3krit/matrix-message-action@v0.0.3
+        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
+        with:
+          room_id: ${{ secrets.MATRIX_ROOM_ID }}
+          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
+          server: ${{ secrets.MATRIX_SERVER }}
+          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
+
+      - name: Send update warning to Telegram channel
+        uses: appleboy/telegram-action@master
+        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
+
   check-deployment:
     runs-on: ubuntu-latest
     steps:
@@ -182,19 +199,4 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: "⚠️ Redeployment required! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}️"
 
-      - name: Send update warning to Matrix channel
-        uses: s3krit/matrix-message-action@v0.0.3
-        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
-        with:
-          room_id: ${{ secrets.MATRIX_ROOM_ID }}
-          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
-          server: ${{ secrets.MATRIX_SERVER }}
-          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
 
-      - name: Send update warning to Telegram channel
-        uses: appleboy/telegram-action@master
-        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
-        with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}️"
