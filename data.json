@@ -2,7 +2,7 @@
   "bifrost": {
     "title": "Bifrost",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws22",
+    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
     "base58prefix": 6,
@@ -22,6 +22,33 @@
     "latestMetadata": "qr/bifrost_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "acala": {
+    "title": "Acala",
+    "color": "#645AFF",
+    "rpcEndpoint": "wss://acala-rpc.dwellir.com",
+    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+    "unit": "UNIT",
+    "base58prefix": 10,
+    "logo": "Acala.svg",
+    "decimals": 0,
+    "metadataVersion": 2092,
+    "metadataQr": {
+      "path": "qr/acala_metadata_2092.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc76ac35d100c574c705d6ffebb306870dfe60794e8d786cca2a6662d2596e1c7"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/acala_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/acala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
