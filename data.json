@@ -1,4 +1,31 @@
 {
+  "bifrost": {
+    "title": "Bifrost",
+    "color": "#5a25f0",
+    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
+    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+    "unit": "UNIT",
+    "base58prefix": 6,
+    "logo": "Bifrost_Kusama.svg",
+    "decimals": 0,
+    "metadataVersion": 954,
+    "metadataQr": {
+      "path": "qr/bifrost_metadata_954.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x10b4bc59eb33c46f633131e65f9f98f88cb4c037a759036fe3a000d054ced735"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/bifrost_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bifrost_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
@@ -454,6 +481,33 @@
     "latestMetadata": "qr/subsocial_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "robonomics": {
+    "title": "Robonomics",
+    "color": "#2949d3",
+    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
+    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+    "unit": "XRT",
+    "base58prefix": 32,
+    "logo": "Robonomics.svg",
+    "decimals": 9,
+    "metadataVersion": 20,
+    "metadataQr": {
+      "path": "qr/robonomics_metadata_20.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa20c127044328f5fdb96a4dbcabd288261da3735b0b20caac6a72c38c698bd6f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/robonomics_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/robonomics_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
