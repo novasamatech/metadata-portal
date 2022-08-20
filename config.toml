@@ -11,7 +11,7 @@ name = "bifrost"
 title = "Bifrost"
 color = "#5a25f0"
 logo = "Bifrost_Kusama.svg"
-rpc_endpoints = ["wss://bifrost-parachain.api.onfinality.io/public-ws", "wss://bifrost-rpc.liebi.com/ws", "wss://bifrost-rpc.dwellir.com"]
+rpc_endpoints = ["wss://bifrost-parachain.api.onfinalitsdfdsfy.io/public-ws", "wss://bifrost-rpc.liasdfsfebi.com/ws", "wss://bifrost-rpc.dwellir.com"]
 genesis_hash = "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed"
 
 [[chains]]
