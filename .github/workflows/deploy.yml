@@ -36,9 +36,9 @@ jobs:
             echo "::set-output name=redeploy::true"
             exit 0
           fi
-            echo "::set-output name=redeploy::false"
-            exit $exit_code
-          shell: bash {0}
+          echo "::set-output name=redeploy::false"
+          exit $exit_code
+        shell: bash {0}
 
       - uses: ./.github/workflows/deploy
         id: deploy
