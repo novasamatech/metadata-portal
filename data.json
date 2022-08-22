@@ -386,13 +386,13 @@
     "base58prefix": 172,
     "logo": "Parallel.svg",
     "decimals": 12,
-    "metadataVersion": 190,
+    "metadataVersion": 191,
     "metadataQr": {
-      "path": "qr/parallel_metadata_190.apng",
+      "path": "qr/parallel_metadata_191.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x6e7e24be0e867da789f3ebaf741c21011ce645308a0b53a0e4c51d20471c62ea"
+        "block": "0x0f58cd8b338c89c9dd6b860a55dad1117e1e911020a3c0045a21987d75912942"
       }
     },
     "nextMetadataVersion": null,
@@ -1115,13 +1115,13 @@
     "base58prefix": 128,
     "logo": "DoraFactory.svg",
     "decimals": 12,
-    "metadataVersion": 21,
+    "metadataVersion": 30,
     "metadataQr": {
-      "path": "qr/dora ksm parachain_metadata_21.apng",
+      "path": "qr/dora ksm parachain_metadata_30.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x66c5b7e13613be71057696867a170912efc31a8e1d6d32c31e4a3ab1d1bad957"
+        "block": "0x6b25843b9e642bca88b8b117ad0dc8e04806fc0f093bf68ee82373ed96c6f4b1"
       }
     },
     "nextMetadataVersion": null,
