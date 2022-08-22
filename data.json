@@ -899,13 +899,13 @@
     "base58prefix": 37,
     "logo": "Nodle.svg",
     "decimals": 11,
-    "metadataVersion": 11,
+    "metadataVersion": 12,
     "metadataQr": {
-      "path": "qr/nodle-para_metadata_11.apng",
+      "path": "qr/nodle-para_metadata_12.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x5db25eb2cb5d97393de442a696d5ebfa31887d95ec983fba233f1cd1cd85137e"
+        "block": "0x34322166ec2f03859f6503d237ab6f3a9885326a31d29911c803aad29ed8d4e6"
       }
     },
     "nextMetadataVersion": null,
@@ -1142,13 +1142,13 @@
     "base58prefix": 42,
     "logo": "MangataX.svg",
     "decimals": 18,
-    "metadataVersion": 5,
+    "metadataVersion": 7,
     "metadataQr": {
-      "path": "qr/mangata-parachain_metadata_5.apng",
+      "path": "qr/mangata-parachain_metadata_7.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0xa996da542769fcfdc60c0cf78a8a77886b1817f9b5793017f7b70eac21d50886"
+        "block": "0xfef8dbfdc824dfdf7fc14a0ccde1887f490e68767f0baa1ab6484bd449e7cf50"
       }
     },
     "nextMetadataVersion": null,
