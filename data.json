@@ -188,6 +188,33 @@
       "source": null
     }
   },
+  "altair": {
+    "title": "Altair",
+    "color": "#ffb700",
+    "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
+    "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+    "unit": "AIR",
+    "base58prefix": 136,
+    "logo": "Altair.svg",
+    "decimals": 18,
+    "metadataVersion": 1018,
+    "metadataQr": {
+      "path": "qr/altair_metadata_1018.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xac491726c01cda73cb570c49ef477b5159b35c34e6e29c0fb79a334776e412b8"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/altair_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/altair_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "khala": {
     "title": "Khala",
     "color": "#03f3f3",
@@ -878,7 +905,7 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x34322166ec2f03859f6503d237ab6f3a9885326a31d29911c803aad29ed8d4e6"
+        "block": "0xfb378231e1693463d04ec7fed80cf737f685da2f521342aabe3ea0be941246cb"
       }
     },
     "nextMetadataVersion": null,
@@ -1121,7 +1148,7 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0xfef8dbfdc824dfdf7fc14a0ccde1887f490e68767f0baa1ab6484bd449e7cf50"
+        "block": "0xd5e5e0d84c6f4384e997bae0a4527fc51f5c688a3b5b98d9de7e7eb993b1366a"
       }
     },
     "nextMetadataVersion": null,
