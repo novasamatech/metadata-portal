@@ -683,13 +683,13 @@
     "base58prefix": 131,
     "logo": "Litmus.svg",
     "decimals": 12,
-    "metadataVersion": 9083,
+    "metadataVersion": 9095,
     "metadataQr": {
-      "path": "qr/litmus-parachain_metadata_9083.apng",
+      "path": "qr/litmus-parachain_metadata_9095.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0xa5c668da79f65efc75d78ed342fb0c9c034176683b6d9c4a5f206680d88a6363"
+        "block": "0x657c3efec805bd82840f87e02fa76b836238c5023273f7fb42672aa739cf70f7"
       }
     },
     "nextMetadataVersion": null,
