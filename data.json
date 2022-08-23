@@ -188,33 +188,6 @@
       "source": null
     }
   },
-  "altair": {
-    "title": "Altair",
-    "color": "#ffb700",
-    "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
-    "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
-    "unit": "AIR",
-    "base58prefix": 136,
-    "logo": "Altair.svg",
-    "decimals": 18,
-    "metadataVersion": 1016,
-    "metadataQr": {
-      "path": "qr/altair_metadata_1016.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa130bfdeafe78be03e0f05d52f8ff0c1ebf7d0354cd1465119558ced06bb1101"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/altair_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/altair_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "khala": {
     "title": "Khala",
     "color": "#03f3f3",
@@ -265,33 +238,6 @@
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "logo": "Calamari.svg",
-    "decimals": 12,
-    "metadataVersion": 3210,
-    "metadataQr": {
-      "path": "qr/calamari_metadata_3210.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2364f5691e78f18421c579a97b8ff4190747d94f02c14faf35625bcca3e25148"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
