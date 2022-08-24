@@ -269,33 +269,6 @@
       "source": null
     }
   },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "logo": "Calamari.svg",
-    "decimals": 12,
-    "metadataVersion": 3210,
-    "metadataQr": {
-      "path": "qr/calamari_metadata_3210.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2364f5691e78f18421c579a97b8ff4190747d94f02c14faf35625bcca3e25148"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -926,13 +899,13 @@
     "base58prefix": 51,
     "logo": "Turing.svg",
     "decimals": 10,
-    "metadataVersion": 285,
+    "metadataVersion": 286,
     "metadataQr": {
-      "path": "qr/turing_metadata_285.apng",
+      "path": "qr/turing_metadata_286.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x8f57b1df3f070ded944cf862555fe3b5cf1792fa488b11603c9f9bdfbf5f045c"
+        "block": "0x8b75866f272a1022cbb59dc4147878acdbc5effd42c73ea158c5de1003a6dfba"
       }
     },
     "nextMetadataVersion": null,
