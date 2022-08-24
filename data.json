@@ -809,33 +809,6 @@
       "source": null
     }
   },
-  "centrifuge": {
-    "title": "Centrifuge Parachain",
-    "color": "#fcc367",
-    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
-    "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
-    "unit": "CFG",
-    "base58prefix": 36,
-    "logo": "Centrifuge.svg",
-    "decimals": 18,
-    "metadataVersion": 1007,
-    "metadataQr": {
-      "path": "qr/centrifuge_metadata_1007.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x52996cf5fa44f1ab912a373be68bfbf9552a2a02e9bb83d38e04fd0e4bb83069"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/centrifuge_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/centrifuge_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "efinity": {
     "title": "Efinity",
     "color": "#496ddb",
