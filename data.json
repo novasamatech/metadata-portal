@@ -1268,6 +1268,33 @@
       "source": null
     }
   },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "logo": "Imbue.svg",
+    "decimals": 12,
+    "metadataVersion": 1008,
+    "metadataQr": {
+      "path": "qr/imbue_metadata_1008.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8b8ccf7cb2dd1347ce68d5f5f00c7e9eb1fc3a922ecf5da095c4ada67c311464"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "westmint": {
     "title": "Westmint",
     "color": "#77bb77",
