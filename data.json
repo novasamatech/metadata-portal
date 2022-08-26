@@ -53,6 +53,33 @@
       "source": null
     }
   },
+  "statemine": {
+    "title": "Statemine",
+    "color": "#113911",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
+    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "logo": "Statemine.svg",
+    "decimals": 12,
+    "metadataVersion": 9270,
+    "metadataQr": {
+      "path": "qr/statemine_metadata_9270.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x44801ff52edf354dc82f07b6e828ef3cf8fdd1a083cbe6cfceb1df8e99dddaad"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/statemine_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/statemine_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
