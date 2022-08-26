@@ -269,6 +269,33 @@
       "source": null
     }
   },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "logo": "Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 3210,
+    "metadataQr": {
+      "path": "qr/calamari_metadata_3210.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x2364f5691e78f18421c579a97b8ff4190747d94f02c14faf35625bcca3e25148"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -1102,6 +1129,33 @@
     "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dora ksm parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "mangata-parachain": {
+    "title": "Mangata X",
+    "color": "#030408",
+    "rpcEndpoint": "wss://mangata-x.api.onfinality.io/public-ws",
+    "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+    "unit": "MGX",
+    "base58prefix": 42,
+    "logo": "MangataX.svg",
+    "decimals": 18,
+    "metadataVersion": 8,
+    "metadataQr": {
+      "path": "qr/mangata-parachain_metadata_8.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8fd9694842f4862a641df308d1b94de1168cae9aca5a1bbf03202ebce7c4a7c0"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mangata-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
