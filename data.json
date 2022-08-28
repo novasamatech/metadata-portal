@@ -107,33 +107,6 @@
       "source": null
     }
   },
-  "heiko": {
-    "title": "Parallel Heiko",
-    "color": "#42d5de",
-    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
-    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "unit": "HKO",
-    "base58prefix": 110,
-    "logo": "ParallelHeiko.svg",
-    "decimals": 12,
-    "metadataVersion": 190,
-    "metadataQr": {
-      "path": "qr/heiko_metadata_190.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe8d3a3a50f220aa9f95f9cd231a0d26af79e895f91a745a54c4b0d9bb9083c20"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/heiko_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/heiko_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "shiden": {
     "title": "Shiden",
     "color": "#5923B2",
