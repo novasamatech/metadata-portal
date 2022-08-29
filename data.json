@@ -485,33 +485,6 @@
       "source": null
     }
   },
-  "robonomics": {
-    "title": "Robonomics",
-    "color": "#2949d3",
-    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
-    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-    "unit": "XRT",
-    "base58prefix": 32,
-    "logo": "Robonomics.svg",
-    "decimals": 9,
-    "metadataVersion": 20,
-    "metadataQr": {
-      "path": "qr/robonomics_metadata_20.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa20c127044328f5fdb96a4dbcabd288261da3735b0b20caac6a72c38c698bd6f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/robonomics_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/robonomics_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "encointer-parachain": {
     "title": "Encointer",
     "color": "#0000cc",
@@ -562,33 +535,6 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "logo": "Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 1400,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_1400.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa2eae3b0ad256fa78923f65bdb240933cc18a6a32e67ec7291c6bf5c131c60c5"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -724,33 +670,6 @@
     "latestMetadata": "qr/crab parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "subsocial-parachain": {
-    "title": "Subsocial Parachain",
-    "color": "#69058C",
-    "rpcEndpoint": "wss://para.subsocial.network",
-    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "logo": "Subsocial_Parachain.svg",
-    "decimals": 10,
-    "metadataVersion": 13,
-    "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_13.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xeb67d0ed1520d126cb9211773af4d396911d38950c6899220ac69f0289a2cb47"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -994,33 +913,6 @@
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "origintrail-parachain": {
-    "title": "OriginTrail Parachain",
-    "color": "#FB5DEB",
-    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
-    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
-    "base58prefix": 101,
-    "logo": "OriginTrail.svg",
-    "decimals": 12,
-    "metadataVersion": 102,
-    "metadataQr": {
-      "path": "qr/origintrail-parachain_metadata_102.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x6feaa7a4c5741934621c2abd486a50867e5158c89560676d339700c7cb09e5a4"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/origintrail-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
