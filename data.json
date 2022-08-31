@@ -998,33 +998,6 @@
       "source": null
     }
   },
-  "litentry-parachain": {
-    "title": "Litentry",
-    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
-    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
-    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-    "unit": "LIT",
-    "base58prefix": 31,
-    "logo": "Litentry.svg",
-    "decimals": 12,
-    "metadataVersion": 9090,
-    "metadataQr": {
-      "path": "qr/litentry-parachain_metadata_9090.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x34abee04539d43dd52888627eea76a616dfb4356c3c27aedf35f66afaab3e194"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litentry-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "unique": {
     "title": "UNIQUE",
     "color": "#40BCFF",
