@@ -458,33 +458,6 @@
       "source": null
     }
   },
-  "subsocial": {
-    "title": "Subsocial Solochain",
-    "color": "#b9018c",
-    "rpcEndpoint": "wss://arch.subsocial.network",
-    "genesisHash": "0x0bd72c1c305172e1275278aaeb3f161e02eccb7a819e63f62d47bd53a28189f8",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "logo": "Subsocial_Solochain.svg",
-    "decimals": 10,
-    "metadataVersion": 18,
-    "metadataQr": {
-      "path": "qr/subsocial_metadata_18.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc429a2b385c944f9f268629eb04978240d36f1ad192111999c16e9f5291bce23"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
@@ -562,33 +535,6 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "logo": "Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 1400,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_1400.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa2eae3b0ad256fa78923f65bdb240933cc18a6a32e67ec7291c6bf5c131c60c5"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
