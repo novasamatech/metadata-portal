@@ -701,33 +701,6 @@
       "source": null
     }
   },
-  "subsocial-parachain": {
-    "title": "Subsocial Parachain",
-    "color": "#69058C",
-    "rpcEndpoint": "wss://para.subsocial.network",
-    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "logo": "Subsocial_Parachain.svg",
-    "decimals": 10,
-    "metadataVersion": 14,
-    "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_14.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x3d6b9e4a40b0d1fec82da442f9c96f6493e736333bba4c364a2105913e0cfdc6"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
