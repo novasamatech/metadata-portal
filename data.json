@@ -701,6 +701,33 @@
       "source": null
     }
   },
+  "subsocial-parachain": {
+    "title": "Subsocial Parachain",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.subsocial.network",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "logo": "Subsocial_Parachain.svg",
+    "decimals": 10,
+    "metadataVersion": 15,
+    "metadataQr": {
+      "path": "qr/subsocial-parachain_metadata_15.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xeb07c4bfc0d0628362be05b9271ef46d2d4fa6b9d38ccc70d1b94c075bce501a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
@@ -994,6 +1021,33 @@
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "litentry-parachain": {
+    "title": "Litentry",
+    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
+    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
+    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+    "unit": "LIT",
+    "base58prefix": 31,
+    "logo": "Litentry.svg",
+    "decimals": 12,
+    "metadataVersion": 9100,
+    "metadataQr": {
+      "path": "qr/litentry-parachain_metadata_9100.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xcd2a4e1533a4a3aa81af1d4c26da1e223f2999398fd09d7266dfd042add0401f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litentry-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
