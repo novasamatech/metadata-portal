@@ -647,33 +647,6 @@
       "source": null
     }
   },
-  "litmus-parachain": {
-    "title": "Litmus",
-    "color": "#6822fb",
-    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
-    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
-    "unit": "LIT",
-    "base58prefix": 131,
-    "logo": "Litmus.svg",
-    "decimals": 12,
-    "metadataVersion": 9095,
-    "metadataQr": {
-      "path": "qr/litmus-parachain_metadata_9095.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x657c3efec805bd82840f87e02fa76b836238c5023273f7fb42672aa739cf70f7"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litmus-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "crab parachain": {
     "title": "Crab",
     "color": "#7C30DD",
