@@ -134,6 +134,33 @@
       "source": null
     }
   },
+  "shiden": {
+    "title": "Shiden",
+    "color": "#5923B2",
+    "rpcEndpoint": "wss://rpc.shiden.astar.network",
+    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+    "unit": "SDN",
+    "base58prefix": 5,
+    "logo": "Shiden.svg",
+    "decimals": 18,
+    "metadataVersion": 68,
+    "metadataQr": {
+      "path": "qr/shiden_metadata_68.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1186379a3819b08a2f73f1d8c3e19f128ef1ca627d1236523715fc1fa8c95639"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/shiden_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "basilisk": {
     "title": "Basilisk",
     "color": "#9eec1b",
@@ -238,33 +265,6 @@
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "logo": "Calamari.svg",
-    "decimals": 12,
-    "metadataVersion": 3300,
-    "metadataQr": {
-      "path": "qr/calamari_metadata_3300.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe276a30dd9d1351dc8bdbd1bdee58ea4d00b29d52f4d443ab16dbd90d14f69c0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -427,33 +427,6 @@
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "robonomics": {
-    "title": "Robonomics",
-    "color": "#2949d3",
-    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
-    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-    "unit": "XRT",
-    "base58prefix": 32,
-    "logo": "Robonomics.svg",
-    "decimals": 9,
-    "metadataVersion": 23,
-    "metadataQr": {
-      "path": "qr/robonomics_metadata_23.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x25af85f148dd6b2791adef82f5b948963919d26d084c1dcb3c5dbbb0ebc22ff5"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/robonomics_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/robonomics_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
