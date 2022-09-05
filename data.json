@@ -998,33 +998,6 @@
       "source": null
     }
   },
-  "bifrost_polkadot": {
-    "title": "Bifrost Polkadot",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-    "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-    "unit": "BNC",
-    "base58prefix": 6,
-    "logo": "Bifrost_Polkadot.svg",
-    "decimals": 12,
-    "metadataVersion": 954,
-    "metadataQr": {
-      "path": "qr/bifrost_polkadot_metadata_954.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x399d76e35f615dffe561f4fde9ea80d72671ed7aa960be8a971c776431743dfd"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_polkadot_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "litentry-parachain": {
     "title": "Litentry",
     "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
@@ -1345,33 +1318,6 @@
     "latestMetadata": "qr/westmint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westmint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "mandala": {
-    "title": "Mandala",
-    "color": "#173DC9",
-    "rpcEndpoint": "wss://acala-mandala.api.onfinality.io/public-ws/",
-    "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
-    "unit": "UNIT",
-    "base58prefix": 42,
-    "logo": "Acala_Mandala_Testnet.svg",
-    "decimals": 0,
-    "metadataVersion": 2091,
-    "metadataQr": {
-      "path": "qr/mandala_metadata_2091.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xca9505745ca233ecaf224babcffafd4aa19f7204ea90f183bd65f84e5c0156b3"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/mandala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/mandala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
