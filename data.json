@@ -269,6 +269,33 @@
       "source": null
     }
   },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "logo": "Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 3300,
+    "metadataQr": {
+      "path": "qr/calamari_metadata_3300.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe276a30dd9d1351dc8bdbd1bdee58ea4d00b29d52f4d443ab16dbd90d14f69c0"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -427,6 +454,33 @@
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "robonomics": {
+    "title": "Robonomics",
+    "color": "#2949d3",
+    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
+    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+    "unit": "XRT",
+    "base58prefix": 32,
+    "logo": "Robonomics.svg",
+    "decimals": 9,
+    "metadataVersion": 23,
+    "metadataQr": {
+      "path": "qr/robonomics_metadata_23.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x25af85f148dd6b2791adef82f5b948963919d26d084c1dcb3c5dbbb0ebc22ff5"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/robonomics_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/robonomics_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -1210,6 +1264,60 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "template-parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://kusama.gmordie.com",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "logo": "GM.svg",
+    "decimals": 0,
+    "metadataVersion": 5,
+    "metadataQr": {
+      "path": "qr/template-parachain_metadata_5.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb7ab3010f495503f02d59dbffeaceea2bf7a4d2405e1a253df14f7e8fc362e5f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/template-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/template-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "logo": "Amplitude.svg",
+    "decimals": 12,
+    "metadataVersion": 1,
+    "metadataQr": {
+      "path": "qr/amplitude_metadata_1.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x4ecfceda06dfb15fc6bccc8ee714f685b89b36f546f9eedaf05509b61d144bfa"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
