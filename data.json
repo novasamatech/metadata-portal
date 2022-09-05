@@ -134,33 +134,6 @@
       "source": null
     }
   },
-  "shiden": {
-    "title": "Shiden",
-    "color": "#5923B2",
-    "rpcEndpoint": "wss://rpc.shiden.astar.network",
-    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
-    "unit": "SDN",
-    "base58prefix": 5,
-    "logo": "Shiden.svg",
-    "decimals": 18,
-    "metadataVersion": 63,
-    "metadataQr": {
-      "path": "qr/shiden_metadata_63.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xf10f55c57a1ff5a0a1a62ef355aa22d9f5e35a8c4d6f7fbab28fc633ab80e94d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/shiden_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/shiden_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "basilisk": {
     "title": "Basilisk",
     "color": "#9eec1b",
