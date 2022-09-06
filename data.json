@@ -1,4 +1,31 @@
 {
+  "bifrost": {
+    "title": "Bifrost",
+    "color": "#5a25f0",
+    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
+    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+    "unit": "UNIT",
+    "base58prefix": 6,
+    "logo": "Bifrost_Kusama.svg",
+    "decimals": 0,
+    "metadataVersion": 957,
+    "metadataQr": {
+      "path": "qr/bifrost_metadata_957.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb6889e3605adb9fc552a4a5738d40a5e649e469bbe7cae844a6bf9b26a6856ca"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/bifrost_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bifrost_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
