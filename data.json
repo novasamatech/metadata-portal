@@ -6,7 +6,7 @@
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
     "base58prefix": 6,
-    "logo": "Bifrost_Kusama.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
     "metadataVersion": 957,
     "metadataQr": {
@@ -33,7 +33,7 @@
     "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
     "unit": "UNIT",
     "base58prefix": 10,
-    "logo": "Acala.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
     "metadataVersion": 2092,
     "metadataQr": {
@@ -60,7 +60,7 @@
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
-    "logo": "Statemine.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
     "decimals": 12,
     "metadataVersion": 9270,
     "metadataQr": {
@@ -87,7 +87,7 @@
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "unit": "UNIT",
     "base58prefix": 8,
-    "logo": "Karura.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Karura.svg",
     "decimals": 0,
     "metadataVersion": 2091,
     "metadataQr": {
@@ -114,7 +114,7 @@
     "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
     "unit": "HKO",
     "base58prefix": 110,
-    "logo": "ParallelHeiko.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
     "decimals": 12,
     "metadataVersion": 191,
     "metadataQr": {
@@ -141,7 +141,7 @@
     "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
     "unit": "SDN",
     "base58prefix": 5,
-    "logo": "Shiden.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "metadataVersion": 68,
     "metadataQr": {
@@ -168,7 +168,7 @@
     "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
     "unit": "BSX",
     "base58prefix": 10041,
-    "logo": "Basilisk.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
     "metadataVersion": 69,
     "metadataQr": {
@@ -195,7 +195,7 @@
     "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
     "unit": "AIR",
     "base58prefix": 136,
-    "logo": "Altair.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
     "metadataVersion": 1018,
     "metadataQr": {
@@ -222,7 +222,7 @@
     "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "unit": "PHA",
     "base58prefix": 30,
-    "logo": "Khala.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "metadataVersion": 1170,
     "metadataQr": {
@@ -249,7 +249,7 @@
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
     "unit": "KILT",
     "base58prefix": 38,
-    "logo": "KILT_Spiritnet.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
     "metadataVersion": 10710,
     "metadataQr": {
@@ -276,7 +276,7 @@
     "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
     "unit": "KMA",
     "base58prefix": 78,
-    "logo": "Calamari.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
     "metadataVersion": 3300,
     "metadataQr": {
@@ -303,7 +303,7 @@
     "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
     "unit": "QTZ",
     "base58prefix": 255,
-    "logo": "Quartz.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Quartz.svg",
     "decimals": 18,
     "metadataVersion": 924012,
     "metadataQr": {
@@ -330,7 +330,7 @@
     "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
     "unit": "NEER",
     "base58prefix": 268,
-    "logo": "Bit.Country_Pioneer.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
     "decimals": 18,
     "metadataVersion": 8,
     "metadataQr": {
@@ -357,7 +357,7 @@
     "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
     "unit": "ASTR",
     "base58prefix": 5,
-    "logo": "Astar.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "metadataVersion": 30,
     "metadataQr": {
@@ -384,7 +384,7 @@
     "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
     "unit": "PARA",
     "base58prefix": 172,
-    "logo": "Parallel.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Parallel.svg",
     "decimals": 12,
     "metadataVersion": 191,
     "metadataQr": {
@@ -411,7 +411,7 @@
     "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
     "unit": "CLV",
     "base58prefix": 128,
-    "logo": "CLV_Parachain.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
     "decimals": 18,
     "metadataVersion": 23,
     "metadataQr": {
@@ -438,7 +438,7 @@
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "unit": "DOT",
     "base58prefix": 0,
-    "logo": "Statemint.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemint.svg",
     "decimals": 10,
     "metadataVersion": 9230,
     "metadataQr": {
@@ -465,7 +465,7 @@
     "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
     "unit": "XRT",
     "base58prefix": 32,
-    "logo": "Robonomics.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
     "metadataVersion": 23,
     "metadataQr": {
@@ -492,7 +492,7 @@
     "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
     "unit": "KSM",
     "base58prefix": 2,
-    "logo": "Encointer.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Encointer.svg",
     "decimals": 12,
     "metadataVersion": 8,
     "metadataQr": {
@@ -519,7 +519,7 @@
     "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
     "unit": "UNIT",
     "base58prefix": 2092,
-    "logo": "Kintsugi.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
     "metadataVersion": 1018000,
     "metadataQr": {
@@ -546,7 +546,7 @@
     "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
     "unit": "PICA",
     "base58prefix": 49,
-    "logo": "Picasso.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
     "metadataVersion": 1400,
     "metadataQr": {
@@ -573,7 +573,7 @@
     "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
     "unit": "ZTG",
     "base58prefix": 73,
-    "logo": "Zeitgeist.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
     "metadataVersion": 38,
     "metadataQr": {
@@ -600,7 +600,7 @@
     "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
     "unit": "KICO",
     "base58prefix": 42,
-    "logo": "KICO.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KICO.svg",
     "decimals": 14,
     "metadataVersion": 2022072701,
     "metadataQr": {
@@ -627,7 +627,7 @@
     "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
     "unit": "LIT",
     "base58prefix": 131,
-    "logo": "Litmus.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litmus.svg",
     "decimals": 12,
     "metadataVersion": 9096,
     "metadataQr": {
@@ -654,7 +654,7 @@
     "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
     "unit": "CRAB",
     "base58prefix": 42,
-    "logo": "Crab.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "metadataVersion": 5310,
     "metadataQr": {
@@ -681,7 +681,7 @@
     "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
     "unit": "SUB",
     "base58prefix": 28,
-    "logo": "Subsocial_Parachain.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "metadataVersion": 15,
     "metadataQr": {
@@ -708,7 +708,7 @@
     "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
     "unit": "CSM",
     "base58prefix": 66,
-    "logo": "Crust_Shadow.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust_Shadow.svg",
     "decimals": 12,
     "metadataVersion": 13,
     "metadataQr": {
@@ -735,7 +735,7 @@
     "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
     "unit": "TEER",
     "base58prefix": 13,
-    "logo": "Integritee.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
     "metadataVersion": 22,
     "metadataQr": {
@@ -762,7 +762,7 @@
     "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
     "unit": "CFG",
     "base58prefix": 36,
-    "logo": "Centrifuge.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
     "metadataVersion": 1009,
     "metadataQr": {
@@ -789,7 +789,7 @@
     "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
     "unit": "EFI",
     "base58prefix": 1110,
-    "logo": "Efinity.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg",
     "decimals": 18,
     "metadataVersion": 3,
     "metadataQr": {
@@ -816,7 +816,7 @@
     "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
     "unit": "UNIT",
     "base58prefix": 2032,
-    "logo": "Interlay.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
     "decimals": 0,
     "metadataVersion": 1018000,
     "metadataQr": {
@@ -843,7 +843,7 @@
     "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
     "unit": "NODL",
     "base58prefix": 37,
-    "logo": "Nodle.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Nodle.svg",
     "decimals": 11,
     "metadataVersion": 12,
     "metadataQr": {
@@ -870,7 +870,7 @@
     "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
     "unit": "TUR",
     "base58prefix": 51,
-    "logo": "Turing.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing.svg",
     "decimals": 10,
     "metadataVersion": 286,
     "metadataQr": {
@@ -897,7 +897,7 @@
     "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
     "unit": "AZERO",
     "base58prefix": 42,
-    "logo": "AlephZero.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
     "metadataVersion": 12,
     "metadataQr": {
@@ -924,7 +924,7 @@
     "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
     "unit": "PDEX",
     "base58prefix": 88,
-    "logo": "Polkadex.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "metadataVersion": 276,
     "metadataQr": {
@@ -951,7 +951,7 @@
     "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
     "unit": "OTP",
     "base58prefix": 101,
-    "logo": "OriginTrail.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
     "metadataVersion": 103,
     "metadataQr": {
@@ -971,33 +971,6 @@
       "source": null
     }
   },
-  "bifrost_polkadot": {
-    "title": "Bifrost Polkadot",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-    "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-    "unit": "BNC",
-    "base58prefix": 6,
-    "logo": "Bifrost_Polkadot.svg",
-    "decimals": 12,
-    "metadataVersion": 956,
-    "metadataQr": {
-      "path": "qr/bifrost_polkadot_metadata_956.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xb03c9f2682020af2a37f51570fa568f994651c47b6b506857950a99ee1f803c1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_polkadot_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "litentry-parachain": {
     "title": "Litentry",
     "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
@@ -1005,7 +978,7 @@
     "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
     "unit": "LIT",
     "base58prefix": 31,
-    "logo": "Litentry.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
     "metadataVersion": 9100,
     "metadataQr": {
@@ -1032,7 +1005,7 @@
     "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
     "unit": "UNQ",
     "base58prefix": 7391,
-    "logo": "Unique.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
     "metadataVersion": 924010,
     "metadataQr": {
@@ -1059,7 +1032,7 @@
     "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
     "unit": "DORA",
     "base58prefix": 128,
-    "logo": "DoraFactory.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg",
     "decimals": 12,
     "metadataVersion": 30,
     "metadataQr": {
@@ -1086,7 +1059,7 @@
     "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
     "unit": "MGX",
     "base58prefix": 42,
-    "logo": "MangataX.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/MangataX.svg",
     "decimals": 18,
     "metadataVersion": 8,
     "metadataQr": {
@@ -1113,7 +1086,7 @@
     "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
     "unit": "PCHU",
     "base58prefix": 42,
-    "logo": "Pichiu.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pichiu.svg",
     "decimals": 18,
     "metadataVersion": 21,
     "metadataQr": {
@@ -1140,7 +1113,7 @@
     "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
     "unit": "KAB",
     "base58prefix": 27,
-    "logo": "Kabocha.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg",
     "decimals": 12,
     "metadataVersion": 25,
     "metadataQr": {
@@ -1167,7 +1140,7 @@
     "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
     "unit": "DHX",
     "base58prefix": 33,
-    "logo": "Tanganika_DataHighway.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
     "decimals": 18,
     "metadataVersion": 4,
     "metadataQr": {
@@ -1194,7 +1167,7 @@
     "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
     "unit": "BAJU",
     "base58prefix": 1337,
-    "logo": "Bajun.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
     "metadataVersion": 1,
     "metadataQr": {
@@ -1221,7 +1194,7 @@
     "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
     "unit": "IMBU",
     "base58prefix": 42,
-    "logo": "Imbue.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
     "decimals": 12,
     "metadataVersion": 1008,
     "metadataQr": {
@@ -1248,7 +1221,7 @@
     "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
     "unit": "UNIT",
     "base58prefix": 7013,
-    "logo": "GM.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
     "decimals": 0,
     "metadataVersion": 5,
     "metadataQr": {
@@ -1268,6 +1241,33 @@
       "source": null
     }
   },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "metadataVersion": 1,
+    "metadataQr": {
+      "path": "qr/amplitude_metadata_1.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x4ecfceda06dfb15fc6bccc8ee714f685b89b36f546f9eedaf05509b61d144bfa"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "westmint": {
     "title": "Westmint",
     "color": "#77bb77",
@@ -1275,7 +1275,7 @@
     "genesisHash": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
     "unit": "WND",
     "base58prefix": 42,
-    "logo": "Westmint_Testnet.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westmint_Testnet.svg",
     "decimals": 12,
     "metadataVersion": 9270,
     "metadataQr": {
