@@ -1268,6 +1268,33 @@
       "source": null
     }
   },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "logo": "Amplitude.svg",
+    "decimals": 12,
+    "metadataVersion": 1,
+    "metadataQr": {
+      "path": "qr/amplitude_metadata_1.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x4ecfceda06dfb15fc6bccc8ee714f685b89b36f546f9eedaf05509b61d144bfa"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "westmint": {
     "title": "Westmint",
     "color": "#77bb77",
