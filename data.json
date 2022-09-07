@@ -593,33 +593,6 @@
       "source": null
     }
   },
-  "hydradx": {
-    "title": "HydraDX",
-    "color": "#f653a2",
-    "rpcEndpoint": "wss://rpc-01.hydradx.io",
-    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-    "unit": "HDX",
-    "base58prefix": 63,
-    "logo": "HydraDX.svg",
-    "decimals": 12,
-    "metadataVersion": 109,
-    "metadataQr": {
-      "path": "qr/hydradx_metadata_109.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8c020a2e15bc2ea96d05ff40670bde098ff9d4f343174a48404ccc8c19bae444"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/hydradx_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/hydradx_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "kico": {
     "title": "KICO",
     "color": "#29B58D",
