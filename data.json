@@ -242,33 +242,6 @@
       "source": null
     }
   },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
-    "decimals": 12,
-    "metadataVersion": 3300,
-    "metadataQr": {
-      "path": "qr/calamari_metadata_3300.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe276a30dd9d1351dc8bdbd1bdee58ea4d00b29d52f4d443ab16dbd90d14f69c0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -373,33 +346,6 @@
     "latestMetadata": "qr/parallel_metadata_latest.apng",
     "specsQr": {
       "path": "qr/parallel_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "clover-mainnet": {
-    "title": "CLV Parachain",
-    "color": "linear-gradient(to right, #52ad75, #7cc773)",
-    "rpcEndpoint": "wss://rpc-para.clover.finance",
-    "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
-    "unit": "CLV",
-    "base58prefix": 128,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
-    "decimals": 18,
-    "metadataVersion": 23,
-    "metadataQr": {
-      "path": "qr/clover-mainnet_metadata_23.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2afef7bc91879aad28b08230451eed44b5773310fbbbf37a08af57cd951b141f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/clover-mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/clover-mainnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
