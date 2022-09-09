@@ -728,33 +728,6 @@
       "source": null
     }
   },
-  "integritee-parachain": {
-    "title": "Integritee Parachain",
-    "color": "#658ea9",
-    "rpcEndpoint": "wss://integritee-kusama.api.onfinality.io/public-ws",
-    "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
-    "unit": "TEER",
-    "base58prefix": 13,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
-    "decimals": 12,
-    "metadataVersion": 22,
-    "metadataQr": {
-      "path": "qr/integritee-parachain_metadata_22.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8d6ff6224a2450a7b9b4ea5cca8199962e35fe427bf15ae681fa57b99e1b4e15"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/integritee-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
