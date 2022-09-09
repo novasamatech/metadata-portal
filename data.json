@@ -728,6 +728,33 @@
       "source": null
     }
   },
+  "integritee-parachain": {
+    "title": "Integritee Parachain",
+    "color": "#658ea9",
+    "rpcEndpoint": "wss://integritee-kusama.api.onfinality.io/public-ws",
+    "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+    "unit": "TEER",
+    "base58prefix": 13,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
+    "decimals": 12,
+    "metadataVersion": 26,
+    "metadataQr": {
+      "path": "qr/integritee-parachain_metadata_26.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x953283ac2b0c97faeeb5e9b8d53358d2987304d737d5c017ae57abd4075ec277"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/integritee-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
@@ -1183,33 +1210,6 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "imbue": {
-    "title": "Imbue",
-    "color": "#baff36",
-    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
-    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-    "unit": "IMBU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
-    "decimals": 12,
-    "metadataVersion": 1008,
-    "metadataQr": {
-      "path": "qr/imbue_metadata_1008.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8b8ccf7cb2dd1347ce68d5f5f00c7e9eb1fc3a922ecf5da095c4ada67c311464"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/imbue_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
