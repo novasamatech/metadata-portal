@@ -102,7 +102,7 @@ where
             signature: Signature {
                 signature_hex: Some(serde_json::to_string(&signature).unwrap().replace('"', "")),
                 signature_file: None,
-            }
+            },
             sufficient: Sufficient {
                 sufficient_hex: None,
                 sufficient_file: None,
