@@ -34,7 +34,7 @@ pub(crate) fn generate_metadata_qr(
     .to_string();
     let path = target_dir.join(&file_name);
     info!("⚙️  Generating {}...", file_name);
-    generate_unsigned_qr(
+    generate_qr(
         &content.to_sign().as_slice(),
         &path,
         Msg::LoadMetadata,
@@ -56,7 +56,7 @@ pub(crate) fn generate_spec_qr(
     let content = ContentAddSpecs::generate(specs);
 
     info!("⚙️  Generating {}...", file_name);
-    generate_unsigned_qr(
+    generate_qr(
         &content.to_sign().as_slice(),
         &path,
         Msg::AddSpecs,
@@ -66,7 +66,7 @@ pub(crate) fn generate_spec_qr(
     Ok(path)
 }
 
-fn generate_unsigned_qr<P>(
+fn generate_qr<P>(
     content: &[u8],
     target_path: P,
     msg_type: Msg,
