@@ -35,7 +35,7 @@ pub(crate) fn generate_metadata_qr(
     let path = target_dir.join(&file_name);
     info!("⚙️  Generating {}...", file_name);
     generate_qr(
-        &content.to_sign().as_slice(),
+        content.to_sign().as_slice(),
         &path,
         Msg::LoadMetadata,
         sign,
@@ -57,7 +57,7 @@ pub(crate) fn generate_spec_qr(
 
     info!("⚙️  Generating {}...", file_name);
     generate_qr(
-        &content.to_sign().as_slice(),
+        content.to_sign().as_slice(),
         &path,
         Msg::AddSpecs,
         sign,
@@ -100,9 +100,9 @@ where
                 verifier_file: None,
             },
             signature: Signature {
-                signature_hex: Some(serde_json::to_string(&signature).unwrap().replace("\"", "")),
+                signature_hex: Some(serde_json::to_string(&signature).unwrap().replace('"', "")),
                 signature_file: None,
-            },
+            }
             sufficient: Sufficient {
                 sufficient_hex: None,
                 sufficient_file: None,
