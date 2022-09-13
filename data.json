@@ -431,33 +431,6 @@
       "source": null
     }
   },
-  "statemint": {
-    "title": "Statemint",
-    "color": "#86e62a",
-    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
-    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemint.svg",
-    "decimals": 10,
-    "metadataVersion": 9230,
-    "metadataQr": {
-      "path": "qr/statemint_metadata_9230.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa8178affaa12842a05c7e87d532e7f88c11110b64f4dbb73f7f1201f0064cd1f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemint_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
@@ -1264,6 +1237,33 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "template-parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://kusama.gmordie.com",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "metadataVersion": 6,
+    "metadataQr": {
+      "path": "qr/template-parachain_metadata_6.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x0efd34250a346831ef669d59b1091c05fd8be8c06125d4bbe0fe5d11dc623e3d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/template-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/template-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
