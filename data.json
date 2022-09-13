@@ -269,33 +269,6 @@
       "source": null
     }
   },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
-    "decimals": 12,
-    "metadataVersion": 3300,
-    "metadataQr": {
-      "path": "qr/calamari_metadata_3300.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe276a30dd9d1351dc8bdbd1bdee58ea4d00b29d52f4d443ab16dbd90d14f69c0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -319,6 +292,60 @@
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/quartz_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "pioneer-runtime": {
+    "title": "Bit.Country Pioneer",
+    "color": "#000000",
+    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
+    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+    "unit": "NEER",
+    "base58prefix": 268,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
+    "decimals": 18,
+    "metadataVersion": 10,
+    "metadataQr": {
+      "path": "qr/pioneer-runtime_metadata_10.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x99eb8622ed0ec9e63101a4df132a2ef94276acfdf3c9272b605930c6cd7e8ce1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pioneer-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "astar": {
+    "title": "Astar",
+    "color": "#1b6dc1d9",
+    "rpcEndpoint": "wss://astar.api.onfinality.io/public-ws",
+    "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+    "unit": "ASTR",
+    "base58prefix": 5,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
+    "decimals": 18,
+    "metadataVersion": 33,
+    "metadataQr": {
+      "path": "qr/astar_metadata_33.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc752cbd415d751eed18c056785151faaddcd3dab86ad0c86cf7379604bf0a85b"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/astar_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/astar_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -913,6 +940,33 @@
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "origintrail-parachain": {
+    "title": "OriginTrail Parachain",
+    "color": "#FB5DEB",
+    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
+    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
+    "unit": "OTP",
+    "base58prefix": 101,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
+    "decimals": 12,
+    "metadataVersion": 104,
+    "metadataQr": {
+      "path": "qr/origintrail-parachain_metadata_104.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x0cbfcba150cd7f9a480a652ec8b43b1a0cc0a653973015e9f377440f8f3ab2d8"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/origintrail-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
