@@ -242,6 +242,33 @@
       "source": null
     }
   },
+  "kilt-spiritnet": {
+    "title": "KILT Spiritnet",
+    "color": "#8c145a",
+    "rpcEndpoint": "wss://spiritnet.kilt.io/",
+    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
+    "unit": "KILT",
+    "base58prefix": 38,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
+    "decimals": 15,
+    "metadataVersion": 10720,
+    "metadataQr": {
+      "path": "qr/kilt-spiritnet_metadata_10720.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1b531aa37f18ac9d344a8ff3c5fbeab265cb626e40b71c4a603803e92df81788"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kilt-spiritnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
@@ -292,6 +319,33 @@
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/quartz_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "pioneer-runtime": {
+    "title": "Bit.Country Pioneer",
+    "color": "#000000",
+    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
+    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+    "unit": "NEER",
+    "base58prefix": 268,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
+    "decimals": 18,
+    "metadataVersion": 11,
+    "metadataQr": {
+      "path": "qr/pioneer-runtime_metadata_11.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x16e0f054e03a9d98eac463c56e58cc3f93e6ca1c287f61cc9e05805a82356c64"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pioneer-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
@@ -1183,33 +1237,6 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "metadataVersion": 2,
-    "metadataQr": {
-      "path": "qr/amplitude_metadata_2.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xbb24ae3178c2192e4e574fa8417e6f6c44c34a3750422dddb00792e601e738dc"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
