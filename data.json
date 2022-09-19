@@ -323,33 +323,6 @@
       "source": null
     }
   },
-  "pioneer-runtime": {
-    "title": "Bit.Country Pioneer",
-    "color": "#000000",
-    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
-    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-    "unit": "NEER",
-    "base58prefix": 268,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
-    "decimals": 18,
-    "metadataVersion": 10,
-    "metadataQr": {
-      "path": "qr/pioneer-runtime_metadata_10.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x99eb8622ed0ec9e63101a4df132a2ef94276acfdf3c9272b605930c6cd7e8ce1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pioneer-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "astar": {
     "title": "Astar",
     "color": "#1b6dc1d9",
@@ -1237,6 +1210,33 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "template-parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://kusama.gmordie.com",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "metadataVersion": 6,
+    "metadataQr": {
+      "path": "qr/template-parachain_metadata_6.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x0efd34250a346831ef669d59b1091c05fd8be8c06125d4bbe0fe5d11dc623e3d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/template-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/template-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
