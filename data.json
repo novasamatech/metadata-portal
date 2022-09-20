@@ -863,33 +863,6 @@
       "source": null
     }
   },
-  "turing": {
-    "title": "Turing",
-    "color": "#A8278C",
-    "rpcEndpoint": "wss://rpc.turing.oak.tech",
-    "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
-    "unit": "TUR",
-    "base58prefix": 51,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing.svg",
-    "decimals": 10,
-    "metadataVersion": 286,
-    "metadataQr": {
-      "path": "qr/turing_metadata_286.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8b75866f272a1022cbb59dc4147878acdbc5effd42c73ea158c5de1003a6dfba"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/turing_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/turing_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "aleph-node": {
     "title": "Aleph Zero",
     "color": "#00CCAB",
@@ -1237,6 +1210,33 @@
     "latestMetadata": "qr/template-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/template-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "metadataVersion": 2,
+    "metadataQr": {
+      "path": "qr/amplitude_metadata_2.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xbb24ae3178c2192e4e574fa8417e6f6c44c34a3750422dddb00792e601e738dc"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
