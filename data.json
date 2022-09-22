@@ -161,33 +161,6 @@
       "source": null
     }
   },
-  "basilisk": {
-    "title": "Basilisk",
-    "color": "#9eec1b",
-    "rpcEndpoint": "wss://rpc-01.basilisk.hydradx.io",
-    "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
-    "unit": "BSX",
-    "base58prefix": 10041,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Basilisk.svg",
-    "decimals": 12,
-    "metadataVersion": 71,
-    "metadataQr": {
-      "path": "qr/basilisk_metadata_71.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xca340a4c14d4099c488e57cbc59263021cfb52389028b739e0f5eacec085de73"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/basilisk_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/basilisk_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "altair": {
     "title": "Altair",
     "color": "#ffb700",
@@ -1291,6 +1264,33 @@
     "latestMetadata": "qr/template-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/template-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "metadataVersion": 2,
+    "metadataQr": {
+      "path": "qr/amplitude_metadata_2.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xbb24ae3178c2192e4e574fa8417e6f6c44c34a3750422dddb00792e601e738dc"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
