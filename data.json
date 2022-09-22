@@ -1295,60 +1295,6 @@
       "source": null
     }
   },
-  "moonbeam": {
-    "title": "Moonbeam",
-    "color": "#53cbc9",
-    "rpcEndpoint": "wss://moonbeam-rpc.dwellir.com",
-    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-    "unit": "GLMR",
-    "base58prefix": 1284,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
-    "decimals": 18,
-    "metadataVersion": 1702,
-    "metadataQr": {
-      "path": "qr/moonbeam_metadata_1702.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x09e71d968a3bb2057ea765862f20c00a2f7b1d369177a3eaed600cfa4d505f0a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/moonbeam_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/moonbeam_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
-  "moonriver": {
-    "title": "Moonriver",
-    "color": "#0E132E",
-    "rpcEndpoint": "wss://moonriver-rpc.dwellir.com",
-    "genesisHash": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-    "unit": "MOVR",
-    "base58prefix": 1285,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonriver.svg",
-    "decimals": 18,
-    "metadataVersion": 1801,
-    "metadataQr": {
-      "path": "qr/moonriver_metadata_1801.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7ca6ffc1a873bdf198e05ffd1e58ec6561f0503b58bccc1b0987da070ca3d738"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/moonriver_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/moonriver_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "westmint": {
     "title": "Westmint",
     "color": "#77bb77",
