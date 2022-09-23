@@ -107,33 +107,6 @@
       "source": null
     }
   },
-  "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
-    "color": "#8c145a",
-    "rpcEndpoint": "wss://spiritnet.kilt.io/",
-    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "unit": "KILT",
-    "base58prefix": 38,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
-    "decimals": 15,
-    "metadataVersion": 10720,
-    "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10720.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1b531aa37f18ac9d344a8ff3c5fbeab265cb626e40b71c4a603803e92df81788"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
@@ -373,6 +346,33 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "picasso": {
+    "title": "Picasso",
+    "color": "#000000",
+    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
+    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+    "unit": "PICA",
+    "base58prefix": 49,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
+    "decimals": 12,
+    "metadataVersion": 1400,
+    "metadataQr": {
+      "path": "qr/picasso_metadata_1400.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa2eae3b0ad256fa78923f65bdb240933cc18a6a32e67ec7291c6bf5c131c60c5"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/picasso_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
