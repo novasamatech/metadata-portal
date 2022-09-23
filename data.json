@@ -1,31 +1,4 @@
 {
-  "statemine": {
-    "title": "Statemine",
-    "color": "#113911",
-    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
-    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
-    "decimals": 12,
-    "metadataVersion": 9270,
-    "metadataQr": {
-      "path": "qr/statemine_metadata_9270.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x44801ff52edf354dc82f07b6e828ef3cf8fdd1a083cbe6cfceb1df8e99dddaad"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemine_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemine_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "heiko": {
     "title": "Parallel Heiko",
     "color": "#42d5de",
@@ -508,6 +481,33 @@
     "latestMetadata": "qr/crab parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "subsocial-parachain": {
+    "title": "Subsocial Parachain",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.subsocial.network",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
+    "decimals": 10,
+    "metadataVersion": 15,
+    "metadataQr": {
+      "path": "qr/subsocial-parachain_metadata_15.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xeb07c4bfc0d0628362be05b9271ef46d2d4fa6b9d38ccc70d1b94c075bce501a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
