@@ -1,31 +1,4 @@
 {
-  "bifrost": {
-    "title": "Bifrost",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-    "unit": "UNIT",
-    "base58prefix": 6,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
-    "decimals": 0,
-    "metadataVersion": 957,
-    "metadataQr": {
-      "path": "qr/bifrost_metadata_957.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x634a2817f137b08350d3341e508ee73b10ab24f1c6d54912837c27ba5064bc51"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
@@ -454,6 +427,33 @@
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    }
+  },
+  "kico": {
+    "title": "KICO",
+    "color": "#29B58D",
+    "rpcEndpoint": "wss://rpc.kico.dico.io",
+    "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
+    "unit": "KICO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KICO.svg",
+    "decimals": 14,
+    "metadataVersion": 2022072701,
+    "metadataQr": {
+      "path": "qr/kico_metadata_2022072701.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xbb15d52550b0ed6a3b3996122606a4628df68c4a1e4536fc818d54503f52c0e3"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kico_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kico_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     }
