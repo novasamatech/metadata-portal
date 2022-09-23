@@ -26,33 +26,6 @@
       "source": null
     }
   },
-  "acala": {
-    "title": "Acala",
-    "color": "#645AFF",
-    "rpcEndpoint": "wss://acala-rpc.dwellir.com",
-    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-    "unit": "UNIT",
-    "base58prefix": 10,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Acala.svg",
-    "decimals": 0,
-    "metadataVersion": 2093,
-    "metadataQr": {
-      "path": "qr/acala_metadata_2093.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x96c51a3c54243d3824fa2840af37aa1c0505a728beecf2e8b0b5b9b32f29cb6d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/acala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/acala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    }
-  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
