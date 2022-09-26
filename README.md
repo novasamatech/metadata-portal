@@ -86,7 +86,7 @@ It all starts with the Github repository. Any user can clone it and run their Me
 
 Metadata Portal supports two metadata sources in parallel. Both are equally important for different types of users.
 
-## Use interface
+## User interface
 By default, only production networks are displayed in the user interface.
 If you'd like to get all list of networks including test networks add `/dev` to the url. For example `https://nova-wallet.github.io/metadata-portal/#/dev`
 
