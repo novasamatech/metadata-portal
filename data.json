@@ -587,34 +587,6 @@
     },
     "testnet": false
   },
-  "kico": {
-    "title": "KICO",
-    "color": "#29B58D",
-    "rpcEndpoint": "wss://rpc.kico.dico.io",
-    "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
-    "unit": "KICO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KICO.svg",
-    "decimals": 14,
-    "metadataVersion": 2022072701,
-    "metadataQr": {
-      "path": "qr/kico_metadata_2022072701.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x717afad0ce9e0f7791ccb8b83dad44e97a37a55c8c1589e8f29bd4ae9cd5eae2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kico_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kico_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "litmus-parachain": {
     "title": "Litmus",
     "color": "#6822fb",
@@ -1366,34 +1338,6 @@
     "latestMetadata": "qr/template-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/template-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "metadataVersion": 2,
-    "metadataQr": {
-      "path": "qr/amplitude_metadata_2.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x5fefb0b33dffe423ce4449be6f5916f23dd725447843eb23723f565e2e0c49db"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
