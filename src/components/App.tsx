@@ -22,9 +22,6 @@ export enum ChainsMode {
   Dev,
   Prod,
 }
-  dev,
-  prod,
-}
 
 export default function App({ mode }: Props) {
   const [localStorageNetwork, setLocalStorageNetwork] =
@@ -32,10 +29,9 @@ export default function App({ mode }: Props) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const [allChains, setAllChains] = useState<Chains>({} as Chains);
-  const dataFileName =  mode === ChainsMode.Dev ? "../data_dev.json" : "data.json";
-  if (mode == ChainsMode.dev) {
-    dataFileName = "../data_dev.json";
-  }
+  const dataFileName =
+    mode === ChainsMode.Dev ? "../data_dev.json" : "data.json";
+
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch(dataFileName)

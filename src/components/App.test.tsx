@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 test("renders ok", () => {
   render(
     <Router>
-      <App mode={ChainsMode.prod} />
+      <App mode={ChainsMode.Prod} />
     </Router>
   );
 });
