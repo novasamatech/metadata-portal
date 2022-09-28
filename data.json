@@ -643,6 +643,34 @@
     },
     "testnet": false
   },
+  "crab parachain": {
+    "title": "Crab",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://crab-parachain-rpc.darwinia.network/",
+    "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
+    "decimals": 18,
+    "metadataVersion": 5330,
+    "metadataQr": {
+      "path": "qr/crab parachain_metadata_5330.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x34c68ff91cd3079672da6aa55295019851bd50453bdbf306942218937b8bce06"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crab parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
