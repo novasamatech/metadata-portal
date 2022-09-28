@@ -19,6 +19,9 @@ interface Props {
 }
 
 export enum ChainsMode {
+  Dev,
+  Prod,
+}
   dev,
   prod,
 }
