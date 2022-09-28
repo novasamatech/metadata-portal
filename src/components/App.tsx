@@ -32,7 +32,7 @@ export default function App({ mode }: Props) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const [allChains, setAllChains] = useState<Chains>({} as Chains);
-  let dataFileName = "data.json";
+  const dataFileName =  mode === ChainsMode.Dev ? "../data_dev.json" : "data.json";
   if (mode == ChainsMode.dev) {
     dataFileName = "../data_dev.json";
   }
