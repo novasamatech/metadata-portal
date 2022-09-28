@@ -83,34 +83,6 @@
     },
     "testnet": false
   },
-  "moonbase": {
-    "title": "Moonbase Alpha",
-    "color": "#F45B5B",
-    "rpcEndpoint": "wss://rpc.pinknode.io/alphanet/explorer",
-    "genesisHash": "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
-    "unit": "DEV",
-    "base58prefix": 1287,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbase_Alpha_Testnet.svg",
-    "decimals": 18,
-    "metadataVersion": 1802,
-    "metadataQr": {
-      "path": "qr/moonbase_metadata_1802.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xf28f2b15ae208777988d012450295ece6b3b11596afd8036d168e3186d47c0af"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/moonbase_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/moonbase_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": true
-  },
   "shiden": {
     "title": "Shiden",
     "color": "#5923B2",
