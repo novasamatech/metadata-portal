@@ -1147,6 +1147,34 @@
     },
     "testnet": false
   },
+  "mangata-parachain": {
+    "title": "Mangata X",
+    "color": "#030408",
+    "rpcEndpoint": "wss://prod-kusama-collator-01.mangatafinance.cloud",
+    "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+    "unit": "MGX",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/MangataX.svg",
+    "decimals": 18,
+    "metadataVersion": 9,
+    "metadataQr": {
+      "path": "qr/mangata-parachain_metadata_9.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x9a4829c90749cf6743d381da5ee2db9ba1da2c2c2468a919f09f16802588ded4"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mangata-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "pichiu": {
     "title": "Pichiu",
     "color": "#ed007e",
@@ -1282,34 +1310,6 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://tinker.invarch.network",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "metadataVersion": 5,
-    "metadataQr": {
-      "path": "qr/tinkernet_node_metadata_5.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x268451624919d60bf4094c88ee66d5cc2d39f5b7fa1011a56d6893b9ef0cbd6b"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
