@@ -1175,34 +1175,6 @@
     },
     "testnet": false
   },
-  "pichiu": {
-    "title": "Pichiu",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
-    "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
-    "unit": "PCHU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pichiu.svg",
-    "decimals": 18,
-    "metadataVersion": 22,
-    "metadataQr": {
-      "path": "qr/pichiu_metadata_22.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x73ad34bfe6365e7daae6d60ffb483e1735e8a93899bec919be5ef7331c652c16"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pichiu_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pichiu_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kabocha-parachain": {
     "title": "Kabocha",
     "color": "#f53485",
