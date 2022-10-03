@@ -223,41 +223,6 @@
     },
     "testnet": false
   },
-  "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
-    "color": "#8c145a",
-    "rpcEndpoint": "wss://spiritnet.kilt.io/",
-    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "unit": "KILT",
-    "base58prefix": 38,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
-    "decimals": 15,
-    "metadataVersion": 10110,
-    "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10110.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0bb0ab4ebaa108df3c476102c3a8b11e86cb91944747d01c80dfd599e46190ea"
-      }
-    },
-    "nextMetadataVersion": 10730,
-    "nextMetadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10730.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x4976f4f06114552caf941e5856027c4e17fa49f2e05ebdf0928e2c535587eca0"
-      }
-    },
-    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
