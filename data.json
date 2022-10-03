@@ -223,41 +223,6 @@
     },
     "testnet": false
   },
-  "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
-    "color": "#8c145a",
-    "rpcEndpoint": "wss://spiritnet.kilt.io/",
-    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "unit": "KILT",
-    "base58prefix": 38,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
-    "decimals": 15,
-    "metadataVersion": 10101,
-    "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10101.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0bb0ab4ebaa108df3c476102c3a8b11e86cb91944747d01c80dfd599e46190ea"
-      }
-    },
-    "nextMetadataVersion": 10110,
-    "nextMetadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10110.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0bb0ab4ebaa108df3c476102c3a8b11e86cb91944747d01c80dfd599e46190ea"
-      }
-    },
-    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
@@ -1177,34 +1142,6 @@
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mangata-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "pichiu": {
-    "title": "Pichiu",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
-    "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
-    "unit": "PCHU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pichiu.svg",
-    "decimals": 18,
-    "metadataVersion": 23,
-    "metadataQr": {
-      "path": "qr/pichiu_metadata_23.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x25c0dc8b660d433b0a057ff6480e855b6ba8d7c2078383e27c3e0cb64c86fccc"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pichiu_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pichiu_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
