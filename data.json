@@ -1175,6 +1175,34 @@
     },
     "testnet": false
   },
+  "pichiu": {
+    "title": "Pichiu",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
+    "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
+    "unit": "PCHU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pichiu.svg",
+    "decimals": 18,
+    "metadataVersion": 25,
+    "metadataQr": {
+      "path": "qr/pichiu_metadata_25.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x2ed0e2be483b5a58ca217d0138db84587b48393d36711c807e958a0da2d78481"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/pichiu_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pichiu_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "kabocha-parachain": {
     "title": "Kabocha",
     "color": "#f53485",
@@ -1282,6 +1310,34 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://tinker.invarch.network",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "metadataVersion": 6,
+    "metadataQr": {
+      "path": "qr/tinkernet_node_metadata_6.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xf012cac558efb7b85e5de5a9770cf44d8dd951c7b8a28e5bb15cab3794f2c0c2"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
