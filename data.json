@@ -1231,34 +1231,6 @@
     },
     "testnet": false
   },
-  "bajun": {
-    "title": "Bajun",
-    "color": "#161212",
-    "rpcEndpoint": "wss://rpc-parachain.bajun.network",
-    "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
-    "unit": "BAJU",
-    "base58prefix": 1337,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
-    "decimals": 12,
-    "metadataVersion": 1,
-    "metadataQr": {
-      "path": "qr/bajun_metadata_1.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x611acbb5cb7347214fb4804e8385e8e5fd7f055873647224a5a1592b9b4261a1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bajun_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bajun_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "imbue": {
     "title": "Imbue",
     "color": "#baff36",
