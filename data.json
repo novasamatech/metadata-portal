@@ -1488,7 +1488,7 @@
     "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
     "rpcEndpoint": "wss://k-ui.kapex.network",
     "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KAPEX",
+    "unit": "KPX",
     "base58prefix": 2007,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Totem.svg",
     "decimals": 12,
