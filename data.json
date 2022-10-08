@@ -251,6 +251,34 @@
     },
     "testnet": false
   },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 3402,
+    "metadataQr": {
+      "path": "qr/calamari_metadata_3402.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xf3ae30af67239f299229d6cd8d7f1a6c1fac426db019fff82a816111a84f6fc9"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -1231,6 +1259,34 @@
     },
     "testnet": false
   },
+  "bajun": {
+    "title": "Bajun",
+    "color": "#161212",
+    "rpcEndpoint": "wss://rpc-parachain.bajun.network",
+    "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
+    "unit": "BAJU",
+    "base58prefix": 1337,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
+    "decimals": 12,
+    "metadataVersion": 14,
+    "metadataQr": {
+      "path": "qr/bajun_metadata_14.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x691bc5ad3dc65f59194bbcc03ac2b33edcff3bf50c35f3be9295520422598478"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/bajun_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "imbue": {
     "title": "Imbue",
     "color": "#baff36",
@@ -1254,6 +1310,34 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://tinker.invarch.network",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "metadataVersion": 7,
+    "metadataQr": {
+      "path": "qr/tinkernet_node_metadata_7.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x15ace122dbd39a648473d075925f0448aeef789ce55a463ddbb4152671008a7f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1404,7 +1488,7 @@
     "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
     "rpcEndpoint": "wss://k-ui.kapex.network",
     "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KAPEX",
+    "unit": "KPX",
     "base58prefix": 2007,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Totem.svg",
     "decimals": 12,
