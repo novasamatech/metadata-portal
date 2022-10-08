@@ -21,6 +21,20 @@ jobs:
       - name: ⚙ Run collector
         id: collect
         run: |
+          cargo run --release -- -c=config.toml collect
+          exit_code=$?
+          if [ $exit_code -eq 12 ]
+          then
+            echo "::set-output name=redeploy::true"
+            exit 0
+          fi
+          echo "::set-output name=redeploy::false"
+          exit $exit_code
+        shell: bash {0}
+
+      - name: ⚙ Run collector dev
+        id: collect
+        run: |
           cargo run --release -- -c=config_dev.toml collect
           exit_code=$?
           if [ $exit_code -eq 12 ]
