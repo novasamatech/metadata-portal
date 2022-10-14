@@ -195,6 +195,34 @@
     },
     "testnet": false
   },
+  "khala": {
+    "title": "Khala",
+    "color": "#03f3f3",
+    "rpcEndpoint": "wss://khala-api.phala.network/ws",
+    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+    "unit": "PHA",
+    "base58prefix": 30,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
+    "decimals": 12,
+    "metadataVersion": 1182,
+    "metadataQr": {
+      "path": "qr/khala_metadata_1182.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x2ea1a61e2b598cc64cc5e818d0f99309ec1f3176c408c83c8a52236524d7f221"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/khala_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/khala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "kilt-spiritnet": {
     "title": "KILT Spiritnet",
     "color": "#8c145a",
@@ -218,6 +246,34 @@
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 3420,
+    "metadataQr": {
+      "path": "qr/calamari_metadata_3420.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x9f827346a1c2423bc66e6778d5e599a207fcc664b93447a416c7ad72c881ec66"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1007,6 +1063,34 @@
     },
     "testnet": false
   },
+  "litentry-parachain": {
+    "title": "Litentry",
+    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
+    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
+    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+    "unit": "LIT",
+    "base58prefix": 31,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
+    "decimals": 12,
+    "metadataVersion": 9101,
+    "metadataQr": {
+      "path": "qr/litentry-parachain_metadata_9101.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa45a24decd6e1984c8b69f778f089989d91c59c78fe917c0a0a9198d9ff6efec"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litentry-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "unique": {
     "title": "UNIQUE",
     "color": "#40BCFF",
@@ -1198,6 +1282,34 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
+    "decimals": 12,
+    "metadataVersion": 1029,
+    "metadataQr": {
+      "path": "qr/imbue_metadata_1029.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc8fb3486122f915584e4c7a68855c28a017800dc4c97964350d37783f5da7bf3"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
