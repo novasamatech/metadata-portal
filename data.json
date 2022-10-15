@@ -83,34 +83,6 @@
     },
     "testnet": false
   },
-  "bifrost": {
-    "title": "Bifrost Kusama",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-rpc.liebi.com/ws",
-    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-    "unit": "UNIT",
-    "base58prefix": 6,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
-    "decimals": 0,
-    "metadataVersion": 959,
-    "metadataQr": {
-      "path": "qr/bifrost_metadata_959.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x51f48d0ad654631d0be4aa7e430413004742c43d1390e5c8c00704aeb71c4930"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "basilisk": {
     "title": "Basilisk",
     "color": "#9eec1b",
