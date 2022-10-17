@@ -1296,17 +1296,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
     "decimals": 12,
-    "metadataVersion": 1008,
+    "metadataVersion": 1029,
     "metadataQr": {
-      "path": "qr/imbue_metadata_1008.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x26fd7296430683d89f2b3cd0b15b28596fa8759210f4a85aa7c0b174025605bb"
-      }
-    },
-    "nextMetadataVersion": 1029,
-    "nextMetadataQr": {
       "path": "qr/imbue_metadata_1029.apng",
       "signedBy": "Novasama Technologies",
       "source": {
@@ -1314,6 +1305,8 @@
         "block": "0xc8fb3486122f915584e4c7a68855c28a017800dc4c97964350d37783f5da7bf3"
       }
     },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
