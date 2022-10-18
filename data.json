@@ -419,34 +419,6 @@
     },
     "testnet": false
   },
-  "statemint": {
-    "title": "Statemint",
-    "color": "#86e62a",
-    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
-    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemint.svg",
-    "decimals": 10,
-    "metadataVersion": 9270,
-    "metadataQr": {
-      "path": "qr/statemint_metadata_9270.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x5a3a1144d2775793840a07251d581d6b57ed010ca0d7a109ee8b5ceed2900706"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemint_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
