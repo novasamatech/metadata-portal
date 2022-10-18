@@ -55,6 +55,34 @@
     },
     "testnet": false
   },
+  "shiden": {
+    "title": "Shiden",
+    "color": "#5923B2",
+    "rpcEndpoint": "wss://rpc.shiden.astar.network",
+    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+    "unit": "SDN",
+    "base58prefix": 5,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
+    "decimals": 18,
+    "metadataVersion": 73,
+    "metadataQr": {
+      "path": "qr/shiden_metadata_73.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x9132a2b77f07eecf412409aec16f89b9a4436e5af092af05dc7fb7f31450aaa0"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/shiden_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bifrost": {
     "title": "Bifrost Kusama",
     "color": "#5a25f0",
@@ -419,6 +447,34 @@
     },
     "testnet": false
   },
+  "statemint": {
+    "title": "Statemint",
+    "color": "#86e62a",
+    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
+    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemint.svg",
+    "decimals": 10,
+    "metadataVersion": 9290,
+    "metadataQr": {
+      "path": "qr/statemint_metadata_9290.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1fb8c7c092b6b962946201b038d73578a5170dbf69f634feadd511c12db0bfad"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/statemint_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/statemint_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
@@ -699,29 +755,29 @@
     },
     "testnet": false
   },
-  "efinity": {
-    "title": "Efinity",
-    "color": "#496ddb",
-    "rpcEndpoint": "wss://rpc.efinity.io",
-    "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
-    "unit": "EFI",
-    "base58prefix": 1110,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg",
+  "centrifuge": {
+    "title": "Centrifuge Parachain",
+    "color": "#fcc367",
+    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
+    "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
+    "unit": "CFG",
+    "base58prefix": 36,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "metadataVersion": 3,
+    "metadataVersion": 1014,
     "metadataQr": {
-      "path": "qr/efinity_metadata_3.apng",
+      "path": "qr/centrifuge_metadata_1014.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x1ba385aeed02e629e20305e573dc6846a335ba7066ba22549e0e4db9644e9a79"
+        "block": "0xbf8b7fbe61e4942c29c8880b04459a44645195f66e8f61e619952e9bc5bcee50"
       }
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
-    "latestMetadata": "qr/efinity_metadata_latest.apng",
+    "latestMetadata": "qr/centrifuge_metadata_latest.apng",
     "specsQr": {
-      "path": "qr/efinity_specs.png",
+      "path": "qr/centrifuge_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
