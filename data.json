@@ -951,34 +951,6 @@
     },
     "testnet": false
   },
-  "node": {
-    "title": "Polkadex Solochain",
-    "color": "#7C30DD",
-    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
-    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "unit": "PDEX",
-    "base58prefix": 88,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
-    "decimals": 12,
-    "metadataVersion": 276,
-    "metadataQr": {
-      "path": "qr/node_metadata_276.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x00d5b40950017cca22a8a773c421ca9ed3ff30d0b37d4edce72b3444af5b447d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "origintrail-parachain": {
     "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
