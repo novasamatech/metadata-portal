@@ -223,34 +223,6 @@
     },
     "testnet": false
   },
-  "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
-    "color": "#8c145a",
-    "rpcEndpoint": "wss://spiritnet.kilt.io/",
-    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "unit": "KILT",
-    "base58prefix": 38,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
-    "decimals": 15,
-    "metadataVersion": 10731,
-    "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10731.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2db8ee6124e97b5de7adee7778bed28ba23ea462eab995692041c74625a60d64"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
@@ -1310,34 +1282,6 @@
     "latestMetadata": "qr/template-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/template-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "metadataVersion": 3,
-    "metadataQr": {
-      "path": "qr/amplitude_metadata_3.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7c1f3c362cdf127b2642a77dc022b18592ec8c9f52a2b1148b41f34708f77f57"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
