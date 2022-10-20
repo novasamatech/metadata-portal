@@ -1063,34 +1063,6 @@
     },
     "testnet": false
   },
-  "litentry-parachain": {
-    "title": "Litentry",
-    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
-    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
-    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-    "unit": "LIT",
-    "base58prefix": 31,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
-    "decimals": 12,
-    "metadataVersion": 9101,
-    "metadataQr": {
-      "path": "qr/litentry-parachain_metadata_9101.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa45a24decd6e1984c8b69f778f089989d91c59c78fe917c0a0a9198d9ff6efec"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litentry-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "unique": {
     "title": "UNIQUE",
     "color": "#40BCFF",
