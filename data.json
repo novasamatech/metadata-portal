@@ -979,34 +979,6 @@
     },
     "testnet": false
   },
-  "node": {
-    "title": "Polkadex Solochain",
-    "color": "#7C30DD",
-    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
-    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "unit": "PDEX",
-    "base58prefix": 88,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
-    "decimals": 12,
-    "metadataVersion": 277,
-    "metadataQr": {
-      "path": "qr/node_metadata_277.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xb16016ed170c71cf7d6a14071ab2511723cef9b2f14fe8ef11b68d535406fda2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "origintrail-parachain": {
     "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
@@ -1114,34 +1086,6 @@
     "latestMetadata": "qr/unique_metadata_latest.apng",
     "specsQr": {
       "path": "qr/unique_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "dora ksm parachain": {
-    "title": "Dora Factory",
-    "color": "#FF761C",
-    "rpcEndpoint": "wss://kusama.dorafactory.org",
-    "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
-    "unit": "DORA",
-    "base58prefix": 128,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg",
-    "decimals": 12,
-    "metadataVersion": 30,
-    "metadataQr": {
-      "path": "qr/dora ksm parachain_metadata_30.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa73dfd12e01872ccb6a1906e26d148bcc68328cde8ca3297c9a7d4c9c6de5a01"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/dora ksm parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1366,41 +1310,6 @@
     "latestMetadata": "qr/template-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/template-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://pencol-kus-01.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "metadataVersion": 1,
-    "metadataQr": {
-      "path": "qr/amplitude_metadata_1.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf"
-      }
-    },
-    "nextMetadataVersion": 3,
-    "nextMetadataQr": {
-      "path": "qr/amplitude_metadata_3.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7c1f3c362cdf127b2642a77dc022b18592ec8c9f52a2b1148b41f34708f77f57"
-      }
-    },
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
