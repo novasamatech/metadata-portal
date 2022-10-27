@@ -839,34 +839,6 @@
     },
     "testnet": false
   },
-  "interlay-parachain": {
-    "title": "Interlay",
-    "color": "#3E96FF",
-    "rpcEndpoint": "wss://api.interlay.io/parachain",
-    "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-    "unit": "UNIT",
-    "base58prefix": 2032,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
-    "decimals": 0,
-    "metadataVersion": 1018000,
-    "metadataQr": {
-      "path": "qr/interlay-parachain_metadata_1018000.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe98f259677550304d0ce058bb1e6ff4f3de2d1a285fe54c456e95aa34e4abd92"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/interlay-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "nodle-para": {
     "title": "Nodle Parachain",
     "color": "#1ab394",
