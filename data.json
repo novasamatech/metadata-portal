@@ -195,34 +195,6 @@
     },
     "testnet": false
   },
-  "khala": {
-    "title": "Khala",
-    "color": "#03f3f3",
-    "rpcEndpoint": "wss://khala-api.phala.network/ws",
-    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
-    "decimals": 12,
-    "metadataVersion": 1182,
-    "metadataQr": {
-      "path": "qr/khala_metadata_1182.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2ea1a61e2b598cc64cc5e818d0f99309ec1f3176c408c83c8a52236524d7f221"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/khala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/khala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kilt-spiritnet": {
     "title": "KILT Spiritnet",
     "color": "#8c145a",
@@ -974,6 +946,34 @@
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "node": {
+    "title": "Polkadex Solochain",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "metadataVersion": 279,
+    "metadataQr": {
+      "path": "qr/node_metadata_279.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x51522e96a74d6c4ab3a590c4717bfceef941dc802cddbf18f2c2adfc8327cf9e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
