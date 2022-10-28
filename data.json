@@ -1175,34 +1175,6 @@
     },
     "testnet": false
   },
-  "kabocha-parachain": {
-    "title": "Kabocha",
-    "color": "#f53485",
-    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
-    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
-    "unit": "KAB",
-    "base58prefix": 27,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg",
-    "decimals": 12,
-    "metadataVersion": 25,
-    "metadataQr": {
-      "path": "qr/kabocha-parachain_metadata_25.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xaf0aa325485a9e82cff76b8ab118196b46da8d4cfd3c14f3e51764ed35f8cf58"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "datahighway-parachain": {
     "title": "Tanganika",
     "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
