@@ -224,7 +224,7 @@
     "testnet": false
   },
   "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
+    "title": "KILT",
     "color": "#8c145a",
     "rpcEndpoint": "wss://spiritnet.kilt.io/",
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
