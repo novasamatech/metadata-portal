@@ -224,7 +224,7 @@
     "testnet": false
   },
   "kilt-spiritnet": {
-    "title": "KILT Spiritnet",
+    "title": "KILT",
     "color": "#8c145a",
     "rpcEndpoint": "wss://spiritnet.kilt.io/",
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
@@ -1374,7 +1374,7 @@
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
-    "rpcEndpoint": "wss://rpc.pendulumchain.tech",
+    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
     "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
     "unit": "AMPE",
     "base58prefix": 57,
