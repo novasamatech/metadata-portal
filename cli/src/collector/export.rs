@@ -8,8 +8,8 @@ use log::{info, warn};
 
 use crate::export::{ExportChainSpec, ExportData, QrCode, ReactAssetPath};
 use crate::fetch::Fetcher;
-use crate::utils::path::QrPath;
 use crate::qrs::{extract_metadata_qr, find_metadata_qrs, find_spec_qrs, next_metadata_version};
+use crate::utils::path::QrPath;
 use crate::AppConfig;
 
 pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<ExportData> {

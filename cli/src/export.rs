@@ -5,9 +5,9 @@ use anyhow::{Context, Result};
 use indexmap::IndexMap;
 use serde::{Deserialize, Serialize};
 
+use crate::source::{read_png_source, Source};
 use crate::utils::path::QrPath;
 use crate::utils::types::ChainName;
-use crate::source::{read_png_source, Source};
 use crate::AppConfig;
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
