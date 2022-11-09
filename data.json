@@ -1,4 +1,89 @@
 {
+  "polkadot": {
+    "title": "Polkadot",
+    "color": "#e6007a",
+    "rpcEndpoint": "wss://polkadot.api.onfinality.io/public-ws",
+    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot.svg",
+    "decimals": 10,
+    "metadataVersion": 9291,
+    "metadataQr": {
+      "path": "qr/polkadot_metadata_9291.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8b4ce23397cc72bd8dc288718719233d7104e5a80670b00c371fd205a21f3535"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kusama": {
+    "title": "Kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kusama.api.onfinality.io/public-ws",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama.svg",
+    "decimals": 12,
+    "metadataVersion": 9300,
+    "metadataQr": {
+      "path": "qr/kusama_metadata_9300.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0xecf26101d8930738f4a769dbe904e6743a0e0d4e7319046b963e3dbc47037d74"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": false
+  },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "metadataVersion": 9310,
+    "metadataQr": {
+      "path": "qr/westend_metadata_9310.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0xea16e34b4ebc1edb11b35b9c8ab304a488735d0cee0df9c8daef8883c1d62105"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true
+  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
