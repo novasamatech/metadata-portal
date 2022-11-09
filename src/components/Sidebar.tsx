@@ -24,22 +24,22 @@ const searchStringInArray = (str: string, allChains: Chains) => {
       (allChains[a].testnet && allChains[b].testnet) ||
       (!allChains[a].testnet && !allChains[b].testnet)
     ) {
-      if (a == 'polkadot') {
+      if (a == "polkadot") {
         return -100;
       }
-      if (b == 'polkadot') {
+      if (b == "polkadot") {
         return 1;
       }
-      if (a == 'kusama') {
+      if (a == "kusama") {
         return -50;
       }
-      if (b == 'kusama') {
+      if (b == "kusama") {
         return 1;
       }
-      if (a == 'westend') {
+      if (a == "westend") {
         return -10;
       }
-      if (b == 'westend') {
+      if (b == "westend") {
         return 1;
       }
       return allChains[a].title.localeCompare(allChains[b].title);
@@ -66,22 +66,22 @@ export default function Sidebar({
         (allChains[a].testnet && allChains[b].testnet) ||
         (!allChains[a].testnet && !allChains[b].testnet)
       ) {
-        if (a == 'polkadot') {
+        if (a == "polkadot") {
           return -100;
         }
-        if (b == 'polkadot') {
+        if (b == "polkadot") {
           return 1;
         }
-        if (a == 'kusama') {
+        if (a == "kusama") {
           return -50;
         }
-        if (b == 'kusama') {
+        if (b == "kusama") {
           return 1;
         }
-        if (a == 'westend') {
+        if (a == "westend") {
           return -10;
         }
-        if (b == 'westend') {
+        if (b == "westend") {
           return 1;
         }
         return allChains[a].title.localeCompare(allChains[b].title);
