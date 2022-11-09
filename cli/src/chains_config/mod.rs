@@ -52,7 +52,7 @@ const EXCLUDE_CHAINS: [&str; 9] = [
 
 pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
     let template_path = Path::new("config-template.toml");
-    let config_template_toml = fs::read_to_string(&template_path)?;
+    let config_template_toml = fs::read_to_string(template_path)?;
     let config_template = toml::from_str::<ConfigTemplate>(config_template_toml.as_str())?;
 
     let chain_params = match chains_opts.env.as_str() {
