@@ -43,7 +43,7 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
 
         let next_metadata_qr = next_version
             .map(|v| extract_metadata_qr(&metadata_qrs, &chain.name, &v).unwrap())
-            .map(|qr| QrCode::from_qr_path(config, qr).unwrap());
+            .map(|qr| QrCode::from_qr_path(config, qr, &chain.verifier).unwrap());
         let latest_meta = update_pointer_to_latest_metadata(&metadata_qr)?;
         export_specs.insert(
             chain.name.clone(),
@@ -56,8 +56,8 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
                 icon: chain.icon.clone(),
                 decimals: specs.decimals,
                 base58prefix: specs.base58prefix,
-                metadata_qr: QrCode::from_qr_path(config, metadata_qr)?,
-                specs_qr: QrCode::from_qr_path(config, specs_qr)?,
+                metadata_qr: QrCode::from_qr_path(config, metadata_qr, &chain.verifier)?,
+                specs_qr: QrCode::from_qr_path(config, specs_qr, &chain.verifier)?,
                 next_metadata_version: next_version,
                 next_metadata_qr,
                 metadata_version: active_version,
