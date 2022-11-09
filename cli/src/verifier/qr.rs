@@ -12,8 +12,8 @@ use log::info;
 use transaction_parsing::check_signature::pass_crypto;
 
 use crate::config::Verifier;
-use crate::lib::camera::read_qr_file;
-use crate::lib::path::{ContentType, QrFileName, QrPath};
+use crate::utils::camera::read_qr_file;
+use crate::utils::path::{ContentType, QrFileName, QrPath};
 use crate::qrs::qrs_in_dir;
 use crate::AppConfig;
 

@@ -15,7 +15,7 @@ use log::info;
 use sp_core::bytes::to_hex;
 use sp_core::{sr25519, ByteArray, Pair, H256};
 
-use crate::lib::path::{ContentType, QrFileName};
+use crate::utils::path::{ContentType, QrFileName};
 
 pub(crate) fn generate_metadata_qr(
     meta_values: &MetaValues,

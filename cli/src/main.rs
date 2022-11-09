@@ -7,7 +7,7 @@ mod config;
 mod deployment_checker;
 mod export;
 mod fetch;
-mod lib;
+mod utils;
 mod opts;
 mod qrs;
 mod signer;
