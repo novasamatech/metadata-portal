@@ -420,34 +420,6 @@
     },
     "testnet": false
   },
-  "acala": {
-    "title": "Acala",
-    "color": "#645AFF",
-    "rpcEndpoint": "wss://acala-rpc.dwellir.com",
-    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-    "unit": "UNIT",
-    "base58prefix": 10,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Acala.svg",
-    "decimals": 0,
-    "metadataVersion": 2096,
-    "metadataQr": {
-      "path": "qr/acala_metadata_2096.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe67e764d7a1175ff2c21d4d7d1dbb5426f16bfb22e529fc59e716c47bcde2fc2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/acala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/acala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "astar": {
     "title": "Astar",
     "color": "#1b6dc1d9",
