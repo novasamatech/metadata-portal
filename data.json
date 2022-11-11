@@ -196,34 +196,6 @@
     },
     "testnet": false
   },
-  "altair": {
-    "title": "Altair",
-    "color": "#ffb700",
-    "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
-    "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
-    "unit": "AIR",
-    "base58prefix": 136,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Altair.svg",
-    "decimals": 18,
-    "metadataVersion": 1021,
-    "metadataQr": {
-      "path": "qr/altair_metadata_1021.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xd1855f572a399ae7a00228e7eb917bc0a246d5abfb6140b10a52896ea157d413"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/altair_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/altair_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "heiko": {
     "title": "Parallel Heiko",
     "color": "#42d5de",
