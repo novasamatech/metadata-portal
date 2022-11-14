@@ -730,6 +730,34 @@
     },
     "testnet": false
   },
+  "crab parachain": {
+    "title": "Crab",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://crab-parachain-rpc.darwinia.network/",
+    "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
+    "decimals": 18,
+    "metadataVersion": 5350,
+    "metadataQr": {
+      "path": "qr/crab parachain_metadata_5350.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x976b208b122c85fc415f3579d5289da9e696f5066ca28f5b643e8cec6e85fce3"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crab parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
