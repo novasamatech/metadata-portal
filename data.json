@@ -758,6 +758,34 @@
     },
     "testnet": false
   },
+  "crust-collator": {
+    "title": "Crust Shadow",
+    "color": "#ff8812",
+    "rpcEndpoint": "wss://rpc2-shadow.crust.network/",
+    "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
+    "unit": "CSM",
+    "base58prefix": 66,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust_Shadow.svg",
+    "decimals": 12,
+    "metadataVersion": 15,
+    "metadataQr": {
+      "path": "qr/crust-collator_metadata_15.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x12961a8a3c0a9a4d576632a3f4de6cb77969dc35e9767d88b27d6e4bfde38620"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crust-collator_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crust-collator_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "integritee-parachain": {
     "title": "Integritee Parachain",
     "color": "#658ea9",
