@@ -142,6 +142,34 @@
     },
     "testnet": false
   },
+  "shiden": {
+    "title": "Shiden",
+    "color": "#5923B2",
+    "rpcEndpoint": "wss://rpc.shiden.astar.network",
+    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+    "unit": "SDN",
+    "base58prefix": 5,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
+    "decimals": 18,
+    "metadataVersion": 79,
+    "metadataQr": {
+      "path": "qr/shiden_metadata_79.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xd38856dc1ae25eacd2a20e2116aadbf5c8da7b3e4882e9f431b9865906872a2d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/shiden_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bifrost": {
     "title": "Bifrost Kusama",
     "color": "#5a25f0",
@@ -1621,6 +1649,34 @@
     "latestMetadata": "qr/snow_metadata_latest.apng",
     "specsQr": {
       "path": "qr/snow_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "metadataVersion": 4,
+    "metadataQr": {
+      "path": "qr/ipci_metadata_4.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb57aa71a634f08e6833e171e50e8bb90bd642d1a8cd1316a3ac771d96b6fdf84"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
