@@ -1318,34 +1318,6 @@
     },
     "testnet": false
   },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 6,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_6.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1481,6 +1453,34 @@
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "mainnet": {
+    "title": "Ternoa",
+    "color": "#d622ff",
+    "rpcEndpoint": "wss://mainnet.ternoa.network",
+    "genesisHash": "0x6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
+    "unit": "CAPS",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa.svg",
+    "decimals": 18,
+    "metadataVersion": 11,
+    "metadataQr": {
+      "path": "qr/mainnet_metadata_11.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xbcfe06ecf5707418897ffcb7c93b0f198323a12033b5ec684cb4dbee41083655"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mainnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
