@@ -1486,34 +1486,6 @@
     },
     "testnet": false
   },
-  "mainnet": {
-    "title": "Ternoa",
-    "color": "#d622ff",
-    "rpcEndpoint": "wss://mainnet.ternoa.network",
-    "genesisHash": "0x6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
-    "unit": "CAPS",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa.svg",
-    "decimals": 18,
-    "metadataVersion": 9,
-    "metadataQr": {
-      "path": "qr/mainnet_metadata_9.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x9f20aa871c9fe2cfa431cfed5ca39b41190ba8b138d7ef9180dbc3b610db3178"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kylin": {
     "title": "Kylin",
     "color": "#ed007e",
