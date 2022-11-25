@@ -57,6 +57,34 @@
     },
     "testnet": false
   },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "metadataVersion": 9330,
+    "metadataQr": {
+      "path": "qr/westend_metadata_9330.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa2bf186056fd112b1f8948666633a8775b395184c6d17ba9773f6ea31911938d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true
+  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
@@ -612,34 +640,6 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 10002,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_10002.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1e2950bcdc3b3fa5d95ae4e70a9046140ebe5e9dba373ac7a020bd147cca6aad"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
