@@ -757,34 +757,6 @@
     },
     "testnet": false
   },
-  "subsocial-parachain": {
-    "title": "Subsocial",
-    "color": "#69058C",
-    "rpcEndpoint": "wss://para.f3joule.space/",
-    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
-    "decimals": 10,
-    "metadataVersion": 16,
-    "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_16.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0e92b9291fb6774b2c87a1756bb15e7950166c204d24f3915de8c1967a8df8b4"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
