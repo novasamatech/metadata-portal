@@ -312,6 +312,14 @@ qr_dir = "public/qr"
   name = "Ipci"
   color = "#800742"
 
+  [chains."Myriad"]
+  name = "appchain"
+  color = "#7342CC"
+
+  [chains."XX network"]
+  name = "xxnetwork"
+  color = "#0F364A"
+
   # Test networks
   [chains."Westend"]
   name = "westend"
@@ -371,7 +379,3 @@ qr_dir = "public/qr"
   [chains."Beresheet"]
   name = "Beresheet_v46"
   color = "#111111"
-
-  [chains."Myriad"]
-  name = "appchain"
-  color = "#7342CC"
