@@ -704,7 +704,7 @@
   "subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
-    "rpcEndpoint": "wss://para.f3joule.space/",
+    "rpcEndpoint": "wss://para.f3joule.space",
     "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
     "unit": "SUB",
     "base58prefix": 28,
@@ -1261,34 +1261,6 @@
     },
     "testnet": false
   },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 6,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_6.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1620,6 +1592,62 @@
     "latestMetadata": "qr/ipci_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ipci_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "appchain": {
+    "title": "Myriad",
+    "color": "#7342CC",
+    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
+    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
+    "unit": "MYRIA",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
+    "decimals": 18,
+    "metadataVersion": 2019,
+    "metadataQr": {
+      "path": "qr/appchain_metadata_2019.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc140b0b9cd674e709b4612ee02f9b11826417ba2d2c409532395bbdaf5c58cd5"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/appchain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/appchain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "xxnetwork": {
+    "title": "XX network",
+    "color": "#0F364A",
+    "rpcEndpoint": "wss://rpc.xx.network",
+    "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
+    "unit": "xx",
+    "base58prefix": 55,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/XX_network.svg",
+    "decimals": 9,
+    "metadataVersion": 205,
+    "metadataQr": {
+      "path": "qr/xxnetwork_metadata_205.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xef3b4833aae30b48ece9906402df0698efc3ac7e0eda309008f494aa9b001df1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/xxnetwork_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
