@@ -44,10 +44,10 @@ const EXCLUDE_CHAINS: [&str; 9] = [
     "Edgeware",           //TODO (MetadataError(NoVersionInConstants))
     "KICO",               //TODO Specs(Base58PrefixMismatch { specs: 51, meta: 42 })
     "Composable Finance", //TODO  Specs(Base58PrefixMismatch { specs: 50, meta: 49 })
-    "Moonbeam",               //uncomment after PS release
-    "Moonriver",              //uncomment after PS release
+    "Moonbeam",           //uncomment after PS release
+    "Moonriver",          //uncomment after PS release
     "Moonbase Relay Testnet", //uncomment after PS release
-    "Moonbase Alpha"          //uncomment after PS release
+    "Moonbase Alpha",     //uncomment after PS release
 ];
 
 pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
