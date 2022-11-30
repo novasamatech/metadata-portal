@@ -365,6 +365,34 @@
     },
     "testnet": false
   },
+  "quartz": {
+    "title": "QUARTZ",
+    "color": "#FF4D6A",
+    "rpcEndpoint": "wss://quartz.api.onfinality.io/public-ws",
+    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "unit": "QTZ",
+    "base58prefix": 255,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Quartz.svg",
+    "decimals": 18,
+    "metadataVersion": 924013,
+    "metadataQr": {
+      "path": "qr/quartz_metadata_924013.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa5aac9b3f1206d684d29b4973f3ef8877e43bd6f75ff869a219adc43795f951f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/quartz_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/quartz_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "pioneer-runtime": {
     "title": "Bit.Country Pioneer",
     "color": "#000000",
@@ -1004,34 +1032,6 @@
     "latestMetadata": "qr/turing_metadata_latest.apng",
     "specsQr": {
       "path": "qr/turing_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "aleph-node": {
-    "title": "Aleph Zero",
-    "color": "#00CCAB",
-    "rpcEndpoint": "wss://ws.azero.dev",
-    "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
-    "unit": "AZERO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
-    "decimals": 12,
-    "metadataVersion": 12,
-    "metadataQr": {
-      "path": "qr/aleph-node_metadata_12.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8a1acd751bd8478efe02003608efa7bb1630752c29505b5eb4ab8890fffb5923"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/aleph-node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/aleph-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
