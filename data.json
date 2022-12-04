@@ -505,6 +505,34 @@
     },
     "testnet": false
   },
+  "clover-mainnet": {
+    "title": "CLV Parachain",
+    "color": "linear-gradient(to right, #52ad75, #7cc773)",
+    "rpcEndpoint": "wss://rpc-para.clover.finance",
+    "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
+    "unit": "CLV",
+    "base58prefix": 128,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
+    "decimals": 18,
+    "metadataVersion": 25,
+    "metadataQr": {
+      "path": "qr/clover-mainnet_metadata_25.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x182eac2e062838e2f2b3ddb7f64f9157c5b445f0cb59bfc3c8cc96a36900083c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/clover-mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/clover-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "statemint": {
     "title": "Statemint",
     "color": "#86e62a",
@@ -1284,34 +1312,6 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 6,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_6.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
