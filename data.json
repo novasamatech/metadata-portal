@@ -1177,34 +1177,6 @@
     },
     "testnet": false
   },
-  "unique": {
-    "title": "UNIQUE",
-    "color": "#40BCFF",
-    "rpcEndpoint": "wss://eu-ws.unique.network/",
-    "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
-    "unit": "UNQ",
-    "base58prefix": 7391,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Unique.svg",
-    "decimals": 18,
-    "metadataVersion": 924010,
-    "metadataQr": {
-      "path": "qr/unique_metadata_924010.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x949b9e56a757f21fbd8d78b9e5c37ff62ad8c02c2db4decceec0d7caa0e18722"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/unique_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/unique_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "dora ksm parachain": {
     "title": "Dora Factory",
     "color": "#FF761C",
