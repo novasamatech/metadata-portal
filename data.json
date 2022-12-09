@@ -28,6 +28,35 @@
     },
     "testnet": false
   },
+  "kusama": {
+    "title": "Kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kusama.api.onfinality.io/public-ws",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama.svg",
+    "decimals": 12,
+    "metadataVersion": 9340,
+    "metadataQr": {
+      "path": "qr/kusama_metadata_9340.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0xc1067b95ba2d78cadd57d0b376ef6f99c4957e5a997d16f5a5a6ef3ff655deec"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": false
+  },
   "westend": {
     "title": "Westend",
     "color": "#f27230",
@@ -331,6 +360,34 @@
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "quartz": {
+    "title": "QUARTZ",
+    "color": "#FF4D6A",
+    "rpcEndpoint": "wss://quartz.api.onfinality.io/public-ws",
+    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "unit": "QTZ",
+    "base58prefix": 255,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Quartz.svg",
+    "decimals": 18,
+    "metadataVersion": 930033,
+    "metadataQr": {
+      "path": "qr/quartz_metadata_930033.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb0426728c5004892859da6d188bbec42c8f395cde577b8ef971e0df00a4ac3d5"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/quartz_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/quartz_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1227,6 +1284,34 @@
     "latestMetadata": "qr/pichiu_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pichiu_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kabocha-parachain": {
+    "title": "Kabocha",
+    "color": "#f53485",
+    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
+    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+    "unit": "KAB",
+    "base58prefix": 27,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg",
+    "decimals": 12,
+    "metadataVersion": 28,
+    "metadataQr": {
+      "path": "qr/kabocha-parachain_metadata_28.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kabocha-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
