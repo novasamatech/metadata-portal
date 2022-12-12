@@ -368,7 +368,7 @@
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
-    "rpcEndpoint": "wss://quartz.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://quartz.unique.network",
     "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
     "unit": "QTZ",
     "base58prefix": 255,
