@@ -57,34 +57,6 @@
     },
     "testnet": false
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "metadataVersion": 9340,
-    "metadataQr": {
-      "path": "qr/westend_metadata_9340.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Rpc",
-        "block": "0x6a44add6d84c9f1bc8c5d91821749deb624c6a9b2a926b1572b536c91b45fd90"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true
-  },
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
@@ -757,34 +729,6 @@
     },
     "testnet": false
   },
-  "subsocial-parachain": {
-    "title": "Subsocial",
-    "color": "#69058C",
-    "rpcEndpoint": "wss://para.f3joule.space",
-    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
-    "decimals": 10,
-    "metadataVersion": 17,
-    "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_17.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x09bf256adc3d9834cd7c2df273f99e6372538b0e699e8caf82c74eef82837de6"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
@@ -1312,34 +1256,6 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://tinker.invarch.network",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "metadataVersion": 14,
-    "metadataQr": {
-      "path": "qr/tinkernet_node_metadata_14.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xfe38ff65a718794396ca814d37bed53e296a63e06d3d3121659349d3f73be8be"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
