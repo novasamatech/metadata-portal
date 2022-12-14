@@ -57,6 +57,34 @@
     },
     "testnet": false
   },
+  "statemine": {
+    "title": "Statemine",
+    "color": "#113911",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
+    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
+    "decimals": 12,
+    "metadataVersion": 9330,
+    "metadataQr": {
+      "path": "qr/statemine_metadata_9330.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb6108c79d6309ae536128f6a4036bddfd80744c3c5753fc50d3b0655b1c95bd6"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/statemine_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/statemine_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
@@ -729,6 +757,34 @@
     },
     "testnet": false
   },
+  "subsocial-parachain": {
+    "title": "Subsocial",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.f3joule.space",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
+    "decimals": 10,
+    "metadataVersion": 18,
+    "metadataQr": {
+      "path": "qr/subsocial-parachain_metadata_18.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x86d7663d62445bf0c66ca1c5724a351ccc1ffdebe161a2c5e13b2b68b352b4f3"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#ff8812",
@@ -981,6 +1037,34 @@
     },
     "testnet": false
   },
+  "aleph-node": {
+    "title": "Aleph Zero",
+    "color": "#00CCAB",
+    "rpcEndpoint": "wss://ws.azero.dev",
+    "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
+    "unit": "AZERO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
+    "decimals": 12,
+    "metadataVersion": 46,
+    "metadataQr": {
+      "path": "qr/aleph-node_metadata_46.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8399769b87388419cfcee7bdbb388f9f47cf8b169f70d8a26eb1afd61cbba482"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/aleph-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/aleph-node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "node": {
     "title": "Polkadex Solochain",
     "color": "#7C30DD",
@@ -1144,6 +1228,34 @@
     "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dora ksm parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "mangata-parachain": {
+    "title": "Mangata X",
+    "color": "#030408",
+    "rpcEndpoint": "wss://prod-kusama-collator-01.mangatafinance.cloud",
+    "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+    "unit": "MGX",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/MangataX.svg",
+    "decimals": 18,
+    "metadataVersion": 11,
+    "metadataQr": {
+      "path": "qr/mangata-parachain_metadata_11.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x155cf7e37b15485823163bcbcf6ad0a2cfb0d40b1aa1f6df4116d1cd5d20b878"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mangata-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
