@@ -85,34 +85,6 @@
     },
     "testnet": true
   },
-  "statemine": {
-    "title": "Statemine",
-    "color": "#113911",
-    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
-    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
-    "decimals": 12,
-    "metadataVersion": 9320,
-    "metadataQr": {
-      "path": "qr/statemine_metadata_9320.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc38796adbf186f064bf5e6f88b5709cf3c38f6b8192171352daad2bc25cb9389"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemine_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemine_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
@@ -276,6 +248,34 @@
     "latestMetadata": "qr/heiko_metadata_latest.apng",
     "specsQr": {
       "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "edgeware": {
+    "title": "Edgeware",
+    "color": "#111111",
+    "rpcEndpoint": "wss://edgeware.api.onfinality.io/public-ws",
+    "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+    "unit": "EDG",
+    "base58prefix": 7,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Edgeware.svg",
+    "decimals": 18,
+    "metadataVersion": 53,
+    "metadataQr": {
+      "path": "qr/edgeware_metadata_53.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x83e6337ce2d0014940e4b854bcba7e785ae616640317793c1595298bfd1f73bc"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/edgeware_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/edgeware_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
