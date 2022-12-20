@@ -592,7 +592,7 @@
   "encointer-parachain": {
     "title": "Encointer",
     "color": "#0000cc",
-    "rpcEndpoint": "wss://encointer.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://api.kusama.encointer.org",
     "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
     "unit": "KSM",
     "base58prefix": 2,
