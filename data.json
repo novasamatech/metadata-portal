@@ -169,34 +169,6 @@
     },
     "testnet": false
   },
-  "bifrost": {
-    "title": "Bifrost Kusama",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-rpc.liebi.com/ws",
-    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-    "unit": "UNIT",
-    "base58prefix": 6,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
-    "decimals": 0,
-    "metadataVersion": 966,
-    "metadataQr": {
-      "path": "qr/bifrost_metadata_966.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x245209ee5751200a9a90e519b9f59bc6187e843593b0916835fc5b7da5371b29"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "basilisk": {
     "title": "Basilisk",
     "color": "#9eec1b",
@@ -1648,34 +1620,6 @@
     "latestMetadata": "qr/ipci_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ipci_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "appchain": {
-    "title": "Myriad",
-    "color": "#7342CC",
-    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
-    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
-    "unit": "MYRIA",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
-    "decimals": 18,
-    "metadataVersion": 2019,
-    "metadataQr": {
-      "path": "qr/appchain_metadata_2019.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc140b0b9cd674e709b4612ee02f9b11826417ba2d2c409532395bbdaf5c58cd5"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/appchain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/appchain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
