@@ -617,34 +617,6 @@
     },
     "testnet": false
   },
-  "encointer-parachain": {
-    "title": "Encointer",
-    "color": "#0000cc",
-    "rpcEndpoint": "wss://api.kusama.encointer.org",
-    "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Encointer.svg",
-    "decimals": 12,
-    "metadataVersion": 8,
-    "metadataQr": {
-      "path": "qr/encointer-parachain_metadata_8.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xdc0dc51710b89c4c214e87220e24352181149a3ee18e3ac8459440bde6667774"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/encointer-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kintsugi-parachain": {
     "title": "Kintsugi",
     "color": "#1a0a2d",
@@ -668,34 +640,6 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 10002,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_10002.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1e2950bcdc3b3fa5d95ae4e70a9046140ebe5e9dba373ac7a020bd147cca6aad"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
