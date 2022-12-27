@@ -280,34 +280,6 @@
     },
     "testnet": false
   },
-  "khala": {
-    "title": "Khala",
-    "color": "#03f3f3",
-    "rpcEndpoint": "wss://khala-api.phala.network/ws",
-    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
-    "decimals": 12,
-    "metadataVersion": 1201,
-    "metadataQr": {
-      "path": "qr/khala_metadata_1201.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa6e43851e96d772b023d7eb08134ffbeea9624c458cba6b3cb63fdb2d3faabb1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/khala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/khala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kilt-spiritnet": {
     "title": "KILT",
     "color": "#8c145a",
