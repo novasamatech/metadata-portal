@@ -1317,34 +1317,6 @@
     },
     "testnet": false
   },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 6,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_6.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1592,6 +1564,34 @@
     "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/totem-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "polymesh_mainnet": {
+    "title": "Polymesh",
+    "color": "#1348e4",
+    "rpcEndpoint": "wss://mainnet-rpc.polymesh.network",
+    "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
+    "unit": "POLYX",
+    "base58prefix": 12,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
+    "decimals": 6,
+    "metadataVersion": 5001010,
+    "metadataQr": {
+      "path": "qr/polymesh_mainnet_metadata_5001010.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x74f5e5abcd2c4363bed6d2b694344b06f9ef6ece441c6c6990dda5ddadfa31f8"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polymesh_mainnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
