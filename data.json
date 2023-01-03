@@ -1177,34 +1177,6 @@
     },
     "testnet": false
   },
-  "litentry-parachain": {
-    "title": "Litentry",
-    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
-    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
-    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-    "unit": "LIT",
-    "base58prefix": 31,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
-    "decimals": 12,
-    "metadataVersion": 9120,
-    "metadataQr": {
-      "path": "qr/litentry-parachain_metadata_9120.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x3a608ee1656723a4ac13d071a27a2600af1557ded93123c6184f619e4ba6a4d6"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litentry-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "unique": {
     "title": "UNIQUE",
     "color": "#40BCFF",
@@ -1620,34 +1592,6 @@
     "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/totem-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "polymesh_mainnet": {
-    "title": "Polymesh",
-    "color": "#1348e4",
-    "rpcEndpoint": "wss://mainnet-rpc.polymesh.network",
-    "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
-    "unit": "POLYX",
-    "base58prefix": 12,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
-    "decimals": 6,
-    "metadataVersion": 5001002,
-    "metadataQr": {
-      "path": "qr/polymesh_mainnet_metadata_5001002.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x534af56914dc2c52cfaabfa1a28562c19dc108af1da3ed03139bae92f58c2e10"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polymesh_mainnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
