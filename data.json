@@ -925,6 +925,34 @@
     },
     "testnet": false
   },
+  "hydradx": {
+    "title": "HydraDX",
+    "color": "#f653a2",
+    "rpcEndpoint": "wss://rpc.hydradx.cloud",
+    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "unit": "HDX",
+    "base58prefix": 63,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
+    "decimals": 12,
+    "metadataVersion": 123,
+    "metadataQr": {
+      "path": "qr/hydradx_metadata_123.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa22420c2eb19a681d62ac848404a3adc676a1b039500ff0eef85031b1b14f32c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/hydradx_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/hydradx_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "interlay-parachain": {
     "title": "Interlay",
     "color": "#3E96FF",
@@ -1144,6 +1172,34 @@
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "litentry-parachain": {
+    "title": "Litentry",
+    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
+    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
+    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+    "unit": "LIT",
+    "base58prefix": 31,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
+    "decimals": 12,
+    "metadataVersion": 9135,
+    "metadataQr": {
+      "path": "qr/litentry-parachain_metadata_9135.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x198a271aa6f99b7187eaa8c30995e2464b855cbd156a1fa4e2fc22f1b9f3ff02"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litentry-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
