@@ -925,34 +925,6 @@
     },
     "testnet": false
   },
-  "interlay-parachain": {
-    "title": "Interlay",
-    "color": "#3E96FF",
-    "rpcEndpoint": "wss://api.interlay.io/parachain",
-    "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-    "unit": "UNIT",
-    "base58prefix": 2032,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
-    "decimals": 0,
-    "metadataVersion": 1019000,
-    "metadataQr": {
-      "path": "qr/interlay-parachain_metadata_1019000.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xcccea6c9a8b8a096330a88e8d9f1adce1e892b55eaa57c5ede93557cf4c84db0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/interlay-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "nodle-para": {
     "title": "Nodle Parachain",
     "color": "#1ab394",
@@ -1317,6 +1289,34 @@
     },
     "testnet": false
   },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 6,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_6.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1340,6 +1340,34 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
+    "decimals": 12,
+    "metadataVersion": 1031,
+    "metadataQr": {
+      "path": "qr/imbue_metadata_1031.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe00d5e645f18b0081fa373cd69d17b5620b007bb779724eb88109eaba787409c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
