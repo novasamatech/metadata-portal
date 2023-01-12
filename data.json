@@ -869,34 +869,6 @@
     },
     "testnet": false
   },
-  "efinity": {
-    "title": "Efinity",
-    "color": "#496ddb",
-    "rpcEndpoint": "wss://rpc.efinity.io",
-    "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
-    "unit": "EFI",
-    "base58prefix": 1110,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg",
-    "decimals": 18,
-    "metadataVersion": 3000,
-    "metadataQr": {
-      "path": "qr/efinity_metadata_3000.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x908e7dca3a8fc8e1fb9aa22dac3aa40c5d3af60ab564315815ca242989d48d0f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/efinity_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/efinity_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "hydradx": {
     "title": "HydraDX",
     "color": "#f653a2",
