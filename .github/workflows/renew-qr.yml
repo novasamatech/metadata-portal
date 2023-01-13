@@ -39,6 +39,14 @@ jobs:
           else echo "Spec and Genesis haven't changed"
           fi
           
+      - name: "Install: Nightly toolchain"
+        if: ${{ steps.compare.outputs.metaChanged == 'true' }}
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          target: wasm32-unknown-unknown
+          components: llvm-tools-preview
+          
       - name: ⚙ Update QRs from RPC nodes
         id: update-nodes
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
