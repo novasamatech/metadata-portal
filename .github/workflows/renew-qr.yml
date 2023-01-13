@@ -71,6 +71,9 @@ jobs:
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
           echo "::set-output name=name::$NAME"
           
+      - name: "Delete files"
+        run: rm -rf binaryen-version_105/     
+         
       - name: Create Pull Request if not exist
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
         id: cpr
