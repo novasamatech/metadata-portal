@@ -70,16 +70,20 @@ jobs:
         run: |
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
           echo "::set-output name=name::$NAME"
+          
       - name: Create Pull Request if not exist
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
         id: cpr
-        uses: peter-evans/create-pull-request@f22a7da129c901513876a2380e2dae9f8e145330
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: add updated QR codes
           branch: ${{ steps.new-branch.outputs.name }}
           delete-branch: true
           base: master
           title: '[Automated] Review new metadata QRs'
+          add-paths: |
+            spec.info
+            public/qr/*
           body: |
             Updated metadata QR codes
           draft: false
