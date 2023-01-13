@@ -43,7 +43,7 @@ jobs:
         id: update-nodes
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
         run: |
-          сargo run --release update --sign --signing-key ${{secrets.SIGNING_KEY}}
+          cargo run --release update --sign --signing-key ${{secrets.SIGNING_KEY}}
       
       - name: New PR branch
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
