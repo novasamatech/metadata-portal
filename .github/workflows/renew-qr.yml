@@ -72,7 +72,7 @@ jobs:
           echo "::set-output name=name::$NAME"
           
       - name: "Delete files"
-        run: rm -rf binaryen-version_105/     
+        run: sudo rm -rf binaryen-version_105/     
          
       - name: Create Pull Request if not exist
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
