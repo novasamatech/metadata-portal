@@ -1,0 +1,66 @@
+name: Renew QR Vara
+
+on:
+  workflow_dispatch:
+
+
+env:
+  BRANCH_PREFIX: updated-qr
+  CARGO_TERM_COLOR: always
+  TERM: xterm-256color
+
+jobs:
+  update:
+    runs-on: [self-hosted, cachepot, epyc-4, k8s-runner]
+    env:
+      RUSTUP_HOME: /tmp/rustup_home
+    steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: "Install: Set cargo path"
+        run: echo "/tmp/cargo/bin" >> $GITHUB_PATH
+          
+      - name: Collation Genesis and SpecVersion
+        id: compare
+        run: |
+          # Check Genesis and SpecVersion
+          RenewedGenesis=$(curl -X POST http://rpc.vara-network.io/jsonrpc -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "chain_getBlockHash", "params": [0]}]'  | jq -r '.[].result');
+          RenewedSpecVersion=$(curl -X POST http://rpc.vara-network.io/jsonrpc  -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "state_getRuntimeVersion", "params": []}]'  | jq -r '.[].result.specVersion'); 
+          # Read previous Genesis and SpecVersion from file
+          originalgenesis=$(sed '1!d' spec.info)
+          originalspecVersion=$(sed '2!d' spec.info)
+          NewValue="$RenewedGenesis\n$RenewedSpecVersion"
+          # Compare
+          if [ "$originalspecVersion" -ne "$RenewedSpecVersion" ] || [ "$originalgenesis" != "$RenewedGenesis" ]
+          then echo "Sper or Genesis change" && echo -e "$NewValue"  > spec.info && echo "::set-output name=metaChanged::true"
+          else echo "Spec and Genesis haven't changed"
+          fi
+          
+      - name: ⚙ Update QRs from RPC nodes
+        id: update-nodes
+        if: ${{ steps.compare.outputs.metaChanged == 'true' }}
+        run: |
+          сargo run --release update --sign --signing-key ${{secrets.SIGNING_KEY}}
+      
+      - name: New PR branch
+        if: ${{ steps.compare.outputs.metaChanged == 'true' }}
+        id: new-branch
+        run: |
+          NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
+          echo "::set-output name=name::$NAME"
+      - name: Create Pull Request if not exist
+        if: ${{ steps.compare.outputs.metaChanged == 'true' }}
+        id: cpr
+        uses: peter-evans/create-pull-request@f22a7da129c901513876a2380e2dae9f8e145330
+        with:
+          commit-message: add updated QR codes
+          branch: ${{ steps.new-branch.outputs.name }}
+          delete-branch: true
+          base: master
+          title: '[Automated] Review new metadata QRs'
+          body: |
+            Updated metadata QR codes
+          draft: false
