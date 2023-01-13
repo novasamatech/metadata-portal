@@ -2,6 +2,8 @@ name: Renew QR Vara
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
 
 
 env:
