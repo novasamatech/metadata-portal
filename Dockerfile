@@ -1,4 +1,4 @@
-FROM rust:1.60
+FROM rust:1.66.1
 
 
 # Install system packages
