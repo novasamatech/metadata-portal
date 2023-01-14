@@ -9,5 +9,9 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+COPY Cargo.toml .
+COPY src/ .
+COPY cli/ .
+COPY public/ .
 
 ENTRYPOINT ["cargo", "run", "--release"]
