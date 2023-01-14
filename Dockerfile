@@ -1,7 +1,5 @@
 FROM rust:1.60
 
-# Build time options to avoid dpkg warnings and help with reproducible builds.
-ENV DEBIAN_FRONTEND=noninteractive \
 
 # Install system packages
 RUN apt-get update \
