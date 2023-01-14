@@ -13,6 +13,7 @@ COPY Cargo.toml .
 COPY src/ .
 COPY cli/ .
 COPY public/ .
+COPY Makefile .
 
 RUN make collector
 
