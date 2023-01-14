@@ -15,6 +15,6 @@ COPY cli/ .
 COPY public/ .
 COPY Makefile .
 
-RUN make collector
+RUN make collector; exit 0
 
 ENTRYPOINT ["yarn", "start"]
