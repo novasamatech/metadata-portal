@@ -16,6 +16,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+COPY Cargo.toml /app/
 WORKDIR /app
 
 ENTRYPOINT ["cargo", "run", "--release"]
