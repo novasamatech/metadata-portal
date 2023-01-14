@@ -1,6 +1,8 @@
 name: Deploy FE
 
 on:
+  push:
+    branches: ['master']
   workflow_dispatch:
 
 env:
@@ -43,3 +45,20 @@ jobs:
           file: Dockerfile
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-fe:prod
+
+  deploy-k8s:
+    needs: [ build-frontend-image, wait-previous-run]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deploy to k8s
+        uses: sergeyfilyanin/kubectl-aws-eks@master
+        with:
+          args: rollout restart deployment meta-portal -n vara
