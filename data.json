@@ -1,33 +1,4 @@
 {
-  "polkadot": {
-    "title": "Polkadot",
-    "color": "#e6007a",
-    "rpcEndpoint": "wss://polkadot.api.onfinality.io/public-ws",
-    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot.svg",
-    "decimals": 10,
-    "metadataVersion": 9300,
-    "metadataQr": {
-      "path": "qr/polkadot_metadata_9300.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Wasm",
-        "github_repo": "paritytech/polkadot",
-        "hash": "0x4f946f0caab019f8694a00e54c5bc5889b333360b3b4238b667c9f52276fcce1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polkadot_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": false
-  },
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
@@ -1396,6 +1367,34 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
+    "decimals": 12,
+    "metadataVersion": 1031,
+    "metadataQr": {
+      "path": "qr/imbue_metadata_1031.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe00d5e645f18b0081fa373cd69d17b5620b007bb779724eb88109eaba787409c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
