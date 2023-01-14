@@ -5,7 +5,7 @@ FROM rust:1.66.1
 RUN apt-get update \
     && apt-get install -y \
         --no-install-recommends \
-        libopencv-dev clang libclang-dev libssl-dev ca-certificates \
+        libopencv-dev clang libclang-dev libssl-dev yarn ca-certificates \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -14,4 +14,6 @@ COPY src/ .
 COPY cli/ .
 COPY public/ .
 
-ENTRYPOINT ["cargo", "run", "--release"]
+RUN make collector
+
+ENTRYPOINT ["yarn", "start"]
