@@ -393,34 +393,6 @@
     },
     "testnet": false
   },
-  "pioneer-runtime": {
-    "title": "Bit.Country Pioneer",
-    "color": "#000000",
-    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
-    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-    "unit": "NEER",
-    "base58prefix": 268,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
-    "decimals": 18,
-    "metadataVersion": 14,
-    "metadataQr": {
-      "path": "qr/pioneer-runtime_metadata_14.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x6a4247bfcc502c29c595c077636e5091d47e97f164226fe6b0287653bc024de2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pioneer-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
@@ -1340,34 +1312,6 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "imbue": {
-    "title": "Imbue",
-    "color": "#baff36",
-    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
-    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-    "unit": "IMBU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
-    "decimals": 12,
-    "metadataVersion": 1031,
-    "metadataQr": {
-      "path": "qr/imbue_metadata_1031.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe00d5e645f18b0081fa373cd69d17b5620b007bb779724eb88109eaba787409c"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/imbue_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
