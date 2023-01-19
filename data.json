@@ -284,7 +284,7 @@
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
-    "rpcEndpoint": "wss://edgeware.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://edgeware-rpc.dwellir.com",
     "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
     "unit": "EDG",
     "base58prefix": 7,
@@ -1404,7 +1404,7 @@
   "tinkernet_node": {
     "title": "Tinkernet",
     "color": "#161616",
-    "rpcEndpoint": "wss://tinker.invarch.network",
+    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
     "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
     "unit": "TNKR",
     "base58prefix": 117,
