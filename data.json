@@ -589,6 +589,34 @@
     },
     "testnet": false
   },
+  "robonomics": {
+    "title": "Robonomics",
+    "color": "#2949d3",
+    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
+    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+    "unit": "XRT",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Robonomics.svg",
+    "decimals": 9,
+    "metadataVersion": 30,
+    "metadataQr": {
+      "path": "qr/robonomics_metadata_30.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x244b34d63508902525f7c7913ed4f1896fcc21b38339b3968b09600b161a211b"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/robonomics_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/robonomics_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "encointer-parachain": {
     "title": "Encointer",
     "color": "#0000cc",
