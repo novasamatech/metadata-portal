@@ -31,7 +31,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://kusama.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://kusama-rpc.dwellir.com",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -1094,9 +1094,9 @@
     "testnet": false
   },
   "node": {
-    "title": "Polkadex Solochain",
+    "title": "Polkadex",
     "color": "#7C30DD",
-    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
     "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
     "unit": "PDEX",
     "base58prefix": 88,
