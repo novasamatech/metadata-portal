@@ -57,6 +57,34 @@
     },
     "testnet": false
   },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "metadataVersion": 9380,
+    "metadataQr": {
+      "path": "qr/westend_metadata_9380.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0xae86d7a804c4b38c77f21366af302e9b898c91dc60b7bc0ed5f0abffecf51271"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true
+  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
