@@ -1736,5 +1736,33 @@
       "source": null
     },
     "testnet": false
+  },
+  "xxnetwork": {
+    "title": "XX network",
+    "color": "#0F364A",
+    "rpcEndpoint": "wss://rpc.xx.network",
+    "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
+    "unit": "xx",
+    "base58prefix": 55,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/XX_network.svg",
+    "decimals": 9,
+    "metadataVersion": 205,
+    "metadataQr": {
+      "path": "qr/xxnetwork_metadata_205.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xef3b4833aae30b48ece9906402df0698efc3ac7e0eda309008f494aa9b001df1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/xxnetwork_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   }
 }
