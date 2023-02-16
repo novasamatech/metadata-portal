@@ -42,7 +42,7 @@ const EXCLUDE_CHAINS: [&str; 4] = [
     "Arctic Relay Testnet",
     "Aleph Zero Testnet", //TODO name matches with mainnet and will override it
     "KICO",               //TODO Specs(Base58PrefixMismatch { specs: 51, meta: 42 })
-    "Composable Finance" //TODO  Specs(Base58PrefixMismatch { specs: 50, meta: 49 })
+    "Composable Finance", //TODO  Specs(Base58PrefixMismatch { specs: 50, meta: 49 })
 ];
 
 pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
