@@ -12,7 +12,7 @@ pub(crate) struct QrPath {
 
 impl QrPath {
     pub(crate) fn to_path_buf(&self) -> PathBuf {
-        self.dir.join(&self.file_name.to_string())
+        self.dir.join(self.file_name.to_string())
     }
 }
 
