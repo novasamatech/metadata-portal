@@ -32,7 +32,7 @@ impl fmt::Display for QrPath {
         write!(
             f,
             "{}",
-            self.dir.join(&self.file_name.to_string()).to_str().unwrap()
+            self.dir.join(self.file_name.to_string()).to_str().unwrap()
         )
     }
 }
