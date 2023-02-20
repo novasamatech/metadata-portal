@@ -94,13 +94,13 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
     "decimals": 12,
-    "metadataVersion": 9360,
+    "metadataVersion": 9370,
     "metadataQr": {
-      "path": "qr/statemine_metadata_9360.apng",
+      "path": "qr/statemine_metadata_9370.apng",
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0x582701402aefb03a6bd15b9bd479b29fa4e6ec9818bb28e3f1993559c7132fac"
+        "block": "0xf91d93c79978315ada8b64476d3fc844e97e522f9b231e45be8e35df739972bc"
       }
     },
     "nextMetadataVersion": null,
@@ -253,34 +253,6 @@
     },
     "testnet": false
   },
-  "heiko": {
-    "title": "Parallel Heiko",
-    "color": "#42d5de",
-    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
-    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "unit": "HKO",
-    "base58prefix": 110,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
-    "decimals": 12,
-    "metadataVersion": 194,
-    "metadataQr": {
-      "path": "qr/heiko_metadata_194.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2501ff31a946e6f28d5700155b6c82cc1f397f69ec301c52ab69045adb170c2b"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/heiko_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/heiko_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -332,6 +304,34 @@
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kilt-spiritnet": {
+    "title": "KILT",
+    "color": "#8c145a",
+    "rpcEndpoint": "wss://spiritnet.kilt.io/",
+    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
+    "unit": "KILT",
+    "base58prefix": 38,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
+    "decimals": 15,
+    "metadataVersion": 10890,
+    "metadataQr": {
+      "path": "qr/kilt-spiritnet_metadata_10890.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1a59f12693c31037ae188d4dbdf4e3e4c46e2233c5748a47fe0b87ef7e57986b"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kilt-spiritnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1261,34 +1261,6 @@
     },
     "testnet": false
   },
-  "pichiu": {
-    "title": "Pichiu",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
-    "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
-    "unit": "PCHU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pichiu.svg",
-    "decimals": 18,
-    "metadataVersion": 25,
-    "metadataQr": {
-      "path": "qr/pichiu_metadata_25.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2ed0e2be483b5a58ca217d0138db84587b48393d36711c807e958a0da2d78481"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pichiu_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pichiu_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kabocha-parachain": {
     "title": "Kabocha",
     "color": "#f53485",
@@ -1620,6 +1592,34 @@
     "latestMetadata": "qr/snow_metadata_latest.apng",
     "specsQr": {
       "path": "qr/snow_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "metadataVersion": 5,
+    "metadataQr": {
+      "path": "qr/ipci_metadata_5.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
