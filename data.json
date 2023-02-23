@@ -1065,34 +1065,6 @@
     },
     "testnet": false
   },
-  "aleph-node": {
-    "title": "Aleph Zero",
-    "color": "#00CCAB",
-    "rpcEndpoint": "wss://ws.azero.dev",
-    "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
-    "unit": "AZERO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
-    "decimals": 12,
-    "metadataVersion": 46,
-    "metadataQr": {
-      "path": "qr/aleph-node_metadata_46.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8399769b87388419cfcee7bdbb388f9f47cf8b169f70d8a26eb1afd61cbba482"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/aleph-node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/aleph-node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node": {
     "title": "Polkadex",
     "color": "#7C30DD",
