@@ -197,6 +197,34 @@
     },
     "testnet": false
   },
+  "basilisk": {
+    "title": "Basilisk",
+    "color": "#9eec1b",
+    "rpcEndpoint": "wss://rpc.basilisk.cloud",
+    "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+    "unit": "BSX",
+    "base58prefix": 10041,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Basilisk.svg",
+    "decimals": 12,
+    "metadataVersion": 92,
+    "metadataQr": {
+      "path": "qr/basilisk_metadata_92.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe91377d78cef3b2bec18faa200117f4e2a09a83fd172f48267a2826f658d2f08"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/basilisk_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/basilisk_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "altair": {
     "title": "Altair",
     "color": "#ffb700",
