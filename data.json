@@ -1037,34 +1037,6 @@
     },
     "testnet": false
   },
-  "turing": {
-    "title": "Turing",
-    "color": "#A8278C",
-    "rpcEndpoint": "wss://rpc.turing.oak.tech",
-    "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
-    "unit": "TUR",
-    "base58prefix": 51,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing.svg",
-    "decimals": 10,
-    "metadataVersion": 288,
-    "metadataQr": {
-      "path": "qr/turing_metadata_288.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8b41ca14fd107a88933a0c87e8814b183a8031f0c8c35a75e01d9660edebd04e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/turing_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/turing_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "aleph-node": {
     "title": "Aleph Zero",
     "color": "#00CCAB",
