@@ -1708,33 +1708,5 @@
       "source": null
     },
     "testnet": false
-  },
-  "appchain": {
-    "title": "Myriad",
-    "color": "#7342CC",
-    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
-    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
-    "unit": "MYRIA",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
-    "decimals": 18,
-    "metadataVersion": 2020,
-    "metadataQr": {
-      "path": "qr/appchain_metadata_2020.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x55ea74aac1e369874ec5bc73369ecbd3b12ea760aa5a0e402279e3a341f319e4"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/appchain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/appchain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
   }
 }
