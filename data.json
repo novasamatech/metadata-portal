@@ -141,6 +141,34 @@
     },
     "testnet": false
   },
+  "moonbeam": {
+    "title": "Moonbeam",
+    "color": "#53cbc9",
+    "rpcEndpoint": "wss://wss.api.moonbeam.network",
+    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+    "unit": "GLMR",
+    "base58prefix": 1284,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
+    "decimals": 18,
+    "metadataVersion": 2100,
+    "metadataQr": {
+      "path": "qr/moonbeam_metadata_2100.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5ebd56a5671542457b556702b8b5d8dd9af49dbd7bc445e3ae4317879ff6a146"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/moonbeam_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/moonbeam_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "moonriver": {
     "title": "Moonriver",
     "color": "#0E132E",
@@ -1373,6 +1401,34 @@
     },
     "testnet": false
   },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 6,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_6.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8143e5fd4d18aa5cac515982e866660e0f4cb642d0678923b17bb2b76aee371a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1760,6 +1816,34 @@
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "pendulum": {
+    "title": "Pendulum",
+    "color": "#49E2FD",
+    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
+    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "unit": "PEN",
+    "base58prefix": 56,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
+    "decimals": 12,
+    "metadataVersion": 2,
+    "metadataQr": {
+      "path": "qr/pendulum_metadata_2.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x72ce8cf2b39f37a201795435deacf6d8a38de3b65504701e9c5868790e5e825e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/pendulum_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pendulum_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
