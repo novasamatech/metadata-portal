@@ -785,34 +785,6 @@
     },
     "testnet": false
   },
-  "litmus-parachain": {
-    "title": "Litmus",
-    "color": "#6822fb",
-    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
-    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
-    "unit": "LIT",
-    "base58prefix": 131,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litmus.svg",
-    "decimals": 12,
-    "metadataVersion": 9120,
-    "metadataQr": {
-      "path": "qr/litmus-parachain_metadata_9120.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xf9e6c47bd34c5ff068c177de27a7220301d4673387e34ef193a06c1eec9c88fd"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litmus-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "crab parachain": {
     "title": "Crab",
     "color": "#7C30DD",
@@ -836,34 +808,6 @@
     "latestMetadata": "qr/crab parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "subsocial-parachain": {
-    "title": "Subsocial",
-    "color": "#69058C",
-    "rpcEndpoint": "wss://para.f3joule.space",
-    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "unit": "SUB",
-    "base58prefix": 28,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
-    "decimals": 10,
-    "metadataVersion": 19,
-    "metadataQr": {
-      "path": "qr/subsocial-parachain_metadata_19.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x4d6de71dbcb24de59f7bdf10cb630888e89faee0ea36abff297485eab002916e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/subsocial-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
