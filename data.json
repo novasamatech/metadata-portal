@@ -1820,33 +1820,5 @@
       "source": null
     },
     "testnet": false
-  },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "metadataVersion": 2,
-    "metadataQr": {
-      "path": "qr/pendulum_metadata_2.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x72ce8cf2b39f37a201795435deacf6d8a38de3b65504701e9c5868790e5e825e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
   }
 }
