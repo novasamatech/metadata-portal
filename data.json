@@ -1,33 +1,4 @@
 {
-  "polkadot": {
-    "title": "Polkadot",
-    "color": "#e6007a",
-    "rpcEndpoint": "wss://polkadot.api.onfinality.io/public-ws",
-    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot.svg",
-    "decimals": 10,
-    "metadataVersion": 9360,
-    "metadataQr": {
-      "path": "qr/polkadot_metadata_9360.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Wasm",
-        "github_repo": "paritytech/polkadot",
-        "hash": "0x9eff710dc1bf46d2ff5a8ac7aa3fddb63a8cb141bb184e6aa776a1d9c97aca0b"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polkadot_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": false
-  },
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
