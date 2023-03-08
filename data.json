@@ -561,34 +561,6 @@
     },
     "testnet": false
   },
-  "parallel": {
-    "title": "Parallel",
-    "color": "#ef18ac",
-    "rpcEndpoint": "wss://rpc.parallel.fi",
-    "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-    "unit": "PARA",
-    "base58prefix": 172,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Parallel.svg",
-    "decimals": 12,
-    "metadataVersion": 194,
-    "metadataQr": {
-      "path": "qr/parallel_metadata_194.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x90356fb5b142ea2bbceb9f747ffd22ac2a8ed338e3964028ef2cb26629c73817"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/parallel_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/parallel_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "clover-mainnet": {
     "title": "CLV Parachain",
     "color": "linear-gradient(to right, #52ad75, #7cc773)",
