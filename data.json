@@ -673,34 +673,6 @@
     },
     "testnet": false
   },
-  "zeitgeist": {
-    "title": "Zeitgeist",
-    "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
-    "rpcEndpoint": "wss://zeitgeist-rpc.dwellir.com",
-    "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
-    "unit": "ZTG",
-    "base58prefix": 73,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
-    "decimals": 10,
-    "metadataVersion": 42,
-    "metadataQr": {
-      "path": "qr/zeitgeist_metadata_42.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x9b6a7e4058843d38909b0a950540b0843504d74db928e6a483d1c2b9198b44d2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/zeitgeist_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "litmus-parachain": {
     "title": "Litmus",
     "color": "#6822fb",
