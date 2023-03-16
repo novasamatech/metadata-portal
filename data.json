@@ -701,6 +701,34 @@
     },
     "testnet": false
   },
+  "kintsugi-parachain": {
+    "title": "Kintsugi",
+    "color": "#1a0a2d",
+    "rpcEndpoint": "wss://api-kusama.interlay.io/parachain",
+    "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
+    "unit": "UNIT",
+    "base58prefix": 2092,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
+    "decimals": 0,
+    "metadataVersion": 1022000,
+    "metadataQr": {
+      "path": "qr/kintsugi-parachain_metadata_1022000.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x173ea29ffc3a70f44b59ffa873e4f2883a182c258d0f00ced31b07a86829bfcc"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kintsugi-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "picasso": {
     "title": "Picasso",
     "color": "#000000",
