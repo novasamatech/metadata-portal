@@ -169,6 +169,34 @@
     },
     "testnet": false
   },
+  "moonriver": {
+    "title": "Moonriver",
+    "color": "#0E132E",
+    "rpcEndpoint": "wss://wss.api.moonriver.moonbeam.network",
+    "genesisHash": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "unit": "MOVR",
+    "base58prefix": 1285,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonriver.svg",
+    "decimals": 18,
+    "metadataVersion": 2201,
+    "metadataQr": {
+      "path": "qr/moonriver_metadata_2201.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x2ecec0683aee367748578ba03c5506fefea9262b69722b0459e0e7bc8abc3fbd"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/moonriver_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/moonriver_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "shiden": {
     "title": "Shiden",
     "color": "#5923B2",
