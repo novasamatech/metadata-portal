@@ -57,34 +57,6 @@
     },
     "testnet": false
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "metadataVersion": 9390,
-    "metadataQr": {
-      "path": "qr/westend_metadata_9390.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Rpc",
-        "block": "0x355abc8723d65b994a4637b6472d43c5f19499790ce4cd48a3edfc24c75c978d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true
-  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
@@ -948,34 +920,6 @@
     "latestMetadata": "qr/efinity_metadata_latest.apng",
     "specsQr": {
       "path": "qr/efinity_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "hydradx": {
-    "title": "HydraDX",
-    "color": "#f653a2",
-    "rpcEndpoint": "wss://rpc.hydradx.cloud",
-    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-    "unit": "HDX",
-    "base58prefix": 63,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
-    "decimals": 12,
-    "metadataVersion": 127,
-    "metadataQr": {
-      "path": "qr/hydradx_metadata_127.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1670c2f568df72065e240ec9004843af5cdc217e1d4844a9ef0c76048da546e6"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/hydradx_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/hydradx_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
