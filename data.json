@@ -1737,34 +1737,6 @@
     },
     "testnet": false
   },
-  "appchain": {
-    "title": "Myriad",
-    "color": "#7342CC",
-    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
-    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
-    "unit": "MYRIA",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
-    "decimals": 18,
-    "metadataVersion": 2035,
-    "metadataQr": {
-      "path": "qr/appchain_metadata_2035.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x00f7b1132c09e4dd49159f4be189f09ea1ab664ca98e28f8348703a2d1f55a66"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/appchain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/appchain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "xxnetwork": {
     "title": "XX network",
     "color": "#0F364A",
