@@ -112,7 +112,34 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                     },
                 });
             }
-            None => bail!("No chain {} found!", chain.name),
+            None => {
+                eprintln!("No chain {} found in config template, using default values instead", chain.name);
+                chains.push(Chain {
+                    name: chain.name.clone(),
+                    title: Some(chain.name),
+                    color: String::from("#000000"),
+                    icon: String::from(chain.icon),
+                    rpc_endpoints: chain.nodes.iter().map(|node| node.url.clone()).collect(),
+                    github_release: None,
+                    token_decimals: None,
+                    token_unit: None,
+                    testnet: match &chain.options {
+                        Some(options) => Some(options.contains(&String::from("testnet"))),
+                        None => Some(false),
+                    },
+                    verifier: String::from("novasama"),
+                    encryption: match &chain.options {
+                        Some(options) => {
+                            if options.contains(&String::from("ethereumBased")) {
+                                Some(String::from("ethereum"))
+                            } else {
+                                None
+                            }
+                        }
+                        None => None,
+                    },
+                });
+            }
         }
     }
 
