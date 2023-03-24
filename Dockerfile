@@ -20,6 +20,6 @@ RUN apt install nodejs -y
 COPY . /
 
 RUN make collector; exit 0
-RUN yarn 
+RUN yarn build
 
 ENTRYPOINT ["yarn", "start"]
