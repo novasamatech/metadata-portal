@@ -449,6 +449,34 @@
     },
     "testnet": false
   },
+  "pioneer-runtime": {
+    "title": "Bit.Country Pioneer",
+    "color": "#000000",
+    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
+    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+    "unit": "NEER",
+    "base58prefix": 268,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
+    "decimals": 18,
+    "metadataVersion": 18,
+    "metadataQr": {
+      "path": "qr/pioneer-runtime_metadata_18.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x80575bdbdd5964839c1aa75597925ee95633cc6e5955c53358b33e51660c1fcd"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pioneer-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
@@ -640,6 +668,34 @@
     "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/encointer-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kintsugi-parachain": {
+    "title": "Kintsugi",
+    "color": "#1a0a2d",
+    "rpcEndpoint": "wss://api-kusama.interlay.io/parachain",
+    "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
+    "unit": "UNIT",
+    "base58prefix": 2092,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
+    "decimals": 0,
+    "metadataVersion": 1023002,
+    "metadataQr": {
+      "path": "qr/kintsugi-parachain_metadata_1023002.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb87b10569cdb5d1b8a8226e5f4312fdbf2849d51aa5f9c749d38f186885cba1f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kintsugi-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -948,34 +1004,6 @@
     "latestMetadata": "qr/nodle-para_metadata_latest.apng",
     "specsQr": {
       "path": "qr/nodle-para_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "phala": {
-    "title": "Phala",
-    "color": "#c6fa4c",
-    "rpcEndpoint": "wss://api.phala.network/ws",
-    "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Phala.svg",
-    "decimals": 12,
-    "metadataVersion": 1167,
-    "metadataQr": {
-      "path": "qr/phala_metadata_1167.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x70b56a57724532a1ca414b7629b4c36cf679502e5d0ef160eda841819f1c211c"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/phala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/phala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1368,6 +1396,34 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "metadataVersion": 15,
+    "metadataQr": {
+      "path": "qr/tinkernet_node_metadata_15.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc57b791ed09758f0fa86d39d56ca79f9066c9750cde3c74867b23a868d4ebac9"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
