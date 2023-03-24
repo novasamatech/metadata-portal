@@ -53,23 +53,13 @@ jobs:
         if: ${{ steps.compare.outputs.metaChanged == 'true' }}
         run: |
           sudo apt update
-          sudo apt install -y git clang curl libssl-dev llvm libudev-dev cmake protobuf-compiler wget bzip2 pkg-config
+          sudo apt install -y git clang curl libssl-dev llvm libudev-dev cmake protobuf-compiler wget bzip2 pkg-config libopencv-dev libclang-dev
           sudo wget -c https://github.com/WebAssembly/binaryen/releases/download/version_111/binaryen-version_111-x86_64-linux.tar.gz -O - | sudo tar -xz -C .
           sudo cp binaryen-version_111/bin/wasm-opt /usr/bin/
           sudo wget -c https://github.com/mozilla/sccache/releases/download/v0.3.3/sccache-v0.3.3-x86_64-unknown-linux-musl.tar.gz -O - | sudo tar -xz -C .
           sudo cp sccache-v0.3.3-x86_64-unknown-linux-musl/sccache /usr/bin/
           sudo chmod +x /usr/bin/sccache
           mkdir -p ~/.config/sccache/ && cp /root/sccache/client.toml ~/.config/sccache/config
-
-      - name: "Install: Build deps 2"
-        if: ${{ steps.compare.outputs.metaChanged == 'true' }}
-        run: |
-          wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.0.zip
-          wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.0.zip
-          unzip opencv.zip
-          unzip opencv_contrib.zip
-          mv opencv-4.0.0 opencv
-          mv opencv_contrib-4.0.0 opencv_contrib
           
       - name: ⚙ Update QRs from RPC nodes
         id: update-nodes
