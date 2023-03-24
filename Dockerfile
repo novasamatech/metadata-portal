@@ -1,4 +1,4 @@
-FROM rust:1.66.1
+FROM rust:1.68.1
 
 
 # Install system packages
@@ -20,6 +20,6 @@ RUN apt install nodejs -y
 COPY . /
 
 RUN make collector; exit 0
-RUN yarn build
+RUN yarn
 
 ENTRYPOINT ["yarn", "start"]
