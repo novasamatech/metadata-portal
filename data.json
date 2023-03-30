@@ -1653,6 +1653,34 @@
     },
     "testnet": false
   },
+  "snow": {
+    "title": "Snow",
+    "color": "#2026AE",
+    "rpcEndpoint": "wss://snow-rpc.icenetwork.io",
+    "genesisHash": "0xb34f6cd03a41f0fab38ba9fd5b11cce5f303633c46f39f0c6fdc7c3c602bafa9",
+    "unit": "ICZ",
+    "base58prefix": 2207,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/SNOW.svg",
+    "decimals": 18,
+    "metadataVersion": 2,
+    "metadataQr": {
+      "path": "qr/snow_metadata_2.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x32d40888713506c02ca3f33fddea2df4657b86251afad156a813d4a93f34b76b"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/snow_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/snow_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "ipci": {
     "title": "DAO IPCI",
     "color": "#800742",
