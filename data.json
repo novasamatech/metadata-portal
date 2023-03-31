@@ -1149,34 +1149,6 @@
     },
     "testnet": false
   },
-  "bifrost_polkadot": {
-    "title": "Bifrost Polkadot",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-    "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-    "unit": "BNC",
-    "base58prefix": 6,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
-    "decimals": 12,
-    "metadataVersion": 970,
-    "metadataQr": {
-      "path": "qr/bifrost_polkadot_metadata_970.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc55134ea464cb0a64315c3c306d90609ec13014edf58a8a0fae3a9ef2d1a8995"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/bifrost_polkadot_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "litentry-parachain": {
     "title": "Litentry",
     "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
@@ -1340,6 +1312,34 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 7,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_7.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5d30e4ad5f6a2d410178e9bf6a1be8486362d49c9411cedb075d3e2ce99f52e1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
