@@ -365,34 +365,6 @@
     },
     "testnet": false
   },
-  "khala": {
-    "title": "Khala",
-    "color": "#03f3f3",
-    "rpcEndpoint": "wss://khala-api.phala.network/ws",
-    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
-    "decimals": 12,
-    "metadataVersion": 1210,
-    "metadataQr": {
-      "path": "qr/khala_metadata_1210.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xcfd8f234782f2de5195f3c335d0b88b21eb3abfb2e0f623cbcd7ba4bab355874"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/khala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/khala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kilt-spiritnet": {
     "title": "KILT",
     "color": "#8c145a",
@@ -724,34 +696,6 @@
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 10011,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_10011.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1836bd6b26b6937976a047b222eb8c316def45af24c83a54e26318f30d510241"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1368,6 +1312,34 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 7,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_7.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5d30e4ad5f6a2d410178e9bf6a1be8486362d49c9411cedb075d3e2ce99f52e1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
