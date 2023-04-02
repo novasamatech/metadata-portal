@@ -1261,6 +1261,34 @@
     },
     "testnet": false
   },
+  "dora ksm parachain": {
+    "title": "Dora Factory",
+    "color": "#FF761C",
+    "rpcEndpoint": "wss://kusama.dorafactory.org",
+    "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
+    "unit": "DORA",
+    "base58prefix": 128,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg",
+    "decimals": 12,
+    "metadataVersion": 33,
+    "metadataQr": {
+      "path": "qr/dora ksm parachain_metadata_33.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x77ae66b302451c93457c200122e9e2f8ff215d4469934a5b5b76777769378873"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/dora ksm parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "mangata-parachain": {
     "title": "Mangata X",
     "color": "#030408",
