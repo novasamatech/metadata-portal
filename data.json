@@ -393,34 +393,6 @@
     },
     "testnet": false
   },
-  "kilt-spiritnet": {
-    "title": "KILT",
-    "color": "#8c145a",
-    "rpcEndpoint": "wss://spiritnet.kilt.io/",
-    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "unit": "KILT",
-    "base58prefix": 38,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
-    "decimals": 15,
-    "metadataVersion": 10890,
-    "metadataQr": {
-      "path": "qr/kilt-spiritnet_metadata_10890.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x1a59f12693c31037ae188d4dbdf4e3e4c46e2233c5748a47fe0b87ef7e57986b"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kilt-spiritnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
