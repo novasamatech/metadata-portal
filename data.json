@@ -56,34 +56,6 @@
     },
     "testnet": false
   },
-  "moonbeam": {
-    "title": "Moonbeam",
-    "color": "#53cbc9",
-    "rpcEndpoint": "wss://wss.api.moonbeam.network",
-    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-    "unit": "GLMR",
-    "base58prefix": 1284,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
-    "decimals": 18,
-    "metadataVersion": 2100,
-    "metadataQr": {
-      "path": "qr/moonbeam_metadata_2100.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x5ebd56a5671542457b556702b8b5d8dd9af49dbd7bc445e3ae4317879ff6a146"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/moonbeam_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/moonbeam_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "moonriver": {
     "title": "Moonriver",
     "color": "#0E132E",
@@ -1143,6 +1115,62 @@
     "latestMetadata": "qr/pichiu_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pichiu_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kabocha-parachain": {
+    "title": "Kabocha",
+    "color": "#f53485",
+    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
+    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+    "unit": "KAB",
+    "base58prefix": 27,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg",
+    "decimals": 12,
+    "metadataVersion": 28,
+    "metadataQr": {
+      "path": "qr/kabocha-parachain_metadata_28.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kabocha-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 7,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_7.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5d30e4ad5f6a2d410178e9bf6a1be8486362d49c9411cedb075d3e2ce99f52e1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
