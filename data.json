@@ -1372,6 +1372,34 @@
     },
     "testnet": false
   },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 7,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_7.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5d30e4ad5f6a2d410178e9bf6a1be8486362d49c9411cedb075d3e2ce99f52e1"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1675,6 +1703,34 @@
     "latestMetadata": "qr/ipci_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ipci_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "appchain": {
+    "title": "Myriad",
+    "color": "#7342CC",
+    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
+    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
+    "unit": "MYRIA",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
+    "decimals": 18,
+    "metadataVersion": 2036,
+    "metadataQr": {
+      "path": "qr/appchain_metadata_2036.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xa50e459e562e79c7c3af278fa3f5d0b01f55620047af426fa066d48787a62a6d"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/appchain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/appchain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
