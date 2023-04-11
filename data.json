@@ -308,6 +308,34 @@
     },
     "testnet": false
   },
+  "heiko": {
+    "title": "Parallel Heiko",
+    "color": "#42d5de",
+    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
+    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "unit": "HKO",
+    "base58prefix": 110,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
+    "decimals": 12,
+    "metadataVersion": 196,
+    "metadataQr": {
+      "path": "qr/heiko_metadata_196.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x6ba9975064fdbd98a88a1b9cbd9e71b069ebe4e79a32446aea9ce0cfb5dcedb2"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -387,6 +415,34 @@
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "decimals": 12,
+    "metadataVersion": 4050,
+    "metadataQr": {
+      "path": "qr/calamari_metadata_4050.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x5c1d806f4cc27f40e59b9c5aebf2b38a9d0dc176fee02df5e3bdb78bfc61e3ab"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -980,6 +1036,34 @@
     },
     "testnet": false
   },
+  "phala": {
+    "title": "Phala",
+    "color": "#c6fa4c",
+    "rpcEndpoint": "wss://api.phala.network/ws",
+    "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+    "unit": "PHA",
+    "base58prefix": 30,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Phala.svg",
+    "decimals": 12,
+    "metadataVersion": 1221,
+    "metadataQr": {
+      "path": "qr/phala_metadata_1221.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xd1b33231375b7ec50cadf48bb6c1be7640f4e9b9d883694fbeb7fec11d713b16"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/phala_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/phala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "turing": {
     "title": "Turing",
     "color": "#A8278C",
@@ -1283,34 +1367,6 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 7,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_7.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x5d30e4ad5f6a2d410178e9bf6a1be8486362d49c9411cedb075d3e2ce99f52e1"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
