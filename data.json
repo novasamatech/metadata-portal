@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://polkadot.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://rpc.polkadot.io",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -31,7 +31,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://kusama-rpc.dwellir.com",
+    "rpcEndpoint": "wss://rpc.ibp.network/kusama",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -842,7 +842,7 @@
   },
   "crust-collator": {
     "title": "Crust Shadow",
-    "color": "#ff8812",
+    "color": "#EEC6EC",
     "rpcEndpoint": "wss://rpc2-shadow.crust.network/",
     "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
     "unit": "CSM",
@@ -855,7 +855,7 @@
       "signedBy": "Novasama Technologies",
       "source": {
         "type": "Rpc",
-        "block": "0xe8da3fda8ddd676b0f964b4b3046efc047405e96c86cdd103e8b217a8e188d7f"
+        "block": "0xe598817905d49c67af02f1ac2706a06c8e7b01c7b25ffa1287835643fc3a6125"
       }
     },
     "nextMetadataVersion": null,
@@ -1120,6 +1120,34 @@
     },
     "testnet": false
   },
+  "composable": {
+    "title": "Composable Finance",
+    "color": "#C90E8A",
+    "rpcEndpoint": "wss://rpc.composable.finance",
+    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
+    "unit": "LAYR",
+    "base58prefix": 50,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.png",
+    "decimals": 12,
+    "metadataVersion": 10015,
+    "metadataQr": {
+      "path": "qr/composable_metadata_10015.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xc03c25f3a6139cc473ce53c3ab00ad670595d624d6697a37329ee05ee7c2fafa"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/composable_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/composable_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "node": {
     "title": "Polkadex",
     "color": "#7C30DD",
@@ -1367,34 +1395,6 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 9,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_9.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x71ef14b670283ab5479a022cdb51c22a8664e1db6555ef18a193065eba803770"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1767,7 +1767,7 @@
   "xxnetwork": {
     "title": "XX network",
     "color": "#0F364A",
-    "rpcEndpoint": "wss://rpc.xx.network",
+    "rpcEndpoint": "wss://rpc-hetzner.xx.network",
     "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
     "unit": "xx",
     "base58prefix": 55,
@@ -1815,6 +1815,34 @@
     "latestMetadata": "qr/pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pendulum_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "metadataVersion": 21,
+    "metadataQr": {
+      "path": "qr/avn-parachain_metadata_21.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xcc5c04ec51dfe9640d34a9da49afd6d4aecf63ddd018c69c7c2b66705618bdf9"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
