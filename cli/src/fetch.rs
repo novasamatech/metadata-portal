@@ -69,3 +69,26 @@ impl Fetcher for RpcFetcher {
         Ok(meta)
     }
 }
+
+pub(crate) struct ConfigRpcFetcher;
+
+impl Fetcher for ConfigRpcFetcher {
+    fn fetch_specs(&self, chain: &Chain) -> Result<NetworkSpecs> {
+        let specs = call_urls(&chain.rpc_endpoints, |url| {
+            let optional_token_override = chain.token_decimals.zip(chain.token_unit.as_ref()).map(
+                |(token_decimals, token_unit)| Token {
+                    decimals: token_decimals,
+                    unit: token_unit.to_string(),
+                },
+            );
+
+            specs_agnostic(url, get_crypto(chain), optional_token_override, None)
+        })
+        .map_err(|e| anyhow!("{:?}", e))?;
+        Ok(specs)
+    }
+
+    fn fetch_metadata(&self, _chain: &Chain) -> Result<MetaFetched> {
+        bail!("Not implemented!");
+    }
+}

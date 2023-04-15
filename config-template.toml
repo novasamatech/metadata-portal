@@ -127,11 +127,6 @@ qr_dir = "public/qr"
   title = "HydraDX"
   color = "#f653a2"
 
-  [chains.KICO]
-  name = "KICO"
-  title = "KICO"
-  color = "#29B58D"
-
   [chains."Litmus"]
   name = "litmus-parachain"
   color = "#6822fb"
@@ -144,10 +139,15 @@ qr_dir = "public/qr"
   name = "subsocial-parachain"
   color = "#69058C"
 
-  [chains."Crust Shadow"]
-  name = "crust-collator"
-  title = "Crust Shadow"
+  [chains."Crust"]
+  name = "crust"
+  title = "Crust"
   color = "#ff8812"
+
+  [chains."Crust Shadow"]
+  name = "crust-shadow"
+  title = "Crust Shadow"
+  color = "#EEC6EC"
 
   [chains."Integritee Parachain"]
   name = "integritee-parachain"
@@ -185,7 +185,7 @@ qr_dir = "public/qr"
   color = "#00CCAB"
 
   [chains."Composable Finance"]
-  name = "composable-finance"
+  name = "composable"
   title = "Composable Finance"
   color = "#C90E8A"
 
