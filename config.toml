@@ -630,13 +630,13 @@ testnet = false
 verifier = 'novasama'
 
 [[chains]]
-name = 'template-parachain'
+name = 'gm_parachain'
 title = 'GM'
 color = '#f47b36'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg'
 rpc_endpoints = [
     'wss://ws.gm.bldnodes.org',
-    'wss://ws-node-gm.terrabiodao.org',
+    'wss://intern.gmordie.com',
     'wss://leemo.gmordie.com',
 ]
 testnet = false

@@ -253,7 +253,7 @@ qr_dir = "public/qr"
   color = "#baff36"
 
   [chains.GM]
-  name = "template-parachain"
+  name = "gm_parachain"
   title = "GM"
   color = "#f47b36"
 
