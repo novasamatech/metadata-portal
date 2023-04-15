@@ -42,7 +42,7 @@ pub(crate) struct ChainNode {
 
 const EXCLUDE_CHAINS: [&str; 2] = [
     "Arctic Relay Testnet",
-    "Aleph Zero Testnet" //TODO name matches with mainnet and will override it
+    "Aleph Zero Testnet", //TODO name matches with mainnet and will override it
 ];
 
 pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
@@ -156,7 +156,10 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                 let chain_specs = match fetch_result {
                     Ok(res) => res,
                     Err(e) => {
-                        warn!("Error getting network {} chainspec, skip it. {}", dummy_chain.name, e);
+                        warn!(
+                            "Error getting network {} chainspec, skip it. {}",
+                            dummy_chain.name, e
+                        );
                         continue;
                     }
                 };
