@@ -381,7 +381,7 @@ testnet = false
 verifier = 'novasama'
 
 [[chains]]
-name = 'crust-shadow'
+name = 'crust-collator'
 title = 'Crust Shadow'
 color = '#EEC6EC'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust_Shadow.svg'
@@ -747,15 +747,6 @@ title = 'Pendulum'
 color = '#49E2FD'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg'
 rpc_endpoints = ['wss://rpc-pendulum.prd.pendulumchain.tech']
-testnet = false
-verifier = 'novasama'
-
-[[chains]]
-name = 'crust'
-title = 'Crust'
-color = '#ff8812'
-icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust.svg'
-rpc_endpoints = ['wss://crust-parachain.crustapps.net']
 testnet = false
 verifier = 'novasama'
 

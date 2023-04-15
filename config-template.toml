@@ -131,21 +131,12 @@ qr_dir = "public/qr"
   name = "litmus-parachain"
   color = "#6822fb"
 
-  [chains.Crab]
-  name = "Crab Parachain"
-  color = "#7C30DD"
-
   [chains."Subsocial"]
   name = "subsocial-parachain"
   color = "#69058C"
 
-  [chains."Crust"]
-  name = "crust"
-  title = "Crust"
-  color = "#ff8812"
-
   [chains."Crust Shadow"]
-  name = "crust-shadow"
+  name = "crust-collator"
   title = "Crust Shadow"
   color = "#EEC6EC"
 

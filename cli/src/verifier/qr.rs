@@ -70,7 +70,7 @@ fn validate_metadata_qr(
         .meta_genhash()
         .map_err(|e| anyhow!("{:?}", e))?;
     let meta_values = MetaValues::from_slice_metadata(&meta).map_err(|e| anyhow!("{:?}", e))?;
-
+    println!("Verifying {}", meta_values.name.to_lowercase());
     let verifier = &chain_verifier_map
         .get(&meta_values.name.to_lowercase())
         .unwrap();
