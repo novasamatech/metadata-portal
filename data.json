@@ -616,34 +616,6 @@
     },
     "testnet": false
   },
-  "statemint": {
-    "title": "Statemint",
-    "color": "#86e62a",
-    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
-    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemint.svg",
-    "decimals": 10,
-    "metadataVersion": 9370,
-    "metadataQr": {
-      "path": "qr/statemint_metadata_9370.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe26d2ca0e4f264b7c2377979c2f0deacd3f9f132330d72feade021304049e02d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemint_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
@@ -1899,34 +1871,6 @@
     "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avn-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node-subtensor": {
-    "title": "Bittensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
-    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg",
-    "decimals": 9,
-    "metadataVersion": 117,
-    "metadataQr": {
-      "path": "qr/node-subtensor_metadata_117.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x14b62becbcc0c0b83f50cf410b02afc385b6f1ec174274277f79a056517fd2c6"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
