@@ -1120,34 +1120,6 @@
     },
     "testnet": false
   },
-  "composable": {
-    "title": "Composable Finance",
-    "color": "#C90E8A",
-    "rpcEndpoint": "wss://rpc.composable.finance",
-    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-    "unit": "LAYR",
-    "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.png",
-    "decimals": 12,
-    "metadataVersion": 10015,
-    "metadataQr": {
-      "path": "qr/composable_metadata_10015.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc03c25f3a6139cc473ce53c3ab00ad670595d624d6697a37329ee05ee7c2fafa"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/composable_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/composable_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node": {
     "title": "Polkadex",
     "color": "#7C30DD",
@@ -1395,34 +1367,6 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 10,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_10.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x62128a98b1c9d9f235a77fe0fd4640136d1d73e6993d533d8cedcf5359762be0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1899,6 +1843,34 @@
     "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avn-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "node-subtensor": {
+    "title": "Bittensor",
+    "color": "#000000",
+    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
+    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+    "unit": "TAO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg",
+    "decimals": 9,
+    "metadataVersion": 118,
+    "metadataQr": {
+      "path": "qr/node-subtensor_metadata_118.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x7658bbac6a5b5525a21d085842e0dbd0a71d0cb67dc809ada8d9d0d6c2ead27b"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node-subtensor_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
