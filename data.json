@@ -1344,34 +1344,6 @@
     },
     "testnet": false
   },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 10,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_10.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x62128a98b1c9d9f235a77fe0fd4640136d1d73e6993d533d8cedcf5359762be0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1563,34 +1535,6 @@
     "latestMetadata": "qr/kylin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kylin_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "darwinia parachain": {
-    "title": "Darwinia",
-    "color": "#FF0083",
-    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
-    "genesisHash": "0xe71578b37a7c799b0ab4ee87ffa6f059a6b98f71f06fb8c84a8d88013a548ad6",
-    "unit": "RING",
-    "base58prefix": 18,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Darwinia.svg",
-    "decimals": 18,
-    "metadataVersion": 5330,
-    "metadataQr": {
-      "path": "qr/darwinia parachain_metadata_5330.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x4a333de9f30b5999423a0a8e2ff5a3c0a0e0569dda2df529bfd3f9a89d482993"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/darwinia parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/darwinia parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
