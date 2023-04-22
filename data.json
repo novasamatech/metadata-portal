@@ -532,34 +532,6 @@
     },
     "testnet": false
   },
-  "astar": {
-    "title": "Astar",
-    "color": "#1b6dc1d9",
-    "rpcEndpoint": "wss://rpc.astar.network",
-    "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-    "unit": "ASTR",
-    "base58prefix": 5,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
-    "decimals": 18,
-    "metadataVersion": 55,
-    "metadataQr": {
-      "path": "qr/astar_metadata_55.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7b571985c3cdad4dd1df363a94bb81f617a4a7f77f626205242f9d31d12fe8f0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/astar_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/astar_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "parallel": {
     "title": "Parallel",
     "color": "#ef18ac",
