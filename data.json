@@ -1400,34 +1400,6 @@
     },
     "testnet": false
   },
-  "gm_parachain": {
-    "title": "GM",
-    "color": "#f47b36",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "metadataVersion": 7,
-    "metadataQr": {
-      "path": "qr/gm_parachain_metadata_7.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xce99616feff5607d9cb9984fd1260fd6562a6ff843538fb883c414956d50529a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/gm_parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
