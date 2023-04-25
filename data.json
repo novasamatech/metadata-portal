@@ -980,34 +980,6 @@
     },
     "testnet": false
   },
-  "turing": {
-    "title": "Turing",
-    "color": "#A8278C",
-    "rpcEndpoint": "wss://rpc.turing.oak.tech",
-    "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
-    "unit": "TUR",
-    "base58prefix": 51,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing.svg",
-    "decimals": 10,
-    "metadataVersion": 290,
-    "metadataQr": {
-      "path": "qr/turing_metadata_290.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0d3642d40a0550783a17500a4d71b8ea81ec1704354402dbdc1257234ced6fc4"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/turing_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/turing_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "composable": {
     "title": "Composable Finance",
     "color": "#C90E8A",
