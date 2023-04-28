@@ -1,14 +1,14 @@
 data_file = 'public/data.json'
 public_dir = 'public'
 qr_dir = 'public/qr'
+[verifiers.parity]
+name = 'Parity'
+public_key = 'c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57'
+
 [verifiers.novasama]
 name = 'Novasama Technologies'
 public_key = '16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f'
 ethereum_public_key = '031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1'
-
-[verifiers.parity]
-name = 'Parity'
-public_key = 'c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57'
 
 [[chains]]
 name = 'polkadot'
@@ -215,7 +215,7 @@ name = 'calamari'
 title = 'Calamari'
 color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg'
-rpc_endpoints = ['wss://ws.calamari.systems/']
+rpc_endpoints = ['wss://calamari.systems']
 testnet = false
 verifier = 'novasama'
 
@@ -409,7 +409,10 @@ name = 'centrifuge'
 title = 'Centrifuge Parachain'
 color = '#fcc367'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg'
-rpc_endpoints = ['wss://fullnode.parachain.centrifuge.io']
+rpc_endpoints = [
+    'wss://centrifuge-parachain.api.onfinality.io/public-ws',
+    'wss://fullnode.parachain.centrifuge.io',
+]
 testnet = false
 verifier = 'novasama'
 
@@ -672,18 +675,6 @@ testnet = false
 verifier = 'novasama'
 
 [[chains]]
-name = 'Darwinia Parachain'
-title = 'Darwinia'
-color = '#FF0083'
-icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Darwinia.svg'
-rpc_endpoints = [
-    'wss://parachain-rpc.darwinia.network',
-    'wss://darwinia-rpc.dwellir.com',
-]
-testnet = false
-verifier = 'novasama'
-
-[[chains]]
 name = 'totem-parachain'
 title = 'Kapex'
 color = 'linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)'
@@ -774,5 +765,26 @@ title = 'Bittensor'
 color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg'
 rpc_endpoints = ['wss://entrypoint-finney.opentensor.ai:443']
+testnet = false
+verifier = 'novasama'
+
+[[chains]]
+name = 'ajuna'
+title = 'Ajuna'
+color = '#000000'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg'
+rpc_endpoints = [
+    'wss://rpc-parachain.ajuna.network',
+    'wss://ajuna.public.curie.radiumblock.co/ws',
+]
+testnet = false
+verifier = 'novasama'
+
+[[chains]]
+name = 'poscan-runtime'
+title = '3DPass'
+color = '#000000'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg'
+rpc_endpoints = ['wss://rpc2.3dpass.org']
 testnet = false
 verifier = 'novasama'
