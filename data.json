@@ -1428,34 +1428,6 @@
     },
     "testnet": false
   },
-  "imbue": {
-    "title": "Imbue",
-    "color": "#baff36",
-    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
-    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-    "unit": "IMBU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
-    "decimals": 12,
-    "metadataVersion": 1031,
-    "metadataQr": {
-      "path": "qr/imbue_metadata_1031.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe00d5e645f18b0081fa373cd69d17b5620b007bb779724eb88109eaba787409c"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/imbue_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "tinkernet_node": {
     "title": "Tinkernet",
     "color": "#161616",
@@ -1871,6 +1843,62 @@
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ajuna": {
+    "title": "Ajuna",
+    "color": "#161212",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "metadataVersion": 1,
+    "metadataQr": {
+      "path": "qr/ajuna_metadata_1.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x7498c3f5d51cd91f4511a4913a5eba0209b61218d86881b63279a0edc08cf4de"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#323232",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "metadataVersion": 104,
+    "metadataQr": {
+      "path": "qr/poscan-runtime_metadata_104.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xaa1d4824764961996ba1e0034ddd67a1419d850c52bbd8ec2113d95af0bcae59"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
