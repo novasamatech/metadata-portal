@@ -423,7 +423,7 @@
   "calamari": {
     "title": "Calamari",
     "color": "#000000",
-    "rpcEndpoint": "wss://ws.calamari.systems/",
+    "rpcEndpoint": "wss://calamari.systems",
     "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
     "unit": "KMA",
     "base58prefix": 78,
@@ -899,7 +899,7 @@
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
-    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
+    "rpcEndpoint": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
     "unit": "CFG",
     "base58prefix": 36,
@@ -1400,6 +1400,34 @@
     },
     "testnet": false
   },
+  "datahighway-parachain": {
+    "title": "Tanganika",
+    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
+    "rpcEndpoint": "wss://tanganika.datahighway.com",
+    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+    "unit": "DHX",
+    "base58prefix": 33,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
+    "decimals": 18,
+    "metadataVersion": 10,
+    "metadataQr": {
+      "path": "qr/datahighway-parachain_metadata_10.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x62128a98b1c9d9f235a77fe0fd4640136d1d73e6993d533d8cedcf5359762be0"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/datahighway-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1794,7 +1822,7 @@
   },
   "polkadot-crust-parachain": {
     "title": "Crust",
-    "color": "#000000",
+    "color": "#ff8812",
     "rpcEndpoint": "wss://crust-parachain.crustapps.net",
     "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
     "unit": "CRU",
@@ -1822,7 +1850,7 @@
   },
   "avn-parachain": {
     "title": "Aventus",
-    "color": "#000000",
+    "color": "#E6E6FA",
     "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
     "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
     "unit": "AVT",
@@ -1850,7 +1878,7 @@
   },
   "node-subtensor": {
     "title": "Bittensor",
-    "color": "#000000",
+    "color": "#252525",
     "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
     "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
     "unit": "TAO",
