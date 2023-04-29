@@ -140,34 +140,6 @@
     },
     "testnet": false
   },
-  "moonbeam": {
-    "title": "Moonbeam",
-    "color": "#53cbc9",
-    "rpcEndpoint": "wss://wss.api.moonbeam.network",
-    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-    "unit": "GLMR",
-    "base58prefix": 1284,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
-    "decimals": 18,
-    "metadataVersion": 2201,
-    "metadataQr": {
-      "path": "qr/moonbeam_metadata_2201.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xaacb6d00c21960df09afd05afed5da0d23b7c0aec88bc3aea30c220119c8d06e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/moonbeam_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/moonbeam_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "moonriver": {
     "title": "Moonriver",
     "color": "#0E132E",
