@@ -1820,34 +1820,6 @@
     },
     "testnet": false
   },
-  "node-subtensor": {
-    "title": "Bittensor",
-    "color": "#252525",
-    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
-    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg",
-    "decimals": 9,
-    "metadataVersion": 119,
-    "metadataQr": {
-      "path": "qr/node-subtensor_metadata_119.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x6e77c8ad6b3904f4cf040e0124d3adf61ecde9687ff8d9a736b917cdae8c70c4"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "ajuna": {
     "title": "Ajuna",
     "color": "#161212",
