@@ -196,6 +196,34 @@
     },
     "testnet": false
   },
+  "shiden": {
+    "title": "Shiden",
+    "color": "#5923B2",
+    "rpcEndpoint": "wss://rpc.shiden.astar.network",
+    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+    "unit": "SDN",
+    "base58prefix": 5,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
+    "decimals": 18,
+    "metadataVersion": 96,
+    "metadataQr": {
+      "path": "qr/shiden_metadata_96.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8604b223b87bd8f0ea5c4a948291f90f8d90e34fe093b8c5a29b5cc1ed2487bb"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/shiden_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bifrost": {
     "title": "Bifrost Kusama",
     "color": "#5a25f0",
@@ -1731,34 +1759,6 @@
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "metadataVersion": 4,
-    "metadataQr": {
-      "path": "qr/pendulum_metadata_4.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xd0405e9caeba99089c629725198f2ead4a8b277f6c3d01eef89257fed1e9bb2f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
