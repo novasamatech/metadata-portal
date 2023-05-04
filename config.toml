@@ -1,14 +1,14 @@
 data_file = 'public/data.json'
 public_dir = 'public'
 qr_dir = 'public/qr'
-[verifiers.parity]
-name = 'Parity'
-public_key = 'c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57'
-
 [verifiers.novasama]
 name = 'Novasama Technologies'
 public_key = '16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f'
 ethereum_public_key = '031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1'
+
+[verifiers.parity]
+name = 'Parity'
+public_key = 'c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57'
 
 [[chains]]
 name = 'polkadot'
@@ -693,15 +693,6 @@ testnet = false
 verifier = 'novasama'
 
 [[chains]]
-name = 'snow'
-title = 'Snow'
-color = '#2026AE'
-icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/SNOW.svg'
-rpc_endpoints = ['wss://snow-rpc.icenetwork.io']
-testnet = false
-verifier = 'novasama'
-
-[[chains]]
 name = 'Ipci'
 title = 'DAO IPCI'
 color = '#800742'
@@ -744,7 +735,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'polkadot-crust-parachain'
 title = 'Crust'
-color = '#ff8812'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust.svg'
 rpc_endpoints = ['wss://crust-parachain.crustapps.net']
 testnet = false
@@ -753,7 +744,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'avn-parachain'
 title = 'Aventus'
-color = '#E6E6FA'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg'
 rpc_endpoints = ['wss://public-rpc.mainnet.aventus.io']
 testnet = false
@@ -762,7 +753,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'node-subtensor'
 title = 'Bittensor'
-color = '#252525'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg'
 rpc_endpoints = ['wss://entrypoint-finney.opentensor.ai:443']
 testnet = false
@@ -771,7 +762,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'ajuna'
 title = 'Ajuna'
-color = '#161212'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg'
 rpc_endpoints = [
     'wss://rpc-parachain.ajuna.network',
@@ -783,7 +774,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'poscan-runtime'
 title = '3DPass'
-color = '#323232'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg'
 rpc_endpoints = ['wss://rpc2.3dpass.org']
 testnet = false
