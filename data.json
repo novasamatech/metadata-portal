@@ -896,6 +896,34 @@
     },
     "testnet": false
   },
+  "centrifuge": {
+    "title": "Centrifuge Parachain",
+    "color": "#fcc367",
+    "rpcEndpoint": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
+    "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
+    "unit": "CFG",
+    "base58prefix": 36,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
+    "decimals": 18,
+    "metadataVersion": 1018,
+    "metadataQr": {
+      "path": "qr/centrifuge_metadata_1018.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xb2358f2493e31bcab5b497e7803f78cc30aeb3ccca1a059cac4753493cdc481f"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/centrifuge_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/centrifuge_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "efinity": {
     "title": "Efinity",
     "color": "#496ddb",
