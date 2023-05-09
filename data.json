@@ -1820,34 +1820,6 @@
     },
     "testnet": false
   },
-  "avn-parachain": {
-    "title": "Aventus",
-    "color": "#E6E6FA",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
-    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-    "unit": "AVT",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg",
-    "decimals": 18,
-    "metadataVersion": 22,
-    "metadataQr": {
-      "path": "qr/avn-parachain_metadata_22.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x15a44271918573e6fce772a973e95145d54270d291330d4bca80772d93395468"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/avn-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#252525",
