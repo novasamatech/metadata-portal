@@ -735,7 +735,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'polkadot-crust-parachain'
 title = 'Crust'
-color = '#ff8812'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust.svg'
 rpc_endpoints = ['wss://crust-parachain.crustapps.net']
 testnet = false
@@ -744,7 +744,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'avn-parachain'
 title = 'Aventus'
-color = '#E6E6FA'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg'
 rpc_endpoints = ['wss://public-rpc.mainnet.aventus.io']
 testnet = false
@@ -753,7 +753,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'node-subtensor'
 title = 'Bittensor'
-color = '#252525'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg'
 rpc_endpoints = ['wss://entrypoint-finney.opentensor.ai:443']
 testnet = false
@@ -762,7 +762,7 @@ verifier = 'novasama'
 [[chains]]
 name = 'ajuna'
 title = 'Ajuna'
-color = '#161212'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg'
 rpc_endpoints = [
     'wss://rpc-parachain.ajuna.network',
@@ -774,8 +774,32 @@ verifier = 'novasama'
 [[chains]]
 name = 'poscan-runtime'
 title = '3DPass'
-color = '#323232'
+color = '#000000'
 icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg'
 rpc_endpoints = ['wss://rpc2.3dpass.org']
 testnet = false
 verifier = 'novasama'
+
+[[chains]]
+name = 'Darwinia Parachain'
+title = 'Darwinia'
+color = '#FF0083'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Darwinia.svg'
+rpc_endpoints = ['wss://parachain-rpc.darwinia.network']
+testnet = false
+verifier = 'novasama'
+encryption = 'ethereum'
+
+[[chains]]
+name = 'Crab2'
+title = 'Crab'
+color = '#000000'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg'
+rpc_endpoints = [
+    'wss://crab-rpc.darwinia.network/',
+    'wss://darwiniacrab-rpc.dwellir.com',
+    'wss://crab.api.onfinality.io/public-ws',
+]
+testnet = false
+verifier = 'novasama'
+encryption = 'ethereum'
