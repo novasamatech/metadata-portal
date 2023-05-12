@@ -1931,5 +1931,33 @@
       "source": null
     },
     "testnet": false
+  },
+  "crab2": {
+    "title": "Crab",
+    "color": "#72C78F",
+    "rpcEndpoint": "wss://crab-rpc.darwinia.network/",
+    "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
+    "decimals": 18,
+    "metadataVersion": 6210,
+    "metadataQr": {
+      "path": "qr/crab2_metadata_6210.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x7633d0c5e40eeca6c232bb91184f0470a17532f25b6e084f9d3344a83aad4d42"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/crab2_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab2_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   }
 }
