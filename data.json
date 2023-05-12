@@ -448,34 +448,6 @@
     },
     "testnet": false
   },
-  "quartz": {
-    "title": "QUARTZ",
-    "color": "#FF4D6A",
-    "rpcEndpoint": "wss://quartz.unique.network",
-    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
-    "unit": "QTZ",
-    "base58prefix": 255,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Quartz.svg",
-    "decimals": 18,
-    "metadataVersion": 941055,
-    "metadataQr": {
-      "path": "qr/quartz_metadata_941055.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xc75a192bcd02aebcf2c0646e615493a22f7948389a5e998aa9df8298ba642262"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/quartz_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/quartz_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "pioneer-runtime": {
     "title": "Bit.Country Pioneer",
     "color": "#000000",
