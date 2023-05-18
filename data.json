@@ -980,34 +980,6 @@
     },
     "testnet": false
   },
-  "nodle-para": {
-    "title": "Nodle Parachain",
-    "color": "#1ab394",
-    "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
-    "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
-    "unit": "NODL",
-    "base58prefix": 37,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Nodle.svg",
-    "decimals": 11,
-    "metadataVersion": 19,
-    "metadataQr": {
-      "path": "qr/nodle-para_metadata_19.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa8442f18247c9361a5bb25423edd30d8ac24d78130384e36f4905ea699bf3464"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/nodle-para_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/nodle-para_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "turing": {
     "title": "Turing",
     "color": "#A8278C",
