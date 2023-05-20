@@ -1792,34 +1792,6 @@
     },
     "testnet": false
   },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#323232",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "metadataVersion": 104,
-    "metadataQr": {
-      "path": "qr/poscan-runtime_metadata_104.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xaa1d4824764961996ba1e0034ddd67a1419d850c52bbd8ec2113d95af0bcae59"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "crab2": {
     "title": "Crab",
     "color": "#72C78F",
