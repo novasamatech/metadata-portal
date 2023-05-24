@@ -26,6 +26,10 @@ qr_dir = "public/qr"
   name = "acala"
   color = "#645AFF"
 
+  [chains.Frequency]
+  name = "frequency"
+  color = "#4B64FF"
+
   [chains.Statemine]
   name = "statemine"
   color = "#113911"
@@ -326,6 +330,11 @@ qr_dir = "public/qr"
   name = "mandala"
   title = "Mandala"
   color = "#173DC9"
+
+  [chains."Frequency Rococo"]
+  name = "frequency-rococo"
+  title = "Frequency Rococo"
+  color = "#29FD47"
 
   [chains."KILT Peregrine"]
   name = "mashnet-node"

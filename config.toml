@@ -259,6 +259,18 @@ testnet = false
 verifier = 'novasama'
 
 [[chains]]
+name = 'frequency'
+title = 'Frequency'
+color = '#4B64FF'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg'
+rpc_endpoints = [
+    'wss://0.rpc.frequency.xyz',
+    'wss://1.rpc.frequency.xyz'
+]
+testnet = false
+verifier = 'novasama'
+
+[[chains]]
 name = 'astar'
 title = 'Astar'
 color = '#1b6dc1d9'

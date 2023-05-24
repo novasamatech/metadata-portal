@@ -247,6 +247,27 @@ testnet = true
 verifier = 'novasama'
 
 [[chains]]
+name = 'frequency'
+title = 'Frequency'
+color = '#4B64FF'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg'
+rpc_endpoints = [
+    'wss://0.rpc.frequency.xyz',
+    'wss://1.rpc.frequency.xyz'
+]
+testnet = false
+verifier = 'novasama'
+
+[[chains]]
+name = 'frequency-rococo'
+title = 'Frequency Rococo'
+color = '#29FD47'
+icon = 'https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg'
+rpc_endpoints = ['wss://rpc.rococo.frequency.xyz']
+testnet = true
+verifier = 'novasama'
+
+[[chains]]
 name = 'moonbeam'
 title = 'Moonbeam'
 color = '#53cbc9'
