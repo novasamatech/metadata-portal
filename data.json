@@ -1428,34 +1428,6 @@
     },
     "testnet": false
   },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "metadataVersion": 17,
-    "metadataQr": {
-      "path": "qr/tinkernet_node_metadata_17.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xbf290daa6d34759c138f23f635cd9dfd259a8bca6fa08b04a25c66597b52ea67"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "gm_parachain": {
     "title": "GM",
     "color": "#f47b36",
