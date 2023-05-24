@@ -728,6 +728,34 @@
     },
     "testnet": false
   },
+  "picasso": {
+    "title": "Picasso",
+    "color": "#000000",
+    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
+    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+    "unit": "PICA",
+    "base58prefix": 49,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
+    "decimals": 12,
+    "metadataVersion": 10026,
+    "metadataQr": {
+      "path": "qr/picasso_metadata_10026.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe3532327beb256f31f6890168774958bc5c0d75148f56fcc7da223acc3f8c971"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/picasso_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/picasso_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "zeitgeist": {
     "title": "Zeitgeist",
     "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
@@ -919,6 +947,34 @@
     "latestMetadata": "qr/efinity_metadata_latest.apng",
     "specsQr": {
       "path": "qr/efinity_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "hydradx": {
+    "title": "HydraDX",
+    "color": "#f653a2",
+    "rpcEndpoint": "wss://rpc.hydradx.cloud",
+    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "unit": "HDX",
+    "base58prefix": 63,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
+    "decimals": 12,
+    "metadataVersion": 148,
+    "metadataQr": {
+      "path": "qr/hydradx_metadata_148.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x7cad412ad5e06c5f4eb8244f0a6d6d13e97d3eb2bcd77a08af335175325f2108"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/hydradx_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/hydradx_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1423,6 +1479,34 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "metadataVersion": 18,
+    "metadataQr": {
+      "path": "qr/tinkernet_node_metadata_18.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x35a8ba578b44406cbc096608237a82870ff6f2f59ad58c06d0602a8636948cb0"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
