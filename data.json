@@ -56,34 +56,6 @@
     },
     "testnet": true
   },
-  "statemine": {
-    "title": "Statemine",
-    "color": "#113911",
-    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
-    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
-    "decimals": 12,
-    "metadataVersion": 9382,
-    "metadataQr": {
-      "path": "qr/statemine_metadata_9382.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x283f0503d2afa65dbd7d02efeade5d9dcb8ea868af8ee84bd723c5de639f28d8"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemine_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemine_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
