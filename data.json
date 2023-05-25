@@ -28,34 +28,6 @@
     },
     "testnet": false
   },
-  "kusama": {
-    "title": "Kusama",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc.ibp.network/kusama",
-    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama.svg",
-    "decimals": 12,
-    "metadataVersion": 9381,
-    "metadataQr": {
-      "path": "qr/kusama_metadata_9381.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Rpc",
-        "block": "0x12f5da367bdeb1b5f6be87bfd15971883c37540abb6eb139a9bc67907e4c0f5a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kusama_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": false
-  },
   "westend": {
     "title": "Westend",
     "color": "#f27230",
@@ -1127,7 +1099,7 @@
     "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
     "unit": "LAYR",
     "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.png",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "metadataVersion": 10025,
     "metadataQr": {
@@ -1319,7 +1291,7 @@
   "mangata-parachain": {
     "title": "Mangata X",
     "color": "#030408",
-    "rpcEndpoint": "wss://prod-kusama-collator-01.mangatafinance.cloud",
+    "rpcEndpoint": "wss://kusama-rpc.mangata.online",
     "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
     "unit": "MGX",
     "base58prefix": 42,
@@ -1794,7 +1766,7 @@
   },
   "polkadot-crust-parachain": {
     "title": "Crust",
-    "color": "#ff8812",
+    "color": "#000000",
     "rpcEndpoint": "wss://crust-parachain.crustapps.net",
     "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
     "unit": "CRU",
@@ -1822,7 +1794,7 @@
   },
   "avn-parachain": {
     "title": "Aventus",
-    "color": "#E6E6FA",
+    "color": "#000000",
     "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
     "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
     "unit": "AVT",
