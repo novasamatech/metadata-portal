@@ -953,34 +953,6 @@
     },
     "testnet": false
   },
-  "hydradx": {
-    "title": "HydraDX",
-    "color": "#f653a2",
-    "rpcEndpoint": "wss://rpc.hydradx.cloud",
-    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-    "unit": "HDX",
-    "base58prefix": 63,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
-    "decimals": 12,
-    "metadataVersion": 148,
-    "metadataQr": {
-      "path": "qr/hydradx_metadata_148.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7cad412ad5e06c5f4eb8244f0a6d6d13e97d3eb2bcd77a08af335175325f2108"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/hydradx_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/hydradx_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "interlay-parachain": {
     "title": "Interlay",
     "color": "#3E96FF",
