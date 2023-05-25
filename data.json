@@ -28,6 +28,35 @@
     },
     "testnet": false
   },
+  "kusama": {
+    "title": "Kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.ibp.network/kusama",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama.svg",
+    "decimals": 12,
+    "metadataVersion": 9420,
+    "metadataQr": {
+      "path": "qr/kusama_metadata_9420.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0xaa5837e5dc5d96bb4ac1558ca796c2cf8415158ca5b24291f71c21191c798404"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": false
+  },
   "westend": {
     "title": "Westend",
     "color": "#f27230",
@@ -55,6 +84,34 @@
       "source": null
     },
     "testnet": true
+  },
+  "statemine": {
+    "title": "Statemine",
+    "color": "#113911",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
+    "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Statemine.svg",
+    "decimals": 12,
+    "metadataVersion": 9420,
+    "metadataQr": {
+      "path": "qr/statemine_metadata_9420.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1aef4a0d983972763ea8d861d999237847f056328fa301967a6edb3ee9b4bb30"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/statemine_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/statemine_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   },
   "karura": {
     "title": "Karura",
@@ -1820,6 +1877,34 @@
     },
     "testnet": false
   },
+  "equilibrium-parachain": {
+    "title": "Equilibrium",
+    "color": "#000000",
+    "rpcEndpoint": "wss://node.pol.equilibrium.io",
+    "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+    "unit": "EQ",
+    "base58prefix": 68,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
+    "decimals": 9,
+    "metadataVersion": 28,
+    "metadataQr": {
+      "path": "qr/equilibrium-parachain_metadata_28.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x4e0cf4e1c91238dc5393f946a393a2e63e3fc85e9d715d8c8e123b73430c6f1e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/equilibrium-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "ajuna": {
     "title": "Ajuna",
     "color": "#161212",
@@ -1876,6 +1961,34 @@
     },
     "testnet": false
   },
+  "darwinia2": {
+    "title": "Darwinia",
+    "color": "#FF0083",
+    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
+    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
+    "unit": "RING",
+    "base58prefix": 18,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Darwinia.svg",
+    "decimals": 18,
+    "metadataVersion": 6300,
+    "metadataQr": {
+      "path": "qr/darwinia2_metadata_6300.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x7f6ecd1efbbc4d462ccef4a320ac8cee98f892bff09c48b09fc93de8b1489451"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/darwinia2_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "crab2": {
     "title": "Crab",
     "color": "#72C78F",
@@ -1899,6 +2012,34 @@
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "frequency": {
+    "title": "Frequency",
+    "color": "#4B64FF",
+    "rpcEndpoint": "wss://0.rpc.frequency.xyz",
+    "genesisHash": "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
+    "unit": "FRQCY",
+    "base58prefix": 90,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
+    "decimals": 8,
+    "metadataVersion": 30,
+    "metadataQr": {
+      "path": "qr/frequency_metadata_30.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xda27a07d1eec39638007c869e3b05363fc1b014b2a0cc99dc1dcc506f0294d3c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/frequency_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/frequency_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
