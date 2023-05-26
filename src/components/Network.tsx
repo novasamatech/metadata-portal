@@ -172,8 +172,8 @@ export const Network = ({ spec }: { spec: ChainSpec }) => {
                                   selected ? "cursor-default" : "cursor-pointer"
                                 )}
                               >
-                                <span>{qr.label}</span>
-                                <span className="px-2 py-1 text-sm rounded-full bg-neutral-200">
+                                <span className="text-center">{qr.label}</span>
+                                <span className="px-2 py-1 text-sm rounded-full bg-neutral-200 text-center">
                                   {qrs[selectedQr].qr.signedBy
                                     ? `Signed by ${qrs[selectedQr].qr.signedBy}`
                                     : "Unsigned"}
