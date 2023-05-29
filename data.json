@@ -365,34 +365,6 @@
     },
     "testnet": false
   },
-  "khala": {
-    "title": "Khala",
-    "color": "#03f3f3",
-    "rpcEndpoint": "wss://khala-api.phala.network/ws",
-    "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
-    "decimals": 12,
-    "metadataVersion": 1246,
-    "metadataQr": {
-      "path": "qr/khala_metadata_1246.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x6db07ae35293cda18c1ab0465556f24001b8411fb5e966c7304df4ed8b0b9d23"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/khala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/khala_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kilt-spiritnet": {
     "title": "KILT",
     "color": "#8c145a",
@@ -1032,34 +1004,6 @@
     "latestMetadata": "qr/nodle-para_metadata_latest.apng",
     "specsQr": {
       "path": "qr/nodle-para_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "phala": {
-    "title": "Phala",
-    "color": "#c6fa4c",
-    "rpcEndpoint": "wss://api.phala.network/ws",
-    "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
-    "unit": "PHA",
-    "base58prefix": 30,
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Phala.svg",
-    "decimals": 12,
-    "metadataVersion": 1246,
-    "metadataQr": {
-      "path": "qr/phala_metadata_1246.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x3c8867a3ec94eba35e86e5f30c71e6cbe7361f816accdc87b2a6004b7aef1d52"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/phala_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/phala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
