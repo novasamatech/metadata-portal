@@ -8,7 +8,7 @@ External users (chain owners) will be able to deploy their versions of metadata 
 
 #  Supported Chains
 
-List of supported chains is published in [Nova-utils repository](https://github.com/nova-wallet/nova-utils/tree/master/chains#list-of-supported-networks)
+List of supported chains is published in [Nova-utils repository](https://github.com/novasamatech/nova-utils/tree/master/chains#list-of-supported-networks)
 
 ## How does it work?
 
@@ -18,7 +18,7 @@ Metadata Portal supports two metadata sources in parallel. Both are equally impo
 
 ## User interface
 By default, only production networks are displayed in the user interface.
-If you'd like to get all list of networks including test networks add `/dev` to the url. For example `https://nova-wallet.github.io/metadata-portal/#/dev`
+If you'd like to get all list of networks including test networks add `/dev` to the url. For example `https://novasamatech.github.io/metadata-portal/#/dev`
 
 ### 1. Parsing it from chain and generating QR codes itself with manual signing
 
@@ -72,7 +72,7 @@ in their signing devices to parse and sign their transactions right away.
 
 ### Steps
 
-#### With integration with [Nova Wallet utils configuration](https://github.com/nova-wallet/nova-utils/blob/master/chains/)
+#### With integration with [Nova Wallet utils configuration](https://github.com/novasamatech/nova-utils/blob/master/chains/)
 You can use Github Pages to host the metadata-portal for your set of chains
 1. Fork this repo
 2. Edit signer's name and public key in the `config-template.toml`. The key can be exported from [parity-signer](https://github.com/paritytech/parity-signer)
