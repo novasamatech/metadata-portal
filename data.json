@@ -925,6 +925,34 @@
     },
     "testnet": false
   },
+  "efinity": {
+    "title": "Efinity",
+    "color": "#496ddb",
+    "rpcEndpoint": "wss://rpc.efinity.io",
+    "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
+    "unit": "EFI",
+    "base58prefix": 1110,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Efinity.svg",
+    "decimals": 18,
+    "metadataVersion": 3014,
+    "metadataQr": {
+      "path": "qr/efinity_metadata_3014.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xd64fd27e39a41118d22b8450e2ee179592ae4a779d959832ddf903a6f81d22cd"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/efinity_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/efinity_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "hydradx": {
     "title": "HydraDX",
     "color": "#f653a2",
