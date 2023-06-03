@@ -422,7 +422,7 @@
     "testnet": false
   },
   "calamari": {
-    "title": "Calamari",
+    "title": "Calamari (PAUSED)",
     "color": "#000000",
     "rpcEndpoint": "wss://calamari.systems",
     "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
@@ -926,8 +926,8 @@
     "testnet": false
   },
   "efinity": {
-    "title": "Efinity",
-    "color": "#496ddb",
+    "title": "Efinity (PAUSED)",
+    "color": "#000000",
     "rpcEndpoint": "wss://rpc.efinity.io",
     "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
     "unit": "EFI",
@@ -1040,7 +1040,7 @@
   "phala": {
     "title": "Phala",
     "color": "#c6fa4c",
-    "rpcEndpoint": "wss://api.phala.network/ws",
+    "rpcEndpoint": "wss://phala-rpc.dwellir.com",
     "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
     "unit": "PHA",
     "base58prefix": 30,
@@ -1124,7 +1124,7 @@
   "composable": {
     "title": "Composable Finance",
     "color": "#C90E8A",
-    "rpcEndpoint": "wss://rpc.composable.finance",
+    "rpcEndpoint": "wss://composable.api.onfinality.io/public-ws",
     "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
     "unit": "LAYR",
     "base58prefix": 50,
@@ -1374,8 +1374,8 @@
     "testnet": false
   },
   "kabocha-parachain": {
-    "title": "Kabocha",
-    "color": "#f53485",
+    "title": "Kabocha (PAUSED)",
+    "color": "#000000",
     "rpcEndpoint": "wss://kabocha.jelliedowl.com",
     "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
     "unit": "KAB",
@@ -1396,34 +1396,6 @@
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "datahighway-parachain": {
-    "title": "Tanganika",
-    "color": "linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)",
-    "rpcEndpoint": "wss://tanganika.datahighway.com",
-    "genesisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-    "unit": "DHX",
-    "base58prefix": 33,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tanganika_DataHighway.svg",
-    "decimals": 18,
-    "metadataVersion": 10,
-    "metadataQr": {
-      "path": "qr/datahighway-parachain_metadata_10.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x62128a98b1c9d9f235a77fe0fd4640136d1d73e6993d533d8cedcf5359762be0"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/datahighway-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/datahighway-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1851,7 +1823,7 @@
   },
   "node-subtensor": {
     "title": "Bittensor",
-    "color": "#252525",
+    "color": "#000000",
     "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
     "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
     "unit": "TAO",
@@ -1907,7 +1879,7 @@
   },
   "ajuna": {
     "title": "Ajuna",
-    "color": "#161212",
+    "color": "#000000",
     "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
     "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
     "unit": "AJUN",
@@ -1935,7 +1907,7 @@
   },
   "poscan-runtime": {
     "title": "3DPass",
-    "color": "#323232",
+    "color": "#000000",
     "rpcEndpoint": "wss://rpc2.3dpass.org",
     "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
     "unit": "P3D",
@@ -1991,7 +1963,7 @@
   },
   "crab2": {
     "title": "Crab",
-    "color": "#72C78F",
+    "color": "#512DBC",
     "rpcEndpoint": "wss://crab-rpc.darwinia.network/",
     "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
     "unit": "CRAB",
@@ -2019,7 +1991,7 @@
   },
   "frequency": {
     "title": "Frequency",
-    "color": "#4B64FF",
+    "color": "#29fd47",
     "rpcEndpoint": "wss://0.rpc.frequency.xyz",
     "genesisHash": "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
     "unit": "FRQCY",
