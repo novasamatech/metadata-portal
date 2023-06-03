@@ -374,3 +374,15 @@ qr_dir = "public/qr"
   [chains."Pendulum"]
   name = "Pendulum"
   color = "#49E2FD"
+
+  [chains."Frequency"]
+  name = "frequency"
+  color = "#29fd47"
+
+  [chains."Crab"]
+  name = "Crab2"
+  color = "#512DBC"
+
+  [chains."Vara"]
+  name = "vara"
+  color = "#00a87a"
