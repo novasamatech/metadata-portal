@@ -929,7 +929,7 @@
     "title": "Efinity (PAUSED)",
     "color": "#000000",
     "rpcEndpoint": "wss://rpc.efinity.io",
-    "genesisHash": "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
+    "genesisHash": "0x99ded175d436bee7d751fa3f2f8c7a257ddc063a541f8daa5e6152604f66b2a0",
     "unit": "EFI",
     "base58prefix": 1110,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Efinity.svg",
@@ -1592,34 +1592,6 @@
     "latestMetadata": "qr/kylin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kylin_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://k-ui.kapex.network",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "metadataVersion": 4,
-    "metadataQr": {
-      "path": "qr/totem-parachain_metadata_4.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
