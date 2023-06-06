@@ -8,7 +8,7 @@ export interface ChainSpec {
   decimals: number;
   icon: string;
   liveMetaVersion: number;
-  metadataQrs: MetadataQr[];
+  metadataQr?: MetadataQr;
   latestMetadata: string;
   specsQr: QrInfo;
   testnet: boolean;
