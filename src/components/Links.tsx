@@ -1,5 +1,5 @@
 const LINKS = [
-  ["GitHub", "https://github.com/nova-wallet/metadata-portal"],
+  ["GitHub", "https://github.com/novasamatech/metadata-portal"],
   ["Terms of Service", "https://novawallet.io/terms"],
 ];
 
