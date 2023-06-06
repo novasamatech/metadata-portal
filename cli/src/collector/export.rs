@@ -51,7 +51,12 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
                     &pointer_to_latest_meta,
                     &config.public_dir,
                 )?,
-                metadata_qr: export_live_metadata(config, metadata_qrs, &live_meta_version, &chain.verifier,),
+                metadata_qr: export_live_metadata(
+                    config,
+                    metadata_qrs,
+                    &live_meta_version,
+                    &chain.verifier,
+                ),
                 live_meta_version,
                 testnet: chain.testnet.unwrap_or(false),
             },

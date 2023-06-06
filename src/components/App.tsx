@@ -24,7 +24,41 @@ export default function App() {
           "Unable to fetch data file. Run `make collector` to generate it"
         );
       })
-      .then(setChains);
+      .then((res) => {
+        const sortedChainKeys = Object.keys(res).sort((a, b) => {
+          if (
+            (res[a].testnet && res[b].testnet) ||
+            (!res[a].testnet && !res[b].testnet)
+          ) {
+            if (a == "polkadot") {
+              return -100;
+            }
+            if (b == "polkadot") {
+              return 1;
+            }
+            if (a == "kusama") {
+              return -50;
+            }
+            if (b == "kusama") {
+              return 1;
+            }
+            if (a == "westend") {
+              return -10;
+            }
+            if (b == "westend") {
+              return 1;
+            }
+            return res[a].title.localeCompare(res[b].title);
+          } else if (res[a].testnet) {
+            return 1;
+          } else {
+            return -1;
+          }
+        });
+        const sortedChains: Chains = {};
+        sortedChainKeys.forEach((k) => (sortedChains[k] = res[k]));
+        setChains(sortedChains);
+      });
   }, []);
 
   useEffect(() => {
@@ -38,6 +72,40 @@ export default function App() {
 
   useEffect(() => {
     if (Object.keys(chains).length === 0 || currentChain) return;
+    const sortedChainKeys = Object.keys(chains).sort((a, b) => {
+      if (
+        (chains[a].testnet && chains[b].testnet) ||
+        (!chains[a].testnet && !chains[b].testnet)
+      ) {
+        if (a == "polkadot") {
+          return -100;
+        }
+        if (b == "polkadot") {
+          return 1;
+        }
+        if (a == "kusama") {
+          return -50;
+        }
+        if (b == "kusama") {
+          return 1;
+        }
+        if (a == "westend") {
+          return -10;
+        }
+        if (b == "westend") {
+          return 1;
+        }
+        return chains[a].title.localeCompare(chains[b].title);
+      } else if (chains[a].testnet) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+
+    const sortedChains: Chains = {};
+    sortedChainKeys.forEach((k) => (sortedChains[k] = chains[k]));
+    setChains(sortedChains);
 
     const locationChain = location.hash.replace("#/", "");
     const network =

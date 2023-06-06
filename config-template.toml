@@ -317,6 +317,11 @@ qr_dir = "public/qr"
   color = "#f27230"
   verifier = "parity"
 
+  [chains.Rococo]
+  name = "rococo"
+  color = "#6f36dc"
+  verifier = "parity"
+
   [chains.Westmint]
   name = "westmint"
   title = "Westmint"

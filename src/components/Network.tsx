@@ -42,7 +42,7 @@ export const Network = ({ spec }: { spec: ChainSpec }) => {
 
   const createGithubIssueLink = (
     <a
-      href="https://github.com/paritytech/metadata-portal/issues/new"
+      href="https://github.com/novasamatech/metadata-portal/issues/new"
       className="block mt-10 font-extrabold"
       style={{
         color: `${spec.color}`,

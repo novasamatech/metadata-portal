@@ -59,6 +59,17 @@ testnet = true
 verifier = 'parity'
 
 [[chains]]
+name = 'rococo'
+title = 'Rococo'
+color = '#6f36dc'
+icon = 'https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg'
+rpc_endpoints = [
+    'wss://rococo-rpc.polkadot.io'
+]
+testnet = true
+verifier = 'parity'
+
+[[chains]]
 name = 'statemine'
 title = 'Statemine'
 color = '#113911'
