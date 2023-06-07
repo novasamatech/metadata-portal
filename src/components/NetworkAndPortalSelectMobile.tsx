@@ -1,6 +1,5 @@
 import { Listbox } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
-import { icon } from "../icons";
 import { Chains, Portals } from "../scheme";
 import { capitalizeFirstLetter, cn, currentPortalKey } from "../utils";
 import { ChevronIcon } from "./ChevronIcon";
@@ -101,7 +100,7 @@ export const NetworkAndPortalSelectMobile = ({
                       selected && "bg-neutral-100 rounded-full"
                     )}
                   >
-                    <img src={icon(chain)} className="w-8 rounded-full" />
+                    <img src={chains[chain].icon} className="w-8 rounded-full" />
                     <div className="text-xl">
                       {capitalizeFirstLetter(chains[chain].title)}
                     </div>
