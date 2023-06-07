@@ -57,34 +57,6 @@
     },
     "testnet": false
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "metadataVersion": 9420,
-    "metadataQr": {
-      "path": "qr/westend_metadata_9420.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe1cb941817d2f79080f93c310ca7833e9f6ca03e89162ddaae4b31897873268c"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true
-  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
@@ -1317,34 +1289,6 @@
     },
     "testnet": false
   },
-  "pichiu": {
-    "title": "Pichiu",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://kusama.kylin-node.co.uk",
-    "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
-    "unit": "PCHU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pichiu.svg",
-    "decimals": 18,
-    "metadataVersion": 25,
-    "metadataQr": {
-      "path": "qr/pichiu_metadata_25.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x2ed0e2be483b5a58ca217d0138db84587b48393d36711c807e958a0da2d78481"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/pichiu_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pichiu_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "kabocha-parachain": {
     "title": "Kabocha (PAUSED)",
     "color": "#000000",
@@ -1564,34 +1508,6 @@
     "latestMetadata": "qr/kylin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kylin_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://k-ui.kapex.network",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "metadataVersion": 4,
-    "metadataQr": {
-      "path": "qr/totem-parachain_metadata_4.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
