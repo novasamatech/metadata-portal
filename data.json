@@ -57,6 +57,34 @@
     },
     "testnet": false
   },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "metadataVersion": 9430,
+    "metadataQr": {
+      "path": "qr/westend_metadata_9430.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0x93833b264a414975deb0502aa4b720c14b35f0b0b85c957816a26a0acb76bb50"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true
+  },
   "statemine": {
     "title": "Statemine",
     "color": "#113911",
@@ -80,6 +108,34 @@
     "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemine_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "karura": {
+    "title": "Karura",
+    "color": "#ff4c3b",
+    "rpcEndpoint": "wss://karura-rpc.dwellir.com",
+    "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+    "unit": "UNIT",
+    "base58prefix": 8,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
+    "decimals": 0,
+    "metadataVersion": 2180,
+    "metadataQr": {
+      "path": "qr/karura_metadata_2180.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xab9e735d1371119a1d1a606239dcee7b7af554761ded506864010e53e205b40c"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/karura_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/karura_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -225,6 +281,34 @@
     },
     "testnet": false
   },
+  "altair": {
+    "title": "Altair",
+    "color": "#ffb700",
+    "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
+    "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+    "unit": "AIR",
+    "base58prefix": 136,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
+    "decimals": 18,
+    "metadataVersion": 1027,
+    "metadataQr": {
+      "path": "qr/altair_metadata_1027.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x1e03bff9ed2ba83c6674d12a974224a17e54b009de68ec591e7e86e79145057a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/altair_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/altair_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "heiko": {
     "title": "Parallel Heiko",
     "color": "#42d5de",
@@ -360,6 +444,34 @@
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "quartz": {
+    "title": "QUARTZ",
+    "color": "#FF4D6A",
+    "rpcEndpoint": "wss://quartz.unique.network",
+    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "unit": "QTZ",
+    "base58prefix": 255,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
+    "decimals": 18,
+    "metadataVersion": 941056,
+    "metadataQr": {
+      "path": "qr/quartz_metadata_941056.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x8f5f96f5615d14771dbfb175aa792fe25090b19169abff406fc3077f78b77b5a"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/quartz_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/quartz_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -701,6 +813,34 @@
     },
     "testnet": false
   },
+  "subsocial-parachain": {
+    "title": "Subsocial",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.f3joule.space",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
+    "decimals": 10,
+    "metadataVersion": 24,
+    "metadataQr": {
+      "path": "qr/subsocial-parachain_metadata_24.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0x585e9cdea21852b9c08a501372c40db8bdc013c4844ed8e06c72e4c95895acfa"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "crust-collator": {
     "title": "Crust Shadow",
     "color": "#EEC6EC",
@@ -920,6 +1060,34 @@
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "turing": {
+    "title": "Turing",
+    "color": "#A8278C",
+    "rpcEndpoint": "wss://rpc.turing.oak.tech",
+    "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+    "unit": "TUR",
+    "base58prefix": 51,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Turing.svg",
+    "decimals": 10,
+    "metadataVersion": 293,
+    "metadataQr": {
+      "path": "qr/turing_metadata_293.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xafe6b52e494076fe6f56885ec5263816d17ff8a332cc2eb05dbf0cd5de06bd9e"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/turing_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/turing_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
