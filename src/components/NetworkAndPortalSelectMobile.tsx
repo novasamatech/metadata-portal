@@ -100,7 +100,10 @@ export const NetworkAndPortalSelectMobile = ({
                       selected && "bg-neutral-100 rounded-full"
                     )}
                   >
-                    <img src={chains[chain].icon} className="w-8 rounded-full" />
+                    <img
+                      src={chains[chain].icon}
+                      className="w-8 rounded-full"
+                    />
                     <div className="text-xl">
                       {capitalizeFirstLetter(chains[chain].title)}
                     </div>
