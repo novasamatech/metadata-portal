@@ -66,8 +66,17 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
-    "metadataVersion": 9430,
+    "metadataVersion": 9420,
     "metadataQr": {
+      "path": "qr/westend_metadata_9420.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Rpc",
+        "block": "0xe1cb941817d2f79080f93c310ca7833e9f6ca03e89162ddaae4b31897873268c"
+      }
+    },
+    "nextMetadataVersion": 9430,
+    "nextMetadataQr": {
       "path": "qr/westend_metadata_9430.apng",
       "signedBy": "Parity",
       "source": {
@@ -75,8 +84,6 @@
         "block": "0x93833b264a414975deb0502aa4b720c14b35f0b0b85c957816a26a0acb76bb50"
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -1256,34 +1263,6 @@
     "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/litentry-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "unique": {
-    "title": "UNIQUE",
-    "color": "#40BCFF",
-    "rpcEndpoint": "wss://eu-ws.unique.network/",
-    "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
-    "unit": "UNQ",
-    "base58prefix": 7391,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
-    "decimals": 18,
-    "metadataVersion": 941055,
-    "metadataQr": {
-      "path": "qr/unique_metadata_941055.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x0cac0b85c118b068b9759d6a019910eb55fb4685fde130cc051c6ebba01cfcd7"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/unique_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/unique_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
