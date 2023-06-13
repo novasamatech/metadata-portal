@@ -1513,34 +1513,6 @@
     },
     "testnet": false
   },
-  "polymesh_mainnet": {
-    "title": "Polymesh",
-    "color": "#1348e4",
-    "rpcEndpoint": "wss://mainnet-rpc.polymesh.network",
-    "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
-    "unit": "POLYX",
-    "base58prefix": 12,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
-    "decimals": 6,
-    "metadataVersion": 5003001,
-    "metadataQr": {
-      "path": "qr/polymesh_mainnet_metadata_5003001.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xac8a7940b4e41080f37dd0e810a18bcfa14a2688925d60d9222ca5086caa6535"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polymesh_mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "ipci": {
     "title": "DAO IPCI",
     "color": "#800742",
@@ -1788,34 +1760,6 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "metadataVersion": 107,
-    "metadataQr": {
-      "path": "qr/poscan-runtime_metadata_107.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xbd82d8edcc095964bf5568d8afcb6467537de4b7d2439b3174cb629b4868bad3"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
