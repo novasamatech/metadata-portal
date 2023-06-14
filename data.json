@@ -1765,34 +1765,6 @@
     },
     "testnet": false
   },
-  "crab2": {
-    "title": "Crab",
-    "color": "#512DBC",
-    "rpcEndpoint": "wss://crab-rpc.darwinia.network/",
-    "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
-    "unit": "CRAB",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
-    "decimals": 18,
-    "metadataVersion": 6300,
-    "metadataQr": {
-      "path": "qr/crab2_metadata_6300.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8b7f0cdd9a3960253f8773ddf3df458ea3aba69356089692f5c4407ea1b00ffa"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/crab2_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/crab2_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "frequency": {
     "title": "Frequency",
     "color": "#29fd47",
