@@ -253,34 +253,6 @@
     },
     "testnet": false
   },
-  "basilisk": {
-    "title": "Basilisk",
-    "color": "#9eec1b",
-    "rpcEndpoint": "wss://rpc.basilisk.cloud",
-    "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
-    "unit": "BSX",
-    "base58prefix": 10041,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Basilisk.svg",
-    "decimals": 12,
-    "metadataVersion": 94,
-    "metadataQr": {
-      "path": "qr/basilisk_metadata_94.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x72baf610fc4bc2e8cd108980ccc33bda9c87c92967c6d40246c2a0e65d519df2"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/basilisk_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/basilisk_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "altair": {
     "title": "Altair",
     "color": "#ffb700",
@@ -1284,6 +1256,34 @@
     "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dora ksm parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kabocha-parachain": {
+    "title": "Kabocha (PAUSED)",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
+    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+    "unit": "KAB",
+    "base58prefix": 27,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
+    "decimals": 12,
+    "metadataVersion": 28,
+    "metadataQr": {
+      "path": "qr/kabocha-parachain_metadata_28.apng",
+      "signedBy": "Novasama Technologies",
+      "source": {
+        "type": "Rpc",
+        "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
+      }
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kabocha-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
