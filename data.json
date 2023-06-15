@@ -588,34 +588,6 @@
     },
     "testnet": false
   },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
-    "decimals": 12,
-    "metadataVersion": 10029,
-    "metadataQr": {
-      "path": "qr/picasso_metadata_10029.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x7675b8e109e11695838bfa9363b747418d39366c75c351bd8f20de70dccd1a4e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "zeitgeist": {
     "title": "Zeitgeist",
     "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
@@ -975,34 +947,6 @@
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "composable": {
-    "title": "Composable Finance",
-    "color": "#C90E8A",
-    "rpcEndpoint": "wss://composable.api.onfinality.io/public-ws",
-    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-    "unit": "LAYR",
-    "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
-    "decimals": 12,
-    "metadataVersion": 10029,
-    "metadataQr": {
-      "path": "qr/composable_metadata_10029.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xa8973497626833798ecb7e6412e7e3c1d0ac0eb60ca7dcbd0bc5089bc537765e"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/composable_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/composable_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
