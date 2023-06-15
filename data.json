@@ -197,34 +197,6 @@
     },
     "testnet": false
   },
-  "shiden": {
-    "title": "Shiden",
-    "color": "#5923B2",
-    "rpcEndpoint": "wss://rpc.shiden.astar.network",
-    "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
-    "unit": "SDN",
-    "base58prefix": 5,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
-    "decimals": 18,
-    "metadataVersion": 96,
-    "metadataQr": {
-      "path": "qr/shiden_metadata_96.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8604b223b87bd8f0ea5c4a948291f90f8d90e34fe093b8c5a29b5cc1ed2487bb"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/shiden_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/shiden_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bifrost": {
     "title": "Bifrost Kusama",
     "color": "#5a25f0",
