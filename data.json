@@ -1,33 +1,4 @@
 {
-  "polkadot": {
-    "title": "Polkadot",
-    "color": "#e6007a",
-    "rpcEndpoint": "wss://rpc.polkadot.io",
-    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
-    "decimals": 10,
-    "metadataVersion": 9370,
-    "metadataQr": {
-      "path": "qr/polkadot_metadata_9370.apng",
-      "signedBy": "Parity",
-      "source": {
-        "type": "Wasm",
-        "github_repo": "paritytech/polkadot",
-        "hash": "0xaa9c4422abeb8eeb6c04bf642830cb664766fb37ac6972135beef07ddb201a53"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/polkadot_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polkadot_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": false
-  },
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
@@ -421,34 +392,6 @@
     },
     "testnet": false
   },
-  "quartz": {
-    "title": "QUARTZ",
-    "color": "#FF4D6A",
-    "rpcEndpoint": "wss://quartz.unique.network",
-    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
-    "unit": "QTZ",
-    "base58prefix": 255,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
-    "decimals": 18,
-    "metadataVersion": 941056,
-    "metadataQr": {
-      "path": "qr/quartz_metadata_941056.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x8f5f96f5615d14771dbfb175aa792fe25090b19169abff406fc3077f78b77b5a"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/quartz_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/quartz_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "pioneer-runtime": {
     "title": "Bit.Country Pioneer",
     "color": "#000000",
@@ -589,34 +532,6 @@
     },
     "testnet": false
   },
-  "statemint": {
-    "title": "Statemint",
-    "color": "#86e62a",
-    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
-    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-    "unit": "DOT",
-    "base58prefix": 0,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Statemint.svg",
-    "decimals": 10,
-    "metadataVersion": 9370,
-    "metadataQr": {
-      "path": "qr/statemint_metadata_9370.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xe26d2ca0e4f264b7c2377979c2f0deacd3f9f132330d72feade021304049e02d"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/statemint_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/statemint_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "robonomics": {
     "title": "Robonomics",
     "color": "#2949d3",
@@ -668,34 +583,6 @@
     "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/encointer-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "kintsugi-parachain": {
-    "title": "Kintsugi",
-    "color": "#1a0a2d",
-    "rpcEndpoint": "wss://api-kusama.interlay.io/parachain",
-    "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
-    "unit": "UNIT",
-    "base58prefix": 2092,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
-    "decimals": 0,
-    "metadataVersion": 1023003,
-    "metadataQr": {
-      "path": "qr/kintsugi-parachain_metadata_1023003.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0xff8acf797fd9ad1057e72d5f537cfaafcff3db496b3ec300fe7b3392c630bc7f"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kintsugi-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1760,34 +1647,6 @@
     "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avn-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node-subtensor": {
-    "title": "Bittensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
-    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
-    "decimals": 9,
-    "metadataVersion": 121,
-    "metadataQr": {
-      "path": "qr/node-subtensor_metadata_121.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "block": "0x4fa2fb124e3acd12d19590511e13586cbcc28f1a710fe09c662d80943568f9ea"
-      }
-    },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
