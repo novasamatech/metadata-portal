@@ -852,7 +852,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "liveMetaVersion": 25,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 25,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_25.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0d811d5db0586c45d973f5146f7c3f3ac845de11bbd653ea1f47ddfab93d29c7"
+        }
+      }
+    },
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
