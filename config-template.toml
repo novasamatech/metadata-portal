@@ -26,7 +26,7 @@ qr_dir = "public/qr"
   name = "acala"
   color = "#645AFF"
 
-  [chains.Statemine]
+  [chains."Kusama Asset Hub"]
   name = "statemine"
   color = "#113911"
 
@@ -92,7 +92,7 @@ qr_dir = "public/qr"
   name = "clover-mainnet"
   color = "linear-gradient(to right, #52ad75, #7cc773)"
 
-  [chains.Statemint]
+  [chains."Polkadot Asset Hub"]
   name = "statemint"
   title = "Statemint"
   color = "#86e62a"
@@ -150,7 +150,7 @@ qr_dir = "public/qr"
   title = "Centrifuge Parachain"
   color = "#fcc367"
 
-  [chains.Efinity]
+  [chains."Efinity (PAUSED)"]
   name = "efinity"
   title = "Efinity"
   color = "#496ddb"
@@ -223,7 +223,7 @@ qr_dir = "public/qr"
   title = "Pichiu"
   color = "#ed007e"
 
-  [chains.Kabocha]
+  [chains."Kabocha (PAUSED)"]
   name = "kabocha-parachain"
   title = "Kabocha"
   color = "#f53485"
@@ -391,3 +391,7 @@ qr_dir = "public/qr"
   [chains."Vara"]
   name = "vara"
   color = "#00a87a"
+
+  [chains."GIANT"]
+  name = "giant-runtime"
+  color = "#45B549"

@@ -62,7 +62,7 @@ verifier = "parity"
 [[chains]]
 name = "statemine"
 title = "Kusama Asset Hub"
-color = "#000000"
+color = "#113911"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg"
 rpc_endpoints = [
     "wss://statemine.api.onfinality.io/public-ws",
@@ -295,7 +295,7 @@ verifier = "novasama"
 [[chains]]
 name = "statemint"
 title = "Polkadot Asset Hub"
-color = "#000000"
+color = "#86e62a"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg"
 rpc_endpoints = [
     "wss://statemint-rpc.polkadot.io",
