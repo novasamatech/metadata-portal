@@ -831,7 +831,7 @@ verifier = "novasama"
 [[chains]]
 name = "giant-runtime"
 title = "GIANT"
-color = "#000000"
+color = "#45B549"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Giant.svg"
 rpc_endpoints = ["wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443"]
 testnet = false
