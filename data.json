@@ -2012,7 +2012,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6330,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6330,
+      "file": {
+        "path": "qr/crab2_metadata_6330.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x82d3ac96a56ccccc58cfec0b896e503d539de56b5c528e451597265b64a64ad9"
+        }
+      }
+    },
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
