@@ -422,7 +422,7 @@ verifier = "novasama"
 [[chains]]
 name = "efinity"
 title = "Efinity (PAUSED)"
-color = "#000000"
+color = "#496ddb"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg"
 rpc_endpoints = [
     "wss://rpc.efinity.io",
@@ -589,7 +589,7 @@ verifier = "novasama"
 [[chains]]
 name = "kabocha-parachain"
 title = "Kabocha (PAUSED)"
-color = "#000000"
+color = "#f53485"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg"
 rpc_endpoints = ["wss://kabocha.jelliedowl.com"]
 testnet = false
@@ -857,6 +857,22 @@ icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/ch
 rpc_endpoints = [
     "wss://kusama-bridge-hub-rpc.polkadot.io",
     "wss://ksm-rpc.stakeworld.io/bridgehub",
+]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "collectives"
+title = "Polkadot Collectives"
+color = "#e6777a"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg"
+rpc_endpoints = [
+    "wss://polkadot-collectives-rpc.polkadot.io",
+    "wss://collectives.api.onfinality.io/public-ws",
+    "wss://sys.dotters.network/collectives-polkadot",
+    "wss://sys.ibp.network/collectives-polkadot",
+    "wss://collectives.public.curie.radiumblock.co/ws",
+    "wss://dot-rpc.stakeworld.io/collectives",
 ]
 testnet = false
 verifier = "novasama"

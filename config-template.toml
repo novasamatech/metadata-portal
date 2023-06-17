@@ -398,8 +398,12 @@ qr_dir = "public/qr"
 
 [chains."Polkadot Bridge Hub"]
 name = "bridge-hub-polkadot"
-color = "#113455"
+color = "#2B73C5"
 
 [chains."Kusama Bridge Hub"]
 name = "bridge-hub-kusama"
 color = "#B34FF6"
+
+[chains."Polkadot Collectives"]
+name = "collectives"
+color = '#e6777a'
