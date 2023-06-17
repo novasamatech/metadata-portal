@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
-
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
+
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -422,7 +422,7 @@ verifier = "novasama"
 [[chains]]
 name = "efinity"
 title = "Efinity (PAUSED)"
-color = "#000000"
+color = "#496ddb"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg"
 rpc_endpoints = [
     "wss://rpc.efinity.io",
@@ -589,7 +589,7 @@ verifier = "novasama"
 [[chains]]
 name = "kabocha-parachain"
 title = "Kabocha (PAUSED)"
-color = "#000000"
+color = "#f53485"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg"
 rpc_endpoints = ["wss://kabocha.jelliedowl.com"]
 testnet = false
@@ -834,5 +834,45 @@ title = "GIANT"
 color = "#45B549"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Giant.svg"
 rpc_endpoints = ["wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "bridge-hub-polkadot"
+title = "Polkadot Bridge Hub"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg"
+rpc_endpoints = [
+    "wss://polkadot-bridge-hub-rpc.polkadot.io",
+    "wss://dot-rpc.stakeworld.io/bridgehub",
+]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "bridge-hub-kusama"
+title = "Kusama Bridge Hub"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg"
+rpc_endpoints = [
+    "wss://kusama-bridge-hub-rpc.polkadot.io",
+    "wss://ksm-rpc.stakeworld.io/bridgehub",
+]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "collectives"
+title = "Polkadot Collectives"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg"
+rpc_endpoints = [
+    "wss://polkadot-collectives-rpc.polkadot.io",
+    "wss://collectives.api.onfinality.io/public-ws",
+    "wss://sys.dotters.network/collectives-polkadot",
+    "wss://sys.ibp.network/collectives-polkadot",
+    "wss://collectives.public.curie.radiumblock.co/ws",
+    "wss://dot-rpc.stakeworld.io/collectives",
+]
 testnet = false
 verifier = "novasama"
