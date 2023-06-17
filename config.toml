@@ -836,3 +836,27 @@ icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/ch
 rpc_endpoints = ["wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443"]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "bridge-hub-polkadot"
+title = "Polkadot Bridge Hub"
+color = "#2B73C5"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg"
+rpc_endpoints = [
+    "wss://polkadot-bridge-hub-rpc.polkadot.io",
+    "wss://dot-rpc.stakeworld.io/bridgehub",
+]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "bridge-hub-kusama"
+title = "Kusama Bridge Hub"
+color = "#B34FF6"
+icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg"
+rpc_endpoints = [
+    "wss://kusama-bridge-hub-rpc.polkadot.io",
+    "wss://ksm-rpc.stakeworld.io/bridgehub",
+]
+testnet = false
+verifier = "novasama"

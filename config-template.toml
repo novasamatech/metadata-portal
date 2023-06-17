@@ -395,3 +395,11 @@ qr_dir = "public/qr"
   [chains."GIANT"]
   name = "giant-runtime"
   color = "#45B549"
+
+[chains."Polkadot Bridge Hub"]
+name = "bridge-hub-polkadot"
+color = "#113455"
+
+[chains."Kusama Bridge Hub"]
+name = "bridge-hub-kusama"
+color = "#B34FF6"
