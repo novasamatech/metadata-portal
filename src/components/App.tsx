@@ -110,7 +110,9 @@ export default function App() {
     const locationChain = location.hash.replace("#/", "");
     const network =
       (Object.keys(chains).includes(locationChain) && locationChain) ||
-      Object.keys(chains).find((key) => chains[key].genesisHash == locationChain) ||
+      Object.keys(chains).find(
+        (key) => chains[key].genesisHash == locationChain
+      ) ||
       Object.keys(chains)[0];
     setCurrentChain(network);
   }, [chains]);
