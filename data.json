@@ -960,7 +960,7 @@
   },
   "efinity": {
     "title": "Efinity (PAUSED)",
-    "color": "#000000",
+    "color": "#496ddb",
     "rpcEndpoint": "wss://rpc.efinity.io",
     "genesisHash": "0x99ded175d436bee7d751fa3f2f8c7a257ddc063a541f8daa5e6152604f66b2a0",
     "unit": "EFI",
@@ -1395,7 +1395,7 @@
   },
   "kabocha-parachain": {
     "title": "Kabocha (PAUSED)",
-    "color": "#000000",
+    "color": "#f53485",
     "rpcEndpoint": "wss://kabocha.jelliedowl.com",
     "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
     "unit": "KAB",
@@ -2113,6 +2113,93 @@
     "latestMetadata": "qr/giant-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/giant-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bridge-hub-polkadot": {
+    "title": "Polkadot Bridge Hub",
+    "color": "#2B73C5",
+    "rpcEndpoint": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+    "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9382,
+    "metadataQr": {
+      "version": 9382,
+      "file": {
+        "path": "qr/bridge-hub-polkadot_metadata_9382.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2f7b565324ac811da551a8b687111be1bdc9290e69b23e25db917f7f75911302"
+        }
+      }
+    },
+    "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bridge-hub-polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bridge-hub-kusama": {
+    "title": "Kusama Bridge Hub",
+    "color": "#B34FF6",
+    "rpcEndpoint": "wss://kusama-bridge-hub-rpc.polkadot.io",
+    "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9420,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/bridge-hub-kusama_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0858674cfc1479c393cdc44df45582ce297400f8ec0cd2d144deca2111493cc6"
+        }
+      }
+    },
+    "latestMetadata": "qr/bridge-hub-kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bridge-hub-kusama_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "collectives": {
+    "title": "Polkadot Collectives",
+    "color": "#e6777a",
+    "rpcEndpoint": "wss://polkadot-collectives-rpc.polkadot.io",
+    "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9420,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/collectives_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x06605e1713f876c6be731b0242320b8d218f97846f3163cca4b56e6bfb01b8b7"
+        }
+      }
+    },
+    "latestMetadata": "qr/collectives_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/collectives_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
