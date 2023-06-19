@@ -996,18 +996,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
-    "liveMetaVersion": 151,
-    "metadataQr": {
-      "version": 151,
-      "file": {
-        "path": "qr/hydradx_metadata_151.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xcbd3a8a525f6769b02b90aa92a0b6bc3bc8d3778780abcc72e787977a6f2037d"
-        }
-      }
-    },
+    "liveMetaVersion": 160,
+    "metadataQr": null,
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
