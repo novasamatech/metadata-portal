@@ -1953,15 +1953,15 @@
     "base58prefix": 71,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
-    "liveMetaVersion": 111,
+    "liveMetaVersion": 112,
     "metadataQr": {
-      "version": 111,
+      "version": 112,
       "file": {
-        "path": "qr/poscan-runtime_metadata_111.apng",
+        "path": "qr/poscan-runtime_metadata_112.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xbc437a4015b7cd048741d1f2b417697ccec1ed61c393fa521a36ba0e0ba16b18"
+          "block": "0x66735ad9a714fcbc9fd11febbadc63f5fd313692dd95548c3af5c97f47ca5d9d"
         }
       }
     },
