@@ -2128,7 +2128,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 9420,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/bridge-hub-polkadot_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb322f9bfdd43266335a4905e2055a96df07c7988ade8d1eac7bc902b66db80f9"
+        }
+      }
+    },
     "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-polkadot_specs.png",
