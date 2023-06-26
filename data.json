@@ -1779,18 +1779,8 @@
     "base58prefix": 56,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
-    "liveMetaVersion": 7,
-    "metadataQr": {
-      "version": 7,
-      "file": {
-        "path": "qr/pendulum_metadata_7.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb7c3e2c6299e6b7a5f32d6fb834852c3049f5de33a5cbf8b7020d44bdf09ad87"
-        }
-      }
-    },
+    "liveMetaVersion": 8,
+    "metadataQr": null,
     "latestMetadata": "qr/pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pendulum_specs.png",
