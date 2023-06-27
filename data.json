@@ -388,7 +388,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "liveMetaVersion": 1250,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1250,
+      "file": {
+        "path": "qr/khala_metadata_1250.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x807e1c50c2595249fd7038395c7b77fac5c15ffb2504441b6ec9b71e0513db6f"
+        }
+      }
+    },
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
@@ -842,7 +852,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "liveMetaVersion": 26,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 26,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_26.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x143e641225ebc7846193f2bd21ef9c3ac9a0fe5b5cf03d87d2b3b19e3042ca52"
+        }
+      }
+    },
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
@@ -1064,7 +1084,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
     "liveMetaVersion": 1250,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1250,
+      "file": {
+        "path": "qr/phala_metadata_1250.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x04414c281437cf9697875f8d970765dd9f4b7f95582d36d7918bc3a0516990e0"
+        }
+      }
+    },
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
@@ -1750,7 +1780,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 8,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/pendulum_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xef13d6ff7b353744b81c9ef28b45b9798d9cca2c6155e8dc91de09a501810080"
+        }
+      }
+    },
     "latestMetadata": "qr/pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pendulum_specs.png",
