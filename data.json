@@ -561,18 +561,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 57,
-    "metadataQr": {
-      "version": 57,
-      "file": {
-        "path": "qr/astar_metadata_57.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x89196d9cfe9cfb0244e339da9326d9b383d9ff3544131d34761ce8b1fdf2ba43"
-        }
-      }
-    },
+    "liveMetaVersion": 61,
+    "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
