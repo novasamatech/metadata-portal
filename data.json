@@ -562,7 +562,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 61,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 61,
+      "file": {
+        "path": "qr/astar_metadata_61.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7278329787678dfec19fbb206fd61988b886b30ee274829f694c0ebd2da336d7"
+        }
+      }
+    },
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -581,7 +591,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Parallel.svg",
     "decimals": 12,
     "liveMetaVersion": 198,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 198,
+      "file": {
+        "path": "qr/parallel_metadata_198.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9d0df154dc6509ecc5e06bd0ae74f0d70d7f831c62d06076054afe241ff22adb"
+        }
+      }
+    },
     "latestMetadata": "qr/parallel_metadata_latest.apng",
     "specsQr": {
       "path": "qr/parallel_specs.png",
@@ -1208,15 +1228,15 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
-    "liveMetaVersion": 105,
+    "liveMetaVersion": 111,
     "metadataQr": {
-      "version": 105,
+      "version": 111,
       "file": {
-        "path": "qr/origintrail-parachain_metadata_105.apng",
+        "path": "qr/origintrail-parachain_metadata_111.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xe2f391dbb440b9783ba4e4eddd8231e76fd2fad8adaaedfa8cc199a7ef1aa9e6"
+          "block": "0x5c3673236270a62353b91db6766ba79a9b6041cbd55cc63a6770b035848d30c9"
         }
       }
     },
@@ -1643,15 +1663,15 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 5004000,
+    "liveMetaVersion": 5004001,
     "metadataQr": {
-      "version": 5004000,
+      "version": 5004001,
       "file": {
-        "path": "qr/polymesh_mainnet_metadata_5004000.apng",
+        "path": "qr/polymesh_mainnet_metadata_5004001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xd9d7a8ad198a8411b450ef33f7f5df879ffe09153f1149a061d58990fbf25892"
+          "block": "0x63607b1bce1b5f1e28788a028922bdb7f852ba582bd736e46bf8c2470afa7e93"
         }
       }
     },
@@ -1817,15 +1837,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg",
     "decimals": 18,
-    "liveMetaVersion": 28,
+    "liveMetaVersion": 31,
     "metadataQr": {
-      "version": 28,
+      "version": 31,
       "file": {
-        "path": "qr/avn-parachain_metadata_28.apng",
+        "path": "qr/avn-parachain_metadata_31.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x4d8e5fd38886cf9dbcff1a3be0726b857eeebe15cccbf01d9f0b07c536eece5f"
+          "block": "0xb811677cc149788c8cff6f82dccbe921d20d52012bfcf558878aa85dce38dbed"
         }
       }
     },
@@ -1846,18 +1866,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 122,
-    "metadataQr": {
-      "version": 122,
-      "file": {
-        "path": "qr/node-subtensor_metadata_122.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xca74c6c0639fa157205f4dcdd38620000fb03d004e5ef1005617f02085f2ddbe"
-        }
-      }
-    },
+    "liveMetaVersion": 125,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
