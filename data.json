@@ -1025,18 +1025,8 @@
     "base58prefix": 2032,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
     "decimals": 0,
-    "liveMetaVersion": 1024000,
-    "metadataQr": {
-      "version": 1024000,
-      "file": {
-        "path": "qr/interlay-parachain_metadata_1024000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x451f1cda58c0f101defe8ab2bb2332bdee2118e3b1faef2d7ee39daa219715de"
-        }
-      }
-    },
+    "liveMetaVersion": 1024003,
+    "metadataQr": null,
     "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/interlay-parachain_specs.png",
