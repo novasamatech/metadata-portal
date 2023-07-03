@@ -938,18 +938,8 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1018,
-    "metadataQr": {
-      "version": 1018,
-      "file": {
-        "path": "qr/centrifuge_metadata_1018.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb2358f2493e31bcab5b497e7803f78cc30aeb3ccca1a059cac4753493cdc481f"
-        }
-      }
-    },
+    "liveMetaVersion": 1019,
+    "metadataQr": null,
     "latestMetadata": "qr/centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/centrifuge_specs.png",
