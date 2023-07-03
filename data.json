@@ -97,15 +97,15 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 9420,
+    "liveMetaVersion": 9430,
     "metadataQr": {
-      "version": 9420,
+      "version": 9430,
       "file": {
-        "path": "qr/statemine_metadata_9420.apng",
+        "path": "qr/statemine_metadata_9430.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x1aef4a0d983972763ea8d861d999237847f056328fa301967a6edb3ee9b4bb30"
+          "block": "0xb1b84a842c4e3bdaa0008d7c7637f28e7f37c00076e459dd7aa85791199539b4"
         }
       }
     },
@@ -794,7 +794,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
     "liveMetaVersion": 46,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 46,
+      "file": {
+        "path": "qr/zeitgeist_metadata_46.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdc9e068ffec2e080716229712f8c36a89421d4039bc0c4485f4e8a49ec6a3a65"
+        }
+      }
+    },
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -1914,15 +1924,15 @@
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
-    "liveMetaVersion": 1,
+    "liveMetaVersion": 119,
     "metadataQr": {
-      "version": 1,
+      "version": 119,
       "file": {
-        "path": "qr/ajuna_metadata_1.apng",
+        "path": "qr/ajuna_metadata_119.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x7498c3f5d51cd91f4511a4913a5eba0209b61218d86881b63279a0edc08cf4de"
+          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
         }
       }
     },
@@ -2146,15 +2156,15 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 9420,
+    "liveMetaVersion": 9430,
     "metadataQr": {
-      "version": 9420,
+      "version": 9430,
       "file": {
-        "path": "qr/bridge-hub-kusama_metadata_9420.apng",
+        "path": "qr/bridge-hub-kusama_metadata_9430.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x0858674cfc1479c393cdc44df45582ce297400f8ec0cd2d144deca2111493cc6"
+          "block": "0x2c0ee73c51804eccf5e1c8dadbdfa0dd93c2c131991b8c1a5798e643eaa81561"
         }
       }
     },
