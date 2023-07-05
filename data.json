@@ -1373,18 +1373,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/MangataX.svg",
     "decimals": 18,
-    "liveMetaVersion": 3000,
-    "metadataQr": {
-      "version": 3000,
-      "file": {
-        "path": "qr/mangata-parachain_metadata_3000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf9c406c718b14024ae3e42fa576c7bb1573fab71b541e2b151c10a4f11061d31"
-        }
-      }
-    },
+    "liveMetaVersion": 3001,
+    "metadataQr": null,
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mangata-parachain_specs.png",
