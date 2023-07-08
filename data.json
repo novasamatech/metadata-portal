@@ -1394,7 +1394,7 @@
     "testnet": false
   },
   "kabocha-parachain": {
-    "title": "Kabocha (PAUSED)",
+    "title": "Kabocha",
     "color": "#f53485",
     "rpcEndpoint": "wss://kabocha.jelliedowl.com",
     "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
