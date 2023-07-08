@@ -223,7 +223,7 @@ qr_dir = "public/qr"
   title = "Pichiu"
   color = "#ed007e"
 
-  [chains."Kabocha (PAUSED)"]
+  [chains."Kabocha"]
   name = "kabocha-parachain"
   title = "Kabocha"
   color = "#f53485"

@@ -589,7 +589,7 @@ verifier = "novasama"
 [[chains]]
 name = "kabocha-parachain"
 title = "Kabocha"
-color = "#000000"
+color = "#f53485"
 icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg"
 rpc_endpoints = ["wss://kabocha.jelliedowl.com"]
 testnet = false
