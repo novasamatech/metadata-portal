@@ -532,18 +532,8 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2170,
-    "metadataQr": {
-      "version": 2170,
-      "file": {
-        "path": "qr/acala_metadata_2170.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x957bcbe80d064d7b00d4e2a609d8186fce782d40880ad62c845e3b40cfb113d5"
-        }
-      }
-    },
+    "liveMetaVersion": 2180,
+    "metadataQr": null,
     "latestMetadata": "qr/acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/acala_specs.png",
