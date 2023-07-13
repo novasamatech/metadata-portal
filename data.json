@@ -899,18 +899,8 @@
     "base58prefix": 13,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
-    "liveMetaVersion": 29,
-    "metadataQr": {
-      "version": 29,
-      "file": {
-        "path": "qr/integritee-parachain_metadata_29.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x0defdf370b58d5007bf9512c96bf5d4d35435159cbeae94207f22b721328a451"
-        }
-      }
-    },
+    "liveMetaVersion": 35,
+    "metadataQr": null,
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/integritee-parachain_specs.png",
