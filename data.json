@@ -735,18 +735,8 @@
     "base58prefix": 2092,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
-    "liveMetaVersion": 1024000,
-    "metadataQr": {
-      "version": 1024000,
-      "file": {
-        "path": "qr/kintsugi-parachain_metadata_1024000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xee54ce0d1a5ab2bb45356aab7b1bbfe5ba3194b93d14e2777c3f7291549fcf09"
-        }
-      }
-    },
+    "liveMetaVersion": 1024004,
+    "metadataQr": null,
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
@@ -1025,18 +1015,8 @@
     "base58prefix": 2032,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
     "decimals": 0,
-    "liveMetaVersion": 1024003,
-    "metadataQr": {
-      "version": 1024003,
-      "file": {
-        "path": "qr/interlay-parachain_metadata_1024003.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x416b8b1bdcddf2979578d518be5c57d3db83d86e8323fa7e8bf72126da052b99"
-        }
-      }
-    },
+    "liveMetaVersion": 1024004,
+    "metadataQr": null,
     "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/interlay-parachain_specs.png",
