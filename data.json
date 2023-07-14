@@ -184,18 +184,8 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 2302,
-    "metadataQr": {
-      "version": 2302,
-      "file": {
-        "path": "qr/moonriver_metadata_2302.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2074c1b9d5b715a623e9b47aa9051053425c878001b13cf8cd51f7e11465d117"
-        }
-      }
-    },
+    "liveMetaVersion": 2401,
+    "metadataQr": null,
     "latestMetadata": "qr/moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonriver_specs.png",
