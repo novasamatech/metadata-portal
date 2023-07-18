@@ -649,7 +649,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 9430,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9430,
+      "file": {
+        "path": "qr/statemint_metadata_9430.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x46dd2d0ff4b3712bec07f6bd92830cb28d07a629469b341a7a8b78c9cd01d3f8"
+        }
+      }
+    },
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
@@ -2118,7 +2128,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 9430,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9430,
+      "file": {
+        "path": "qr/bridge-hub-polkadot_metadata_9430.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe8617e3610560e5d0733717c8eae7c6e0c86988cf1fb4ef6dbf940739bdc390e"
+        }
+      }
+    },
     "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-polkadot_specs.png",
@@ -2166,7 +2186,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
     "liveMetaVersion": 9430,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9430,
+      "file": {
+        "path": "qr/collectives_metadata_9430.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9b3dee48e406d339ccae99cc20e07336ad3029963c9af6ba1b1593c760e2e715"
+        }
+      }
+    },
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
