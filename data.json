@@ -648,18 +648,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 9420,
-    "metadataQr": {
-      "version": 9420,
-      "file": {
-        "path": "qr/statemint_metadata_9420.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa6edbf19c840f24d63c245a250bebec7ef85fe7fea7f0d18fb424c40dcab7555"
-        }
-      }
-    },
+    "liveMetaVersion": 9430,
+    "metadataQr": null,
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
@@ -2127,18 +2117,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 9420,
-    "metadataQr": {
-      "version": 9420,
-      "file": {
-        "path": "qr/bridge-hub-polkadot_metadata_9420.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb322f9bfdd43266335a4905e2055a96df07c7988ade8d1eac7bc902b66db80f9"
-        }
-      }
-    },
+    "liveMetaVersion": 9430,
+    "metadataQr": null,
     "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-polkadot_specs.png",
@@ -2185,18 +2165,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
-    "liveMetaVersion": 9420,
-    "metadataQr": {
-      "version": 9420,
-      "file": {
-        "path": "qr/collectives_metadata_9420.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x06605e1713f876c6be731b0242320b8d218f97846f3163cca4b56e6bfb01b8b7"
-        }
-      }
-    },
+    "liveMetaVersion": 9430,
+    "metadataQr": null,
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
