@@ -71,7 +71,7 @@ jobs:
             - [ ] `make signer` to sign files
             - [ ] `make collector` to gather information about current chain versions
             - [ ] `make cleaner` to remove obsolete QRs
-          reviewers: "stepanLav,pgolovkin,tuul-wq,Asmadek"
+          reviewers: "stepanLav,pgolovkin,tuul-wq,Asmadek,egor0798"
           draft: true
 
       - name: Notify Matrix channel
