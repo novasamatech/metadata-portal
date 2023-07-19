@@ -765,7 +765,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
     "liveMetaVersion": 10032,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10032,
+      "file": {
+        "path": "qr/picasso_metadata_10032.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9a7134fd8a05224877bab22e2e81a0b26765d12543a1b920dec65439833e6998"
+        }
+      }
+    },
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1161,7 +1171,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "liveMetaVersion": 10032,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10032,
+      "file": {
+        "path": "qr/composable_metadata_10032.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd667cdd7790c8777f760d7dbcb03c39e18825582b13e8a81f2687f403fdfc266"
+        }
+      }
+    },
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
