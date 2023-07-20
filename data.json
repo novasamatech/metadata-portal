@@ -446,7 +446,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
     "liveMetaVersion": 4300,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 4300,
+      "file": {
+        "path": "qr/calamari_metadata_4300.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x385760c86871fb9cff4485fee5cacb2342f69a8dc419550fe34226912a16f46c"
+        }
+      }
+    },
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
