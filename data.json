@@ -1219,7 +1219,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
     "liveMetaVersion": 112,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 112,
+      "file": {
+        "path": "qr/origintrail-parachain_metadata_112.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8dbc6a7f09b88bed3ba82e5cbba7580eced2631aa441be52f2b172adf405be47"
+        }
+      }
+    },
     "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/origintrail-parachain_specs.png",
@@ -1411,18 +1421,8 @@
     "base58prefix": 1337,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
-    "liveMetaVersion": 117,
-    "metadataQr": {
-      "version": 117,
-      "file": {
-        "path": "qr/bajun_metadata_117.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd0c0567a3485185a9f50c348005817764779aa170e447f909a24baa0255fb203"
-        }
-      }
-    },
+    "liveMetaVersion": 120,
+    "metadataQr": null,
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
