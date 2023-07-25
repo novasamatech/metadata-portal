@@ -1141,18 +1141,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 61,
-    "metadataQr": {
-      "version": 61,
-      "file": {
-        "path": "qr/aleph-node_metadata_61.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x736d1a79ed3758d38ef6e3370e5fc88392448d8aba637ceb05cd1d7540f20316"
-        }
-      }
-    },
+    "liveMetaVersion": 64,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
@@ -1228,18 +1218,8 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
-    "liveMetaVersion": 111,
-    "metadataQr": {
-      "version": 111,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_111.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5c3673236270a62353b91db6766ba79a9b6041cbd55cc63a6770b035848d30c9"
-        }
-      }
-    },
+    "liveMetaVersion": 112,
+    "metadataQr": null,
     "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/origintrail-parachain_specs.png",
