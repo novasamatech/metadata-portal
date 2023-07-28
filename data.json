@@ -184,18 +184,8 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 2401,
-    "metadataQr": {
-      "version": 2401,
-      "file": {
-        "path": "qr/moonriver_metadata_2401.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbea701e0382e83e591b476ae7b58adb7bd966bef6d29606409c6daa5c02b4c74"
-        }
-      }
-    },
+    "liveMetaVersion": 2403,
+    "metadataQr": null,
     "latestMetadata": "qr/moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonriver_specs.png",
@@ -764,18 +754,8 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10032,
-    "metadataQr": {
-      "version": 10032,
-      "file": {
-        "path": "qr/picasso_metadata_10032.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9a7134fd8a05224877bab22e2e81a0b26765d12543a1b920dec65439833e6998"
-        }
-      }
-    },
+    "liveMetaVersion": 10034,
+    "metadataQr": null,
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1170,18 +1150,8 @@
     "base58prefix": 50,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
-    "liveMetaVersion": 10032,
-    "metadataQr": {
-      "version": 10032,
-      "file": {
-        "path": "qr/composable_metadata_10032.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd667cdd7790c8777f760d7dbcb03c39e18825582b13e8a81f2687f403fdfc266"
-        }
-      }
-    },
+    "liveMetaVersion": 10034,
+    "metadataQr": null,
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
