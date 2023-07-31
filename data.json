@@ -261,18 +261,8 @@
     "base58prefix": 10041,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
-    "liveMetaVersion": 101,
-    "metadataQr": {
-      "version": 101,
-      "file": {
-        "path": "qr/basilisk_metadata_101.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbbd2d55a40f3a2c004a7aae36f1023128473a3b04111bf5d2d2e9264a1ce9921"
-        }
-      }
-    },
+    "liveMetaVersion": 105,
+    "metadataQr": null,
     "latestMetadata": "qr/basilisk_metadata_latest.apng",
     "specsQr": {
       "path": "qr/basilisk_specs.png",
@@ -1851,7 +1841,7 @@
     "color": "#000000",
     "rpcEndpoint": "wss://node.pol.equilibrium.io",
     "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-    "unit": "EQ",
+    "unit": "TOKEN",
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
