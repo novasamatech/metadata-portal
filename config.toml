@@ -565,14 +565,14 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 
-[[chains]]
-name = "DORA KSM Parachain"
-title = "Dora Factory (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg"
-rpc_endpoints = ["wss://kusama.dorafactory.org"]
-testnet = false
-verifier = "novasama"
+#[[chains]]
+#name = "DORA KSM Parachain"
+#title = "Dora Factory (PAUSED)"
+#color = "#000000"
+#icon = "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg"
+#rpc_endpoints = ["wss://kusama.dorafactory.org"]
+#testnet = false
+#verifier = "novasama"
 
 [[chains]]
 name = "mangata-parachain"
