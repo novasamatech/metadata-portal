@@ -1178,18 +1178,8 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
-    "liveMetaVersion": 112,
-    "metadataQr": {
-      "version": 112,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_112.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8dbc6a7f09b88bed3ba82e5cbba7580eced2631aa441be52f2b172adf405be47"
-        }
-      }
-    },
+    "liveMetaVersion": 120,
+    "metadataQr": null,
     "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/origintrail-parachain_specs.png",
