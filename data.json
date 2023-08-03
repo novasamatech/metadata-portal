@@ -793,18 +793,8 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 46,
-    "metadataQr": {
-      "version": 46,
-      "file": {
-        "path": "qr/zeitgeist_metadata_46.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xdc9e068ffec2e080716229712f8c36a89421d4039bc0c4485f4e8a49ec6a3a65"
-        }
-      }
-    },
+    "liveMetaVersion": 47,
+    "metadataQr": null,
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -1141,18 +1131,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 64,
-    "metadataQr": {
-      "version": 64,
-      "file": {
-        "path": "qr/aleph-node_metadata_64.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x0c252ef4bedff2cc308600bb472defc8d3ce95ce7d3a42be0ecef50a24fead02"
-        }
-      }
-    },
+    "liveMetaVersion": 65,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
@@ -1862,7 +1842,7 @@
     "color": "#000000",
     "rpcEndpoint": "wss://node.pol.equilibrium.io",
     "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-    "unit": "TOKEN",
+    "unit": "EQ",
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
