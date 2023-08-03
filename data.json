@@ -794,7 +794,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
     "liveMetaVersion": 47,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 47,
+      "file": {
+        "path": "qr/zeitgeist_metadata_47.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xda3f9b5796f550319f29dce47a824e35bdfb7317ca4d319b4a9c7015f83bfb26"
+        }
+      }
+    },
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -1132,7 +1142,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
     "liveMetaVersion": 65,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 65,
+      "file": {
+        "path": "qr/aleph-node_metadata_65.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4235572a961dbb5327766bd0433d786c1d3b3567f2c276bb37f1e370d87c21fd"
+        }
+      }
+    },
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
