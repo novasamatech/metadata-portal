@@ -1382,18 +1382,8 @@
     "base58prefix": 1337,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
-    "liveMetaVersion": 120,
-    "metadataQr": {
-      "version": 120,
-      "file": {
-        "path": "qr/bajun_metadata_120.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3c07058fcf3ecee9e822df4d8def197646e4d4c12795f7a25a26b182ee93055f"
-        }
-      }
-    },
+    "liveMetaVersion": 122,
+    "metadataQr": null,
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
