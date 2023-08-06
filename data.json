@@ -997,7 +997,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
     "liveMetaVersion": 170,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 170,
+      "file": {
+        "path": "qr/hydradx_metadata_170.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x98979fd5d39a9c435f7ca2b290e2303626de5efa2cdc24ce2d34caa5e5d7b2fb"
+        }
+      }
+    },
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
@@ -1190,7 +1200,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 302,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 302,
+      "file": {
+        "path": "qr/node_metadata_302.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4c2a9e9da04b5c1e39b299eb03522c97330decaec4097a06e902407fc4d896da"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1383,7 +1403,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
     "liveMetaVersion": 122,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 122,
+      "file": {
+        "path": "qr/bajun_metadata_122.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7814099ebc49bc80e8b21e4eb30cc2d820ea3128bb1677e832efebbeb0632e74"
+        }
+      }
+    },
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
