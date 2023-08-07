@@ -155,18 +155,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 2302,
-    "metadataQr": {
-      "version": 2302,
-      "file": {
-        "path": "qr/moonbeam_metadata_2302.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xea094fa2a47628f1f4569d9dc91178059a4f7da41265ece56d12b4b68db662ed"
-        }
-      }
-    },
+    "liveMetaVersion": 2403,
+    "metadataQr": null,
     "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbeam_specs.png",
@@ -1866,18 +1856,8 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 28,
-    "metadataQr": {
-      "version": 28,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_28.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4e0cf4e1c91238dc5393f946a393a2e63e3fc85e9d715d8c8e123b73430c6f1e"
-        }
-      }
-    },
+    "liveMetaVersion": 29,
+    "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
@@ -2011,18 +1991,8 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 30,
-    "metadataQr": {
-      "version": 30,
-      "file": {
-        "path": "qr/frequency_metadata_30.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xda27a07d1eec39638007c869e3b05363fc1b014b2a0cc99dc1dcc506f0294d3c"
-        }
-      }
-    },
+    "liveMetaVersion": 44,
+    "metadataQr": null,
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
