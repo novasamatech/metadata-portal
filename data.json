@@ -156,7 +156,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 2403,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2403,
+      "file": {
+        "path": "qr/moonbeam_metadata_2403.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd844515589b62a8fbe7e718ef558420a6b2480e6b3d6ba152ac2def3e11ef305"
+        }
+      }
+    },
     "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbeam_specs.png",
@@ -1857,7 +1867,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
     "liveMetaVersion": 29,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 29,
+      "file": {
+        "path": "qr/equilibrium-parachain_metadata_29.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x30b3264a6bc72fae26c9ed46278ec1e9a4636df85efa0492ba2aa724c67d1a1b"
+        }
+      }
+    },
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
@@ -1992,7 +2012,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
     "liveMetaVersion": 44,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 44,
+      "file": {
+        "path": "qr/frequency_metadata_44.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfe473b981dfca5852ac9f6410c2acf8fe9f98c33788fad6253ae8def3457d413"
+        }
+      }
+    },
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
