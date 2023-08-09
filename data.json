@@ -213,18 +213,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 100,
-    "metadataQr": {
-      "version": 100,
-      "file": {
-        "path": "qr/shiden_metadata_100.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4ddcbae45cf7cb03a1ca269d916e927d755d42a3b26294658a91bf66583e6c18"
-        }
-      }
-    },
+    "liveMetaVersion": 104,
+    "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -1199,18 +1189,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 302,
-    "metadataQr": {
-      "version": 302,
-      "file": {
-        "path": "qr/node_metadata_302.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4c2a9e9da04b5c1e39b299eb03522c97330decaec4097a06e902407fc4d896da"
-        }
-      }
-    },
+    "liveMetaVersion": 305,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
