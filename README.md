@@ -158,3 +158,7 @@ Before running the frontend locally, you need to generate a data file:
  And then run the app in the development mode
 
 `yarn start`
+
+## License
+Metadata Portal is available under the GNU GENERAL license. See the LICENSE file for more info.
+© Novasama Technologies GmbH 2023
