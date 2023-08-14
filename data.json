@@ -1519,7 +1519,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
     "liveMetaVersion": 10,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/amplitude_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc783f6f3284f24f053b232e2f952e8e4f424bc5c90a09b0ea9399957817c2551"
+        }
+      }
+    },
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
