@@ -445,18 +445,8 @@
     "base58prefix": 78,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
-    "liveMetaVersion": 4300,
-    "metadataQr": {
-      "version": 4300,
-      "file": {
-        "path": "qr/calamari_metadata_4300.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x385760c86871fb9cff4485fee5cacb2342f69a8dc419550fe34226912a16f46c"
-        }
-      }
-    },
+    "liveMetaVersion": 4310,
+    "metadataQr": null,
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
@@ -764,18 +754,8 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10035,
-    "metadataQr": {
-      "version": 10035,
-      "file": {
-        "path": "qr/picasso_metadata_10035.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd23d2c2e10f1e53bbec0e6e8a992909802c3e39833af4b7bcfa36f36030f9b49"
-        }
-      }
-    },
+    "liveMetaVersion": 10036,
+    "metadataQr": null,
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1170,18 +1150,8 @@
     "base58prefix": 50,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
-    "liveMetaVersion": 10035,
-    "metadataQr": {
-      "version": 10035,
-      "file": {
-        "path": "qr/composable_metadata_10035.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x44f7668adff00f9bc647aa086b36c388cf606bfe00eab28d8918de097eac56bc"
-        }
-      }
-    },
+    "liveMetaVersion": 10036,
+    "metadataQr": null,
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
@@ -2011,18 +1981,8 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 44,
-    "metadataQr": {
-      "version": 44,
-      "file": {
-        "path": "qr/frequency_metadata_44.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfe473b981dfca5852ac9f6410c2acf8fe9f98c33788fad6253ae8def3457d413"
-        }
-      }
-    },
+    "liveMetaVersion": 48,
+    "metadataQr": null,
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
