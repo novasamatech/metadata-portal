@@ -446,7 +446,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
     "liveMetaVersion": 4310,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 4310,
+      "file": {
+        "path": "qr/calamari_metadata_4310.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd08381605b6cef40c50132ec06227d8c48ebae2452e223a7aa31b75e7c200032"
+        }
+      }
+    },
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
@@ -755,7 +765,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
     "liveMetaVersion": 10036,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10036,
+      "file": {
+        "path": "qr/picasso_metadata_10036.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf0e8830210562ef824a394c619a85f93c42af4b1a0b27c1fe8a21b588319550e"
+        }
+      }
+    },
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1151,7 +1171,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "liveMetaVersion": 10036,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10036,
+      "file": {
+        "path": "qr/composable_metadata_10036.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd81303c7f0fd5a03d22715f6a45ba949dcd5bf7a89023c8c5aa5b0afda3d056e"
+        }
+      }
+    },
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
@@ -1982,7 +2012,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
     "liveMetaVersion": 48,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 48,
+      "file": {
+        "path": "qr/frequency_metadata_48.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8aca910664e62799edde703eb03f48ae3af20bc4a0228af229f3ef2a7f3ff30a"
+        }
+      }
+    },
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
