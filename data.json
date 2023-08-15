@@ -2040,18 +2040,8 @@
     "base58prefix": 137,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
-    "liveMetaVersion": 140,
-    "metadataQr": {
-      "version": 140,
-      "file": {
-        "path": "qr/vara_metadata_140.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x6fb7df4fb282e4420df04373012b617fcf2c7d2137dd4c5cc46f783b35dc05c2"
-        }
-      }
-    },
+    "liveMetaVersion": 210,
+    "metadataQr": null,
     "latestMetadata": "qr/vara_metadata_latest.apng",
     "specsQr": {
       "path": "qr/vara_specs.png",
