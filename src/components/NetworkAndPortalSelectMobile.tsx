@@ -48,7 +48,7 @@ export const NetworkAndPortalSelectMobile = ({
                         <div
                           className={cn(
                             "flex items-center space-x-2 px-2 py-1",
-                            selected && "bg-neutral-100 rounded-full"
+                            selected && "bg-neutral-100 rounded-full",
                           )}
                         >
                           <div className="text-xl">{portals[portal].name}</div>
@@ -57,7 +57,7 @@ export const NetworkAndPortalSelectMobile = ({
                         <a
                           className={cn(
                             "flex items-center space-x-2 px-2 py-1",
-                            selected && "bg-neutral-100 rounded-full"
+                            selected && "bg-neutral-100 rounded-full",
                           )}
                           href={portals[portal].url}
                         >
@@ -97,7 +97,7 @@ export const NetworkAndPortalSelectMobile = ({
                   <div
                     className={cn(
                       "flex items-center space-x-2 px-2 py-1",
-                      selected && "bg-neutral-100 rounded-full"
+                      selected && "bg-neutral-100 rounded-full",
                     )}
                   >
                     <img

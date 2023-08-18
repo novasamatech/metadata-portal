@@ -11,5 +11,5 @@ createRoot(document.getElementById("root") as HTMLElement).render(
         <Route path="/" element={<App />} />
       </Routes>
     </React.StrictMode>
-  </Router>
+  </Router>,
 );

@@ -21,7 +21,7 @@ export default function App() {
       .then((res) => res.json())
       .catch(() => {
         console.error(
-          "Unable to fetch data file. Run `make collector` to generate it"
+          "Unable to fetch data file. Run `make collector` to generate it",
         );
       })
       .then((res) => {
@@ -111,7 +111,7 @@ export default function App() {
     const network =
       (Object.keys(chains).includes(locationChain) && locationChain) ||
       Object.keys(chains).find(
-        (key) => chains[key].genesisHash == locationChain
+        (key) => chains[key].genesisHash == locationChain,
       ) ||
       Object.keys(chains)[0];
     setCurrentChain(network);
