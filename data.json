@@ -1461,7 +1461,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
     "liveMetaVersion": 19,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 19,
+      "file": {
+        "path": "qr/tinkernet_node_metadata_19.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5d19a3fb498611e256b3c468b73a269821ed247b198896d38667cea216887ade"
+        }
+      }
+    },
     "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/tinkernet_node_specs.png",
