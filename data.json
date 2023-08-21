@@ -793,18 +793,8 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 47,
-    "metadataQr": {
-      "version": 47,
-      "file": {
-        "path": "qr/zeitgeist_metadata_47.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xda3f9b5796f550319f29dce47a824e35bdfb7317ca4d319b4a9c7015f83bfb26"
-        }
-      }
-    },
+    "liveMetaVersion": 48,
+    "metadataQr": null,
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -910,7 +900,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
     "liveMetaVersion": 37,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 37,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_37.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1bcfceb0857e6cd4bc3bde52000dcb580bd9f8aa54f556ab13faaf27cb57c316"
+        }
+      }
+    },
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/integritee-parachain_specs.png",
@@ -1277,7 +1277,17 @@
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
     "liveMetaVersion": 9168,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9168,
+      "file": {
+        "path": "qr/litentry-parachain_metadata_9168.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xcc0d73c086e877441f6cf3aec4142027441786d97a5b564495048444241432a0"
+        }
+      }
+    },
     "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/litentry-parachain_specs.png",
