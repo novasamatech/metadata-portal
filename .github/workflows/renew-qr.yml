@@ -13,7 +13,7 @@ env:
 
 jobs:
   update:
-    runs-on: [kuberunner]
+    runs-on: ubuntu-latest
     env:
       RUSTUP_HOME: /tmp/rustup_home
     steps:
