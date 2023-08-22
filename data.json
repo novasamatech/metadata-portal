@@ -1054,18 +1054,8 @@
     "base58prefix": 37,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Nodle.svg",
     "decimals": 11,
-    "liveMetaVersion": 20,
-    "metadataQr": {
-      "version": 20,
-      "file": {
-        "path": "qr/nodle-para_metadata_20.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa7fba017ea6f9073032aa3212ee1a905a97a0ac6f04dc2ed625cbd68334a165f"
-        }
-      }
-    },
+    "liveMetaVersion": 23,
+    "metadataQr": null,
     "latestMetadata": "qr/nodle-para_metadata_latest.apng",
     "specsQr": {
       "path": "qr/nodle-para_specs.png",
