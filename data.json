@@ -1431,15 +1431,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg",
     "decimals": 12,
-    "liveMetaVersion": 1038,
+    "liveMetaVersion": 9430,
     "metadataQr": {
-      "version": 1038,
+      "version": 9430,
       "file": {
-        "path": "qr/imbue_metadata_1038.apng",
+        "path": "qr/imbue_metadata_9430.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x3eea8426797f0df22ec00c64391cd12a75069d701b0f965aa9e823a1b289ed73"
+          "block": "0x810fae57f8befef2dc7e9dc4c679460d697c33accb2e0f8f5e0fcb7e87df39e6"
         }
       }
     },
