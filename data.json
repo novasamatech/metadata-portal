@@ -562,7 +562,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 64,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 64,
+      "file": {
+        "path": "qr/astar_metadata_64.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf21475e06945ff83e08d3933c749fef3303c5be5340d25b23fc74004349b07b2"
+        }
+      }
+    },
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
