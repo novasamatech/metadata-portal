@@ -696,18 +696,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Encointer.svg",
     "decimals": 12,
-    "liveMetaVersion": 12,
-    "metadataQr": {
-      "version": 12,
-      "file": {
-        "path": "qr/encointer-parachain_metadata_12.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc05e663c0210251bc1b208342f87736fc596bfe9ade0ecc380f8e3f26c317221"
-        }
-      }
-    },
+    "liveMetaVersion": 15,
+    "metadataQr": null,
     "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/encointer-parachain_specs.png",
