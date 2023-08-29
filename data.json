@@ -1554,18 +1554,8 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 5004001,
-    "metadataQr": {
-      "version": 5004001,
-      "file": {
-        "path": "qr/polymesh_mainnet_metadata_5004001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x63607b1bce1b5f1e28788a028922bdb7f852ba582bd736e46bf8c2470afa7e93"
-        }
-      }
-    },
+    "liveMetaVersion": 5004002,
+    "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
