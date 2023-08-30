@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://rpc.polkadot.io",
+    "rpcEndpoint": "wss://rpc-polkadot.luckyfriday.io",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -62,7 +62,7 @@
   "westend": {
     "title": "Westend",
     "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "rpcEndpoint": "wss://rpc.ibp.network/westend",
     "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
     "unit": "WND",
     "base58prefix": 42,
@@ -91,7 +91,7 @@
   "statemine": {
     "title": "Kusama Asset Hub",
     "color": "#113911",
-    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://sys.ibp.network/statemine",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
@@ -622,7 +622,7 @@
   "statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
-    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
+    "rpcEndpoint": "wss://sys.ibp.network/statemint",
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "unit": "DOT",
     "base58prefix": 0,
@@ -680,7 +680,7 @@
   "encointer-parachain": {
     "title": "Encointer",
     "color": "#0000cc",
-    "rpcEndpoint": "wss://api.kusama.encointer.org",
+    "rpcEndpoint": "wss://sys.ibp.network/encointer-kusama",
     "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
     "unit": "KSM",
     "base58prefix": 2,
@@ -1776,18 +1776,8 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 30,
-    "metadataQr": {
-      "version": 30,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_30.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x967673279fd10830d5ef9a67af5759364f1654cf11e695d14c6b730ed6fa2db4"
-        }
-      }
-    },
+    "liveMetaVersion": 31,
+    "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
@@ -1992,7 +1982,7 @@
   "bridge-hub-polkadot": {
     "title": "Polkadot Bridge Hub",
     "color": "#2B73C5",
-    "rpcEndpoint": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+    "rpcEndpoint": "wss://sys.ibp.network/bridgehub-polkadot",
     "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
     "unit": "DOT",
     "base58prefix": 0,
@@ -2021,7 +2011,7 @@
   "bridge-hub-kusama": {
     "title": "Kusama Bridge Hub",
     "color": "#B34FF6",
-    "rpcEndpoint": "wss://kusama-bridge-hub-rpc.polkadot.io",
+    "rpcEndpoint": "wss://sys.ibp.network/bridgehub-kusama",
     "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
     "unit": "KSM",
     "base58prefix": 2,
@@ -2050,7 +2040,7 @@
   "collectives": {
     "title": "Polkadot Collectives",
     "color": "#e6777a",
-    "rpcEndpoint": "wss://polkadot-collectives-rpc.polkadot.io",
+    "rpcEndpoint": "wss://sys.ibp.network/collectives-polkadot",
     "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
     "unit": "DOT",
     "base58prefix": 0,
