@@ -1229,7 +1229,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
     "liveMetaVersion": 121,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 121,
+      "file": {
+        "path": "qr/origintrail-parachain_metadata_121.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x502a0300d0d7d33eea2531e1b0948d8a7909ed994f223abea17bb94b081010ad"
+        }
+      }
+    },
     "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/origintrail-parachain_specs.png",
