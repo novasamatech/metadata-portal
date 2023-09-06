@@ -126,18 +126,8 @@
     "base58prefix": 8,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
     "decimals": 0,
-    "liveMetaVersion": 2180,
-    "metadataQr": {
-      "version": 2180,
-      "file": {
-        "path": "qr/karura_metadata_2180.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xab9e735d1371119a1d1a606239dcee7b7af554761ded506864010e53e205b40c"
-        }
-      }
-    },
+    "liveMetaVersion": 2200,
+    "metadataQr": null,
     "latestMetadata": "qr/karura_metadata_latest.apng",
     "specsQr": {
       "path": "qr/karura_specs.png",
@@ -1982,18 +1972,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
-    "liveMetaVersion": 6340,
-    "metadataQr": {
-      "version": 6340,
-      "file": {
-        "path": "qr/crab2_metadata_6340.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbd5bfb857539800d40f6e2e17be733afbe8505a7d5c4e53c7fcdab6ea461c418"
-        }
-      }
-    },
+    "liveMetaVersion": 6400,
+    "metadataQr": null,
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
