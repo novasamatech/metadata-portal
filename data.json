@@ -735,18 +735,8 @@
     "base58prefix": 2092,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
-    "liveMetaVersion": 1025001,
-    "metadataQr": {
-      "version": 1025001,
-      "file": {
-        "path": "qr/kintsugi-parachain_metadata_1025001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x119d436f1dbd1b4ff1e062ab5287388a3013aed5bcaf227e51e27c43c69cf1bb"
-        }
-      }
-    },
+    "liveMetaVersion": 1025002,
+    "metadataQr": null,
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
