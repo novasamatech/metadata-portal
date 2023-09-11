@@ -938,18 +938,8 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1019,
-    "metadataQr": {
-      "version": 1019,
-      "file": {
-        "path": "qr/centrifuge_metadata_1019.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9d974dbda4f064f63bee0925183ed8b1c848983016d910214ca6ab04b8cac074"
-        }
-      }
-    },
+    "liveMetaVersion": 1020,
+    "metadataQr": null,
     "latestMetadata": "qr/centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/centrifuge_specs.png",
@@ -997,7 +987,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
     "liveMetaVersion": 176,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 176,
+      "file": {
+        "path": "qr/hydradx_metadata_176.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6c0911fe62353368b7daf7aa4f4bbd9bc19802a14845e306eb7833e1104fd216"
+        }
+      }
+    },
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
@@ -1175,35 +1175,6 @@
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node": {
-    "title": "Polkadex",
-    "color": "#7C30DD",
-    "rpcEndpoint": "wss://mainnet.polkadex.trade",
-    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "unit": "PDEX",
-    "base58prefix": 88,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
-    "decimals": 12,
-    "liveMetaVersion": 310,
-    "metadataQr": {
-      "version": 310,
-      "file": {
-        "path": "qr/node_metadata_310.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb3680ebdf4b3a98802fa4e2e93306a0c6cdf63aa81ba0496d6c45d5972bb4192"
-        }
-      }
-    },
-    "latestMetadata": "qr/node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1586,35 +1557,6 @@
     },
     "testnet": false
   },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://k-ui.kapex.network",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/totem-parachain_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-        }
-      }
-    },
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polymesh_mainnet": {
     "title": "Polymesh",
     "color": "#1348e4",
@@ -1639,35 +1581,6 @@
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
