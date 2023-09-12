@@ -387,18 +387,8 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1251,
-    "metadataQr": {
-      "version": 1251,
-      "file": {
-        "path": "qr/khala_metadata_1251.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd7befa1eed3f085c238d42b620dc04b9e809fd1b83e872142ef0b7f092d393f7"
-        }
-      }
-    },
+    "liveMetaVersion": 1252,
+    "metadataQr": null,
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
@@ -1083,18 +1073,8 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1251,
-    "metadataQr": {
-      "version": 1251,
-      "file": {
-        "path": "qr/phala_metadata_1251.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2641d500a95e40d0967ed40513beb90167630c76bab81bd647ffed8ed58b3932"
-        }
-      }
-    },
+    "liveMetaVersion": 1252,
+    "metadataQr": null,
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
@@ -1591,35 +1571,6 @@
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
