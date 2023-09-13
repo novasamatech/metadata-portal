@@ -574,14 +574,14 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 
-#[[chains]]
-#name = "DORA KSM Parachain"
-#title = "Dora Factory (PAUSED)"
-#color = "#000000"
-#icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DoraFactory.svg"
-#rpc_endpoints = ["wss://kusama.dorafactory.org"]
-#testnet = false
-#verifier = "novasama"
+[[chains]]
+name = "DORA KSM Parachain"
+title = "Dora Factory (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DoraFactory.svg"
+rpc_endpoints = ["wss://kusama.dorafactory.org"]
+testnet = false
+verifier = "novasama"
 
 [[chains]]
 name = "mangata-parachain"
@@ -676,7 +676,10 @@ name = "totem-parachain"
 title = "Kapex"
 color = "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg"
-rpc_endpoints = ["wss://k-ui.kapex.network"]
+rpc_endpoints = [
+    "wss://kapex-rpc.dwellir.com",
+    "wss://kapex-parachain.api.onfinality.io/public-ws",
+]
 testnet = false
 verifier = "novasama"
 
