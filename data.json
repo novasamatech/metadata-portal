@@ -1480,6 +1480,35 @@
     },
     "testnet": false
   },
+  "gm_parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "liveMetaVersion": 8,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/gm_parachain_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x96a9ba43e42f869ba4926a33f43bf223f42ae2739f315900190e3436a433bd12"
+        }
+      }
+    },
+    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/gm_parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -1562,6 +1591,35 @@
     "latestMetadata": "qr/kylin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kylin_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "totem-parachain": {
+    "title": "Kapex",
+    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
+    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
+    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
+    "unit": "KPX",
+    "base58prefix": 2007,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/totem-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
+        }
+      }
+    },
+    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
