@@ -764,18 +764,8 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10037,
-    "metadataQr": {
-      "version": 10037,
-      "file": {
-        "path": "qr/picasso_metadata_10037.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x35dabdfb8491d91435ec296b5f4197f216c144ffd190b0d3abcfa7f3caeda5d7"
-        }
-      }
-    },
+    "liveMetaVersion": 10038,
+    "metadataQr": null,
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1170,18 +1160,8 @@
     "base58prefix": 50,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
-    "liveMetaVersion": 10037,
-    "metadataQr": {
-      "version": 10037,
-      "file": {
-        "path": "qr/composable_metadata_10037.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5c8d1fbeabb89498d01d43f58e2c3a885e4754c27b9127994d7524fe7592d036"
-        }
-      }
-    },
+    "liveMetaVersion": 10038,
+    "metadataQr": null,
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
@@ -1654,6 +1634,35 @@
     },
     "testnet": false
   },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "liveMetaVersion": 5,
+    "metadataQr": {
+      "version": 5,
+      "file": {
+        "path": "qr/ipci_metadata_5.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
+        }
+      }
+    },
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "appchain": {
     "title": "Myriad",
     "color": "#7342CC",
@@ -2001,18 +2010,8 @@
     "base58prefix": 137,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
-    "liveMetaVersion": 340,
-    "metadataQr": {
-      "version": 340,
-      "file": {
-        "path": "qr/vara_metadata_340.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x68a849f13114f4b191e97e18e22e7d48771efa2cbe9e9b3efc9622ee6571fe7b"
-        }
-      }
-    },
+    "liveMetaVersion": 350,
+    "metadataQr": null,
     "latestMetadata": "qr/vara_metadata_latest.apng",
     "specsQr": {
       "path": "qr/vara_specs.png",
