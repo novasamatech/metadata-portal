@@ -417,7 +417,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
     "liveMetaVersion": 11110,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 11110,
+      "file": {
+        "path": "qr/kilt-spiritnet_metadata_11110.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x42b1fa306ce4f11915cfb2f99d51f6afeccfb0eec707f7e789a804e07b46b398"
+        }
+      }
+    },
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
@@ -948,35 +958,6 @@
     },
     "testnet": false
   },
-  "efinity": {
-    "title": "Efinity",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc.efinity.io",
-    "genesisHash": "0x99ded175d436bee7d751fa3f2f8c7a257ddc063a541f8daa5e6152604f66b2a0",
-    "unit": "EFI",
-    "base58prefix": 1110,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Efinity.svg",
-    "decimals": 18,
-    "liveMetaVersion": 3014,
-    "metadataQr": {
-      "version": 3014,
-      "file": {
-        "path": "qr/efinity_metadata_3014.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd64fd27e39a41118d22b8450e2ee179592ae4a779d959832ddf903a6f81d22cd"
-        }
-      }
-    },
-    "latestMetadata": "qr/efinity_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/efinity_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "hydradx": {
     "title": "HydraDX",
     "color": "#f653a2",
@@ -1436,35 +1417,6 @@
     "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/tinkernet_node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "gm_parachain": {
-    "title": "GM",
-    "color": "#f47b36",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "liveMetaVersion": 8,
-    "metadataQr": {
-      "version": 8,
-      "file": {
-        "path": "qr/gm_parachain_metadata_8.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x96a9ba43e42f869ba4926a33f43bf223f42ae2739f315900190e3436a433bd12"
-        }
-      }
-    },
-    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/gm_parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
