@@ -1403,7 +1403,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg",
     "decimals": 12,
     "liveMetaVersion": 94301,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 94301,
+      "file": {
+        "path": "qr/imbue_metadata_94301.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7a2659b63e18f693f97f6e4e3a34474e0f8b328bbd67ea8991418a1643f066c4"
+        }
+      }
+    },
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
@@ -1436,35 +1446,6 @@
     "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/tinkernet_node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "gm_parachain": {
-    "title": "GM",
-    "color": "#f47b36",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "liveMetaVersion": 8,
-    "metadataQr": {
-      "version": 8,
-      "file": {
-        "path": "qr/gm_parachain_metadata_8.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x96a9ba43e42f869ba4926a33f43bf223f42ae2739f315900190e3436a433bd12"
-        }
-      }
-    },
-    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/gm_parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1886,7 +1867,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
     "liveMetaVersion": 6402,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6402,
+      "file": {
+        "path": "qr/darwinia2_metadata_6402.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x06bfd354d99b815267bbcbface096dc0b4c40c3c8dfd17ede91718bb4ce0b16c"
+        }
+      }
+    },
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/darwinia2_specs.png",
@@ -1905,7 +1896,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6402,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6402,
+      "file": {
+        "path": "qr/crab2_metadata_6402.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x63981e75cf3358cf3a944f26f053ef6a9947517dd5022a087eccbf041df973a7"
+        }
+      }
+    },
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
