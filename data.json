@@ -243,7 +243,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
     "liveMetaVersion": 982,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 982,
+      "file": {
+        "path": "qr/bifrost_metadata_982.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9c052caa3d81b100381475aa6e557dae705b9dd32affc60cb7bd5bb4580cb9a5"
+        }
+      }
+    },
     "latestMetadata": "qr/bifrost_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_specs.png",
@@ -1523,6 +1533,35 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kylin": {
+    "title": "Kylin",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
+    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
+    "unit": "KYL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 21,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kylin_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
+        }
+      }
+    },
+    "latestMetadata": "qr/kylin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kylin_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
