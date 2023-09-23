@@ -1383,35 +1383,6 @@
     },
     "testnet": false
   },
-  "imbue": {
-    "title": "Imbue",
-    "color": "#baff36",
-    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
-    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-    "unit": "IMBU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg",
-    "decimals": 12,
-    "liveMetaVersion": 94301,
-    "metadataQr": {
-      "version": 94301,
-      "file": {
-        "path": "qr/imbue_metadata_94301.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x7a2659b63e18f693f97f6e4e3a34474e0f8b328bbd67ea8991418a1643f066c4"
-        }
-      }
-    },
-    "latestMetadata": "qr/imbue_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "tinkernet_node": {
     "title": "Tinkernet",
     "color": "#161616",
