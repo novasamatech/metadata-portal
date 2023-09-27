@@ -126,18 +126,8 @@
     "base58prefix": 8,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
     "decimals": 0,
-    "liveMetaVersion": 2200,
-    "metadataQr": {
-      "version": 2200,
-      "file": {
-        "path": "qr/karura_metadata_2200.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3dc58f4f216286cf17d1ce1d8cdde94c4bb94b24fcfd38b786d05beb812e03b6"
-        }
-      }
-    },
+    "liveMetaVersion": 2210,
+    "metadataQr": null,
     "latestMetadata": "qr/karura_metadata_latest.apng",
     "specsQr": {
       "path": "qr/karura_specs.png",
