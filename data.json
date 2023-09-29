@@ -184,15 +184,15 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 2500,
+    "liveMetaVersion": 2501,
     "metadataQr": {
-      "version": 2500,
+      "version": 2501,
       "file": {
-        "path": "qr/moonriver_metadata_2500.apng",
+        "path": "qr/moonriver_metadata_2501.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x73744ec25ca36819b359fb60a41a476cf0be8e8fa3afa5301d6dfafb48d37566"
+          "block": "0xfde5e54ef27ab2cb96bc0f627f97c9d4361b282b5141b2a095c22d32789b0e7d"
         }
       }
     },
@@ -533,7 +533,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
     "liveMetaVersion": 2210,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2210,
+      "file": {
+        "path": "qr/acala_metadata_2210.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0592ee37b1f818c228ba80638d84e9dc4a5432c28ac392ce6a71c2a94d81c0bc"
+        }
+      }
+    },
     "latestMetadata": "qr/acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/acala_specs.png",
@@ -1276,15 +1286,15 @@
     "base58prefix": 7391,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
-    "liveMetaVersion": 942057,
+    "liveMetaVersion": 943061,
     "metadataQr": {
-      "version": 942057,
+      "version": 943061,
       "file": {
-        "path": "qr/unique_metadata_942057.apng",
+        "path": "qr/unique_metadata_943061.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xb4ed0cf40ddc7946e3b275b1582cdd01840c2034c8d0bed4263ca45caf1b95c4"
+          "block": "0xd9f6eb503dcd45c854c784cd3a8378a0f4234e5b268f152aba19785af002958c"
         }
       }
     },
@@ -1378,6 +1388,35 @@
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://kusama.imbuenetwork.com",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9432,
+    "metadataQr": {
+      "version": 9432,
+      "file": {
+        "path": "qr/imbue_metadata_9432.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc7c178afb3136222727f2f9c1a524b1c991cb15490f0cb5ba7de63e3c094965f"
+        }
+      }
+    },
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1798,15 +1837,15 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 32,
+    "liveMetaVersion": 33,
     "metadataQr": {
-      "version": 32,
+      "version": 33,
       "file": {
-        "path": "qr/equilibrium-parachain_metadata_32.apng",
+        "path": "qr/equilibrium-parachain_metadata_33.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xab3f753e9e6c4be8cce07736a900e1a3e0c4f46c65958e338855d51cc2e8eef0"
+          "block": "0x1079ee8bf2ce934b751b8b3889083e896d04a190d5b905876fd4c981d8eb8abc"
         }
       }
     },
@@ -2132,6 +2171,35 @@
     "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
     "specsQr": {
       "path": "qr/peaq-node-krest_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "matrix-enjin": {
+    "title": "Enjin",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.matrix.blockchain.enjin.io",
+    "genesisHash": "0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
+    "unit": "ENJ",
+    "base58prefix": 1110,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 605,
+    "metadataQr": {
+      "version": 605,
+      "file": {
+        "path": "qr/matrix-enjin_metadata_605.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xda853123e782912ae65006a07aab02e1bb8c029c641738ddb9e60f8a76bcfb66"
+        }
+      }
+    },
+    "latestMetadata": "qr/matrix-enjin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/matrix-enjin_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
