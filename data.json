@@ -1736,7 +1736,7 @@
     "color": "#000000",
     "rpcEndpoint": "wss://node.pol.equilibrium.io",
     "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-    "unit": "EQ",
+    "unit": "TOKEN",
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
