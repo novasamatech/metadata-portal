@@ -1576,6 +1576,35 @@
     },
     "testnet": false
   },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "liveMetaVersion": 5,
+    "metadataQr": {
+      "version": 5,
+      "file": {
+        "path": "qr/ipci_metadata_5.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
+        }
+      }
+    },
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "appchain": {
     "title": "Myriad",
     "color": "#7342CC",
@@ -2064,6 +2093,35 @@
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "peaq-node-krest": {
+    "title": "krest",
+    "color": "#000000",
+    "rpcEndpoint": "wss://wss-krest.peaq.network",
+    "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
+    "unit": "KREST",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
+    "decimals": 18,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/peaq-node-krest_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1c380febe38629bc3824a8e3884e9cab5d7834b5451c6029753cff354f65cc45"
+        }
+      }
+    },
+    "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/peaq-node-krest_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
