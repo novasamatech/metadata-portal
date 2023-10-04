@@ -1779,18 +1779,8 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 33,
-    "metadataQr": {
-      "version": 33,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_33.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1079ee8bf2ce934b751b8b3889083e896d04a190d5b905876fd4c981d8eb8abc"
-        }
-      }
-    },
+    "liveMetaVersion": 34,
+    "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
