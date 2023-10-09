@@ -388,7 +388,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "liveMetaVersion": 1253,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1253,
+      "file": {
+        "path": "qr/khala_metadata_1253.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xafe0eeba9b152530731c73d04f57f3afc87885c61ae0e558ee0ac0297a25c31c"
+        }
+      }
+    },
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
@@ -1045,7 +1055,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
     "liveMetaVersion": 1253,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1253,
+      "file": {
+        "path": "qr/phala_metadata_1253.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3a130a0e949ec86fc0244b294b6e2e633c50aa4e0de9e0fd9bc4c5aca975650a"
+        }
+      }
+    },
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
