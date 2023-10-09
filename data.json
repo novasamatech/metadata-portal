@@ -1867,7 +1867,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
     "liveMetaVersion": 113,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 113,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_113.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
+        }
+      }
+    },
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
