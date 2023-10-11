@@ -1809,7 +1809,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
     "liveMetaVersion": 35,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 35,
+      "file": {
+        "path": "qr/equilibrium-parachain_metadata_35.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd7136a1b987dbef98a62d3cf6f6ffda65e18c7970b92c9c81344b793274422a4"
+        }
+      }
+    },
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
@@ -1915,7 +1925,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6403,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6403,
+      "file": {
+        "path": "qr/crab2_metadata_6403.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe6fdfe35ec37fccbf132e25e0bc1a75da364611b094ed3c940d07bb8587b8d9a"
+        }
+      }
+    },
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
