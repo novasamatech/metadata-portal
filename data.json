@@ -494,35 +494,6 @@
     },
     "testnet": false
   },
-  "pioneer-runtime": {
-    "title": "Bit.Country Pioneer",
-    "color": "#000000",
-    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
-    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-    "unit": "NEER",
-    "base58prefix": 268,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
-    "decimals": 18,
-    "liveMetaVersion": 19,
-    "metadataQr": {
-      "version": 19,
-      "file": {
-        "path": "qr/pioneer-runtime_metadata_19.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfdd110c3158341aa53256e4c3f29cbca5138ca1afdcb9b6ea34e18948f1ceb3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pioneer-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
@@ -1218,18 +1189,8 @@
     "base58prefix": 6,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 980,
-    "metadataQr": {
-      "version": 980,
-      "file": {
-        "path": "qr/bifrost_polkadot_metadata_980.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x0de09e95e1ba4f1b26658acc71330cee29c5adae24894e308115d74ed6d4f9e2"
-        }
-      }
-    },
+    "liveMetaVersion": 982,
+    "metadataQr": null,
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
@@ -1407,35 +1368,6 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 19,
-    "metadataQr": {
-      "version": 19,
-      "file": {
-        "path": "qr/tinkernet_node_metadata_19.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5d19a3fb498611e256b3c468b73a269821ed247b198896d38667cea216887ade"
-        }
-      }
-    },
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1842,35 +1774,6 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "liveMetaVersion": 113,
-    "metadataQr": {
-      "version": 113,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_113.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
-        }
-      }
-    },
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
