@@ -881,7 +881,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
     "liveMetaVersion": 38,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 38,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_38.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xad1791827c1aa6e2ad7134e32c86fcec36527684f8fca63e9789ebfc445c1f1b"
+        }
+      }
+    },
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/integritee-parachain_specs.png",
@@ -1190,7 +1200,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
     "liveMetaVersion": 982,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 982,
+      "file": {
+        "path": "qr/bifrost_polkadot_metadata_982.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0805f8bdb3bbd4504cc302d486a1a1ce3bae29307e4ff4f29f7fd112cc7d7885"
+        }
+      }
+    },
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
@@ -1779,35 +1799,6 @@
     },
     "testnet": false
   },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "liveMetaVersion": 113,
-    "metadataQr": {
-      "version": 113,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_113.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
-        }
-      }
-    },
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "darwinia2": {
     "title": "Darwinia",
     "color": "#FF0083",
@@ -1818,7 +1809,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
     "liveMetaVersion": 6403,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6403,
+      "file": {
+        "path": "qr/darwinia2_metadata_6403.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe2ab5a16456829965afa0bc79dd5cf3aff3bf0f8b82440be4dd791280c1bedd7"
+        }
+      }
+    },
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/darwinia2_specs.png",
