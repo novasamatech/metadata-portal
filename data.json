@@ -764,18 +764,8 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 48,
-    "metadataQr": {
-      "version": 48,
-      "file": {
-        "path": "qr/zeitgeist_metadata_48.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x959bd725c224e13873cecfb524f24a1d635167b0bc492842b6ade7b0ad294f39"
-        }
-      }
-    },
+    "liveMetaVersion": 49,
+    "metadataQr": null,
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
