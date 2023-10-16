@@ -909,18 +909,8 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1020,
-    "metadataQr": {
-      "version": 1020,
-      "file": {
-        "path": "qr/centrifuge_metadata_1020.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xcb60ac402f1d680df7cf55dc5b2f2525febdb131d58dfa94c30e1dfcac7c29a6"
-        }
-      }
-    },
+    "liveMetaVersion": 1023,
+    "metadataQr": null,
     "latestMetadata": "qr/centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/centrifuge_specs.png",
@@ -1794,6 +1784,35 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 113,
+    "metadataQr": {
+      "version": 113,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_113.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
+        }
+      }
+    },
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
