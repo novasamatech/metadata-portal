@@ -445,18 +445,8 @@
     "base58prefix": 78,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
-    "liveMetaVersion": 4400,
-    "metadataQr": {
-      "version": 4400,
-      "file": {
-        "path": "qr/calamari_metadata_4400.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x439514a277cfe445569274491bf25c9458f0585ea80f66e57ed2d2b47c6fe7fc"
-        }
-      }
-    },
+    "liveMetaVersion": 4401,
+    "metadataQr": null,
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
       "path": "qr/calamari_specs.png",
