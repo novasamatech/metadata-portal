@@ -561,18 +561,8 @@
     "base58prefix": 172,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
     "decimals": 12,
-    "liveMetaVersion": 200,
-    "metadataQr": {
-      "version": 200,
-      "file": {
-        "path": "qr/parallel_metadata_200.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbd4c4156d7909dd83926a4647e1709b772250fad40580d0f308b7516a7ba6e28"
-        }
-      }
-    },
+    "liveMetaVersion": 201,
+    "metadataQr": null,
     "latestMetadata": "qr/parallel_metadata_latest.apng",
     "specsQr": {
       "path": "qr/parallel_specs.png",
