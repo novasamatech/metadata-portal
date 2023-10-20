@@ -947,18 +947,8 @@
     "base58prefix": 2032,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Interlay.svg",
     "decimals": 0,
-    "liveMetaVersion": 1025002,
-    "metadataQr": {
-      "version": 1025002,
-      "file": {
-        "path": "qr/interlay-parachain_metadata_1025002.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5d94eb668bc8d2fd99f8260afb2d209877ac1556a52d28ec9c66947e2ec2ce31"
-        }
-      }
-    },
+    "liveMetaVersion": 1025003,
+    "metadataQr": null,
     "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/interlay-parachain_specs.png",
@@ -1513,6 +1503,35 @@
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "liveMetaVersion": 5,
+    "metadataQr": {
+      "version": 5,
+      "file": {
+        "path": "qr/ipci_metadata_5.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
+        }
+      }
+    },
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
