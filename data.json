@@ -551,35 +551,6 @@
     },
     "testnet": false
   },
-  "parallel": {
-    "title": "Parallel",
-    "color": "#ef18ac",
-    "rpcEndpoint": "wss://rpc.parallel.fi",
-    "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-    "unit": "PARA",
-    "base58prefix": 172,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
-    "decimals": 12,
-    "liveMetaVersion": 201,
-    "metadataQr": {
-      "version": 201,
-      "file": {
-        "path": "qr/parallel_metadata_201.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x97656a5de00d9771a99a586279751dc36404e344ab94deab81557464faa724d6"
-        }
-      }
-    },
-    "latestMetadata": "qr/parallel_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/parallel_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "clover-mainnet": {
     "title": "CLV Parachain",
     "color": "linear-gradient(to right, #52ad75, #7cc773)",
@@ -763,18 +734,8 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 49,
-    "metadataQr": {
-      "version": 49,
-      "file": {
-        "path": "qr/zeitgeist_metadata_49.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x51d0e07587de64581ac03bacd21454b87719c6eaecaa5cd47bbda86aac51ee6f"
-        }
-      }
-    },
+    "liveMetaVersion": 50,
+    "metadataQr": null,
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -1445,6 +1406,35 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kylin": {
+    "title": "Kylin",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
+    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
+    "unit": "KYL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 21,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kylin_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
+        }
+      }
+    },
+    "latestMetadata": "qr/kylin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kylin_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
