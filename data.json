@@ -213,7 +213,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "liveMetaVersion": 108,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 108,
+      "file": {
+        "path": "qr/shiden_metadata_108.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3bae645d8d124f820a3c346941efa3e46ef1b119fce376416e7942fff11e1a18"
+        }
+      }
+    },
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -754,7 +764,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
     "liveMetaVersion": 50,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 50,
+      "file": {
+        "path": "qr/zeitgeist_metadata_50.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5b1a6fdc89dabcc9377cf49be3e58938aa9a30eeef18c1d2a1f4e19f70ec9b27"
+        }
+      }
+    },
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -802,7 +822,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "liveMetaVersion": 30,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 30,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_30.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x38f275a6839576f84bd7d539b00e320836e49bfca5388fb6bb2a367fef7a4005"
+        }
+      }
+    },
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
@@ -1420,6 +1450,35 @@
     },
     "testnet": false
   },
+  "kylin": {
+    "title": "Kylin",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
+    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
+    "unit": "KYL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 21,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kylin_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
+        }
+      }
+    },
+    "latestMetadata": "qr/kylin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kylin_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "totem-parachain": {
     "title": "Kapex",
     "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
@@ -1473,35 +1532,6 @@
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
