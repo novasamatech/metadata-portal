@@ -1827,35 +1827,6 @@
     },
     "testnet": false
   },
-  "darwinia2": {
-    "title": "Darwinia",
-    "color": "#FF0083",
-    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
-    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
-    "unit": "RING",
-    "base58prefix": 18,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
-    "decimals": 18,
-    "liveMetaVersion": 6403,
-    "metadataQr": {
-      "version": 6403,
-      "file": {
-        "path": "qr/darwinia2_metadata_6403.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe2ab5a16456829965afa0bc79dd5cf3aff3bf0f8b82440be4dd791280c1bedd7"
-        }
-      }
-    },
-    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/darwinia2_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "crab2": {
     "title": "Crab",
     "color": "#512DBC",
