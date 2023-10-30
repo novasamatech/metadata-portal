@@ -1344,7 +1344,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
     "liveMetaVersion": 123,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 123,
+      "file": {
+        "path": "qr/bajun_metadata_123.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd52f9adb71fe6508522e0049b7c50d807675e21d705802779f17e7e9d5a73a48"
+        }
+      }
+    },
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
