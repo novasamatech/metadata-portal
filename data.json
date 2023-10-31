@@ -532,7 +532,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 68,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 68,
+      "file": {
+        "path": "qr/astar_metadata_68.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x34c9385410e007cd29b3fed06f31391fd48a2849eb171e10e07b00d1d37a5b36"
+        }
+      }
+    },
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1827,7 +1837,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
     "liveMetaVersion": 6404,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6404,
+      "file": {
+        "path": "qr/darwinia2_metadata_6404.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9839f9c5b059a129ff29be56ee70ab4fb67818acc65f5172aaad7c27320d08fd"
+        }
+      }
+    },
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/darwinia2_specs.png",
