@@ -1257,7 +1257,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
     "liveMetaVersion": 10010063,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10010063,
+      "file": {
+        "path": "qr/unique_metadata_10010063.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc07984fd5de7d2fea3300fb4588998a727907daa9b3674e570c6cd7adba0f1c0"
+        }
+      }
+    },
     "latestMetadata": "qr/unique_metadata_latest.apng",
     "specsQr": {
       "path": "qr/unique_specs.png",
@@ -1421,7 +1431,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
     "liveMetaVersion": 23,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 23,
+      "file": {
+        "path": "qr/mainnet_metadata_23.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9ce0c28a2af7a996dc1a8645e17f4f6a6452f645dd0a32bdd1bb75f96653bf08"
+        }
+      }
+    },
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
@@ -1657,35 +1677,6 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "avn-parachain": {
-    "title": "Aventus",
-    "color": "#000000",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
-    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-    "unit": "AVT",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
-    "decimals": 18,
-    "liveMetaVersion": 44,
-    "metadataQr": {
-      "version": 44,
-      "file": {
-        "path": "qr/avn-parachain_metadata_44.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf6db382ed3ff2cb3c99d67d9b4ca0650dbccef70ea7f9eb53f6e516c7cf0cd3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/avn-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
