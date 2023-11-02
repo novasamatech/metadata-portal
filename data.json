@@ -387,7 +387,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "liveMetaVersion": 1254,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1254,
+      "file": {
+        "path": "qr/khala_metadata_1254.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2e9c6ec4260129213c380f63ffd674c2d85b461da3e3c1adfb59dcf7b24e346d"
+        }
+      }
+    },
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
@@ -464,7 +474,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
     "decimals": 18,
     "liveMetaVersion": 10010063,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10010063,
+      "file": {
+        "path": "qr/quartz_metadata_10010063.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd86107962794d6b99965f8511985f38e34957b955d39cdc29e630f5b7948e98e"
+        }
+      }
+    },
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/quartz_specs.png",
@@ -1005,7 +1025,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
     "liveMetaVersion": 1254,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1254,
+      "file": {
+        "path": "qr/phala_metadata_1254.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xad3ca5906889dbb0d1ff92a5f606fdb7291c5c536e88053b5503a3f9ded0b0dd"
+        }
+      }
+    },
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
@@ -1111,7 +1141,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 311,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 311,
+      "file": {
+        "path": "qr/node_metadata_311.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb9802cd743b4f31d77356b7e06cc3dede91d41dcffa19de5a46b91ed310fbdbc"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1391,7 +1431,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
     "liveMetaVersion": 22,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 22,
+      "file": {
+        "path": "qr/mainnet_metadata_22.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x912cf206b1fefb23d5372cbedafbbb2d4643bc7e36efd214b17901d3b86885cb"
+        }
+      }
+    },
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
@@ -1743,35 +1793,6 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "liveMetaVersion": 113,
-    "metadataQr": {
-      "version": 113,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_113.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
-        }
-      }
-    },
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
