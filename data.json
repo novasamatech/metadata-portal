@@ -1256,18 +1256,8 @@
     "base58prefix": 7391,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
-    "liveMetaVersion": 943061,
-    "metadataQr": {
-      "version": 943061,
-      "file": {
-        "path": "qr/unique_metadata_943061.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd9f6eb503dcd45c854c784cd3a8378a0f4234e5b268f152aba19785af002958c"
-        }
-      }
-    },
+    "liveMetaVersion": 10010063,
+    "metadataQr": null,
     "latestMetadata": "qr/unique_metadata_latest.apng",
     "specsQr": {
       "path": "qr/unique_specs.png",
@@ -1430,18 +1420,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
-    "liveMetaVersion": 22,
-    "metadataQr": {
-      "version": 22,
-      "file": {
-        "path": "qr/mainnet_metadata_22.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x912cf206b1fefb23d5372cbedafbbb2d4643bc7e36efd214b17901d3b86885cb"
-        }
-      }
-    },
+    "liveMetaVersion": 23,
+    "metadataQr": null,
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
