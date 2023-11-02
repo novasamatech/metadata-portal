@@ -1537,35 +1537,6 @@
     },
     "testnet": false
   },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "appchain": {
     "title": "Myriad",
     "color": "#7342CC",
@@ -1793,6 +1764,35 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 113,
+    "metadataQr": {
+      "version": 113,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_113.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x50c05cbbae43362525fbff894aeea1bf79732511c1013aa055b2e0d3bbce622c"
+        }
+      }
+    },
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
