@@ -213,7 +213,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "liveMetaVersion": 109,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 109,
+      "file": {
+        "path": "qr/shiden_metadata_109.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x655f737b0de82a0d2f094bc889e2ea920693c7877fc4910d2883e1e996ede494"
+        }
+      }
+    },
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -1672,35 +1682,6 @@
     },
     "testnet": false
   },
-  "avn-parachain": {
-    "title": "Aventus",
-    "color": "#000000",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
-    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-    "unit": "AVT",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
-    "decimals": 18,
-    "liveMetaVersion": 44,
-    "metadataQr": {
-      "version": 44,
-      "file": {
-        "path": "qr/avn-parachain_metadata_44.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf6db382ed3ff2cb3c99d67d9b4ca0650dbccef70ea7f9eb53f6e516c7cf0cd3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/avn-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#000000",
@@ -1812,6 +1793,35 @@
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "darwinia2": {
+    "title": "Darwinia",
+    "color": "#FF0083",
+    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
+    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
+    "unit": "RING",
+    "base58prefix": 18,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
+    "decimals": 18,
+    "liveMetaVersion": 6404,
+    "metadataQr": {
+      "version": 6404,
+      "file": {
+        "path": "qr/darwinia2_metadata_6404.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9839f9c5b059a129ff29be56ee70ab4fb67818acc65f5172aaad7c27320d08fd"
+        }
+      }
+    },
+    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/darwinia2_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
