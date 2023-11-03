@@ -212,18 +212,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 108,
-    "metadataQr": {
-      "version": 108,
-      "file": {
-        "path": "qr/shiden_metadata_108.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3bae645d8d124f820a3c346941efa3e46ef1b119fce376416e7942fff11e1a18"
-        }
-      }
-    },
+    "liveMetaVersion": 109,
+    "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -1822,35 +1812,6 @@
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "darwinia2": {
-    "title": "Darwinia",
-    "color": "#FF0083",
-    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
-    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
-    "unit": "RING",
-    "base58prefix": 18,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
-    "decimals": 18,
-    "liveMetaVersion": 6404,
-    "metadataQr": {
-      "version": 6404,
-      "file": {
-        "path": "qr/darwinia2_metadata_6404.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9839f9c5b059a129ff29be56ee70ab4fb67818acc65f5172aaad7c27320d08fd"
-        }
-      }
-    },
-    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/darwinia2_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
