@@ -212,18 +212,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 109,
-    "metadataQr": {
-      "version": 109,
-      "file": {
-        "path": "qr/shiden_metadata_109.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x655f737b0de82a0d2f094bc889e2ea920693c7877fc4910d2883e1e996ede494"
-        }
-      }
-    },
+    "liveMetaVersion": 110,
+    "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -531,18 +521,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 68,
-    "metadataQr": {
-      "version": 68,
-      "file": {
-        "path": "qr/astar_metadata_68.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x34c9385410e007cd29b3fed06f31391fd48a2849eb171e10e07b00d1d37a5b36"
-        }
-      }
-    },
+    "liveMetaVersion": 70,
+    "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1126,35 +1106,6 @@
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node": {
-    "title": "Polkadex",
-    "color": "#7C30DD",
-    "rpcEndpoint": "wss://mainnet.polkadex.trade",
-    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "unit": "PDEX",
-    "base58prefix": 88,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
-    "decimals": 12,
-    "liveMetaVersion": 311,
-    "metadataQr": {
-      "version": 311,
-      "file": {
-        "path": "qr/node_metadata_311.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb9802cd743b4f31d77356b7e06cc3dede91d41dcffa19de5a46b91ed310fbdbc"
-        }
-      }
-    },
-    "latestMetadata": "qr/node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
