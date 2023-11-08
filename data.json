@@ -191,18 +191,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 110,
-    "metadataQr": {
-      "version": 110,
-      "file": {
-        "path": "qr/shiden_metadata_110.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5f1fe5304c776e6e3e5eee4f451424a36f9d32b293c19caf6127f68e8a1bfb89"
-        }
-      }
-    },
+    "liveMetaVersion": 111,
+    "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -452,18 +442,8 @@
     "base58prefix": 255,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
     "decimals": 18,
-    "liveMetaVersion": 10010063,
-    "metadataQr": {
-      "version": 10010063,
-      "file": {
-        "path": "qr/quartz_metadata_10010063.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd86107962794d6b99965f8511985f38e34957b955d39cdc29e630f5b7948e98e"
-        }
-      }
-    },
+    "liveMetaVersion": 10010064,
+    "metadataQr": null,
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/quartz_specs.png",
@@ -510,18 +490,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 70,
-    "metadataQr": {
-      "version": 70,
-      "file": {
-        "path": "qr/astar_metadata_70.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb9f4b81478e0a38d4b0afff89796a49d96eb14fd77084da32fd3ee4040ee6a97"
-        }
-      }
-    },
+    "liveMetaVersion": 71,
+    "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -800,18 +770,8 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 30,
-    "metadataQr": {
-      "version": 30,
-      "file": {
-        "path": "qr/subsocial-parachain_metadata_30.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x38f275a6839576f84bd7d539b00e320836e49bfca5388fb6bb2a367fef7a4005"
-        }
-      }
-    },
+    "liveMetaVersion": 31,
+    "metadataQr": null,
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
@@ -1424,6 +1384,35 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kylin": {
+    "title": "Kylin",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
+    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
+    "unit": "KYL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 21,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kylin_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
+        }
+      }
+    },
+    "latestMetadata": "qr/kylin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kylin_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
