@@ -126,7 +126,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
     "decimals": 0,
     "liveMetaVersion": 2220,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2220,
+      "file": {
+        "path": "qr/karura_metadata_2220.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7e0a19697cea8cf7068dae1da01f50649c9c310da78224714904dffe3cfc1e39"
+        }
+      }
+    },
     "latestMetadata": "qr/karura_metadata_latest.apng",
     "specsQr": {
       "path": "qr/karura_specs.png",
@@ -203,7 +213,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "liveMetaVersion": 110,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 110,
+      "file": {
+        "path": "qr/shiden_metadata_110.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5f1fe5304c776e6e3e5eee4f451424a36f9d32b293c19caf6127f68e8a1bfb89"
+        }
+      }
+    },
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -512,7 +532,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 70,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 70,
+      "file": {
+        "path": "qr/astar_metadata_70.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb9f4b81478e0a38d4b0afff89796a49d96eb14fd77084da32fd3ee4040ee6a97"
+        }
+      }
+    },
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1372,7 +1402,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
     "liveMetaVersion": 11,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 11,
+      "file": {
+        "path": "qr/amplitude_metadata_11.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1f3960d64fbea5b3ff49627d9870a2cf56f7cbaf939fc8ffb7a9f95ebd45aa4f"
+        }
+      }
+    },
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
