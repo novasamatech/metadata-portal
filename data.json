@@ -724,35 +724,6 @@
     },
     "testnet": false
   },
-  "picasso": {
-    "title": "Picasso",
-    "color": "#000000",
-    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
-    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-    "unit": "PICA",
-    "base58prefix": 49,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10039,
-    "metadataQr": {
-      "version": 10039,
-      "file": {
-        "path": "qr/picasso_metadata_10039.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xad8418f12f07392c5fe04a8f67c9242c7e3b2ab6cf8405884cfdbaf6f148f364"
-        }
-      }
-    },
-    "latestMetadata": "qr/picasso_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/picasso_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "zeitgeist": {
     "title": "Zeitgeist",
     "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
@@ -1096,35 +1067,6 @@
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "composable": {
-    "title": "Composable Finance",
-    "color": "#C90E8A",
-    "rpcEndpoint": "wss://composable.api.onfinality.io/public-ws",
-    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-    "unit": "LAYR",
-    "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10039,
-    "metadataQr": {
-      "version": 10039,
-      "file": {
-        "path": "qr/composable_metadata_10039.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x52d336c691ad20c5709c3f29e81a360f14e6a7a4abd498efc2637cece2b952e8"
-        }
-      }
-    },
-    "latestMetadata": "qr/composable_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/composable_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1666,35 +1608,6 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "avn-parachain": {
-    "title": "Aventus",
-    "color": "#000000",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
-    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-    "unit": "AVT",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
-    "decimals": 18,
-    "liveMetaVersion": 44,
-    "metadataQr": {
-      "version": 44,
-      "file": {
-        "path": "qr/avn-parachain_metadata_44.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf6db382ed3ff2cb3c99d67d9b4ca0650dbccef70ea7f9eb53f6e516c7cf0cd3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/avn-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
