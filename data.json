@@ -1130,6 +1130,35 @@
     },
     "testnet": false
   },
+  "node": {
+    "title": "Polkadex",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "liveMetaVersion": 311,
+    "metadataQr": {
+      "version": 311,
+      "file": {
+        "path": "qr/node_metadata_311.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb9802cd743b4f31d77356b7e06cc3dede91d41dcffa19de5a46b91ed310fbdbc"
+        }
+      }
+    },
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "origintrail-parachain": {
     "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
@@ -1415,35 +1444,6 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "kylin": {
-    "title": "Kylin",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
-    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
-    "unit": "KYL",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
-    "decimals": 18,
-    "liveMetaVersion": 21,
-    "metadataQr": {
-      "version": 21,
-      "file": {
-        "path": "qr/kylin_metadata_21.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
-        }
-      }
-    },
-    "latestMetadata": "qr/kylin_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kylin_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
