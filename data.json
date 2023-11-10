@@ -1198,7 +1198,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
     "liveMetaVersion": 10010064,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10010064,
+      "file": {
+        "path": "qr/unique_metadata_10010064.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x92f2dddbcf42bdd0dbf03f2241392212caf4428fdebbd841d746f61e100456ed"
+        }
+      }
+    },
     "latestMetadata": "qr/unique_metadata_latest.apng",
     "specsQr": {
       "path": "qr/unique_specs.png",
