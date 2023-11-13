@@ -67,7 +67,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 103000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 103000,
+      "file": {
+        "path": "qr/westend_metadata_103000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x166c389b15ac20551462d26683994c235107eb884adfec372e3e5bb3cd233fd0"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -1623,7 +1633,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
     "liveMetaVersion": 38,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 38,
+      "file": {
+        "path": "qr/equilibrium-parachain_metadata_38.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9d705394a0b1c34540461a04279ef0a70f899fe1086e15ec12375b56bc035c50"
+        }
+      }
+    },
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
