@@ -1130,6 +1130,35 @@
     },
     "testnet": false
   },
+  "node": {
+    "title": "Polkadex",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "liveMetaVersion": 311,
+    "metadataQr": {
+      "version": 311,
+      "file": {
+        "path": "qr/node_metadata_311.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb9802cd743b4f31d77356b7e06cc3dede91d41dcffa19de5a46b91ed310fbdbc"
+        }
+      }
+    },
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "origintrail-parachain": {
     "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
@@ -1623,6 +1652,35 @@
     },
     "testnet": false
   },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 44,
+    "metadataQr": {
+      "version": 44,
+      "file": {
+        "path": "qr/avn-parachain_metadata_44.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf6db382ed3ff2cb3c99d67d9b4ca0650dbccef70ea7f9eb53f6e516c7cf0cd3d"
+        }
+      }
+    },
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#000000",
@@ -1632,18 +1690,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 135,
-    "metadataQr": {
-      "version": 135,
-      "file": {
-        "path": "qr/node-subtensor_metadata_135.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9b621b3769c8f82d745ddf3d5c7a4d4b36935421d94707332b1c7e55901e1071"
-        }
-      }
-    },
+    "liveMetaVersion": 136,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
