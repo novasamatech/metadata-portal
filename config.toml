@@ -34,13 +34,13 @@ title = "Kusama"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
-    "wss://rpc.ibp.network/kusama",
-    "wss://rpc.dotters.network/kusama",
-    "wss://1rpc.io/ksm",
     "wss://kusama-rpc.dwellir.com",
-    "wss://kusama.public.curie.radiumblock.co/ws",
     "wss://kusama-rpc.polkadot.io",
     "wss://rpc-kusama.luckyfriday.io",
+    "wss://1rpc.io/ksm",
+    "wss://rpc.ibp.network/kusama",
+    "wss://rpc.dotters.network/kusama",
+    "wss://kusama.public.curie.radiumblock.co/ws",
     "wss://kusama.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -55,8 +55,8 @@ rpc_endpoints = [
     "wss://rpc.ibp.network/westend",
     "wss://rpc.dotters.network/westend",
     "wss://westend-rpc.polkadot.io",
-    "wss://westend.api.onfinality.io/public-ws",
     "wss://westend-rpc.dwellir.com",
+    "wss://westend.api.onfinality.io/public-ws",
 ]
 testnet = true
 verifier = "parity"
@@ -69,7 +69,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://sys.ibp.network/statemine",
     "wss://sys.dotters.network/statemine",
-    "wss://statemine.api.onfinality.io/public-ws",
     "wss://statemine-rpc.dwellir.com",
     "wss://statemine-rpc.polkadot.io",
 ]
@@ -81,13 +80,7 @@ name = "karura"
 title = "Karura"
 color = "#ff4c3b"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg"
-rpc_endpoints = [
-    "wss://karura-rpc.dwellir.com",
-    "wss://karura-rpc-0.aca-api.network",
-    "wss://karura-rpc-1.aca-api.network",
-    "wss://karura-rpc-2.aca-api.network/ws",
-    "wss://karura-rpc-3.aca-api.network/ws",
-]
+rpc_endpoints = ["wss://karura.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
 
@@ -98,9 +91,9 @@ color = "#53cbc9"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg"
 rpc_endpoints = [
     "wss://wss.api.moonbeam.network",
-    "wss://moonbeam.api.onfinality.io/public-ws",
     "wss://moonbeam.public.blastapi.io",
     "wss://1rpc.io/glmr",
+    "wss://moonbeam.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -113,8 +106,8 @@ color = "#0E132E"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg"
 rpc_endpoints = [
     "wss://wss.api.moonriver.moonbeam.network",
-    "wss://moonriver.api.onfinality.io/public-ws",
     "wss://moonriver.public.blastapi.io",
+    "wss://moonriver.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -127,8 +120,8 @@ color = "#5923B2"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg"
 rpc_endpoints = [
     "wss://rpc.shiden.astar.network",
-    "wss://shiden.api.onfinality.io/public-ws",
     "wss://shiden-rpc.dwellir.com",
+    "wss://shiden.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -140,8 +133,8 @@ color = "#5a25f0"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg"
 rpc_endpoints = [
     "wss://bifrost-rpc.liebi.com/ws",
-    "wss://bifrost-parachain.api.onfinality.io/public-ws",
     "wss://bifrost-rpc.dwellir.com",
+    "wss://bifrost-parachain.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -163,10 +156,7 @@ name = "altair"
 title = "Altair"
 color = "#ffb700"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg"
-rpc_endpoints = [
-    "wss://fullnode.altair.centrifuge.io",
-    "wss://altair.api.onfinality.io/public-ws",
-]
+rpc_endpoints = ["wss://altair.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
 
@@ -199,8 +189,8 @@ color = "#03f3f3"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg"
 rpc_endpoints = [
     "wss://khala-api.phala.network/ws",
-    "wss://khala.api.onfinality.io/public-ws",
     "wss://khala-rpc.dwellir.com",
+    "wss://khala.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -211,6 +201,7 @@ title = "KILT"
 color = "#8c145a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg"
 rpc_endpoints = [
+    "wss://kilt-rpc.dwellir.com",
     "wss://spiritnet.kilt.io/",
     "wss://spiritnet.api.onfinality.io/public-ws",
 ]
@@ -245,7 +236,7 @@ name = "pioneer-runtime"
 title = "Bit.Country Pioneer"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg"
-rpc_endpoints = ["wss://pioneer.api.onfinality.io/public-ws"]
+rpc_endpoints = ["wss://pioneer-rpc-3.bit.country/wss"]
 testnet = false
 verifier = "novasama"
 
@@ -272,8 +263,8 @@ color = "#1b6dc1d9"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg"
 rpc_endpoints = [
     "wss://rpc.astar.network",
-    "wss://astar.api.onfinality.io/public-ws",
     "wss://astar-rpc.dwellir.com",
+    "wss://astar.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -283,7 +274,10 @@ name = "parallel"
 title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
-rpc_endpoints = ["wss://rpc.parallel.fi"]
+rpc_endpoints = [
+    "wss://rpc.parallel.fi",
+    "wss://parallel-rpc.dwellir.com",
+]
 testnet = false
 verifier = "novasama"
 
@@ -305,8 +299,8 @@ rpc_endpoints = [
     "wss://sys.ibp.network/statemint",
     "wss://sys.dotters.network/statemint",
     "wss://statemint-rpc.polkadot.io",
-    "wss://statemint.api.onfinality.io/public-ws",
     "wss://statemint-rpc.dwellir.com",
+    "wss://statemint.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -318,7 +312,7 @@ color = "#2949d3"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg"
 rpc_endpoints = [
     "wss://kusama.rpc.robonomics.network/",
-    "wss://robonomics.leemo.me",
+    "wss://robonomics.0xsamsara.com",
 ]
 testnet = false
 verifier = "novasama"
@@ -332,7 +326,6 @@ rpc_endpoints = [
     "wss://sys.ibp.network/encointer-kusama",
     "wss://sys.dotters.network/encointer-kusama",
     "wss://api.kusama.encointer.org",
-    "wss://encointer.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -409,8 +402,8 @@ title = "Integritee Parachain"
 color = "#658ea9"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg"
 rpc_endpoints = [
-    "wss://integritee-kusama.api.onfinality.io/public-ws",
     "wss://kusama.api.integritee.network",
+    "wss://integritee-kusama.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -421,8 +414,8 @@ title = "Centrifuge Parachain"
 color = "#fcc367"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg"
 rpc_endpoints = [
-    "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "wss://fullnode.parachain.centrifuge.io",
+    "wss://centrifuge-parachain.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -446,7 +439,8 @@ color = "#3E96FF"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Interlay.svg"
 rpc_endpoints = [
     "wss://api.interlay.io/parachain",
-    "wss://interlay.api.onfinality.io/public-ws",
+    "wss://interlay-rpc.dwellir.com",
+    "wss://rpc-interlay.luckyfriday.io/",
 ]
 testnet = false
 verifier = "novasama"
@@ -457,8 +451,8 @@ title = "Nodle Parachain"
 color = "#1ab394"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Nodle.svg"
 rpc_endpoints = [
-    "wss://nodle-parachain.api.onfinality.io/public-ws",
     "wss://eden-rpc.dwellir.com",
+    "wss://nodle-parachain.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -502,10 +496,7 @@ name = "composable"
 title = "Composable Finance"
 color = "#C90E8A"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg"
-rpc_endpoints = [
-    "wss://composable.api.onfinality.io/public-ws",
-    "wss://rpc.composable.finance",
-]
+rpc_endpoints = ["wss://rpc.composable.finance"]
 testnet = false
 verifier = "novasama"
 
@@ -514,7 +505,11 @@ name = "node"
 title = "Polkadex"
 color = "#7C30DD"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg"
-rpc_endpoints = ["wss://mainnet.polkadex.trade"]
+rpc_endpoints = [
+    "wss://mainnet.polkadex.trade",
+    "wss://polkadex.public.curie.radiumblock.co/ws",
+    "wss://polkadex.api.onfinality.io/public-ws",
+]
 testnet = false
 verifier = "novasama"
 
@@ -561,15 +556,6 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 
-#[[chains]]
-#name = "DORA KSM Parachain"
-#title = "Dora Factory (PAUSED)"
-#color = "#000000"
-#icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DoraFactory.svg"
-#rpc_endpoints = ["wss://kusama.dorafactory.org"]
-#testnet = false
-#verifier = "novasama"
-
 [[chains]]
 name = "mangata-parachain"
 title = "Mangata X"
@@ -598,8 +584,8 @@ color = "#161212"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg"
 rpc_endpoints = [
     "wss://rpc-parachain.bajun.network",
-    "wss://bajun.api.onfinality.io/public-ws",
     "wss://bajun.public.curie.radiumblock.co/ws",
+    "wss://bajun.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -618,16 +604,7 @@ name = "tinkernet_node"
 title = "Tinkernet"
 color = "#161616"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg"
-rpc_endpoints = ["wss://invarch-tinkernet.api.onfinality.io/public-ws"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
-name = "gm_parachain"
-title = "GM"
-color = "#f47b36"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
-rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
+rpc_endpoints = ["wss://tinkernet-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
 
@@ -650,23 +627,11 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "kylin"
-title = "Kylin"
-color = "#ed007e"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg"
-rpc_endpoints = ["wss://polkadot.kylin-node.co.uk"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
 name = "totem-parachain"
 title = "Kapex"
 color = "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg"
-rpc_endpoints = [
-    "wss://kapex-rpc.dwellir.com",
-    "wss://kapex-parachain.api.onfinality.io/public-ws",
-]
+rpc_endpoints = ["wss://kapex-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
 
@@ -703,9 +668,10 @@ title = "XX network"
 color = "#0F364A"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/XX_network.svg"
 rpc_endpoints = [
+    "wss://xxnetwork-rpc.dwellir.com",
+    "wss://rpc.xx.network",
     "wss://rpc-hetzner.xx.network",
     "wss://rpc-do.xx.network",
-    "wss://xx.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -725,15 +691,6 @@ title = "Crust"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust.svg"
 rpc_endpoints = ["wss://crust-parachain.crustapps.net"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
-name = "avn-parachain"
-title = "Aventus"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
-rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
 testnet = false
 verifier = "novasama"
 
@@ -775,7 +732,11 @@ name = "poscan-runtime"
 title = "3DPass"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg"
-rpc_endpoints = ["wss://rpc2.3dpass.org"]
+rpc_endpoints = [
+    "wss://rpc.3dpscan.io",
+    "wss://rpc.3dpass.org",
+    "wss://rpc2.3dpass.org",
+]
 testnet = false
 verifier = "novasama"
 
@@ -797,7 +758,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://crab-rpc.darwinia.network/",
     "wss://darwiniacrab-rpc.dwellir.com",
-    "wss://crab.api.onfinality.io/public-ws",
+    "wss://crab-rpc.darwiniacommunitydao.xyz",
 ]
 testnet = false
 verifier = "novasama"
@@ -870,9 +831,9 @@ rpc_endpoints = [
     "wss://sys.ibp.network/collectives-polkadot",
     "wss://sys.dotters.network/collectives-polkadot",
     "wss://polkadot-collectives-rpc.polkadot.io",
-    "wss://collectives.api.onfinality.io/public-ws",
     "wss://collectives.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io/collectives",
+    "wss://collectives.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -900,10 +861,9 @@ verifier = "novasama"
 
 [[chains]]
 name = "watr-mainnet"
-title = "Watr Mainnet"
+title = "Watr"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Watr.svg"
-rpc_endpoints = [
-    "wss://watr-rpc.watr-api.network"
-]
+rpc_endpoints = ["wss://watr-rpc.watr-api.network"]
 testnet = false
 verifier = "novasama"
