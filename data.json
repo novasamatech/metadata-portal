@@ -31,7 +31,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://kusama-rpc.dwellir.com",
+    "rpcEndpoint": "wss://rpc.ibp.network/kusama",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -118,7 +118,7 @@
   "karura": {
     "title": "Karura",
     "color": "#ff4c3b",
-    "rpcEndpoint": "wss://karura.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://karura-rpc.dwellir.com",
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "unit": "UNIT",
     "base58prefix": 8,
@@ -292,7 +292,7 @@
   "altair": {
     "title": "Altair",
     "color": "#ffb700",
-    "rpcEndpoint": "wss://altair.api.onfinality.io/public-ws",
+    "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
     "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
     "unit": "AIR",
     "base58prefix": 136,
@@ -408,7 +408,7 @@
   "kilt-spiritnet": {
     "title": "KILT",
     "color": "#8c145a",
-    "rpcEndpoint": "wss://kilt-rpc.dwellir.com",
+    "rpcEndpoint": "wss://spiritnet.kilt.io/",
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
     "unit": "KILT",
     "base58prefix": 38,
@@ -487,35 +487,6 @@
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/quartz_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "pioneer-runtime": {
-    "title": "Bit.Country Pioneer",
-    "color": "#000000",
-    "rpcEndpoint": "wss://pioneer-rpc-3.bit.country/wss",
-    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-    "unit": "NEER",
-    "base58prefix": 268,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
-    "decimals": 18,
-    "liveMetaVersion": 19,
-    "metadataQr": {
-      "version": 19,
-      "file": {
-        "path": "qr/pioneer-runtime_metadata_19.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfdd110c3158341aa53256e4c3f29cbca5138ca1afdcb9b6ea34e18948f1ceb3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pioneer-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -901,7 +872,7 @@
   "integritee-parachain": {
     "title": "Integritee Parachain",
     "color": "#658ea9",
-    "rpcEndpoint": "wss://kusama.api.integritee.network",
+    "rpcEndpoint": "wss://integritee-kusama.api.onfinality.io/public-ws",
     "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
     "unit": "TEER",
     "base58prefix": 13,
@@ -930,7 +901,7 @@
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
-    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
+    "rpcEndpoint": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
     "unit": "CFG",
     "base58prefix": 36,
@@ -1017,7 +988,7 @@
   "nodle-para": {
     "title": "Nodle Parachain",
     "color": "#1ab394",
-    "rpcEndpoint": "wss://eden-rpc.dwellir.com",
+    "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
     "unit": "NODL",
     "base58prefix": 37,
@@ -1133,7 +1104,7 @@
   "composable": {
     "title": "Composable Finance",
     "color": "#C90E8A",
-    "rpcEndpoint": "wss://rpc.composable.finance",
+    "rpcEndpoint": "wss://composable.api.onfinality.io/public-ws",
     "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
     "unit": "LAYR",
     "base58prefix": 50,
@@ -1420,35 +1391,6 @@
     },
     "testnet": false
   },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://tinkernet-rpc.dwellir.com",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 19,
-    "metadataQr": {
-      "version": 19,
-      "file": {
-        "path": "qr/tinkernet_node_metadata_19.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5d19a3fb498611e256b3c468b73a269821ed247b198896d38667cea216887ade"
-        }
-      }
-    },
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -1597,7 +1539,7 @@
   "xxnetwork": {
     "title": "XX network",
     "color": "#0F364A",
-    "rpcEndpoint": "wss://xxnetwork-rpc.dwellir.com",
+    "rpcEndpoint": "wss://rpc-hetzner.xx.network",
     "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
     "unit": "xx",
     "base58prefix": 55,
@@ -1676,6 +1618,35 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 44,
+    "metadataQr": {
+      "version": 44,
+      "file": {
+        "path": "qr/avn-parachain_metadata_44.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf6db382ed3ff2cb3c99d67d9b4ca0650dbccef70ea7f9eb53f6e516c7cf0cd3d"
+        }
+      }
+    },
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1771,7 +1742,7 @@
   "poscan-runtime": {
     "title": "3DPass",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc.3dpscan.io",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
     "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
     "unit": "P3D",
     "base58prefix": 71,
@@ -2088,7 +2059,7 @@
     "testnet": false
   },
   "watr-mainnet": {
-    "title": "Watr",
+    "title": "Watr Mainnet",
     "color": "#000000",
     "rpcEndpoint": "wss://watr-rpc.watr-api.network",
     "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
