@@ -1835,18 +1835,8 @@
     "base58prefix": 18,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
-    "liveMetaVersion": 6404,
-    "metadataQr": {
-      "version": 6404,
-      "file": {
-        "path": "qr/darwinia2_metadata_6404.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9839f9c5b059a129ff29be56ee70ab4fb67818acc65f5172aaad7c27320d08fd"
-        }
-      }
-    },
+    "liveMetaVersion": 6501,
+    "metadataQr": null,
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/darwinia2_specs.png",
