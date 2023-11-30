@@ -153,18 +153,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 2501,
-    "metadataQr": {
-      "version": 2501,
-      "file": {
-        "path": "qr/moonbeam_metadata_2501.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa73bba05a1394741d886ef7a429a27feb661e7c16c33407290869b5dd7ccf66e"
-        }
-      }
-    },
+    "liveMetaVersion": 2602,
+    "metadataQr": null,
     "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbeam_specs.png",
