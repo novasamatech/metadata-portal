@@ -154,7 +154,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 2602,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2602,
+      "file": {
+        "path": "qr/moonbeam_metadata_2602.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe6db2f2d56bf8e5ab3aabbdfa54ef8dc79353a5455c409c0d03d939f20114cd3"
+        }
+      }
+    },
     "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbeam_specs.png",
@@ -173,7 +183,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
     "liveMetaVersion": 2602,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2602,
+      "file": {
+        "path": "qr/moonriver_metadata_2602.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x74fead2ee2cd8636cbb2512f4e2619a4f26021deffa3374cf84e4a3dedf6c9b5"
+        }
+      }
+    },
     "latestMetadata": "qr/moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonriver_specs.png",
