@@ -763,7 +763,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
     "liveMetaVersion": 10041,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10041,
+      "file": {
+        "path": "qr/picasso_metadata_10041.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc4e701d5a6e4d3ead677ff6d15225974a2a397383dba3e93da185252d6795d2c"
+        }
+      }
+    },
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -1130,7 +1140,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "liveMetaVersion": 10041,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10041,
+      "file": {
+        "path": "qr/composable_metadata_10041.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc713e29378cab440f4aff10b253287befd890a0d6f60666d22c53b0fc5e1d2dc"
+        }
+      }
+    },
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
@@ -1149,7 +1169,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 313,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 313,
+      "file": {
+        "path": "qr/node_metadata_313.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb21e0507a32bc75459ed1b2d3cba8ddb05b8e4a035ba47d95cbcf1849c6fb2ac"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1197,7 +1227,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
     "liveMetaVersion": 988,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 988,
+      "file": {
+        "path": "qr/bifrost_polkadot_metadata_988.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9c52813a00218514f6f5b9c60d3167c88fc720647c9afd522690fa420b71eec3"
+        }
+      }
+    },
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
