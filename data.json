@@ -1081,18 +1081,8 @@
     "base58prefix": 51,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Turing.svg",
     "decimals": 10,
-    "liveMetaVersion": 295,
-    "metadataQr": {
-      "version": 295,
-      "file": {
-        "path": "qr/turing_metadata_295.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5470ff9594dcaf75d715b4a2420d59bc93344418efe7f0c7b3dad25ff9322cbc"
-        }
-      }
-    },
+    "liveMetaVersion": 296,
+    "metadataQr": null,
     "latestMetadata": "qr/turing_metadata_latest.apng",
     "specsQr": {
       "path": "qr/turing_specs.png",
@@ -1169,7 +1159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 315,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 315,
+      "file": {
+        "path": "qr/node_metadata_315.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb1f7cd6dbaecc3513d2c2958bfe300a865d786508d00aa2337391d3c7ef6029d"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1246,7 +1246,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
     "liveMetaVersion": 9170,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9170,
+      "file": {
+        "path": "qr/litentry-parachain_metadata_9170.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0d1b3c899fd9f755f7c21ce1221bb2760382707dfe40265f2b5eab3fa15c928d"
+        }
+      }
+    },
     "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/litentry-parachain_specs.png",
@@ -1642,7 +1652,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 9,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9,
+      "file": {
+        "path": "qr/pendulum_metadata_9.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf8b820b19461cbc829a728b8bdc2dec3c76a5d27cc20f23bd948a64daf39c5e3"
+        }
+      }
+    },
     "latestMetadata": "qr/pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pendulum_specs.png",
