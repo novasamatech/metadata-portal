@@ -1082,7 +1082,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Turing.svg",
     "decimals": 10,
     "liveMetaVersion": 296,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 296,
+      "file": {
+        "path": "qr/turing_metadata_296.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd1d9eb504fb9497208a70219057297f83bae205a6976372b0c8afbfa4139f7f2"
+        }
+      }
+    },
     "latestMetadata": "qr/turing_metadata_latest.apng",
     "specsQr": {
       "path": "qr/turing_specs.png",
