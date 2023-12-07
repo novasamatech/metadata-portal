@@ -898,6 +898,35 @@
     },
     "testnet": false
   },
+  "integritee-parachain": {
+    "title": "Integritee Parachain",
+    "color": "#658ea9",
+    "rpcEndpoint": "wss://kusama.api.integritee.network",
+    "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+    "unit": "TEER",
+    "base58prefix": 13,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
+    "decimals": 12,
+    "liveMetaVersion": 38,
+    "metadataQr": {
+      "version": 38,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_38.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xad1791827c1aa6e2ad7134e32c86fcec36527684f8fca63e9789ebfc445c1f1b"
+        }
+      }
+    },
+    "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/integritee-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
