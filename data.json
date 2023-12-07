@@ -898,6 +898,35 @@
     },
     "testnet": false
   },
+  "integritee-parachain": {
+    "title": "Integritee Parachain",
+    "color": "#658ea9",
+    "rpcEndpoint": "wss://kusama.api.integritee.network",
+    "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+    "unit": "TEER",
+    "base58prefix": 13,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
+    "decimals": 12,
+    "liveMetaVersion": 38,
+    "metadataQr": {
+      "version": 38,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_38.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xad1791827c1aa6e2ad7134e32c86fcec36527684f8fca63e9789ebfc445c1f1b"
+        }
+      }
+    },
+    "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/integritee-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
@@ -1807,7 +1836,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6510,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6510,
+      "file": {
+        "path": "qr/crab2_metadata_6510.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8e0e86e0476ef080f6fe1f0d124f0199eab854ae3c18f52cd4b07d4d4409f57e"
+        }
+      }
+    },
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
