@@ -763,7 +763,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
     "liveMetaVersion": 10042,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10042,
+      "file": {
+        "path": "qr/picasso_metadata_10042.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1ab85d8095681fc2811825f7adbeb27ed69798f2ac03f254dfc18b2586c9018c"
+        }
+      }
+    },
     "latestMetadata": "qr/picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/picasso_specs.png",
@@ -2058,7 +2068,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002,
+      "file": {
+        "path": "qr/matrix-enjin_metadata_1002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x58e893dcdd78834f9f4a08b93a6c81d452a168f139f6f53c9f7b6b93e3e50106"
+        }
+      }
+    },
     "latestMetadata": "qr/matrix-enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/matrix-enjin_specs.png",
