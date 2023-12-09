@@ -1400,7 +1400,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg",
     "decimals": 12,
-    "liveMetaVersion": 1029,
+    "liveMetaVersion": 1000001,
     "metadataQr": null,
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
