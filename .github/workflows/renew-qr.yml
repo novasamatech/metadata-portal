@@ -29,8 +29,8 @@ jobs:
         id: compare
         run: |
           # Check Genesis and SpecVersion
-          RenewedGenesis=$(curl -X POST http://rpc.vara-network.io/jsonrpc -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "chain_getBlockHash", "params": [0]}]'  | jq -r '.[].result');
-          RenewedSpecVersion=$(curl -X POST http://rpc.vara-network.io/jsonrpc  -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "state_getRuntimeVersion", "params": []}]'  | jq -r '.[].result.specVersion'); 
+          RenewedGenesis=$(curl -X POST https://rpc.vara-network.io/jsonrpc -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "chain_getBlockHash", "params": [0]}]'  | jq -r '.[].result');
+          RenewedSpecVersion=$(curl -X POST https://rpc.vara-network.io/jsonrpc  -H 'Content-Type: application/json' -d '[ { "id": 1, "jsonrpc": "2.0", "method": "state_getRuntimeVersion", "params": []}]'  | jq -r '.[].result.specVersion'); 
           # Read previous Genesis and SpecVersion from file
           originalgenesis=$(sed '1!d' spec.info)
           originalspecVersion=$(sed '2!d' spec.info)
