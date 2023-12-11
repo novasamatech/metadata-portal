@@ -1130,35 +1130,6 @@
     },
     "testnet": false
   },
-  "composable": {
-    "title": "Composable Finance",
-    "color": "#C90E8A",
-    "rpcEndpoint": "wss://rpc.composable.finance",
-    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-    "unit": "LAYR",
-    "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10041,
-    "metadataQr": {
-      "version": 10041,
-      "file": {
-        "path": "qr/composable_metadata_10041.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc713e29378cab440f4aff10b253287befd890a0d6f60666d22c53b0fc5e1d2dc"
-        }
-      }
-    },
-    "latestMetadata": "qr/composable_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/composable_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node": {
     "title": "Polkadex",
     "color": "#7C30DD",
