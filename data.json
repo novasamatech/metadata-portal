@@ -1188,35 +1188,6 @@
     },
     "testnet": false
   },
-  "origintrail-parachain": {
-    "title": "OriginTrail Parachain",
-    "color": "#FB5DEB",
-    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
-    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
-    "base58prefix": 101,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
-    "decimals": 12,
-    "liveMetaVersion": 121,
-    "metadataQr": {
-      "version": 121,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_121.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x502a0300d0d7d33eea2531e1b0948d8a7909ed994f223abea17bb94b081010ad"
-        }
-      }
-    },
-    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/origintrail-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
@@ -1458,18 +1429,8 @@
     "base58prefix": 57,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 11,
-    "metadataQr": {
-      "version": 11,
-      "file": {
-        "path": "qr/amplitude_metadata_11.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1f3960d64fbea5b3ff49627d9870a2cf56f7cbaf939fc8ffb7a9f95ebd45aa4f"
-        }
-      }
-    },
+    "liveMetaVersion": 12,
+    "metadataQr": null,
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
