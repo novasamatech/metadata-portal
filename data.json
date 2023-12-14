@@ -1459,7 +1459,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
     "liveMetaVersion": 12,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/amplitude_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8f0496fe784244a66a4859dc40795e9677c99911ce2c31a93239ce644f8e1e7d"
+        }
+      }
+    },
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
