@@ -1546,7 +1546,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
     "liveMetaVersion": 6001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6001000,
+      "file": {
+        "path": "qr/polymesh_mainnet_metadata_6001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc99d8d63bf697592d77ea0941673bf1b2717ebb3ca9b5cb93be94d93f2ecd5ea"
+        }
+      }
+    },
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -1623,7 +1633,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 10,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/pendulum_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x52b4a8ec0d48ffafcb4bf8eab32d14b68e305314eadcafc8eccea7a4c70794c0"
+        }
+      }
+    },
     "latestMetadata": "qr/pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/pendulum_specs.png",
@@ -1671,7 +1691,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
     "liveMetaVersion": 140,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 140,
+      "file": {
+        "path": "qr/node-subtensor_metadata_140.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd98eeb1b3733b5c00ca346674858d4704a4bf3378f45a55ca36070c48d7089f4"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
