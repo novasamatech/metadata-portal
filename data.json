@@ -60,7 +60,7 @@
   "westend": {
     "title": "Westend",
     "color": "#f27230",
-    "rpcEndpoint": "wss://rpc.ibp.network/westend",
+    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
     "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
     "unit": "WND",
     "base58prefix": 42,
@@ -1140,7 +1140,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "liveMetaVersion": 10042,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10042,
+      "file": {
+        "path": "qr/composable_metadata_10042.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2bedcaf6ce4b8636042096076e77ccf1ca3d93552fb9615d98e6307194617986"
+        }
+      }
+    },
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
@@ -2101,6 +2111,64 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "joystream-node": {
+    "title": "Joystream",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.joystream.org",
+    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
+    "unit": "JOY",
+    "base58prefix": 126,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
+    "decimals": 10,
+    "liveMetaVersion": 2001,
+    "metadataQr": {
+      "version": 2001,
+      "file": {
+        "path": "qr/joystream-node_metadata_2001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
+        }
+      }
+    },
+    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/joystream-node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "dock-pos-main-runtime": {
+    "title": "Dock",
+    "color": "#000000",
+    "rpcEndpoint": "wss://mainnet-node.dock.io",
+    "genesisHash": "0x6bfe24dca2a3be10f22212678ac13a6446ec764103c0f3471c71609eac384aae",
+    "unit": "DOCK",
+    "base58prefix": 22,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
+    "decimals": 6,
+    "liveMetaVersion": 47,
+    "metadataQr": {
+      "version": 47,
+      "file": {
+        "path": "qr/dock-pos-main-runtime_metadata_47.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc39ca1ca2ecf35929e868c49995bbcb455a3072a28a8161122a589d2ce91e4f4"
+        }
+      }
+    },
+    "latestMetadata": "qr/dock-pos-main-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/dock-pos-main-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
