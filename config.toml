@@ -18,7 +18,6 @@ color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
     "wss://polkadot-rpc.dwellir.com",
-    "wss://rpc.polkadot.io",
     "wss://rpc-polkadot.luckyfriday.io",
     "wss://rpc.ibp.network/polkadot",
     "wss://rpc.dotters.network/polkadot",
@@ -35,7 +34,6 @@ color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
     "wss://kusama-rpc.dwellir.com",
-    "wss://kusama-rpc.polkadot.io",
     "wss://rpc-kusama.luckyfriday.io",
     "wss://1rpc.io/ksm",
     "wss://rpc.ibp.network/kusama",
@@ -52,10 +50,9 @@ title = "Westend"
 color = "#f27230"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
 rpc_endpoints = [
+    "wss://westend-rpc.dwellir.com",
     "wss://rpc.ibp.network/westend",
     "wss://rpc.dotters.network/westend",
-    "wss://westend-rpc.polkadot.io",
-    "wss://westend-rpc.dwellir.com",
     "wss://westend.api.onfinality.io/public-ws",
 ]
 testnet = true
@@ -70,7 +67,6 @@ rpc_endpoints = [
     "wss://sys.ibp.network/statemine",
     "wss://sys.dotters.network/statemine",
     "wss://statemine-rpc.dwellir.com",
-    "wss://statemine-rpc.polkadot.io",
 ]
 testnet = false
 verifier = "novasama"
@@ -93,7 +89,6 @@ rpc_endpoints = [
     "wss://wss.api.moonbeam.network",
     "wss://moonbeam.public.blastapi.io",
     "wss://1rpc.io/glmr",
-    "wss://moonbeam.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -107,7 +102,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://wss.api.moonriver.moonbeam.network",
     "wss://moonriver.public.blastapi.io",
-    "wss://moonriver.api.onfinality.io/public-ws",
+    "wss://moonriver-rpc.dwellir.com",
 ]
 testnet = false
 verifier = "novasama"
@@ -298,7 +293,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://sys.ibp.network/statemint",
     "wss://sys.dotters.network/statemint",
-    "wss://statemint-rpc.polkadot.io",
     "wss://statemint-rpc.dwellir.com",
     "wss://statemint.api.onfinality.io/public-ws",
 ]
@@ -695,6 +689,15 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "avn-parachain"
+title = "Aventus"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
+rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
 name = "node-subtensor"
 title = "Bittensor"
 color = "#000000"
@@ -734,7 +737,6 @@ color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg"
 rpc_endpoints = [
     "wss://rpc.3dpscan.io",
-    "wss://rpc.3dpass.org",
     "wss://rpc2.3dpass.org",
 ]
 testnet = false
@@ -802,7 +804,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://sys.ibp.network/bridgehub-polkadot",
     "wss://sys.dotters.network/bridgehub-polkadot",
-    "wss://polkadot-bridge-hub-rpc.polkadot.io",
     "wss://dot-rpc.stakeworld.io/bridgehub",
 ]
 testnet = false
@@ -816,7 +817,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://sys.ibp.network/bridgehub-kusama",
     "wss://sys.dotters.network/bridgehub-kusama",
-    "wss://kusama-bridge-hub-rpc.polkadot.io",
     "wss://ksm-rpc.stakeworld.io/bridgehub",
 ]
 testnet = false
@@ -830,7 +830,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://sys.ibp.network/collectives-polkadot",
     "wss://sys.dotters.network/collectives-polkadot",
-    "wss://polkadot-collectives-rpc.polkadot.io",
     "wss://collectives.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io/collectives",
     "wss://collectives.api.onfinality.io/public-ws",
@@ -865,5 +864,23 @@ title = "Watr"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Watr.svg"
 rpc_endpoints = ["wss://watr-rpc.watr-api.network"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "joystream-node"
+title = "Joystream"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg"
+rpc_endpoints = ["wss://rpc.joystream.org"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "dock-pos-main-runtime"
+title = "Dock"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg"
+rpc_endpoints = ["wss://mainnet-node.dock.io"]
 testnet = false
 verifier = "novasama"
