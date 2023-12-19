@@ -1188,35 +1188,6 @@
     },
     "testnet": false
   },
-  "origintrail-parachain": {
-    "title": "OriginTrail Parachain",
-    "color": "#FB5DEB",
-    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
-    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
-    "base58prefix": 101,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
-    "decimals": 12,
-    "liveMetaVersion": 121,
-    "metadataQr": {
-      "version": 121,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_121.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x502a0300d0d7d33eea2531e1b0948d8a7909ed994f223abea17bb94b081010ad"
-        }
-      }
-    },
-    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/origintrail-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
@@ -1415,35 +1386,6 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://tinkernet-rpc.dwellir.com",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 20,
-    "metadataQr": {
-      "version": 20,
-      "file": {
-        "path": "qr/tinkernet_node_metadata_20.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x167576477182df380ffe12ed5fbbca94f37ee68ecccff11fc29c198e8f2da40a"
-        }
-      }
-    },
-    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
