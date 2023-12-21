@@ -772,35 +772,6 @@
     },
     "testnet": false
   },
-  "litmus-parachain": {
-    "title": "Litmus",
-    "color": "#6822fb",
-    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
-    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
-    "unit": "LIT",
-    "base58prefix": 131,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
-    "decimals": 12,
-    "liveMetaVersion": 9151,
-    "metadataQr": {
-      "version": 9151,
-      "file": {
-        "path": "qr/litmus-parachain_metadata_9151.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe14210c78bd067c7d7f6bf0b312aa56e69a355f9deaec79c865c943048627f25"
-        }
-      }
-    },
-    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/litmus-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
@@ -1139,35 +1110,6 @@
     },
     "testnet": false
   },
-  "origintrail-parachain": {
-    "title": "OriginTrail Parachain",
-    "color": "#FB5DEB",
-    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
-    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
-    "base58prefix": 101,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
-    "decimals": 12,
-    "liveMetaVersion": 121,
-    "metadataQr": {
-      "version": 121,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_121.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x502a0300d0d7d33eea2531e1b0948d8a7909ed994f223abea17bb94b081010ad"
-        }
-      }
-    },
-    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/origintrail-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
@@ -1342,6 +1284,35 @@
     },
     "testnet": false
   },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://tinkernet-rpc.dwellir.com",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 20,
+    "metadataQr": {
+      "version": 20,
+      "file": {
+        "path": "qr/tinkernet_node_metadata_20.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x167576477182df380ffe12ed5fbbca94f37ee68ecccff11fc29c198e8f2da40a"
+        }
+      }
+    },
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -1395,35 +1366,6 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/totem-parachain_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-        }
-      }
-    },
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1617,35 +1559,6 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ajuna": {
-    "title": "Ajuna",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
-    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
-    "unit": "AJUN",
-    "base58prefix": 1328,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
-    "decimals": 12,
-    "liveMetaVersion": 119,
-    "metadataQr": {
-      "version": 119,
-      "file": {
-        "path": "qr/ajuna_metadata_119.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
-        }
-      }
-    },
-    "latestMetadata": "qr/ajuna_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
