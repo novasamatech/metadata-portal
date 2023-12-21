@@ -656,35 +656,6 @@
     },
     "testnet": false
   },
-  "robonomics": {
-    "title": "Robonomics",
-    "color": "#2949d3",
-    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
-    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-    "unit": "XRT",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
-    "decimals": 9,
-    "liveMetaVersion": 31,
-    "metadataQr": {
-      "version": 31,
-      "file": {
-        "path": "qr/robonomics_metadata_31.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x6f2e63fbf66497aa06e47a05826fb4a21f4533266cef31a43287dc4c701e5d01"
-        }
-      }
-    },
-    "latestMetadata": "qr/robonomics_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/robonomics_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "encointer-parachain": {
     "title": "Encointer",
     "color": "#0000cc",
@@ -1313,35 +1284,6 @@
     },
     "testnet": false
   },
-  "kabocha-parachain": {
-    "title": "Kabocha",
-    "color": "#f53485",
-    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
-    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
-    "unit": "KAB",
-    "base58prefix": 27,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
-    "decimals": 12,
-    "liveMetaVersion": 28,
-    "metadataQr": {
-      "version": 28,
-      "file": {
-        "path": "qr/kabocha-parachain_metadata_28.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
-        }
-      }
-    },
-    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kabocha-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bajun": {
     "title": "Bajun",
     "color": "#161212",
@@ -1453,6 +1395,35 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "totem-parachain": {
+    "title": "Kapex",
+    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
+    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
+    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
+    "unit": "KPX",
+    "base58prefix": 2007,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/totem-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
+        }
+      }
+    },
+    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
