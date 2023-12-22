@@ -1420,6 +1420,35 @@
     },
     "testnet": false
   },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "liveMetaVersion": 12,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/amplitude_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8f0496fe784244a66a4859dc40795e9677c99911ce2c31a93239ce644f8e1e7d"
+        }
+      }
+    },
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "mainnet": {
     "title": "Ternoa",
     "color": "#d622ff",
@@ -1748,18 +1777,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
-    "liveMetaVersion": 6510,
-    "metadataQr": {
-      "version": 6510,
-      "file": {
-        "path": "qr/crab2_metadata_6510.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8e0e86e0476ef080f6fe1f0d124f0199eab854ae3c18f52cd4b07d4d4409f57e"
-        }
-      }
-    },
+    "liveMetaVersion": 6511,
+    "metadataQr": null,
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/crab2_specs.png",
