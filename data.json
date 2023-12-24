@@ -2029,35 +2029,6 @@
     },
     "testnet": false
   },
-  "peaq-node-krest": {
-    "title": "krest",
-    "color": "#000000",
-    "rpcEndpoint": "wss://wss-krest.peaq.network",
-    "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
-    "unit": "KREST",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
-    "decimals": 18,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/peaq-node-krest_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1c380febe38629bc3824a8e3884e9cab5d7834b5451c6029753cff354f65cc45"
-        }
-      }
-    },
-    "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/peaq-node-krest_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "matrix-enjin": {
     "title": "Enjin",
     "color": "#000000",
