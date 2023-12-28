@@ -1168,18 +1168,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 316,
-    "metadataQr": {
-      "version": 316,
-      "file": {
-        "path": "qr/node_metadata_316.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa3e45119ade163222e3ce3b06ce509d5578c7f2182bb8c6d50df4ba79917d044"
-        }
-      }
-    },
+    "liveMetaVersion": 317,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1328,35 +1318,6 @@
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mangata-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "kabocha-parachain": {
-    "title": "Kabocha",
-    "color": "#f53485",
-    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
-    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
-    "unit": "KAB",
-    "base58prefix": 27,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
-    "decimals": 12,
-    "liveMetaVersion": 28,
-    "metadataQr": {
-      "version": 28,
-      "file": {
-        "path": "qr/kabocha-parachain_metadata_28.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
-        }
-      }
-    },
-    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kabocha-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1690,18 +1651,8 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 39,
-    "metadataQr": {
-      "version": 39,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_39.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8d95e70bd9514afbc684a709d581da3769821cffa93d42bba8da77a671c1a97e"
-        }
-      }
-    },
+    "liveMetaVersion": 40,
+    "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
