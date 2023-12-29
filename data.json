@@ -1140,7 +1140,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
     "liveMetaVersion": 10044,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10044,
+      "file": {
+        "path": "qr/composable_metadata_10044.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb480a7fb7b26f0659e3f87741aa5d3ad1ddbd8c5a8cd70e29975f81a7e85e599"
+        }
+      }
+    },
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
