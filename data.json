@@ -1623,35 +1623,6 @@
     },
     "testnet": false
   },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10,
-    "metadataQr": {
-      "version": 10,
-      "file": {
-        "path": "qr/pendulum_metadata_10.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x52b4a8ec0d48ffafcb4bf8eab32d14b68e305314eadcafc8eccea7a4c70794c0"
-        }
-      }
-    },
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polkadot-crust-parachain": {
     "title": "Crust",
     "color": "#000000",
@@ -1719,18 +1690,8 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 40,
-    "metadataQr": {
-      "version": 40,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_40.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3ed0eba3d532fc49f36542bad98322e32d3ad319f63d564e716113fba7ee107c"
-        }
-      }
-    },
+    "liveMetaVersion": 41,
+    "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
@@ -2111,35 +2072,6 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "joystream-node": {
-    "title": "Joystream",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc.joystream.org",
-    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
-    "unit": "JOY",
-    "base58prefix": 126,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
-    "decimals": 10,
-    "liveMetaVersion": 2001,
-    "metadataQr": {
-      "version": 2001,
-      "file": {
-        "path": "qr/joystream-node_metadata_2001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
-        }
-      }
-    },
-    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/joystream-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
