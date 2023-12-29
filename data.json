@@ -850,7 +850,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "liveMetaVersion": 35,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 35,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_35.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc935081c3f887e1203492713f0f441232757e527927aa3c21e5425d0100fdbe9"
+        }
+      }
+    },
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
@@ -1129,18 +1139,8 @@
     "base58prefix": 50,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
     "decimals": 12,
-    "liveMetaVersion": 10042,
-    "metadataQr": {
-      "version": 10042,
-      "file": {
-        "path": "qr/composable_metadata_10042.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2bedcaf6ce4b8636042096076e77ccf1ca3d93552fb9615d98e6307194617986"
-        }
-      }
-    },
+    "liveMetaVersion": 10044,
+    "metadataQr": null,
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
