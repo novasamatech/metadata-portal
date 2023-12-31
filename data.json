@@ -965,18 +965,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
-    "liveMetaVersion": 195,
-    "metadataQr": {
-      "version": 195,
-      "file": {
-        "path": "qr/hydradx_metadata_195.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbbf09981b1f97555d82aca65b5386d40178aeab6eda201e5b51280769d60fa9d"
-        }
-      }
-    },
+    "liveMetaVersion": 196,
+    "metadataQr": null,
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
@@ -1676,35 +1666,6 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node-subtensor": {
-    "title": "Bittensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
-    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
-    "decimals": 9,
-    "liveMetaVersion": 141,
-    "metadataQr": {
-      "version": 141,
-      "file": {
-        "path": "qr/node-subtensor_metadata_141.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x07e9ccda21a779570fc550e3b1a2a61a33248b95fbecf7b980d7f90f1555cb2c"
-        }
-      }
-    },
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
