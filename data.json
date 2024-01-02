@@ -608,35 +608,6 @@
     },
     "testnet": false
   },
-  "clover-mainnet": {
-    "title": "CLV Parachain",
-    "color": "linear-gradient(to right, #52ad75, #7cc773)",
-    "rpcEndpoint": "wss://rpc-para.clover.finance",
-    "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
-    "unit": "CLV",
-    "base58prefix": 128,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
-    "decimals": 18,
-    "liveMetaVersion": 25,
-    "metadataQr": {
-      "version": 25,
-      "file": {
-        "path": "qr/clover-mainnet_metadata_25.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x182eac2e062838e2f2b3ddb7f64f9157c5b445f0cb59bfc3c8cc96a36900083c"
-        }
-      }
-    },
-    "latestMetadata": "qr/clover-mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/clover-mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
@@ -1676,6 +1647,35 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 57,
+    "metadataQr": {
+      "version": 57,
+      "file": {
+        "path": "qr/avn-parachain_metadata_57.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x09f395cd9d710ab37c6aa46702f1c5dbdfb52dd74453115f23ae20fdc8ac05d5"
+        }
+      }
+    },
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
