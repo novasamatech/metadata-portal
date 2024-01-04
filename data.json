@@ -115,6 +115,35 @@
     },
     "testnet": false
   },
+  "karura": {
+    "title": "Karura",
+    "color": "#ff4c3b",
+    "rpcEndpoint": "wss://karura.api.onfinality.io/public-ws",
+    "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+    "unit": "UNIT",
+    "base58prefix": 8,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
+    "decimals": 0,
+    "liveMetaVersion": 2230,
+    "metadataQr": {
+      "version": 2230,
+      "file": {
+        "path": "qr/karura_metadata_2230.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x536ea70e97b60decbe38fdf8080df379138a54b2fca3c9d7ad5cc9ba82bb7c6b"
+        }
+      }
+    },
+    "latestMetadata": "qr/karura_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/karura_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "moonbeam": {
     "title": "Moonbeam",
     "color": "#53cbc9",
