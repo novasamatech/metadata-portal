@@ -17,7 +17,6 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
-    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot-rpc.dwellir.com",
