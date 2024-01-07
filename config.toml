@@ -17,12 +17,14 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
+    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
+    "wss://polkadot.public.curie.radiumblock.co/ws",
+    "wss://dot-rpc.stakeworld.io",
     "wss://polkadot-rpc.dwellir.com",
+    "wss://1rpc.io/dot",
     "wss://rpc-polkadot.luckyfriday.io",
     "wss://rpc.ibp.network/polkadot",
     "wss://rpc.dotters.network/polkadot",
-    "wss://polkadot.api.onfinality.io/public-ws",
-    "wss://1rpc.io/dot",
 ]
 testnet = false
 verifier = "parity"
@@ -241,12 +243,14 @@ title = "Acala"
 color = "#645AFF"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg"
 rpc_endpoints = [
-    "wss://acala-rpc.dwellir.com",
+    "wss://rpc-acala.luckyfriday.io",
+    "wss://acala-polkadot.api.onfinality.io/public-ws",
     "wss://acala-rpc-0.aca-api.network",
     "wss://acala-rpc-1.aca-api.network",
     "wss://acala-rpc-2.aca-api.network/ws",
     "wss://acala-rpc-3.aca-api.network/ws",
     "wss://acala.polkawallet.io",
+    "wss://acala-rpc.dwellir.com",
 ]
 testnet = false
 verifier = "novasama"
@@ -270,8 +274,8 @@ title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
 rpc_endpoints = [
-    "wss://rpc.parallel.fi",
     "wss://parallel-rpc.dwellir.com",
+    "wss://rpc.parallel.fi",
 ]
 testnet = false
 verifier = "novasama"
@@ -420,8 +424,8 @@ title = "HydraDX"
 color = "#f653a2"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg"
 rpc_endpoints = [
-    "wss://rpc.hydradx.cloud",
     "wss://hydradx-rpc.dwellir.com",
+    "wss://rpc.hydradx.cloud",
 ]
 testnet = false
 verifier = "novasama"
@@ -500,9 +504,8 @@ title = "Polkadex"
 color = "#7C30DD"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg"
 rpc_endpoints = [
-    "wss://mainnet.polkadex.trade",
-    "wss://polkadex.public.curie.radiumblock.co/ws",
     "wss://polkadex.api.onfinality.io/public-ws",
+    "wss://polkadex.public.curie.radiumblock.co/ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -603,6 +606,15 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "gm_parachain"
+title = "GM (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
+rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
 name = "amplitude"
 title = "Amplitude"
 color = "#5defa7"
@@ -681,19 +693,10 @@ verifier = "novasama"
 
 [[chains]]
 name = "polkadot-crust-parachain"
-title = "Crust"
+title = "Crust Polkadot Parachain"
 color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust.svg"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust_Parachain.svg"
 rpc_endpoints = ["wss://crust-parachain.crustapps.net"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
-name = "avn-parachain"
-title = "Aventus"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
-rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
 testnet = false
 verifier = "novasama"
 
@@ -882,5 +885,23 @@ title = "Dock"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg"
 rpc_endpoints = ["wss://mainnet-node.dock.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "invarch"
+title = "InvArch"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg"
+rpc_endpoints = ["wss://invarch-rpc.dwellir.com"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "polimec-mainnet"
+title = "Polimec"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg"
+rpc_endpoints = ["wss://rpc.polimec.org"]
 testnet = false
 verifier = "novasama"
