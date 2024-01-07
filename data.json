@@ -1478,35 +1478,6 @@
     },
     "testnet": false
   },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/totem-parachain_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-        }
-      }
-    },
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polymesh_mainnet": {
     "title": "Polymesh",
     "color": "#1348e4",
@@ -2082,6 +2053,35 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "joystream-node": {
+    "title": "Joystream",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.joystream.org",
+    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
+    "unit": "JOY",
+    "base58prefix": 126,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
+    "decimals": 10,
+    "liveMetaVersion": 2001,
+    "metadataQr": {
+      "version": 2001,
+      "file": {
+        "path": "qr/joystream-node_metadata_2001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
+        }
+      }
+    },
+    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/joystream-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
