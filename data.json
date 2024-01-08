@@ -579,35 +579,6 @@
     },
     "testnet": false
   },
-  "parallel": {
-    "title": "Parallel",
-    "color": "#ef18ac",
-    "rpcEndpoint": "wss://parallel-rpc.dwellir.com",
-    "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-    "unit": "PARA",
-    "base58prefix": 172,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
-    "decimals": 12,
-    "liveMetaVersion": 204,
-    "metadataQr": {
-      "version": 204,
-      "file": {
-        "path": "qr/parallel_metadata_204.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x38d20ce90c4734faa5f7e2da9902209fecbcfb77b68d9b3371d71178887e2bbe"
-        }
-      }
-    },
-    "latestMetadata": "qr/parallel_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/parallel_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
@@ -777,6 +748,35 @@
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "litmus-parachain": {
+    "title": "Litmus",
+    "color": "#6822fb",
+    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
+    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "unit": "LIT",
+    "base58prefix": 131,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9151,
+    "metadataQr": {
+      "version": 9151,
+      "file": {
+        "path": "qr/litmus-parachain_metadata_9151.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe14210c78bd067c7d7f6bf0b312aa56e69a355f9deaec79c865c943048627f25"
+        }
+      }
+    },
+    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litmus-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1380,18 +1380,8 @@
     "base58prefix": 57,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 12,
-    "metadataQr": {
-      "version": 12,
-      "file": {
-        "path": "qr/amplitude_metadata_12.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8f0496fe784244a66a4859dc40795e9677c99911ce2c31a93239ce644f8e1e7d"
-        }
-      }
-    },
+    "liveMetaVersion": 13,
+    "metadataQr": null,
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/amplitude_specs.png",
@@ -1892,18 +1882,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
     "decimals": 18,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/peaq-node-krest_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1c380febe38629bc3824a8e3884e9cab5d7834b5451c6029753cff354f65cc45"
-        }
-      }
-    },
+    "liveMetaVersion": 5,
+    "metadataQr": null,
     "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
     "specsQr": {
       "path": "qr/peaq-node-krest_specs.png",
