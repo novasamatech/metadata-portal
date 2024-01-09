@@ -1477,35 +1477,6 @@
     },
     "testnet": false
   },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "appchain": {
     "title": "Myriad",
     "color": "#7342CC",
@@ -2022,6 +1993,35 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "joystream-node": {
+    "title": "Joystream",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.joystream.org",
+    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
+    "unit": "JOY",
+    "base58prefix": 126,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
+    "decimals": 10,
+    "liveMetaVersion": 2001,
+    "metadataQr": {
+      "version": 2001,
+      "file": {
+        "path": "qr/joystream-node_metadata_2001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
+        }
+      }
+    },
+    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/joystream-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
