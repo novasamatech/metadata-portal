@@ -782,6 +782,35 @@
     },
     "testnet": false
   },
+  "litmus-parachain": {
+    "title": "Litmus",
+    "color": "#6822fb",
+    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
+    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "unit": "LIT",
+    "base58prefix": 131,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9151,
+    "metadataQr": {
+      "version": 9151,
+      "file": {
+        "path": "qr/litmus-parachain_metadata_9151.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe14210c78bd067c7d7f6bf0b312aa56e69a355f9deaec79c865c943048627f25"
+        }
+      }
+    },
+    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litmus-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
@@ -792,7 +821,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
     "liveMetaVersion": 37,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 37,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_37.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x01ceb32be8d25fa543ad3a080d379bfc1e1d0e9fb6009bb086eedbeb119e6031"
+        }
+      }
+    },
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
