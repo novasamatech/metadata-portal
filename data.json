@@ -1517,7 +1517,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
     "liveMetaVersion": 24,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 24,
+      "file": {
+        "path": "qr/mainnet_metadata_24.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc2eb517d96ac220e826f72264d6b442bad2baf66d11db0758219855d796b79c3"
+        }
+      }
+    },
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
@@ -1579,35 +1589,6 @@
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ipci": {
-    "title": "DAO IPCI",
-    "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
-    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
-    "unit": "MITO",
-    "base58prefix": 32,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
-    "decimals": 12,
-    "liveMetaVersion": 5,
-    "metadataQr": {
-      "version": 5,
-      "file": {
-        "path": "qr/ipci_metadata_5.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
-        }
-      }
-    },
-    "latestMetadata": "qr/ipci_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ipci_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1710,7 +1691,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust_Parachain.svg",
     "decimals": 12,
     "liveMetaVersion": 5,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 5,
+      "file": {
+        "path": "qr/polkadot-crust-parachain_metadata_5.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1158805dd6d7fd7e019a73003b3972df19cf2863745e724e90fc7532c8352db6"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
