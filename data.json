@@ -579,6 +579,35 @@
     },
     "testnet": false
   },
+  "parallel": {
+    "title": "Parallel",
+    "color": "#ef18ac",
+    "rpcEndpoint": "wss://parallel-rpc.dwellir.com",
+    "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+    "unit": "PARA",
+    "base58prefix": 172,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
+    "decimals": 12,
+    "liveMetaVersion": 204,
+    "metadataQr": {
+      "version": 204,
+      "file": {
+        "path": "qr/parallel_metadata_204.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x38d20ce90c4734faa5f7e2da9902209fecbcfb77b68d9b3371d71178887e2bbe"
+        }
+      }
+    },
+    "latestMetadata": "qr/parallel_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/parallel_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "clover-mainnet": {
     "title": "CLV Parachain",
     "color": "linear-gradient(to right, #52ad75, #7cc773)",
