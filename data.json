@@ -424,35 +424,6 @@
     },
     "testnet": false
   },
-  "calamari": {
-    "title": "Calamari",
-    "color": "#000000",
-    "rpcEndpoint": "wss://calamari.systems",
-    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
-    "unit": "KMA",
-    "base58prefix": 78,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Calamari.svg",
-    "decimals": 12,
-    "liveMetaVersion": 4600,
-    "metadataQr": {
-      "version": 4600,
-      "file": {
-        "path": "qr/calamari_metadata_4600.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x6ae68baa7f4a0fe27e635f03d43fec2eebc556c13cba7b08b9bdffc381b48b6c"
-        }
-      }
-    },
-    "latestMetadata": "qr/calamari_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/calamari_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "quartz": {
     "title": "QUARTZ",
     "color": "#FF4D6A",
@@ -1187,18 +1158,8 @@
     "base58prefix": 6,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 990,
-    "metadataQr": {
-      "version": 990,
-      "file": {
-        "path": "qr/bifrost_polkadot_metadata_990.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8bf4cb673c971653828d4644a90c9cfe81aa5f9025e201089b222492d41737c4"
-        }
-      }
-    },
+    "liveMetaVersion": 992,
+    "metadataQr": null,
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
