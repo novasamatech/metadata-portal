@@ -105,35 +105,6 @@
     },
     "testnet": false
   },
-  "karura": {
-    "title": "Karura",
-    "color": "#ff4c3b",
-    "rpcEndpoint": "wss://karura.api.onfinality.io/public-ws",
-    "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-    "unit": "UNIT",
-    "base58prefix": 8,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
-    "decimals": 0,
-    "liveMetaVersion": 2230,
-    "metadataQr": {
-      "version": 2230,
-      "file": {
-        "path": "qr/karura_metadata_2230.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x536ea70e97b60decbe38fdf8080df379138a54b2fca3c9d7ad5cc9ba82bb7c6b"
-        }
-      }
-    },
-    "latestMetadata": "qr/karura_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/karura_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "moonbeam": {
     "title": "Moonbeam",
     "color": "#53cbc9",
@@ -308,6 +279,35 @@
     },
     "testnet": false
   },
+  "heiko": {
+    "title": "Parallel Heiko",
+    "color": "#42d5de",
+    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
+    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "unit": "HKO",
+    "base58prefix": 110,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
+    "decimals": 12,
+    "liveMetaVersion": 204,
+    "metadataQr": {
+      "version": 204,
+      "file": {
+        "path": "qr/heiko_metadata_204.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf6980ca5d195d883e1528e3e41e3ee38893a6161bf75351f7fa8e9f5460f2659"
+        }
+      }
+    },
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -390,6 +390,35 @@
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://calamari.systems",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4600,
+    "metadataQr": {
+      "version": 4600,
+      "file": {
+        "path": "qr/calamari_metadata_4600.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6ae68baa7f4a0fe27e635f03d43fec2eebc556c13cba7b08b9bdffc381b48b6c"
+        }
+      }
+    },
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1130,7 +1159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
     "liveMetaVersion": 992,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 992,
+      "file": {
+        "path": "qr/bifrost_polkadot_metadata_992.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0b175d5acc153188d5ce4e4fc045c71aa913b215e0f016a0c9152c3625996b0a"
+        }
+      }
+    },
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bifrost_polkadot_specs.png",
