@@ -289,6 +289,35 @@
     },
     "testnet": false
   },
+  "altair": {
+    "title": "Altair",
+    "color": "#ffb700",
+    "rpcEndpoint": "wss://altair.api.onfinality.io/public-ws",
+    "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+    "unit": "AIR",
+    "base58prefix": 136,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1027,
+    "metadataQr": {
+      "version": 1027,
+      "file": {
+        "path": "qr/altair_metadata_1027.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1e03bff9ed2ba83c6674d12a974224a17e54b009de68ec591e7e86e79145057a"
+        }
+      }
+    },
+    "latestMetadata": "qr/altair_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/altair_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -1270,35 +1299,6 @@
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mangata-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "kabocha-parachain": {
-    "title": "Kabocha",
-    "color": "#f53485",
-    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
-    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
-    "unit": "KAB",
-    "base58prefix": 27,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
-    "decimals": 12,
-    "liveMetaVersion": 28,
-    "metadataQr": {
-      "version": 28,
-      "file": {
-        "path": "qr/kabocha-parachain_metadata_28.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
-        }
-      }
-    },
-    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kabocha-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
