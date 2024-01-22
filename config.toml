@@ -17,6 +17,7 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
+    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot-rpc.dwellir.com",
@@ -273,8 +274,8 @@ title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
 rpc_endpoints = [
+    "wss://polkadot-parallel-rpc.parallel.fi",
     "wss://parallel-rpc.dwellir.com",
-    "wss://rpc.parallel.fi",
 ]
 testnet = false
 verifier = "novasama"
@@ -700,6 +701,15 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "avn-parachain"
+title = "Aventus"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
+rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
 name = "node-subtensor"
 title = "Bittensor"
 color = "#000000"
@@ -902,5 +912,14 @@ title = "Polimec"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg"
 rpc_endpoints = ["wss://rpc.polimec.org"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "manta"
+title = "Manta"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Manta.svg"
+rpc_endpoints = ["wss://ws.manta.systems"]
 testnet = false
 verifier = "novasama"
