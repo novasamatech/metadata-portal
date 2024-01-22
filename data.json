@@ -105,35 +105,6 @@
     },
     "testnet": false
   },
-  "karura": {
-    "title": "Karura",
-    "color": "#ff4c3b",
-    "rpcEndpoint": "wss://karura.api.onfinality.io/public-ws",
-    "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-    "unit": "UNIT",
-    "base58prefix": 8,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Karura.svg",
-    "decimals": 0,
-    "liveMetaVersion": 2230,
-    "metadataQr": {
-      "version": 2230,
-      "file": {
-        "path": "qr/karura_metadata_2230.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x536ea70e97b60decbe38fdf8080df379138a54b2fca3c9d7ad5cc9ba82bb7c6b"
-        }
-      }
-    },
-    "latestMetadata": "qr/karura_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/karura_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "moonbeam": {
     "title": "Moonbeam",
     "color": "#53cbc9",
@@ -303,35 +274,6 @@
     "latestMetadata": "qr/altair_metadata_latest.apng",
     "specsQr": {
       "path": "qr/altair_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "heiko": {
-    "title": "Parallel Heiko",
-    "color": "#42d5de",
-    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
-    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "unit": "HKO",
-    "base58prefix": 110,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
-    "decimals": 12,
-    "liveMetaVersion": 204,
-    "metadataQr": {
-      "version": 204,
-      "file": {
-        "path": "qr/heiko_metadata_204.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf6980ca5d195d883e1528e3e41e3ee38893a6161bf75351f7fa8e9f5460f2659"
-        }
-      }
-    },
-    "latestMetadata": "qr/heiko_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/heiko_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
