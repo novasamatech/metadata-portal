@@ -318,6 +318,35 @@
     },
     "testnet": false
   },
+  "heiko": {
+    "title": "Parallel Heiko",
+    "color": "#42d5de",
+    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
+    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "unit": "HKO",
+    "base58prefix": 110,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
+    "decimals": 12,
+    "liveMetaVersion": 204,
+    "metadataQr": {
+      "version": 204,
+      "file": {
+        "path": "qr/heiko_metadata_204.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf6980ca5d195d883e1528e3e41e3ee38893a6161bf75351f7fa8e9f5460f2659"
+        }
+      }
+    },
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -1507,6 +1536,35 @@
     },
     "testnet": false
   },
+  "totem-parachain": {
+    "title": "Kapex",
+    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
+    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
+    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
+    "unit": "KPX",
+    "base58prefix": 2007,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/totem-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
+        }
+      }
+    },
+    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/totem-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "polymesh_mainnet": {
     "title": "Polymesh",
     "color": "#1348e4",
@@ -1894,7 +1952,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
     "liveMetaVersion": 1050,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1050,
+      "file": {
+        "path": "qr/vara_metadata_1050.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x80f00a668a1c2e364c1630a43f89fc6b66efc4cc9d555c276050d02562895399"
+        }
+      }
+    },
     "latestMetadata": "qr/vara_metadata_latest.apng",
     "specsQr": {
       "path": "qr/vara_specs.png",
