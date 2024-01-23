@@ -318,6 +318,35 @@
     },
     "testnet": false
   },
+  "heiko": {
+    "title": "Parallel Heiko",
+    "color": "#42d5de",
+    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
+    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "unit": "HKO",
+    "base58prefix": 110,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
+    "decimals": 12,
+    "liveMetaVersion": 204,
+    "metadataQr": {
+      "version": 204,
+      "file": {
+        "path": "qr/heiko_metadata_204.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf6980ca5d195d883e1528e3e41e3ee38893a6161bf75351f7fa8e9f5460f2659"
+        }
+      }
+    },
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
