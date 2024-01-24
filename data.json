@@ -67,7 +67,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1006001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1006001,
+      "file": {
+        "path": "qr/westend_metadata_1006001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7a13954e0a5eae03e614c31cd162c0fa8c52bc582724df1e2c46f8a6dd0ff3e8"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -898,7 +908,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
     "liveMetaVersion": 41,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 41,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_41.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x00a47d20d4842ecbd7eba991bace62a74f20d4a22478def523192012d582eb49"
+        }
+      }
+    },
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/integritee-parachain_specs.png",
