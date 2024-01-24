@@ -86,7 +86,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
     "liveMetaVersion": 1001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001000,
+      "file": {
+        "path": "qr/statemine_metadata_1001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x63ced001c3654ae8033405d2828ed1d3cb3f6a92e2cd1a114450f6739b4abb40"
+        }
+      }
+    },
     "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemine_specs.png",
@@ -192,7 +202,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "liveMetaVersion": 116,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 116,
+      "file": {
+        "path": "qr/shiden_metadata_116.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9c86000061c76c4875efd76f05c5b1e8e095399c21e0710693cea2068a184c1f"
+        }
+      }
+    },
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -1979,18 +1999,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1000000,
-    "metadataQr": {
-      "version": 1000000,
-      "file": {
-        "path": "qr/bridge-hub-kusama_metadata_1000000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x83a11404e33ddb637af3c253760546c4e51aab2a024dd64ce801fb8a56f6c4cc"
-        }
-      }
-    },
+    "liveMetaVersion": 1001000,
+    "metadataQr": null,
     "latestMetadata": "qr/bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-kusama_specs.png",
