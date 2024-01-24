@@ -2000,7 +2000,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
     "liveMetaVersion": 1001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001000,
+      "file": {
+        "path": "qr/bridge-hub-kusama_metadata_1001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1ff0f37cfdead5c681a974c596bdc8ef7bd4f059c6b95dee780e96b35fa507c3"
+        }
+      }
+    },
     "latestMetadata": "qr/bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-kusama_specs.png",
