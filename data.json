@@ -733,18 +733,8 @@
     "base58prefix": 2092,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
-    "liveMetaVersion": 1025003,
-    "metadataQr": {
-      "version": 1025003,
-      "file": {
-        "path": "qr/kintsugi-parachain_metadata_1025003.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb24a01ec5e7bd20809fd77aa1041393f8384e75f4c9fa04d329fe032328dcba9"
-        }
-      }
-    },
+    "liveMetaVersion": 1025004,
+    "metadataQr": null,
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kintsugi-parachain_specs.png",
@@ -1110,18 +1100,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 65,
-    "metadataQr": {
-      "version": 65,
-      "file": {
-        "path": "qr/aleph-node_metadata_65.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4235572a961dbb5327766bd0433d786c1d3b3567f2c276bb37f1e370d87c21fd"
-        }
-      }
-    },
+    "liveMetaVersion": 68,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
@@ -1488,7 +1468,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
     "liveMetaVersion": 25,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 25,
+      "file": {
+        "path": "qr/mainnet_metadata_25.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4cd6ecc1a97198444b0420593e84a241dde5234977e285a5e31ec871ed4e23f6"
+        }
+      }
+    },
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
