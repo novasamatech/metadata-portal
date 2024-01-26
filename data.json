@@ -908,7 +908,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
     "liveMetaVersion": 42,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 42,
+      "file": {
+        "path": "qr/integritee-parachain_metadata_42.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd2e201e83a0da674937f92591d330ea53917c139f073f28794d5884187e7fe41"
+        }
+      }
+    },
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/integritee-parachain_specs.png",
