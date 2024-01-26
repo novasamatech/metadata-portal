@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://polkadot.public.curie.radiumblock.co/ws",
+    "rpcEndpoint": "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -1682,7 +1682,7 @@
     "testnet": false
   },
   "equilibrium-parachain": {
-    "title": "Equilibrium",
+    "title": "Equilibrium (PAUSED)",
     "color": "#000000",
     "rpcEndpoint": "wss://node.pol.equilibrium.io",
     "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
@@ -2231,5 +2231,63 @@
       "source": null
     },
     "testnet": false
+  },
+  "paseo": {
+    "title": "Paseo Testnet",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.ibp.network/paseo",
+    "genesisHash": "0x74300973617e2936e22d46e94fee5016a1a514747ae108277b770d02b47d37d9",
+    "unit": "PAS",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
+    "decimals": 10,
+    "liveMetaVersion": 1000000,
+    "metadataQr": {
+      "version": 1000000,
+      "file": {
+        "path": "qr/paseo_metadata_1000000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x44e6b1a112bd84698b8532d8430db679b84ecc7fda124bc590fdfc3c6ee6a5e7"
+        }
+      }
+    },
+    "latestMetadata": "qr/paseo_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/paseo_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": true
+  },
+  "rococo": {
+    "title": "Rococo Testnet",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rococo-rpc.polkadot.io/",
+    "genesisHash": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+    "unit": "ROC",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1006002,
+    "metadataQr": {
+      "version": 1006002,
+      "file": {
+        "path": "qr/rococo_metadata_1006002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9a014ee070dfe7b0c9faaeb85fe312f2095270704272546cdcbfdde2529241b5"
+        }
+      }
+    },
+    "latestMetadata": "qr/rococo_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/rococo_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": true
   }
 }
