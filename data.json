@@ -385,18 +385,8 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1261,
-    "metadataQr": {
-      "version": 1261,
-      "file": {
-        "path": "qr/khala_metadata_1261.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x41bf69e4eadd542148462b00efa3a01e19fa13b34fb8c5fcd3d9628471403b05"
-        }
-      }
-    },
+    "liveMetaVersion": 1262,
+    "metadataQr": null,
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/khala_specs.png",
@@ -1052,18 +1042,8 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1261,
-    "metadataQr": {
-      "version": 1261,
-      "file": {
-        "path": "qr/phala_metadata_1261.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc2c08e47cac2f11cf8596948d4e0dae08f1dd3154677118e5b608bb624ebc898"
-        }
-      }
-    },
+    "liveMetaVersion": 1262,
+    "metadataQr": null,
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/phala_specs.png",
@@ -1342,8 +1322,18 @@
     "base58prefix": 27,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
     "decimals": 12,
-    "liveMetaVersion": 25,
-    "metadataQr": null,
+    "liveMetaVersion": 28,
+    "metadataQr": {
+      "version": 28,
+      "file": {
+        "path": "qr/kabocha-parachain_metadata_28.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
+        }
+      }
+    },
     "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kabocha-parachain_specs.png",
