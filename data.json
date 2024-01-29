@@ -1313,18 +1313,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/MangataX.svg",
     "decimals": 18,
-    "liveMetaVersion": 3100,
-    "metadataQr": {
-      "version": 3100,
-      "file": {
-        "path": "qr/mangata-parachain_metadata_3100.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x60c6bec969e8dd3c81bb3035d9b1760c9841491c570d01e34970af21a7274457"
-        }
-      }
-    },
+    "liveMetaVersion": 3200,
+    "metadataQr": null,
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mangata-parachain_specs.png",
