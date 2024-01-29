@@ -791,18 +791,8 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 52,
-    "metadataQr": {
-      "version": 52,
-      "file": {
-        "path": "qr/zeitgeist_metadata_52.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd3d09971cd0e3f45716be51e0f0ccbabff371f14ab260f6cec159a9ffee04433"
-        }
-      }
-    },
+    "liveMetaVersion": 53,
+    "metadataQr": null,
     "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
     "specsQr": {
       "path": "qr/zeitgeist_specs.png",
@@ -1642,35 +1632,6 @@
     },
     "testnet": false
   },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10,
-    "metadataQr": {
-      "version": 10,
-      "file": {
-        "path": "qr/pendulum_metadata_10.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x52b4a8ec0d48ffafcb4bf8eab32d14b68e305314eadcafc8eccea7a4c70794c0"
-        }
-      }
-    },
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polkadot-crust-parachain": {
     "title": "Crust Polkadot Parachain",
     "color": "#000000",
@@ -2202,18 +2163,8 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg",
     "decimals": 12,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/invarch_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa1bfaafe803d748c5f94362990e109795071e2c6e556ef1c6f6d851a70f5a389"
-        }
-      }
-    },
+    "liveMetaVersion": 5,
+    "metadataQr": null,
     "latestMetadata": "qr/invarch_metadata_latest.apng",
     "specsQr": {
       "path": "qr/invarch_specs.png",
