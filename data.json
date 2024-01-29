@@ -1217,6 +1217,35 @@
     },
     "testnet": false
   },
+  "bifrost_polkadot": {
+    "title": "Bifrost Polkadot",
+    "color": "#5a25f0",
+    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+    "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+    "unit": "BNC",
+    "base58prefix": 6,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
+    "decimals": 12,
+    "liveMetaVersion": 992,
+    "metadataQr": {
+      "version": 992,
+      "file": {
+        "path": "qr/bifrost_polkadot_metadata_992.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0b175d5acc153188d5ce4e4fc045c71aa913b215e0f016a0c9152c3625996b0a"
+        }
+      }
+    },
+    "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bifrost_polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "litentry-parachain": {
     "title": "Litentry",
     "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
@@ -1618,6 +1647,35 @@
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "pendulum": {
+    "title": "Pendulum",
+    "color": "#49E2FD",
+    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
+    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "unit": "PEN",
+    "base58prefix": 56,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
+    "decimals": 12,
+    "liveMetaVersion": 10,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/pendulum_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x52b4a8ec0d48ffafcb4bf8eab32d14b68e305314eadcafc8eccea7a4c70794c0"
+        }
+      }
+    },
+    "latestMetadata": "qr/pendulum_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pendulum_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
