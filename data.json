@@ -211,18 +211,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 116,
-    "metadataQr": {
-      "version": 116,
-      "file": {
-        "path": "qr/shiden_metadata_116.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9c86000061c76c4875efd76f05c5b1e8e095399c21e0710693cea2068a184c1f"
-        }
-      }
-    },
+    "liveMetaVersion": 117,
+    "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/shiden_specs.png",
@@ -1473,35 +1463,6 @@
     "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/gm_parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "liveMetaVersion": 13,
-    "metadataQr": {
-      "version": 13,
-      "file": {
-        "path": "qr/amplitude_metadata_13.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8231d988329d61bbcdaf00fc4949c486db009b4b90e9ae8d5f008c803985efde"
-        }
-      }
-    },
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
