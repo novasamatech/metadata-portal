@@ -1835,18 +1835,8 @@
     "base58prefix": 18,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
-    "liveMetaVersion": 6511,
-    "metadataQr": {
-      "version": 6511,
-      "file": {
-        "path": "qr/darwinia2_metadata_6511.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xdf0ba3e173aea19eebc8d8b77d9e3abf8943e1a028d769574d0009c4ecba688c"
-        }
-      }
-    },
+    "liveMetaVersion": 6600,
+    "metadataQr": null,
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/darwinia2_specs.png",
@@ -2140,35 +2130,6 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "joystream-node": {
-    "title": "Joystream",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc.joystream.org",
-    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
-    "unit": "JOY",
-    "base58prefix": 126,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
-    "decimals": 10,
-    "liveMetaVersion": 2001,
-    "metadataQr": {
-      "version": 2001,
-      "file": {
-        "path": "qr/joystream-node_metadata_2001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
-        }
-      }
-    },
-    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/joystream-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
