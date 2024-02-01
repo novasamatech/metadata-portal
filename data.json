@@ -560,7 +560,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 77,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 77,
+      "file": {
+        "path": "qr/astar_metadata_77.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4588978a0f12379fec5d17c4aa0336de87dabe14007cfb3393077d425d9cdbed"
+        }
+      }
+    },
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1014,7 +1024,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Nodle.svg",
     "decimals": 11,
     "liveMetaVersion": 27,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 27,
+      "file": {
+        "path": "qr/nodle-para_metadata_27.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbdc858dc3e39d43e8de8fe8efa00ed1f64d3d5733d1cc55b2fd4f9b48089a656"
+        }
+      }
+    },
     "latestMetadata": "qr/nodle-para_metadata_latest.apng",
     "specsQr": {
       "path": "qr/nodle-para_specs.png",
@@ -1149,7 +1169,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 321,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 321,
+      "file": {
+        "path": "qr/node_metadata_321.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xcab5cf56e62b521a4115b301b67e423af3aab42b3cba8a4391b0ee8631eff619"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
