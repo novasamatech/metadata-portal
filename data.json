@@ -559,18 +559,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 74,
-    "metadataQr": {
-      "version": 74,
-      "file": {
-        "path": "qr/astar_metadata_74.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x348de1f44074c551f9df6793e50ef47246eee2ca113445831f641b3597995a0e"
-        }
-      }
-    },
+    "liveMetaVersion": 77,
+    "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1023,18 +1013,8 @@
     "base58prefix": 37,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Nodle.svg",
     "decimals": 11,
-    "liveMetaVersion": 25,
-    "metadataQr": {
-      "version": 25,
-      "file": {
-        "path": "qr/nodle-para_metadata_25.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbd76528ae68581f4158f196f5c6db0023493a1a9b5b92dcdd831f652e3c6d60c"
-        }
-      }
-    },
+    "liveMetaVersion": 27,
+    "metadataQr": null,
     "latestMetadata": "qr/nodle-para_metadata_latest.apng",
     "specsQr": {
       "path": "qr/nodle-para_specs.png",
