@@ -1168,7 +1168,7 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 322,
+    "liveMetaVersion": 325,
     "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
@@ -2231,18 +2231,8 @@
     "base58prefix": 41,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
-    "liveMetaVersion": 3002,
-    "metadataQr": {
-      "version": 3002,
-      "file": {
-        "path": "qr/polimec-mainnet_metadata_3002.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe6fcddb89dd4181aef78f67bab74f670eff993dbfcb9393ac59fbbc95339a886"
-        }
-      }
-    },
+    "liveMetaVersion": 4000,
+    "metadataQr": null,
     "latestMetadata": "qr/polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polimec-mainnet_specs.png",
