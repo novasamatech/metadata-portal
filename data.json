@@ -1894,7 +1894,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
     "liveMetaVersion": 64,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 64,
+      "file": {
+        "path": "qr/frequency_metadata_64.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x40e22163c80ef4b2ae7a0dc84d781cdae2db23f5e9c3eb135581ef391e560f45"
+        }
+      }
+    },
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
