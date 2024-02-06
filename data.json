@@ -492,35 +492,6 @@
     },
     "testnet": false
   },
-  "pioneer-runtime": {
-    "title": "Bit.Country Pioneer",
-    "color": "#000000",
-    "rpcEndpoint": "wss://pioneer-rpc-3.bit.country/wss",
-    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-    "unit": "NEER",
-    "base58prefix": 268,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
-    "decimals": 18,
-    "liveMetaVersion": 19,
-    "metadataQr": {
-      "version": 19,
-      "file": {
-        "path": "qr/pioneer-runtime_metadata_19.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfdd110c3158341aa53256e4c3f29cbca5138ca1afdcb9b6ea34e18948f1ceb3d"
-        }
-      }
-    },
-    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pioneer-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "acala": {
     "title": "Acala",
     "color": "#645AFF",
@@ -1652,6 +1623,35 @@
     },
     "testnet": false
   },
+  "pendulum": {
+    "title": "Pendulum",
+    "color": "#49E2FD",
+    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
+    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "unit": "PEN",
+    "base58prefix": 56,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
+    "decimals": 12,
+    "liveMetaVersion": 12,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/pendulum_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf930bbd289fcad3c0179be538fe7ddb7aa0d0426e94b72720fa8ef5090d43807"
+        }
+      }
+    },
+    "latestMetadata": "qr/pendulum_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pendulum_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "polkadot-crust-parachain": {
     "title": "Crust Polkadot Parachain",
     "color": "#000000",
@@ -2111,6 +2111,35 @@
     "latestMetadata": "qr/watr-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/watr-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "joystream-node": {
+    "title": "Joystream",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.joystream.org",
+    "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
+    "unit": "JOY",
+    "base58prefix": 126,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
+    "decimals": 10,
+    "liveMetaVersion": 2001,
+    "metadataQr": {
+      "version": 2001,
+      "file": {
+        "path": "qr/joystream-node_metadata_2001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x60bcc78519f333bdfc8c51b3ebb218e8cbe4a5adcbc664ba8cb3d3005c20da6b"
+        }
+      }
+    },
+    "latestMetadata": "qr/joystream-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/joystream-node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
