@@ -1652,35 +1652,6 @@
     },
     "testnet": false
   },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "liveMetaVersion": 11,
-    "metadataQr": {
-      "version": 11,
-      "file": {
-        "path": "qr/pendulum_metadata_11.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc0a99ea3aa9ad7a486fd750276d462fbc80f776afc720855a1c79acdf2203475"
-        }
-      }
-    },
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polkadot-crust-parachain": {
     "title": "Crust Polkadot Parachain",
     "color": "#000000",
