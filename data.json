@@ -665,18 +665,8 @@
     "base58prefix": 32,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
-    "liveMetaVersion": 31,
-    "metadataQr": {
-      "version": 31,
-      "file": {
-        "path": "qr/robonomics_metadata_31.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x6f2e63fbf66497aa06e47a05826fb4a21f4533266cef31a43287dc4c701e5d01"
-        }
-      }
-    },
+    "liveMetaVersion": 16,
+    "metadataQr": null,
     "latestMetadata": "qr/robonomics_metadata_latest.apng",
     "specsQr": {
       "path": "qr/robonomics_specs.png",
@@ -1767,18 +1757,8 @@
     "base58prefix": 71,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
-    "liveMetaVersion": 117,
-    "metadataQr": {
-      "version": 117,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_117.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xab2356b2470afb3212b361c8bab75b51e74abbdd34e06c2656aeafb492e32009"
-        }
-      }
-    },
+    "liveMetaVersion": 118,
+    "metadataQr": null,
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
