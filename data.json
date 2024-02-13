@@ -1159,7 +1159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 328,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 328,
+      "file": {
+        "path": "qr/node_metadata_328.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf565f889b26fd54946944499ce5ca9a0db6c1e915ecf0215e4402cd1b7d7c6ab"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1351,18 +1361,8 @@
     "base58prefix": 1337,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
-    "liveMetaVersion": 123,
-    "metadataQr": {
-      "version": 123,
-      "file": {
-        "path": "qr/bajun_metadata_123.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd52f9adb71fe6508522e0049b7c50d807675e21d705802779f17e7e9d5a73a48"
-        }
-      }
-    },
+    "liveMetaVersion": 124,
+    "metadataQr": null,
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
@@ -1743,6 +1743,35 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ajuna": {
+    "title": "Ajuna",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "liveMetaVersion": 119,
+    "metadataQr": {
+      "version": 119,
+      "file": {
+        "path": "qr/ajuna_metadata_119.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
+        }
+      }
+    },
+    "latestMetadata": "qr/ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
