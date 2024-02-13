@@ -559,18 +559,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 79,
-    "metadataQr": {
-      "version": 79,
-      "file": {
-        "path": "qr/astar_metadata_79.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfc6d7b0ed2f4af4723f36bab641fd2e7c26dc7746dad3027eb123b2a2388c4a4"
-        }
-      }
-    },
+    "liveMetaVersion": 80,
+    "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/astar_specs.png",
@@ -1168,18 +1158,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 327,
-    "metadataQr": {
-      "version": 327,
-      "file": {
-        "path": "qr/node_metadata_327.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc1eddeb3e7b1ce3106bfcd260718db107db502a124e377e640d377f6757cb9ee"
-        }
-      }
-    },
+    "liveMetaVersion": 328,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1763,35 +1743,6 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ajuna": {
-    "title": "Ajuna",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
-    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
-    "unit": "AJUN",
-    "base58prefix": 1328,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
-    "decimals": 12,
-    "liveMetaVersion": 119,
-    "metadataQr": {
-      "version": 119,
-      "file": {
-        "path": "qr/ajuna_metadata_119.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
-        }
-      }
-    },
-    "latestMetadata": "qr/ajuna_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
