@@ -1652,35 +1652,6 @@
     },
     "testnet": false
   },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "liveMetaVersion": 12,
-    "metadataQr": {
-      "version": 12,
-      "file": {
-        "path": "qr/pendulum_metadata_12.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf930bbd289fcad3c0179be538fe7ddb7aa0d0426e94b72720fa8ef5090d43807"
-        }
-      }
-    },
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "polkadot-crust-parachain": {
     "title": "Crust Polkadot Parachain",
     "color": "#000000",
@@ -1763,35 +1734,6 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "ajuna": {
-    "title": "Ajuna",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
-    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
-    "unit": "AJUN",
-    "base58prefix": 1328,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
-    "decimals": 12,
-    "liveMetaVersion": 120,
-    "metadataQr": {
-      "version": 120,
-      "file": {
-        "path": "qr/ajuna_metadata_120.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa15133339b7b7784adb302904fe06d3c985eb02646d2f8ae0b3c31db40c6757a"
-        }
-      }
-    },
-    "latestMetadata": "qr/ajuna_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
