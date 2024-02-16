@@ -1159,7 +1159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 330,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 330,
+      "file": {
+        "path": "qr/node_metadata_330.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xea39601c61c615ffe54fe8d6f6f84f935235370e33d531856f16ac538c11a89c"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1526,7 +1536,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
     "liveMetaVersion": 6001031,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6001031,
+      "file": {
+        "path": "qr/polymesh_mainnet_metadata_6001031.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa99a3e62a2d9d20ce316b9e56857e6efc1d2c7fad89694f2a357f802c25192d9"
+        }
+      }
+    },
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
