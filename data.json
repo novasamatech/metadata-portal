@@ -1767,18 +1767,8 @@
     "base58prefix": 71,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
-    "liveMetaVersion": 120,
-    "metadataQr": {
-      "version": 120,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_120.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xadafd92f516bfc9ef36d7979b1ed5280212a371126f10cd4e62fe9a6df255512"
-        }
-      }
-    },
+    "liveMetaVersion": 121,
+    "metadataQr": null,
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
@@ -2255,13 +2245,23 @@
     "title": "Paseo Testnet",
     "color": "#000000",
     "rpcEndpoint": "wss://rpc.ibp.network/paseo",
-    "genesisHash": "0x74300973617e2936e22d46e94fee5016a1a514747ae108277b770d02b47d37d9",
+    "genesisHash": "0x0a68b62d860cf54915abeb71630551592c4175320d5f27d3e18180eae7f424c1",
     "unit": "PAS",
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 1001002,
-    "metadataQr": null,
+    "liveMetaVersion": 1000001,
+    "metadataQr": {
+      "version": 1000001,
+      "file": {
+        "path": "qr/paseo_metadata_1000001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x57b645a41c469875d0340c21d3a5d14a51c6e8fedc2fb6836fbcf77d654cd463"
+        }
+      }
+    },
     "latestMetadata": "qr/paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/paseo_specs.png",
