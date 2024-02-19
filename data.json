@@ -636,18 +636,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 1000000,
-    "metadataQr": {
-      "version": 1000000,
-      "file": {
-        "path": "qr/statemint_metadata_1000000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x67771eb17fc47e7628fd4ec18e7edd8e5e7a50f6e493c4919d02792d321ace33"
-        }
-      }
-    },
+    "liveMetaVersion": 1001002,
+    "metadataQr": null,
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
@@ -1970,18 +1960,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 1000000,
-    "metadataQr": {
-      "version": 1000000,
-      "file": {
-        "path": "qr/bridge-hub-polkadot_metadata_1000000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd6511447dac282cb6167179720bc0f7e21f2e6e3a41b6af52d6c8155926e66ed"
-        }
-      }
-    },
+    "liveMetaVersion": 1001000,
+    "metadataQr": null,
     "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-polkadot_specs.png",
@@ -2028,18 +2008,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
-    "liveMetaVersion": 1000000,
-    "metadataQr": {
-      "version": 1000000,
-      "file": {
-        "path": "qr/collectives_metadata_1000000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe18968fcc1e616f1ecccd0055ddfe52b8056b722b03cbcee626742579ed347d1"
-        }
-      }
-    },
+    "liveMetaVersion": 1001000,
+    "metadataQr": null,
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
