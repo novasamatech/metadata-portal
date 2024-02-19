@@ -9,7 +9,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
     "liveMetaVersion": 1001002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001002,
+      "file": {
+        "path": "qr/polkadot_metadata_1001002.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0a301c5bb287c70917855adaa30da5ce252b971d01a20034b6fb4541e1aaf05c"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -637,7 +647,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 1001002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001002,
+      "file": {
+        "path": "qr/statemint_metadata_1001002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe125da5d4023ee6035f9662978d5642ce6e327e7474ad2b093b135bd4d4a2917"
+        }
+      }
+    },
     "latestMetadata": "qr/statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/statemint_specs.png",
@@ -1961,7 +1981,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 1001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001000,
+      "file": {
+        "path": "qr/bridge-hub-polkadot_metadata_1001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc8422adf380ad56d663fd3a70f3660bd44f3d99cd98c06e310dcf4914bcb4f1a"
+        }
+      }
+    },
     "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bridge-hub-polkadot_specs.png",
@@ -2009,7 +2039,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
     "liveMetaVersion": 1001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001000,
+      "file": {
+        "path": "qr/collectives_metadata_1001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xec0ff7688b7e934c3e426a71a74fa8790cd5372122134ba4bbc1c2c0e07ca479"
+        }
+      }
+    },
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
