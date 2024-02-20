@@ -1439,6 +1439,35 @@
     },
     "testnet": false
   },
+  "gm_parachain": {
+    "title": "GM (PAUSED)",
+    "color": "#000000",
+    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "liveMetaVersion": 10,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/gm_parachain_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x047861160a0c4a2dc3a5a6868c54bf5683256e803db895af80a1db5049253235"
+        }
+      }
+    },
+    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/gm_parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -2245,23 +2274,13 @@
     "title": "Paseo Testnet",
     "color": "#000000",
     "rpcEndpoint": "wss://rpc.ibp.network/paseo",
-    "genesisHash": "0x0a68b62d860cf54915abeb71630551592c4175320d5f27d3e18180eae7f424c1",
+    "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
     "unit": "PAS",
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 1000001,
-    "metadataQr": {
-      "version": 1000001,
-      "file": {
-        "path": "qr/paseo_metadata_1000001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x57b645a41c469875d0340c21d3a5d14a51c6e8fedc2fb6836fbcf77d654cd463"
-        }
-      }
-    },
+    "liveMetaVersion": 1001002,
+    "metadataQr": null,
     "latestMetadata": "qr/paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/paseo_specs.png",
