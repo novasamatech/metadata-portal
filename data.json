@@ -67,7 +67,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1007001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1007001,
+      "file": {
+        "path": "qr/westend_metadata_1007001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb79868e3e553f5d3ec3a10e509ce1b6abd346f09ed63c8c8e4ea18de8568f4fd"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -1362,7 +1372,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
     "liveMetaVersion": 201,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 201,
+      "file": {
+        "path": "qr/bajun_metadata_201.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x89bf6e3b44cf0db15cd80b898472802bc9df5e29f00af785137d2ef3d386a916"
+        }
+      }
+    },
     "latestMetadata": "qr/bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/bajun_specs.png",
@@ -1787,7 +1807,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
     "liveMetaVersion": 121,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 121,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_121.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbe6d659e2a9524d29fe7d1abed997584594a528af6a8fb3d4d6d448f2f14ef94"
+        }
+      }
+    },
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
@@ -2270,7 +2300,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
     "liveMetaVersion": 1001002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001002,
+      "file": {
+        "path": "qr/paseo_metadata_1001002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x16a8075b5b1d62383b7aaf60600024fc7280cc76faf8a3c40d2cf97ee7f1e3cb"
+        }
+      }
+    },
     "latestMetadata": "qr/paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/paseo_specs.png",
