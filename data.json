@@ -849,18 +849,8 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 39,
-    "metadataQr": {
-      "version": 39,
-      "file": {
-        "path": "qr/subsocial-parachain_metadata_39.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe0bc375fe76386dd6b779cab3631462004f103c18b65bb57ec8b928bcac5fc91"
-        }
-      }
-    },
+    "liveMetaVersion": 40,
+    "metadataQr": null,
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subsocial-parachain_specs.png",
