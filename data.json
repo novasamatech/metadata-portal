@@ -966,7 +966,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
     "liveMetaVersion": 207,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 207,
+      "file": {
+        "path": "qr/hydradx_metadata_207.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x75e707bacee79803193483c263caa47caed5a5c87de0f0891c9912fa487bfe83"
+        }
+      }
+    },
     "latestMetadata": "qr/hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/hydradx_specs.png",
@@ -1768,7 +1778,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
     "liveMetaVersion": 203,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 203,
+      "file": {
+        "path": "qr/ajuna_metadata_203.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9b668a3808cb1d197c732bfab102ab9b8f7c230a923721fbce025c44c59c30cb"
+        }
+      }
+    },
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
@@ -2222,7 +2242,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
     "liveMetaVersion": 4001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 4001,
+      "file": {
+        "path": "qr/polimec-mainnet_metadata_4001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6df5854df22ddf998a226ece7130e741e784261d20dbcd41f24d1ed261171a9d"
+        }
+      }
+    },
     "latestMetadata": "qr/polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polimec-mainnet_specs.png",
