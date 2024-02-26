@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
-
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -55,6 +55,7 @@ rpc_endpoints = [
     "wss://westend-rpc.dwellir.com",
     "wss://rpc.ibp.network/westend",
     "wss://rpc.dotters.network/westend",
+    "wss://westend.public.curie.radiumblock.co/ws",
     "wss://westend.api.onfinality.io/public-ws",
 ]
 testnet = true
@@ -89,6 +90,7 @@ color = "#53cbc9"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg"
 rpc_endpoints = [
     "wss://wss.api.moonbeam.network",
+    "wss://moonbeam.public.curie.radiumblock.co/ws",
     "wss://moonbeam.public.blastapi.io",
     "wss://1rpc.io/glmr",
 ]
@@ -104,6 +106,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://wss.api.moonriver.moonbeam.network",
     "wss://moonriver.public.blastapi.io",
+    "wss://moonriver.public.curie.radiumblock.co/ws",
     "wss://moonriver-rpc.dwellir.com",
 ]
 testnet = false
@@ -118,6 +121,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc.shiden.astar.network",
     "wss://shiden-rpc.dwellir.com",
+    "wss://shiden.public.curie.radiumblock.co/ws",
     "wss://shiden.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -187,6 +191,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://khala-api.phala.network/ws",
     "wss://khala-rpc.dwellir.com",
+    "wss://khala.public.curie.radiumblock.co/ws",
     "wss://khala.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -233,7 +238,11 @@ name = "pioneer-runtime"
 title = "Bit.Country Pioneer"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg"
-rpc_endpoints = ["wss://pioneer-rpc-3.bit.country/wss"]
+rpc_endpoints = [
+    "wss://pioneer-rpc-1.bit.country/wss",
+    "wss://pioneer-rpc-2.bit.country/wss",
+    "wss://pioneer-rpc-3.bit.country/wss",
+]
 testnet = false
 verifier = "novasama"
 
@@ -263,6 +272,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc.astar.network",
     "wss://astar-rpc.dwellir.com",
+    "wss://astar.public.curie.radiumblock.co/ws",
     "wss://astar.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -273,10 +283,7 @@ name = "parallel"
 title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
-rpc_endpoints = [
-    "wss://polkadot-parallel-rpc.parallel.fi",
-    "wss://parallel-rpc.dwellir.com",
-]
+rpc_endpoints = ["wss://parallel-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
 
@@ -463,6 +470,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://phala-rpc.dwellir.com",
     "wss://api.phala.network/ws",
+    "wss://phala.public.curie.radiumblock.co/ws",
     "wss://phala.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -633,15 +641,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "totem-parachain"
-title = "Kapex"
-color = "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg"
-rpc_endpoints = ["wss://kapex-rpc.dwellir.com"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
 name = "polymesh_mainnet"
 title = "Polymesh"
 color = "#1348e4"
@@ -697,6 +696,15 @@ title = "Crust Polkadot Parachain"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust_Parachain.svg"
 rpc_endpoints = ["wss://crust-parachain.crustapps.net"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "avn-parachain"
+title = "Aventus"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
+rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
 testnet = false
 verifier = "novasama"
 
@@ -908,7 +916,7 @@ verifier = "novasama"
 
 [[chains]]
 name = "manta"
-title = "Manta"
+title = "Manta Atlantic"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Manta.svg"
 rpc_endpoints = ["wss://ws.manta.systems"]
@@ -930,5 +938,14 @@ title = "Rococo Testnet"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg"
 rpc_endpoints = ["wss://rococo-rpc.polkadot.io/"]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
+name = "Moonbase Alpha"
+title = "Moonbase Alpha"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Moonriver.svg"
+rpc_endpoints = ["wss://moonbase-rpc.dwellir.com"]
 testnet = true
 verifier = "novasama"
