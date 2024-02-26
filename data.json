@@ -495,7 +495,7 @@
   "pioneer-runtime": {
     "title": "Bit.Country Pioneer",
     "color": "#000000",
-    "rpcEndpoint": "wss://pioneer-rpc-3.bit.country/wss",
+    "rpcEndpoint": "wss://pioneer-rpc-1.bit.country/wss",
     "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
     "unit": "NEER",
     "base58prefix": 268,
@@ -582,7 +582,7 @@
   "parallel": {
     "title": "Parallel",
     "color": "#ef18ac",
-    "rpcEndpoint": "wss://polkadot-parallel-rpc.parallel.fi",
+    "rpcEndpoint": "wss://parallel-rpc.dwellir.com",
     "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
     "unit": "PARA",
     "base58prefix": 172,
@@ -2262,7 +2262,7 @@
     "testnet": false
   },
   "manta": {
-    "title": "Manta",
+    "title": "Manta Atlantic",
     "color": "#000000",
     "rpcEndpoint": "wss://ws.manta.systems",
     "genesisHash": "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
@@ -2343,6 +2343,35 @@
     "latestMetadata": "qr/rococo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/rococo_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": true
+  },
+  "moonbase": {
+    "title": "Moonbase Alpha",
+    "color": "#000000",
+    "rpcEndpoint": "wss://moonbase-rpc.dwellir.com",
+    "genesisHash": "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
+    "unit": "DEV",
+    "base58prefix": 1287,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Moonriver.svg",
+    "decimals": 18,
+    "liveMetaVersion": 2700,
+    "metadataQr": {
+      "version": 2700,
+      "file": {
+        "path": "qr/moonbase_metadata_2700.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3346957fa073c2d9020c2257ef18cadc3ea3c59c541ab849f9c55fe39f5f1384"
+        }
+      }
+    },
+    "latestMetadata": "qr/moonbase_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/moonbase_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
