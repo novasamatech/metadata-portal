@@ -6,5 +6,9 @@
   "parity": {
     "name": "Parity",
     "url": "https://metadata.parity.io/"
+  },
+  "dentnet": {
+    "name": "DENTNet",
+    "url": "https://main.dentnet.io/vault/"
   }
 }
