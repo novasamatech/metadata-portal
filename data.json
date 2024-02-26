@@ -161,7 +161,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x17f9ab466b12405537689bef4dc44faf38cc52a0760f71e348864b0ac762c9e3"
+          "block": "0x165e2dd6115f3867fe421357e7d2fa6aa73f88c0aad30d38fc9cf9cc106ca2c8"
         }
       }
     },
@@ -190,7 +190,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x55a1937c05141b3948caf10533c2216ce79d371a44dc079b918103959b9ca331"
+          "block": "0x35dcd57668b2a4bf06566f7f4e89c89be4f4d81a753e2557b97769a8ac1cff13"
         }
       }
     },
@@ -342,35 +342,6 @@
     "latestMetadata": "qr/heiko_metadata_latest.apng",
     "specsQr": {
       "path": "qr/heiko_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "edgeware": {
-    "title": "Edgeware",
-    "color": "#111111",
-    "rpcEndpoint": "wss://edgeware-rpc.dwellir.com",
-    "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
-    "unit": "EDG",
-    "base58prefix": 7,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Edgeware.svg",
-    "decimals": 18,
-    "liveMetaVersion": 53,
-    "metadataQr": {
-      "version": 53,
-      "file": {
-        "path": "qr/edgeware_metadata_53.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x83e6337ce2d0014940e4b854bcba7e785ae616640317793c1595298bfd1f73bc"
-        }
-      }
-    },
-    "latestMetadata": "qr/edgeware_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/edgeware_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1661,15 +1632,15 @@
     "base58prefix": 56,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
-    "liveMetaVersion": 12,
+    "liveMetaVersion": 13,
     "metadataQr": {
-      "version": 12,
+      "version": 13,
       "file": {
-        "path": "qr/pendulum_metadata_12.apng",
+        "path": "qr/pendulum_metadata_13.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xf930bbd289fcad3c0179be538fe7ddb7aa0d0426e94b72720fa8ef5090d43807"
+          "block": "0xcf29de7814627f544c7d295601d2b7b7830b411152f25652e3b6e5fd45cec09c"
         }
       }
     },
@@ -1843,7 +1814,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x8f43f01d6aa2d59796ca789c10de671e84e7f29f5958470e848d995e26f901ed"
+          "block": "0x6f6fe076346bcaf77ad9b7ca194098d9bcf9bea9d40886f01f4e61a196a9647e"
         }
       }
     },
@@ -1872,7 +1843,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x51c63d699ec72dd467d0baa0c5a375275334ec9c9f98e41531ff4809403d4545"
+          "block": "0x3bb0611921603d6405d674ad86c7b34bf69b353d062ebc984ec820fda6e09098"
         }
       }
     },
@@ -2350,7 +2321,7 @@
   },
   "moonbase": {
     "title": "Moonbase Alpha",
-    "color": "#000000",
+    "color": "#F45B5B",
     "rpcEndpoint": "wss://moonbase-rpc.dwellir.com",
     "genesisHash": "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
     "unit": "DEV",
@@ -2365,7 +2336,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xd3c1db1c7579a82581d71c9fdde9effb1d0cceba80d0a77ed72263f61173ac49"
+          "block": "0x95b20f9bfd02e6e8de8e14508a22507fe1d17954440800d22898d9f1773101fd"
         }
       }
     },
