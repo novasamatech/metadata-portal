@@ -700,15 +700,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "avn-parachain"
-title = "Aventus"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
-rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
-testnet = false
-verifier = "novasama"
-
-[[chains]]
 name = "node-subtensor"
 title = "Bittensor"
 color = "#000000"
