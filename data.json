@@ -161,7 +161,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x165e2dd6115f3867fe421357e7d2fa6aa73f88c0aad30d38fc9cf9cc106ca2c8"
+          "block": "0xb4b4f3eb059a8d1dd76c21ccb6dd205279d4bab66e015df2a5fb9b9ac9b710b5"
         }
       }
     },
@@ -190,7 +190,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x35dcd57668b2a4bf06566f7f4e89c89be4f4d81a753e2557b97769a8ac1cff13"
+          "block": "0x0f35980169a23010f472430613d1310431da59290f6889a636dbde5b0255a362"
         }
       }
     },
@@ -1449,35 +1449,6 @@
     },
     "testnet": false
   },
-  "gm_parachain": {
-    "title": "GM (PAUSED)",
-    "color": "#000000",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "liveMetaVersion": 10,
-    "metadataQr": {
-      "version": 10,
-      "file": {
-        "path": "qr/gm_parachain_metadata_10.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x047861160a0c4a2dc3a5a6868c54bf5683256e803db895af80a1db5049253235"
-        }
-      }
-    },
-    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/gm_parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -1843,7 +1814,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6f6fe076346bcaf77ad9b7ca194098d9bcf9bea9d40886f01f4e61a196a9647e"
+          "block": "0x700a20b061391274020c7a767c6f62af6f216f67b560c6c5356248d4c23b28bf"
         }
       }
     },
@@ -1872,7 +1843,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x3bb0611921603d6405d674ad86c7b34bf69b353d062ebc984ec820fda6e09098"
+          "block": "0xc8576a244dfc589f03b98938b99fa03047dd4ad48b7e99659350cddd3aaf6ae0"
         }
       }
     },
@@ -2365,7 +2336,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x95b20f9bfd02e6e8de8e14508a22507fe1d17954440800d22898d9f1773101fd"
+          "block": "0x9f090afcdcaa562b883a171896ff7bf746ee34f7747097689f9c4ef00d36593d"
         }
       }
     },
