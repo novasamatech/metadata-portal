@@ -1193,7 +1193,7 @@
     "color": "#FB5DEB",
     "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
     "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
+    "unit": "NEURO",
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
