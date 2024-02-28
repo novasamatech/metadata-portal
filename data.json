@@ -337,6 +337,35 @@
     },
     "testnet": false
   },
+  "edgeware": {
+    "title": "Edgeware",
+    "color": "#111111",
+    "rpcEndpoint": "wss://edgeware-rpc.dwellir.com",
+    "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+    "unit": "EDG",
+    "base58prefix": 7,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Edgeware.svg",
+    "decimals": 18,
+    "liveMetaVersion": 53,
+    "metadataQr": {
+      "version": 53,
+      "file": {
+        "path": "qr/edgeware_metadata_53.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x83e6337ce2d0014940e4b854bcba7e785ae616640317793c1595298bfd1f73bc"
+        }
+      }
+    },
+    "latestMetadata": "qr/edgeware_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/edgeware_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "khala": {
     "title": "Khala",
     "color": "#03f3f3",
