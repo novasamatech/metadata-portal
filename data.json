@@ -415,7 +415,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
     "liveMetaVersion": 11210,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 11210,
+      "file": {
+        "path": "qr/kilt-spiritnet_metadata_11210.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2f5155f8d18ab9e0bc119aa56ac7333aa1f31fb3b6c7e70d686b515bf21453a1"
+        }
+      }
+    },
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
@@ -1913,7 +1923,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
     "liveMetaVersion": 1110,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1110,
+      "file": {
+        "path": "qr/vara_metadata_1110.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc43091f8ee66faa1e638cbb00bd7c93329e0d88e3acd259bf765153fae874df1"
+        }
+      }
+    },
     "latestMetadata": "qr/vara_metadata_latest.apng",
     "specsQr": {
       "path": "qr/vara_specs.png",
