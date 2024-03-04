@@ -9,6 +9,14 @@ export function getBackgroundStyle(color: string) {
     ? { backgroundImage: color }
     : { backgroundColor: color };
 }
+
+export function formatTitle(title: string) {
+  return title
+    .split(" ")
+    .map((v) => capitalizeFirstLetter(v))
+    .join(" ");
+}
+
 export function cn(...classes: (string | boolean | undefined)[]) {
   return classes.filter(Boolean).join(" ");
 }

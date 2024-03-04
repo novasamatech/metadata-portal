@@ -107,7 +107,7 @@ fn verify_filename(meta_values: &MetaValues, actual_qr_name: &QrFileName) -> Res
         true,
     );
     ensure!(
-        actual_qr_name == &expected,
+        actual_qr_name.chain.ends_with(&expected.chain),
         "filename mismatch! Expected {}, got {}",
         expected,
         actual_qr_name

@@ -26,6 +26,7 @@
       "signedBy": "Test Verifier",
       "source": null
     },
-    "testnet": false
+    "testnet": false,
+    "relayChain": null
   }
 }

@@ -1,6 +1,6 @@
 import { Listbox } from "@headlessui/react";
 import { Chains } from "../scheme";
-import { capitalizeFirstLetter, cn } from "../utils";
+import { cn, formatTitle } from "../utils";
 import { useState } from "react";
 import { SearchBar } from "./SearchBar";
 
@@ -42,12 +42,13 @@ export const NetworkSelect = ({
                   className={cn(
                     "flex items-center space-x-2 p-2 transition-colors rounded-full hover:bg-neutral-100",
                     selected && "bg-neutral-100",
+                    chains[chain].relayChain && "pl-8",
                     selected ? "cursor-default" : "cursor-pointer",
                   )}
                 >
                   <img src={chains[chain].icon} className="w-8 rounded-full" />
                   <div className="text-lg">
-                    {capitalizeFirstLetter(chains[chain].title)}
+                    {formatTitle(chains[chain].title)}
                   </div>
                 </div>
               )}

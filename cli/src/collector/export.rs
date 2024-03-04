@@ -9,36 +9,43 @@ use log::{info, warn};
 use crate::common::path::{ContentType, QrPath};
 use crate::common::types::MetaVersion;
 use crate::export::{ExportChainSpec, ExportData, MetadataQr, QrCode, ReactAssetPath};
-use crate::fetch::Fetcher;
+use crate::fetch::{fetch_deployed_data, Fetcher};
 use crate::qrs::{collect_metadata_qrs, metadata_files, spec_files};
 use crate::AppConfig;
 
 pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<ExportData> {
     let all_specs = spec_files(&config.qr_dir)?;
     let all_metadata = metadata_files(&config.qr_dir)?;
+    let online = fetch_deployed_data(config).ok();
 
     let mut export_specs = IndexMap::new();
     for chain in &config.chains {
         info!("Collecting {} info...", chain.name);
-        let specs_result = fetcher.fetch_specs(chain);
-        if specs_result.is_err() {
-            warn!("No spec found for {}", chain.name);
-            continue;
-        }
-        let specs = specs_result.unwrap();
-        let meta_result = fetcher.fetch_metadata(chain);
-        if meta_result.is_err() {
-            warn!("No latest metadata found for {}", chain.name);
-            continue;
-        }
-        let meta = meta_result.unwrap();
+        let specs = match fetcher.fetch_specs(chain) {
+            Ok(specs) => specs,
+            Err(e) => {
+                if let Some(online_specs) = online.as_ref() {
+                    if let Some(online_chain_specs) = online_specs.get(&chain.portal_id()) {
+                        warn!(
+                            "Unable to fetch specs for {}. Keep current online specs. Err: {}.",
+                            chain.name, e
+                        );
+                        export_specs.insert(chain.portal_id(), online_chain_specs.clone());
+                        continue;
+                    }
+                }
+                return Err(e);
+            }
+        };
+        let meta = fetcher.fetch_metadata(chain)?;
         let live_meta_version = meta.meta_values.version;
 
-        let metadata_qrs = collect_metadata_qrs(&all_metadata, &chain.name, &live_meta_version)?;
+        let metadata_qrs =
+            collect_metadata_qrs(&all_metadata, &chain.portal_id(), &live_meta_version)?;
 
         let specs_qr = all_specs
-            .get(chain.name.as_str())
-            .with_context(|| format!("No specs qr found for {}", chain.name))?
+            .get(&chain.portal_id())
+            .with_context(|| format!("No specs qr found for {}", chain.portal_id()))?
             .clone();
         let pointer_to_latest_meta = update_pointer_to_latest_metadata(
             metadata_qrs
@@ -46,6 +53,7 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
                 .context(format!("No metadata QRs for {}", &chain.name))?,
         )?;
         export_specs.insert(
+            chain.portal_id(),
             chain.name.clone(),
             ExportChainSpec {
                 title: chain.title.as_ref().unwrap_or(&chain.name).clone(),
@@ -69,6 +77,7 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
                 ),
                 live_meta_version,
                 testnet: chain.testnet.unwrap_or(false),
+                relay_chain: chain.relay_chain.clone(),
             },
         );
     }

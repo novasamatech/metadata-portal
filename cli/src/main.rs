@@ -8,6 +8,7 @@ mod config;
 mod deployment_checker;
 mod export;
 mod fetch;
+mod file;
 mod opts;
 mod qrs;
 mod signer;

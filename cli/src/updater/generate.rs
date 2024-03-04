@@ -23,11 +23,12 @@ pub(crate) fn generate_metadata_qr(
     sign: bool,
     signing_key: String,
     encryption: &Encryption,
+    portal_id: &str,
 ) -> anyhow::Result<PathBuf> {
     let content = ContentLoadMeta::generate(&meta_values.meta, genesis_hash);
 
     let file_name = QrFileName::new(
-        &meta_values.name.to_lowercase(),
+        &portal_id.to_lowercase(),
         ContentType::Metadata(meta_values.version),
         sign,
     )
@@ -70,12 +71,13 @@ pub(crate) fn download_metadata_qr(
 pub(crate) fn generate_spec_qr(
     specs: &NetworkSpecs,
     target_dir: &Path,
+    portal_id: &str,
     sign: bool,
     signing_key: String,
     encryption: &Encryption,
 ) -> anyhow::Result<PathBuf> {
     let file_name =
-        QrFileName::new(&specs.name.to_lowercase(), ContentType::Specs, sign).to_string();
+        QrFileName::new(&portal_id.to_lowercase(), ContentType::Specs, sign).to_string();
     let path = target_dir.join(&file_name);
     let content = ContentAddSpecs::generate(specs);
 

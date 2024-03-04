@@ -48,6 +48,7 @@ pub(crate) fn update_from_node(
                 generate_spec_qr(
                     &specs_res.unwrap(),
                     &config.qr_dir,
+                    &chain.portal_id(),
                     sign,
                     signing_key.to_owned(),
                     &encryption,
@@ -70,7 +71,7 @@ pub(crate) fn update_from_node(
         let version = fetched_meta.meta_values.version;
 
         // Skip if already have QR for the same version
-        if let Some(map) = metadata_qrs.get(&chain.name) {
+        if let Some(map) = metadata_qrs.get(&chain.portal_id()) {
             if map.contains_key(&version) {
                 continue;
             }
@@ -86,6 +87,7 @@ pub(crate) fn update_from_node(
                 &fetched_meta.meta_values,
                 &fetched_meta.genesis_hash,
                 &config.qr_dir,
+                &chain.portal_id(),
                 sign,
                 signing_key.to_owned(),
                 &encryption,
@@ -135,7 +137,7 @@ pub(crate) async fn update_from_github(
         let genesis_hash = H256::from_str(&github_repo.genesis_hash).unwrap();
 
         // Skip if already have QR for the same version
-        if let Some(map) = metadata_qrs.get(&chain.name) {
+        if let Some(map) = metadata_qrs.get(&chain.portal_id()) {
             if map.contains_key(&wasm.version) || map.keys().min().unwrap_or(&0) > &wasm.version {
                 info!("🎉 {} is up to date!", chain.name);
                 continue;
@@ -149,6 +151,7 @@ pub(crate) async fn update_from_github(
             &meta_values,
             &genesis_hash,
             &config.qr_dir,
+            &chain.portal_id(),
             sign,
             signing_key.to_owned(),
             &encryption,
