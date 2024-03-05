@@ -37,7 +37,7 @@ pub(crate) struct InjectedChain {
     pub(crate) rpc_endpoints: Vec<String>,
     pub(crate) testnet: bool,
     pub(crate) encryption: Option<String>,
-    pub(crate) relay_chain: Option<String>
+    pub(crate) relay_chain: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -66,10 +66,22 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
     let config_template_toml = fs::read_to_string(template_path)?;
     let config_template = toml::from_str::<ConfigTemplate>(config_template_toml.as_str())?;
     let mut relay_chains: HashMap<String, String> = HashMap::new(); //TODO make a constant
-    relay_chains.insert(String::from("91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3"), String::from("polkadot"));
-    relay_chains.insert(String::from("b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe"), String::from("kusama"));
-    relay_chains.insert(String::from("6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e"), String::from("rococo"));
-    relay_chains.insert(String::from("e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e"), String::from("westend"));
+    relay_chains.insert(
+        String::from("91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3"),
+        String::from("polkadot"),
+    );
+    relay_chains.insert(
+        String::from("b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe"),
+        String::from("kusama"),
+    );
+    relay_chains.insert(
+        String::from("6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e"),
+        String::from("rococo"),
+    );
+    relay_chains.insert(
+        String::from("e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e"),
+        String::from("westend"),
+    );
 
     let chain_params = match chains_opts.env.as_str() {
         "dev" => (
@@ -143,7 +155,7 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                     },
                     relay_chain: match &chain.parentId {
                         Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
-                        None => None
+                        None => None,
                     },
                 });
             }
@@ -178,7 +190,7 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                     },
                     relay_chain: match &chain.parentId {
                         Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
-                        None => None
+                        None => None,
                     },
                 };
                 let fetcher = ConfigRpcFetcher;
@@ -220,7 +232,7 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                     },
                     relay_chain: match &chain.parentId {
                         Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
-                        None => None
+                        None => None,
                     },
                 });
                 warn!(
@@ -244,9 +256,9 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
             verifier: chain.verifier,
             encryption: match &chain.encryption {
                 Some(encryption) => Some(String::from(encryption)),
-                None => None
+                None => None,
             },
-            relay_chain: chain.relay_chain.clone()
+            relay_chain: chain.relay_chain.clone(),
         });
     }
 
