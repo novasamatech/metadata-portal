@@ -2068,7 +2068,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1005,
+      "file": {
+        "path": "qr/matrix-enjin_metadata_1005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x053d43d84a5ffe861f0c51ef47a4144c8a04258acd2ef5c32cbb0d5e5e9c1445"
+        }
+      }
+    },
     "latestMetadata": "qr/matrix-enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/matrix-enjin_specs.png",
