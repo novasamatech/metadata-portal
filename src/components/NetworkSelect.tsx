@@ -21,7 +21,7 @@ export const NetworkSelect = ({
   };
 
   const filteredItems = chainList.filter((item) =>
-    chains[item].title.toLowerCase().includes(searchString.toLowerCase()),
+    chains[item].title.toLowerCase().includes(searchString.toLowerCase())
   );
   return (
     <div className="w-full">
@@ -43,7 +43,7 @@ export const NetworkSelect = ({
                     "flex items-center space-x-2 p-2 transition-colors rounded-full hover:bg-neutral-100",
                     selected && "bg-neutral-100",
                     chains[chain].relayChain && "pl-8",
-                    selected ? "cursor-default" : "cursor-pointer",
+                    selected ? "cursor-default" : "cursor-pointer"
                   )}
                 >
                   <img src={chains[chain].icon} className="w-8 rounded-full" />

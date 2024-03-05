@@ -54,7 +54,6 @@ pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<
         )?;
         export_specs.insert(
             chain.portal_id(),
-            chain.name.clone(),
             ExportChainSpec {
                 title: chain.title.as_ref().unwrap_or(&chain.name).clone(),
                 color: chain.color.clone(),

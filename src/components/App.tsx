@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Chains, Portals } from "../scheme";
+import {Chains, Portals} from "../scheme";
 import { About } from "./About";
 import { Banner } from "./Banner";
 import { FAQ } from "./FAQ";
@@ -25,38 +25,52 @@ export default function App() {
         );
       })
       .then((res) => {
-        const sortedChainKeys = Object.keys(res).sort((a, b) => {
-          if (
-            (res[a].testnet && res[b].testnet) ||
-            (!res[a].testnet && !res[b].testnet)
-          ) {
-            if (a == "polkadot") {
-              return -100;
-            }
-            if (b == "polkadot") {
-              return 1;
-            }
-            if (a == "kusama") {
-              return -50;
-            }
-            if (b == "kusama") {
-              return 1;
-            }
-            if (a == "westend") {
-              return -10;
-            }
-            if (b == "westend") {
-              return 1;
-            }
-            return res[a].title.localeCompare(res[b].title);
-          } else if (res[a].testnet) {
-            return 1;
-          } else {
-            return -1;
+        const polkadot = 'polkadot';
+        const kusama = 'kusama';
+        const westend = 'westend';
+        const rococo = 'rococo';
+        const polkadotParachains: string[] = [];
+        const kusamaParachains: string[] = [];
+        const westendParachain: string[] = [];
+        const rococoParachains: string[] = [];
+        const solochains: string[] = [];
+        const testSolochains: string[] = [];
+
+        Object.keys(res).forEach(key => {
+          const chainSpec = res[key];
+          if (chainSpec.relayChain === polkadot) {
+            polkadotParachains.push(key);
+          } else if (chainSpec.relayChain === kusama) {
+            kusamaParachains.push(key);
+          } else if (chainSpec.relayChain === westend) {
+            westendParachain.push(key);
+          } else if (chainSpec.relayChain === rococo) {
+            rococoParachains.push(key);
+          } else if (chainSpec.testnet && !chainSpec.relayChain) {
+            testSolochains.push(key);
+          } else if (!chainSpec.testnet && !chainSpec.relayChain) {
+            solochains.push(key);
           }
         });
+
+        polkadotParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        kusamaParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        westendParachain.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        rococoParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        solochains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        testSolochains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+
         const sortedChains: Chains = {};
-        sortedChainKeys.forEach((k) => (sortedChains[k] = res[k]));
+        sortedChains[polkadot] = res[polkadot];
+        polkadotParachains.forEach((key) => (sortedChains[key] = res[key]));
+        sortedChains[kusama] = res[kusama];
+        kusamaParachains.forEach((key) => (sortedChains[key] = res[key]));
+        solochains.forEach((key) => (sortedChains[key] = res[key]));
+        sortedChains[westend] = res[westend];
+        westendParachain.forEach((key) => (sortedChains[key] = res[key]));
+        sortedChains[rococo] = res[rococo];
+        rococoParachains.forEach((key) => (sortedChains[key] = res[key]));
+        testSolochains.forEach((key) => (sortedChains[key] = res[key]));
         setChains(sortedChains);
       });
   }, []);
@@ -72,39 +86,52 @@ export default function App() {
 
   useEffect(() => {
     if (Object.keys(chains).length === 0 || currentChain) return;
-    const sortedChainKeys = Object.keys(chains).sort((a, b) => {
-      if (
-        (chains[a].testnet && chains[b].testnet) ||
-        (!chains[a].testnet && !chains[b].testnet)
-      ) {
-        if (a == "polkadot") {
-          return -100;
-        }
-        if (b == "polkadot") {
-          return 1;
-        }
-        if (a == "kusama") {
-          return -50;
-        }
-        if (b == "kusama") {
-          return 1;
-        }
-        if (a == "westend") {
-          return -10;
-        }
-        if (b == "westend") {
-          return 1;
-        }
-        return chains[a].title.localeCompare(chains[b].title);
-      } else if (chains[a].testnet) {
-        return 1;
-      } else {
-        return -1;
+    const polkadot = 'polkadot';
+    const kusama = 'kusama';
+    const westend = 'westend';
+    const rococo = 'rococo';
+    const polkadotParachains: string[] = [];
+    const kusamaParachains: string[] = [];
+    const westendParachain: string[] = [];
+    const rococoParachains: string[] = [];
+    const solochains: string[] = [];
+    const testSolochains: string[] = [];
+
+    Object.keys(chains).forEach(key => {
+      const chainSpec = chains[key];
+      if (chainSpec.relayChain === polkadot) {
+        polkadotParachains.push(key);
+      } else if (chainSpec.relayChain === kusama) {
+        kusamaParachains.push(key);
+      } else if (chainSpec.relayChain === westend) {
+        westendParachain.push(key);
+      } else if (chainSpec.relayChain === rococo) {
+        rococoParachains.push(key);
+      } else if (chainSpec.testnet && !chainSpec.relayChain) {
+        testSolochains.push(key);
+      } else if (!chainSpec.testnet && !chainSpec.relayChain) {
+        solochains.push(key);
       }
     });
 
+    polkadotParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    kusamaParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    westendParachain.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    rococoParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    solochains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    testSolochains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+
     const sortedChains: Chains = {};
-    sortedChainKeys.forEach((k) => (sortedChains[k] = chains[k]));
+    sortedChains[polkadot] = chains[polkadot];
+    polkadotParachains.forEach((key) => (sortedChains[key] = chains[key]));
+    sortedChains[kusama] = chains[kusama];
+    kusamaParachains.forEach((key) => (sortedChains[key] = chains[key]));
+    solochains.forEach((key) => (sortedChains[key] = chains[key]));
+    sortedChains[westend] = chains[westend];
+    westendParachain.forEach((key) => (sortedChains[key] = chains[key]));
+    sortedChains[rococo] = chains[rococo];
+    rococoParachains.forEach((key) => (sortedChains[key] = chains[key]));
+    testSolochains.forEach((key) => (sortedChains[key] = chains[key]));
     setChains(sortedChains);
 
     const locationChain = location.hash.replace("#/", "");
@@ -154,7 +181,7 @@ export default function App() {
           </div>
         </div>
         <div className="w-full p-2 pt-0 pb-8 md:pb-24 md:p-4 xl:pl-2 xl:pt-12 space-y-4">
-          <Network spec={spec} chainPortalId={currentChain} />
+          <Network spec={spec}/>
           <FAQ />
           <div className="py-4 xl:hidden">
             <Hr />

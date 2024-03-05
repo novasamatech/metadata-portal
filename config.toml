@@ -17,7 +17,6 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
-    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot-rpc.dwellir.com",
@@ -73,6 +72,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "karura"
@@ -82,6 +82,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://karura.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "moonbeam"
@@ -97,6 +98,7 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 encryption = "ethereum"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "moonriver"
@@ -112,6 +114,7 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 encryption = "ethereum"
+relay_chain = "kusama"
 
 [[chains]]
 name = "shiden"
@@ -126,6 +129,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "bifrost"
@@ -139,6 +143,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "basilisk"
@@ -151,6 +156,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "altair"
@@ -160,6 +166,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://altair.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "heiko"
@@ -169,6 +176,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://heiko-rpc.parallel.fi"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "edgeware"
@@ -196,6 +204,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "kilt-spiritnet"
@@ -209,6 +218,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "calamari"
@@ -218,6 +228,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://calamari.systems"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "quartz"
@@ -232,6 +243,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "pioneer-runtime"
@@ -245,6 +257,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "acala"
@@ -263,6 +276,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "astar"
@@ -277,6 +291,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "parallel"
@@ -286,6 +301,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://parallel-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "clover-mainnet"
@@ -295,6 +311,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc-para.clover.finance"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "statemint"
@@ -309,6 +326,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "robonomics"
@@ -321,6 +339,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "encointer-parachain"
@@ -334,6 +353,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "kintsugi-parachain"
@@ -343,6 +363,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://api-kusama.interlay.io/parachain"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "picasso"
@@ -355,6 +376,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "zeitgeist"
@@ -367,6 +389,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "litmus-parachain"
@@ -376,6 +399,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc.litmus-parachain.litentry.io"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "subsocial-parachain"
@@ -388,6 +412,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "crust-collator"
@@ -400,6 +425,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "integritee-parachain"
@@ -412,6 +438,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "centrifuge"
@@ -424,6 +451,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "hydradx"
@@ -436,6 +464,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "interlay-parachain"
@@ -449,6 +478,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "nodle-para"
@@ -461,6 +491,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "phala"
@@ -475,6 +506,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "turing"
@@ -487,6 +519,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "aleph-node"
@@ -505,6 +538,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc.composable.finance"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "node"
@@ -520,12 +554,16 @@ verifier = "novasama"
 
 [[chains]]
 name = "origintrail-parachain"
-title = "OriginTrail Parachain"
-color = "#FB5DEB"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg"
-rpc_endpoints = ["wss://parachain-rpc.origin-trail.network"]
+title = "NeuroWeb"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg"
+rpc_endpoints = [
+    "wss://parachain-rpc.origin-trail.network",
+    "wss://origintrail-rpc.dwellir.com",
+]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "bifrost_polkadot"
@@ -535,6 +573,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://hk.p.bifrost-rpc.liebi.com/ws"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "litentry-parachain"
@@ -547,6 +586,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "unique"
@@ -560,6 +600,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "mangata-parachain"
@@ -572,6 +613,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "kabocha-parachain"
@@ -581,6 +623,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://kabocha.jelliedowl.com"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "bajun"
@@ -594,6 +637,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "imbue"
@@ -603,6 +647,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://kusama.imbuenetwork.com"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "tinkernet_node"
@@ -612,15 +657,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://tinkernet-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
-
-[[chains]]
-name = "gm_parachain"
-title = "GM (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
-rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
-testnet = false
-verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "amplitude"
@@ -630,6 +667,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc-amplitude.pendulumchain.tech"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "mainnet"
@@ -657,6 +695,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://kusama.rpc.ipci.io"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "appchain"
@@ -689,6 +728,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc-pendulum.prd.pendulumchain.tech"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "polkadot-crust-parachain"
@@ -698,6 +738,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://crust-parachain.crustapps.net"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "node-subtensor"
@@ -719,6 +760,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
@@ -731,6 +773,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "poscan-runtime"
@@ -753,6 +796,7 @@ rpc_endpoints = ["wss://parachain-rpc.darwinia.network"]
 testnet = false
 verifier = "novasama"
 encryption = "ethereum"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "Crab2"
@@ -767,6 +811,7 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 encryption = "ethereum"
+relay_chain = "kusama"
 
 [[chains]]
 name = "frequency"
@@ -779,6 +824,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "vara"
@@ -810,6 +856,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "bridge-hub-kusama"
@@ -823,6 +870,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "collectives"
@@ -838,6 +886,7 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "peaq-node-krest"
@@ -847,6 +896,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://wss-krest.peaq.network"]
 testnet = false
 verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "matrix-enjin"
@@ -868,6 +918,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://watr-rpc.watr-api.network"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "joystream-node"
@@ -895,6 +946,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://invarch-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "polimec-mainnet"
@@ -904,6 +956,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://rpc.polimec.org"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "manta"
@@ -913,6 +966,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://ws.manta.systems"]
 testnet = false
 verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "paseo"

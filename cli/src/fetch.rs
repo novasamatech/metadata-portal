@@ -12,9 +12,7 @@ use reqwest::Url;
 use serde::{Deserialize, Serialize};
 
 use crate::common::types::get_crypto;
-use crate::config::Chain;
 use crate::config::{AppConfig, Chain};
-use crate::ethereum::is_ethereum;
 use crate::export::{ExportData, ReactAssetPath};
 
 pub(crate) trait Fetcher {

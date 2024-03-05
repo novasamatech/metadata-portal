@@ -87,10 +87,10 @@ pub(crate) fn update_from_node(
                 &fetched_meta.meta_values,
                 &fetched_meta.genesis_hash,
                 &config.qr_dir,
-                &chain.portal_id(),
                 sign,
                 signing_key.to_owned(),
                 &encryption,
+                &chain.portal_id(),
             )?;
             let source = Source::Rpc {
                 block: fetched_meta.block_hash,
@@ -151,10 +151,10 @@ pub(crate) async fn update_from_github(
             &meta_values,
             &genesis_hash,
             &config.qr_dir,
-            &chain.portal_id(),
             sign,
             signing_key.to_owned(),
             &encryption,
+            &chain.portal_id(),
         )?;
         let source = Source::Wasm {
             github_repo: format!("{}/{}", github_repo.owner, github_repo.repo),

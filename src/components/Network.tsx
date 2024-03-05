@@ -22,10 +22,8 @@ function setTabToSearch(v: number) {
 
 export const Network = ({
   spec,
-  chainPortalId,
 }: {
   spec: ChainSpec;
-  chainPortalId: string;
 }) => {
   const [selectedTab, setSelectedTab] = useState(tabFromSearch());
   const metadataQr = spec.metadataQr;
@@ -65,7 +63,7 @@ export const Network = ({
       <div className="hidden xl:flex items-center justify-between mb-10">
         <div className="flex items-center space-x-2 text-[40px] leading-none unbounded">
           <img
-            src={icon(chainPortalId)}
+            src={spec.icon}
             className="w-14 h-14 rounded-full bg-neutral-200"
           />
           <span>{formatTitle(spec.title)}</span>
@@ -132,7 +130,7 @@ export const Network = ({
                     <button
                       className={cn(
                         "flex-1 p-3 rounded-full focus:outline-none",
-                        selected && "text-white",
+                        selected && "text-white"
                       )}
                       style={{ backgroundColor: selected ? spec.color : "" }}
                     >

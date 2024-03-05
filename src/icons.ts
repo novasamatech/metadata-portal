@@ -27,7 +27,3 @@ const ICONS = {
   "rococo-contracts-rococo": contractsPNG,
   "rococo-encointer-parachain": nodesEncointerBlueSVG,
 };
-
-export function icon(network: string) {
-  return ICONS[network as "polkadot"];
-}
