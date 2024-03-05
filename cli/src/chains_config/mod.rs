@@ -41,12 +41,13 @@ pub(crate) struct InjectedChain {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
 pub(crate) struct ChainJSON {
     pub(crate) name: String,
     pub(crate) nodes: Vec<ChainNode>,
     pub(crate) icon: String,
     pub(crate) options: Option<Vec<String>>,
-    pub(crate) parentId: Option<String>,
+    pub(crate) parent_id: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -153,8 +154,8 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parentId {
-                        Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
+                    relay_chain: match &chain.parent_id {
+                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
                         None => None,
                     },
                 });
@@ -188,8 +189,8 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parentId {
-                        Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
+                    relay_chain: match &chain.parent_id {
+                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
                         None => None,
                     },
                 };
@@ -230,8 +231,8 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parentId {
-                        Some(parentId) => Some(String::from(relay_chains.get(parentId).unwrap())),
+                    relay_chain: match &chain.parent_id {
+                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
                         None => None,
                     },
                 });
