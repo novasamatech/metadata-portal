@@ -20,11 +20,7 @@ function setTabToSearch(v: number) {
   window.history.replaceState(null, "", url);
 }
 
-export const Network = ({
-  spec,
-}: {
-  spec: ChainSpec;
-}) => {
+export const Network = ({ spec }: { spec: ChainSpec }) => {
   const [selectedTab, setSelectedTab] = useState(tabFromSearch());
   const metadataQr = spec.metadataQr;
 

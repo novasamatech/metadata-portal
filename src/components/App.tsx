@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import {Chains, Portals} from "../scheme";
+import { Chains, Portals } from "../scheme";
 import { About } from "./About";
 import { Banner } from "./Banner";
 import { FAQ } from "./FAQ";
@@ -21,14 +21,14 @@ export default function App() {
       .then((res) => res.json())
       .catch(() => {
         console.error(
-          "Unable to fetch data file. Run `make collector` to generate it",
+          "Unable to fetch data file. Run `make collector` to generate it"
         );
       })
       .then((res) => {
-        const polkadot = 'polkadot';
-        const kusama = 'kusama';
-        const westend = 'westend';
-        const rococo = 'rococo';
+        const polkadot = "polkadot";
+        const kusama = "kusama";
+        const westend = "westend";
+        const rococo = "rococo";
         const polkadotParachains: string[] = [];
         const kusamaParachains: string[] = [];
         const westendParachain: string[] = [];
@@ -36,7 +36,7 @@ export default function App() {
         const solochains: string[] = [];
         const testSolochains: string[] = [];
 
-        Object.keys(res).forEach(key => {
+        Object.keys(res).forEach((key) => {
           const chainSpec = res[key];
           if (chainSpec.relayChain === polkadot) {
             polkadotParachains.push(key);
@@ -53,12 +53,20 @@ export default function App() {
           }
         });
 
-        polkadotParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
-        kusamaParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
-        westendParachain.sort( (a,b) => res[a].title.localeCompare(res[b].title));
-        rococoParachains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
-        solochains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
-        testSolochains.sort( (a,b) => res[a].title.localeCompare(res[b].title));
+        polkadotParachains.sort((a, b) =>
+          res[a].title.localeCompare(res[b].title)
+        );
+        kusamaParachains.sort((a, b) =>
+          res[a].title.localeCompare(res[b].title)
+        );
+        westendParachain.sort((a, b) =>
+          res[a].title.localeCompare(res[b].title)
+        );
+        rococoParachains.sort((a, b) =>
+          res[a].title.localeCompare(res[b].title)
+        );
+        solochains.sort((a, b) => res[a].title.localeCompare(res[b].title));
+        testSolochains.sort((a, b) => res[a].title.localeCompare(res[b].title));
 
         const sortedChains: Chains = {};
         sortedChains[polkadot] = res[polkadot];
@@ -86,10 +94,10 @@ export default function App() {
 
   useEffect(() => {
     if (Object.keys(chains).length === 0 || currentChain) return;
-    const polkadot = 'polkadot';
-    const kusama = 'kusama';
-    const westend = 'westend';
-    const rococo = 'rococo';
+    const polkadot = "polkadot";
+    const kusama = "kusama";
+    const westend = "westend";
+    const rococo = "rococo";
     const polkadotParachains: string[] = [];
     const kusamaParachains: string[] = [];
     const westendParachain: string[] = [];
@@ -97,7 +105,7 @@ export default function App() {
     const solochains: string[] = [];
     const testSolochains: string[] = [];
 
-    Object.keys(chains).forEach(key => {
+    Object.keys(chains).forEach((key) => {
       const chainSpec = chains[key];
       if (chainSpec.relayChain === polkadot) {
         polkadotParachains.push(key);
@@ -114,12 +122,22 @@ export default function App() {
       }
     });
 
-    polkadotParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
-    kusamaParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
-    westendParachain.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
-    rococoParachains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
-    solochains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
-    testSolochains.sort( (a,b) => chains[a].title.localeCompare(chains[b].title));
+    polkadotParachains.sort((a, b) =>
+      chains[a].title.localeCompare(chains[b].title)
+    );
+    kusamaParachains.sort((a, b) =>
+      chains[a].title.localeCompare(chains[b].title)
+    );
+    westendParachain.sort((a, b) =>
+      chains[a].title.localeCompare(chains[b].title)
+    );
+    rococoParachains.sort((a, b) =>
+      chains[a].title.localeCompare(chains[b].title)
+    );
+    solochains.sort((a, b) => chains[a].title.localeCompare(chains[b].title));
+    testSolochains.sort((a, b) =>
+      chains[a].title.localeCompare(chains[b].title)
+    );
 
     const sortedChains: Chains = {};
     sortedChains[polkadot] = chains[polkadot];
@@ -138,7 +156,7 @@ export default function App() {
     const network =
       (Object.keys(chains).includes(locationChain) && locationChain) ||
       Object.keys(chains).find(
-        (key) => chains[key].genesisHash == locationChain,
+        (key) => chains[key].genesisHash == locationChain
       ) ||
       Object.keys(chains)[0];
     setCurrentChain(network);
@@ -181,7 +199,7 @@ export default function App() {
           </div>
         </div>
         <div className="w-full p-2 pt-0 pb-8 md:pb-24 md:p-4 xl:pl-2 xl:pt-12 space-y-4">
-          <Network spec={spec}/>
+          <Network spec={spec} />
           <FAQ />
           <div className="py-4 xl:hidden">
             <Hr />
