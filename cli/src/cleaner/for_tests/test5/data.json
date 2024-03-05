@@ -7,6 +7,7 @@
     "unit": "DOT",
     "base58prefix": 0,
     "logo": "polkadot",
+    "icon": "https://test",
     "decimals": 10,
     "metadataQr": {
       "version": 9,
@@ -20,7 +21,8 @@
     "specsQr": {
       "path": "/qr/polkadot_specs.png",
       "signedBy": "Parity"
-    }
+    },
+    "testnet": false
   },
   "polkadot-statemint": {
     "title": "statemint",
@@ -30,7 +32,9 @@
     "unit": "DOT",
     "base58prefix": 0,
     "logo": "polkadot",
+    "icon": "https://test",
     "decimals": 10,
+    "testnet": false,
     "metadataQr": {
       "version": 9,
       "file": {
