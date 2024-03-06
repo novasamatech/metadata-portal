@@ -31,7 +31,7 @@ where
                 Ok(res) => return Ok(res),
                 Err(e) => warn!("Failed to fetch {}: {:?}", url, e),
             }
-            let interval_seconds = time::Duration::from_secs(1 * i);
+            let interval_seconds = time::Duration::from_secs(i);
             thread::sleep(interval_seconds);
         }
     }

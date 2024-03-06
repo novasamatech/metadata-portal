@@ -154,10 +154,9 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parent_id {
-                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
-                        None => None,
-                    },
+                    relay_chain: chain
+                        .parent_id
+                        .map(|parent_id| String::from(relay_chains.get(&parent_id).unwrap())),
                 });
             }
             None => {
@@ -189,10 +188,10 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parent_id {
-                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
-                        None => None,
-                    },
+                    relay_chain: chain
+                        .parent_id
+                        .as_ref()
+                        .map(|parent_id| String::from(relay_chains.get(parent_id).unwrap())),
                 };
                 let fetcher = ConfigRpcFetcher;
                 let fetch_result = fetcher.fetch_specs(&dummy_chain);
@@ -231,10 +230,10 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                         }
                         None => None,
                     },
-                    relay_chain: match &chain.parent_id {
-                        Some(parent_id) => Some(String::from(relay_chains.get(parent_id).unwrap())),
-                        None => None,
-                    },
+                    relay_chain: chain
+                        .parent_id
+                        .as_ref()
+                        .map(|parent_id| String::from(relay_chains.get(parent_id).unwrap())),
                 });
                 warn!(
                     "Add chain {} in config-template.toml in order to speed up next chain update",
@@ -255,10 +254,7 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
             token_unit: None,
             testnet: Some(chain.testnet),
             verifier: chain.verifier,
-            encryption: match &chain.encryption {
-                Some(encryption) => Some(String::from(encryption)),
-                None => None,
-            },
+            encryption: chain.encryption.as_ref().map(String::from),
             relay_chain: chain.relay_chain.clone(),
         });
     }
