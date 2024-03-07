@@ -21,7 +21,7 @@ export default function App() {
       .then((res) => res.json())
       .catch(() => {
         console.error(
-          "Unable to fetch data file. Run `make collector` to generate it"
+          "Unable to fetch data file. Run `make collector` to generate it",
         );
       })
       .then((res) => {
@@ -54,16 +54,16 @@ export default function App() {
         });
 
         polkadotParachains.sort((a, b) =>
-          res[a].title.localeCompare(res[b].title)
+          res[a].title.localeCompare(res[b].title),
         );
         kusamaParachains.sort((a, b) =>
-          res[a].title.localeCompare(res[b].title)
+          res[a].title.localeCompare(res[b].title),
         );
         westendParachain.sort((a, b) =>
-          res[a].title.localeCompare(res[b].title)
+          res[a].title.localeCompare(res[b].title),
         );
         rococoParachains.sort((a, b) =>
-          res[a].title.localeCompare(res[b].title)
+          res[a].title.localeCompare(res[b].title),
         );
         solochains.sort((a, b) => res[a].title.localeCompare(res[b].title));
         testSolochains.sort((a, b) => res[a].title.localeCompare(res[b].title));
@@ -123,20 +123,20 @@ export default function App() {
     });
 
     polkadotParachains.sort((a, b) =>
-      chains[a].title.localeCompare(chains[b].title)
+      chains[a].title.localeCompare(chains[b].title),
     );
     kusamaParachains.sort((a, b) =>
-      chains[a].title.localeCompare(chains[b].title)
+      chains[a].title.localeCompare(chains[b].title),
     );
     westendParachain.sort((a, b) =>
-      chains[a].title.localeCompare(chains[b].title)
+      chains[a].title.localeCompare(chains[b].title),
     );
     rococoParachains.sort((a, b) =>
-      chains[a].title.localeCompare(chains[b].title)
+      chains[a].title.localeCompare(chains[b].title),
     );
     solochains.sort((a, b) => chains[a].title.localeCompare(chains[b].title));
     testSolochains.sort((a, b) =>
-      chains[a].title.localeCompare(chains[b].title)
+      chains[a].title.localeCompare(chains[b].title),
     );
 
     const sortedChains: Chains = {};
@@ -156,7 +156,7 @@ export default function App() {
     const network =
       (Object.keys(chains).includes(locationChain) && locationChain) ||
       Object.keys(chains).find(
-        (key) => chains[key].genesisHash == locationChain
+        (key) => chains[key].genesisHash == locationChain,
       ) ||
       Object.keys(chains)[0];
     setCurrentChain(network);

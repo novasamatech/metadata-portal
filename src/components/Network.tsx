@@ -126,7 +126,7 @@ export const Network = ({ spec }: { spec: ChainSpec }) => {
                     <button
                       className={cn(
                         "flex-1 p-3 rounded-full focus:outline-none",
-                        selected && "text-white"
+                        selected && "text-white",
                       )}
                       style={{ backgroundColor: selected ? spec.color : "" }}
                     >
