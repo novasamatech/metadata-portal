@@ -1110,18 +1110,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 68,
-    "metadataQr": {
-      "version": 68,
-      "file": {
-        "path": "qr/aleph-node_metadata_68.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x5364b98cf8ee93fa2ae4a34b1d63ec7a0cde179bc1c1c906910d0c93dee27752"
-        }
-      }
-    },
+    "liveMetaVersion": 72,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
@@ -1734,35 +1724,6 @@
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "equilibrium-parachain": {
-    "title": "Equilibrium (PAUSED)",
-    "color": "#000000",
-    "rpcEndpoint": "wss://node.pol.equilibrium.io",
-    "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-    "unit": "TOKEN",
-    "base58prefix": 68,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
-    "decimals": 9,
-    "liveMetaVersion": 41,
-    "metadataQr": {
-      "version": 41,
-      "file": {
-        "path": "qr/equilibrium-parachain_metadata_41.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x363956abcbf14b41bfb32ecf3215d56404c03657242b50a21f73cc0660d9c49e"
-        }
-      }
-    },
-    "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/equilibrium-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
