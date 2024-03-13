@@ -218,18 +218,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 118,
-    "metadataQr": {
-      "version": 118,
-      "file": {
-        "path": "qr/kusama-shiden_metadata_118.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9b9d6dfd4dfad9ce1b2cc0c4385fc5f9a163872d24b1e170f6b56e2e4eeb69b0"
-        }
-      }
-    },
+    "liveMetaVersion": 120,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-shiden_specs.png",
@@ -2168,18 +2158,8 @@
     "base58prefix": 126,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
     "decimals": 10,
-    "liveMetaVersion": 2001,
-    "metadataQr": {
-      "version": 2001,
-      "file": {
-        "path": "qr/joystream-node_metadata_2001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd328a09b426d9f67bbd582368a615cc2540f4f6138a1615acbff5e1dadae5959"
-        }
-      }
-    },
+    "liveMetaVersion": 2002,
+    "metadataQr": null,
     "latestMetadata": "qr/joystream-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/joystream-node_specs.png",
