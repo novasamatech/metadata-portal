@@ -31,7 +31,7 @@ pub(crate) fn update_from_node(
     let mut error_fetching_data = false;
     for chain in config.chains {
         let encryption = get_crypto(&chain);
-        if !specs_qrs.contains_key(chain.name.as_str()) {
+        if !specs_qrs.contains_key(&chain.portal_id()) {
             let specs_res = fetcher.fetch_specs(&chain);
             if specs_res.is_err() {
                 error_fetching_data = true;
