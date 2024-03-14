@@ -1498,18 +1498,8 @@
     "base58prefix": 57,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 13,
-    "metadataQr": {
-      "version": 13,
-      "file": {
-        "path": "qr/kusama-amplitude_metadata_13.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf7520aae0fef38961e572e45d0e0e600330667ba970f92c538eba4a4da719f2c"
-        }
-      }
-    },
+    "liveMetaVersion": 14,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-amplitude_specs.png",
