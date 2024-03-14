@@ -1208,18 +1208,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 332,
-    "metadataQr": {
-      "version": 332,
-      "file": {
-        "path": "qr/node_metadata_332.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xef222c9a1fdb5e15ea2db3f504963d68702bc5d177bfae5554978fb905710c79"
-        }
-      }
-    },
+    "liveMetaVersion": 334,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
