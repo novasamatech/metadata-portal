@@ -579,7 +579,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
     "liveMetaVersion": 82,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 82,
+      "file": {
+        "path": "qr/polkadot-astar_metadata_82.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x90cd7047e6edaeedf6aba850b08f3565604fbfbf3be9a04d962e59bb8f278245"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-astar_specs.png",
@@ -959,7 +969,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
     "liveMetaVersion": 1026,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1026,
+      "file": {
+        "path": "qr/polkadot-centrifuge_metadata_1026.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2b709841c2c5a975ca8f93f651a52ad955aae8ccf93f5f4cd0975f7ae41a111d"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-centrifuge_specs.png",
