@@ -998,18 +998,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
-    "liveMetaVersion": 222,
-    "metadataQr": {
-      "version": 222,
-      "file": {
-        "path": "qr/polkadot-hydradx_metadata_222.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc8b060512fe85e21d00245c93ebc80cec1f7d11bddf6f09c9873080a910ee7d8"
-        }
-      }
-    },
+    "liveMetaVersion": 224,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
@@ -1478,18 +1468,8 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
-    "liveMetaVersion": 20,
-    "metadataQr": {
-      "version": 20,
-      "file": {
-        "path": "qr/kusama-tinkernet_node_metadata_20.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xacffd3699a7e38af75d5157eb787fa1bfe8dbdef1b583f751372122a2fa97dbc"
-        }
-      }
-    },
+    "liveMetaVersion": 21,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
@@ -2258,18 +2238,8 @@
     "base58prefix": 41,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
-    "liveMetaVersion": 5006,
-    "metadataQr": {
-      "version": 5006,
-      "file": {
-        "path": "qr/polkadot-polimec-mainnet_metadata_5006.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf50a2c2d28ba145d5a99698561c0a2f3958742d9f5bd1c413bf6174f6b83c001"
-        }
-      }
-    },
+    "liveMetaVersion": 5007,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polimec-mainnet_specs.png",
