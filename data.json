@@ -999,7 +999,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
     "decimals": 12,
     "liveMetaVersion": 224,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 224,
+      "file": {
+        "path": "qr/polkadot-hydradx_metadata_224.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x58ecf1cc6dd929c290401290313dc8103af96feb7ef1274f7c7578df22998e25"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
@@ -1469,7 +1479,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
     "liveMetaVersion": 21,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kusama-tinkernet_node_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5a70d97d65f693325ccbc646f43fae62443cf5d62ff5f79082ca0f72228f3639"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
@@ -2239,7 +2259,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
     "liveMetaVersion": 5007,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 5007,
+      "file": {
+        "path": "qr/polkadot-polimec-mainnet_metadata_5007.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x69dc77b081533394ab6db8f125fbb9b3d20eefd412e4e0f5dd2fa0c237e3f613"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polimec-mainnet_specs.png",
