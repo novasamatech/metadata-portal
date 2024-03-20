@@ -878,18 +878,8 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 40,
-    "metadataQr": {
-      "version": 40,
-      "file": {
-        "path": "qr/kusama-subsocial-parachain_metadata_40.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x68d9329f74e34848a27075aa3bd96839b14c919ec59091164d4d40f299f48ed6"
-        }
-      }
-    },
+    "liveMetaVersion": 41,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-subsocial-parachain_specs.png",
@@ -2348,15 +2338,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1008000,
+    "liveMetaVersion": 1009000,
     "metadataQr": {
-      "version": 1008000,
+      "version": 1009000,
       "file": {
-        "path": "qr/rococo_metadata_1008000.apng",
+        "path": "qr/rococo_metadata_1009000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdadf51293db753665cc667b66a66bff35f296e74138468c1ea3a9378bd08421f"
+          "block": "0x9bbddb5102e9f6a2e28f1cded0947cc34fbdc28d7a953b469d38fd7a5a8eceaa"
         }
       }
     },
