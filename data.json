@@ -2100,7 +2100,7 @@
     "relayChain": "kusama"
   },
   "matrix-enjin": {
-    "title": "Enjin",
+    "title": "Enjin Matrix",
     "color": "#000000",
     "rpcEndpoint": "wss://rpc.matrix.blockchain.enjin.io",
     "genesisHash": "0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
@@ -2219,6 +2219,36 @@
     "testnet": false,
     "relayChain": null
   },
+  "polkadot-ewx-parachain": {
+    "title": "Energy Web X",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.energywebx.com/",
+    "genesisHash": "0x5a51e04b88a4784d205091aa7bada002f3e5da3045e5b05655ee4db2589c33b5",
+    "unit": "EWT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
+    "decimals": 18,
+    "liveMetaVersion": 56,
+    "metadataQr": {
+      "version": 56,
+      "file": {
+        "path": "qr/polkadot-ewx-parachain_metadata_56.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2821ea449b0badf97ab7e9af6d5c43d6e601d8712fc348b5801449c349a34df0"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-ewx-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
   "polkadot-invarch": {
     "title": "InvArch",
     "color": "#000000",
@@ -2308,6 +2338,36 @@
     },
     "testnet": false,
     "relayChain": "polkadot"
+  },
+  "enjin": {
+    "title": "Enjin Relay",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.relay.blockchain.enjin.io",
+    "genesisHash": "0xd8761d3c88f26dc12875c00d3165f7d67243d56fc85b4cf19937601a7916e5a9",
+    "unit": "ENJ",
+    "base58prefix": 2135,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1026,
+    "metadataQr": {
+      "version": 1026,
+      "file": {
+        "path": "qr/enjin_metadata_1026.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe94c4ff5dda660e7d7e9aa9c1f5541723341bb32900d5268b020b4ecdb657831"
+        }
+      }
+    },
+    "latestMetadata": "qr/enjin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/enjin_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": null
   },
   "paseo": {
     "title": "Paseo Testnet",
