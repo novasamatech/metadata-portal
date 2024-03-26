@@ -1479,7 +1479,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
     "liveMetaVersion": 22,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 22,
+      "file": {
+        "path": "qr/kusama-tinkernet_node_metadata_22.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x06d0f3f8c84d37c15b335a859b84909040536d0ca803aae8390d10eb628a9576"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
