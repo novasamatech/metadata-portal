@@ -609,7 +609,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
     "decimals": 12,
     "liveMetaVersion": 205,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 205,
+      "file": {
+        "path": "qr/polkadot-parallel_metadata_205.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x42a0f29bf339a73d3fdbaeb123ce530df8130130541a2413eff3943131770d4a"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-parallel_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-parallel_specs.png",
