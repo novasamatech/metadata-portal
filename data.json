@@ -958,18 +958,8 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1027,
-    "metadataQr": {
-      "version": 1027,
-      "file": {
-        "path": "qr/polkadot-centrifuge_metadata_1027.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x61eb7d8ff0bffce97e7b9dac09960979770537cf8d6bd0e47fcbbe032bfb02db"
-        }
-      }
-    },
+    "liveMetaVersion": 1028,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-centrifuge_specs.png",
