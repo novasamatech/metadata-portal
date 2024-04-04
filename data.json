@@ -399,7 +399,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "liveMetaVersion": 1270,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1270,
+      "file": {
+        "path": "qr/kusama-khala_metadata_1270.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xde5f3dec13bb21c2726ffe028dba41895bfb5ab4a430a29ea6e7cf7d0b37781b"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-khala_specs.png",
