@@ -1688,18 +1688,8 @@
     "base58prefix": 56,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
-    "liveMetaVersion": 14,
-    "metadataQr": {
-      "version": 14,
-      "file": {
-        "path": "qr/polkadot-pendulum_metadata_14.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xea98a4652b77359446444871aca4e90f177a4fe72fd231edca34d0091118b953"
-        }
-      }
-    },
+    "liveMetaVersion": 15,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-pendulum_specs.png",
