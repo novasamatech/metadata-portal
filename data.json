@@ -2078,18 +2078,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
     "decimals": 18,
-    "liveMetaVersion": 6,
-    "metadataQr": {
-      "version": 6,
-      "file": {
-        "path": "qr/kusama-peaq-node-krest_metadata_6.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x07bf6dd6b13ad083d73b4ec31145a54cb5150f4509da50f9a91ba6b3a27fea43"
-        }
-      }
-    },
+    "liveMetaVersion": 7,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-peaq-node-krest_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-peaq-node-krest_specs.png",
