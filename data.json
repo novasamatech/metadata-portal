@@ -69,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1010000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1010000,
+      "file": {
+        "path": "qr/westend_metadata_1010000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x30b789fa01b41932a1f7b6174349e71939f3166da96d90d376394e464ac94800"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -868,18 +878,8 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 43,
-    "metadataQr": {
-      "version": 43,
-      "file": {
-        "path": "qr/kusama-subsocial-parachain_metadata_43.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x6d4d838a6d84cf72be8154c11b27fea20ef0438d8ba4c68bae3571a5a2923db6"
-        }
-      }
-    },
+    "liveMetaVersion": 44,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-subsocial-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-subsocial-parachain_specs.png",
