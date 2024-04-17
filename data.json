@@ -2439,7 +2439,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Moonriver.svg",
     "decimals": 18,
     "liveMetaVersion": 2901,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2901,
+      "file": {
+        "path": "qr/moonbase_metadata_2901.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd017664d82f748bff568f2115d628d70fc86103ac7a4015de984cfbce4ccad14"
+        }
+      }
+    },
     "latestMetadata": "qr/moonbase_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbase_specs.png",
