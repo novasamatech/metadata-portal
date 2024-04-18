@@ -39,7 +39,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
     "liveMetaVersion": 1002000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002000,
+      "file": {
+        "path": "qr/kusama_metadata_1002000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x81c34ca74defac15feaf6092aa5abfe77d2bb847f304038a272a74f261e0f87f"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama_specs.png",
@@ -89,7 +99,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
     "liveMetaVersion": 1002000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002000,
+      "file": {
+        "path": "qr/kusama-statemine_metadata_1002000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfa757b01bea8b6b1d4fd9b8f02dfcff12b78962504ea574170888111025ca0ed"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-statemine_specs.png",
@@ -408,18 +428,8 @@
     "base58prefix": 38,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
-    "liveMetaVersion": 11210,
-    "metadataQr": {
-      "version": 11210,
-      "file": {
-        "path": "qr/polkadot-kilt-spiritnet_metadata_11210.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4bba61b6b078c4e761ef1d739a7fba8a888909f073de26a8752638c78841780c"
-        }
-      }
-    },
+    "liveMetaVersion": 11300,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-kilt-spiritnet_specs.png",
@@ -709,7 +719,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Encointer.svg",
     "decimals": 12,
     "liveMetaVersion": 1002000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002000,
+      "file": {
+        "path": "qr/kusama-encointer-parachain_metadata_1002000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2d6b8ee98d74db57ad594e7fd9acf211097c6fd64bec9feed1297e867b64827c"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-encointer-parachain_specs.png",
@@ -1989,7 +2009,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
     "liveMetaVersion": 1002000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002000,
+      "file": {
+        "path": "qr/kusama-bridge-hub-kusama_metadata_1002000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbbdcb9a0d59154aa2b9d218bf8f08608784a1b2e765fb5bd3e99c055bdb51afc"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bridge-hub-kusama_specs.png",
@@ -2128,18 +2158,8 @@
     "base58prefix": 126,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
     "decimals": 10,
-    "liveMetaVersion": 2002,
-    "metadataQr": {
-      "version": 2002,
-      "file": {
-        "path": "qr/joystream-node_metadata_2002.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1844fb6b745a7736b5fe7bda5939f6abc29bbc0413885df11a21330e807ce6c7"
-        }
-      }
-    },
+    "liveMetaVersion": 2003,
+    "metadataQr": null,
     "latestMetadata": "qr/joystream-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/joystream-node_specs.png",
