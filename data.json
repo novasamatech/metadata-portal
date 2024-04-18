@@ -38,18 +38,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
-    "liveMetaVersion": 1001003,
-    "metadataQr": {
-      "version": 1001003,
-      "file": {
-        "path": "qr/kusama_metadata_1001003.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4bace786f64ffd2689e3cc2da2fe6f9c2eb6eec473c7011be4aad72ead366493"
-        }
-      }
-    },
+    "liveMetaVersion": 1002000,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama_specs.png",
@@ -98,18 +88,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1001002,
-    "metadataQr": {
-      "version": 1001002,
-      "file": {
-        "path": "qr/kusama-statemine_metadata_1001002.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x71d5ebb7313e40b7ac768981666a0771e228e8fdabe67c4b117581ae7b8d2983"
-        }
-      }
-    },
+    "liveMetaVersion": 1002000,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-statemine_specs.png",
@@ -728,18 +708,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Encointer.svg",
     "decimals": 12,
-    "liveMetaVersion": 16,
-    "metadataQr": {
-      "version": 16,
-      "file": {
-        "path": "qr/kusama-encointer-parachain_metadata_16.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8fd3dab4f3cfbe9fa0ffd7b028b1cae1e5b136c9649bbf344bfcd30307cfd2a8"
-        }
-      }
-    },
+    "liveMetaVersion": 1002000,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-encointer-parachain_specs.png",
@@ -2018,18 +1988,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1001000,
-    "metadataQr": {
-      "version": 1001000,
-      "file": {
-        "path": "qr/kusama-bridge-hub-kusama_metadata_1001000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc91a27d387832a3a3f4eed2d8da2bd0158302d548fd06288146be8f3ec8360e7"
-        }
-      }
-    },
+    "liveMetaVersion": 1002000,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bridge-hub-kusama_specs.png",
