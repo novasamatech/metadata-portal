@@ -429,7 +429,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
     "liveMetaVersion": 11300,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 11300,
+      "file": {
+        "path": "qr/polkadot-kilt-spiritnet_metadata_11300.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x27e53992ca1dc6f7dc3d4e767acee07a147da12159418374c0ca1f0bd315e822"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-kilt-spiritnet_specs.png",
@@ -2159,7 +2169,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
     "decimals": 10,
     "liveMetaVersion": 2003,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2003,
+      "file": {
+        "path": "qr/joystream-node_metadata_2003.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8fa5c083bfb3f31266afd107eb640cf05748daadf7e867de36d1ccc82aca1770"
+        }
+      }
+    },
     "latestMetadata": "qr/joystream-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/joystream-node_specs.png",
@@ -2269,7 +2289,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
     "liveMetaVersion": 6000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6000,
+      "file": {
+        "path": "qr/polkadot-polimec-mainnet_metadata_6000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2bac48ef5e59d013f46f4ec75ab897192a37bd7cb0542a0d3158355e5235bf56"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polimec-mainnet_specs.png",
