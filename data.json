@@ -638,8 +638,18 @@
     "base58prefix": 128,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
     "decimals": 18,
-    "liveMetaVersion": 19,
-    "metadataQr": null,
+    "liveMetaVersion": 25,
+    "metadataQr": {
+      "version": 25,
+      "file": {
+        "path": "qr/polkadot-clover-mainnet_metadata_25.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfa91b27a03efb57a28dc008ccaee55a9ddfb3e06c52adcf64f6937cb601b16d4"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-clover-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-clover-mainnet_specs.png",
