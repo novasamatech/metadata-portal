@@ -1539,7 +1539,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
     "liveMetaVersion": 26,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 26,
+      "file": {
+        "path": "qr/mainnet_metadata_26.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe374c8ba4620f7d2142b82de2fd222ca0b5242627bbf105d186e14e19c9a7c6d"
+        }
+      }
+    },
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
