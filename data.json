@@ -1869,7 +1869,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6620,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6620,
+      "file": {
+        "path": "qr/kusama-crab2_metadata_6620.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x588ba9b3172fef256c1f2914724b0f35a9c529d7bcc754bcd91dba509f57afdc"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-crab2_specs.png",
