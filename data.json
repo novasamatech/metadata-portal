@@ -2409,7 +2409,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1011000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1011000,
+      "file": {
+        "path": "qr/rococo_metadata_1011000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbdba6d99ef19deaccd760d9cf2055f897e17bf6615c1e9bb34d38a4a6c53ad60"
+        }
+      }
+    },
     "latestMetadata": "qr/rococo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/rococo_specs.png",
