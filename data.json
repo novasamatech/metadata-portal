@@ -69,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1011000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1011000,
+      "file": {
+        "path": "qr/westend_metadata_1011000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf2859c6db877299f32bd6c3f8f1d59caf8d85a324004fce5632005028127fd48"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
