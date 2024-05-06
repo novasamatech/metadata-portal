@@ -188,18 +188,8 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 2801,
-    "metadataQr": {
-      "version": 2801,
-      "file": {
-        "path": "qr/kusama-moonriver_metadata_2801.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x000afc905493b651d3c9d6404b7efbdc8bbe04a69209effacdb738beb81dbc50"
-        }
-      }
-    },
+    "liveMetaVersion": 2901,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-moonriver_specs.png",
