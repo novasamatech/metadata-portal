@@ -1478,18 +1478,8 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
-    "liveMetaVersion": 22,
-    "metadataQr": {
-      "version": 22,
-      "file": {
-        "path": "qr/kusama-tinkernet_node_metadata_22.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x06d0f3f8c84d37c15b335a859b84909040536d0ca803aae8390d10eb628a9576"
-        }
-      }
-    },
+    "liveMetaVersion": 23,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
@@ -2109,7 +2099,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1006,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1006,
+      "file": {
+        "path": "qr/matrix-enjin_metadata_1006.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x80e28a8bd1e87ff2f94b849c3fb86ad57717d97a87b3ab1abe25988fe314141e"
+        }
+      }
+    },
     "latestMetadata": "qr/matrix-enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/matrix-enjin_specs.png",
