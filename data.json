@@ -2289,7 +2289,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
     "liveMetaVersion": 7000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 7000,
+      "file": {
+        "path": "qr/polkadot-polimec-mainnet_metadata_7000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5a09c1bcde8f77219dff4e89194f82ebcbcfed38d3756cd7a5884783a1183a25"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polimec-mainnet_specs.png",
