@@ -19,7 +19,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-polkadot.novasamatech.org",
     "wss://apps-rpc.polkadot.io",
-    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot-rpc.dwellir.com",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot.public.curie.radiumblock.co/ws",
