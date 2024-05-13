@@ -17,9 +17,12 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
-    "wss://polkadot.public.curie.radiumblock.co/ws",
-    "wss://dot-rpc.stakeworld.io",
+    "wss://rpc-polkadot.novasamatech.org",
+    "wss://apps-rpc.polkadot.io",
+    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot-rpc.dwellir.com",
+    "wss://dot-rpc.stakeworld.io",
+    "wss://polkadot.public.curie.radiumblock.co/ws",
     "wss://1rpc.io/dot",
     "wss://rpc-polkadot.luckyfriday.io",
     "wss://rpc.ibp.network/polkadot",
@@ -34,6 +37,8 @@ title = "Kusama"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
+    "wss://rpc-kusama.novasamatech.org",
+    "wss://apps-kusama-rpc.polkadot.io",
     "wss://kusama-rpc.dwellir.com",
     "wss://rpc-kusama.luckyfriday.io",
     "wss://1rpc.io/ksm",
@@ -486,8 +491,8 @@ title = "Nodle Parachain"
 color = "#1ab394"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Nodle.svg"
 rpc_endpoints = [
-    "wss://eden-rpc.dwellir.com",
     "wss://nodle-parachain.api.onfinality.io/public-ws",
+    "wss://nodle-rpc.dwellir.com",
 ]
 testnet = false
 verifier = "novasama"
@@ -660,6 +665,16 @@ verifier = "novasama"
 relay_chain = "kusama"
 
 [[chains]]
+name = "gm_parachain"
+title = "GM (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
+rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
+
+[[chains]]
 name = "amplitude"
 title = "Amplitude"
 color = "#5defa7"
@@ -741,6 +756,16 @@ verifier = "novasama"
 relay_chain = "polkadot"
 
 [[chains]]
+name = "avn-parachain"
+title = "Aventus"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
+rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
 name = "node-subtensor"
 title = "Bittensor"
 color = "#000000"
@@ -748,6 +773,19 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "Equilibrium-parachain"
+title = "Equilibrium (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
+rpc_endpoints = [
+    "wss://node.pol.equilibrium.io",
+    "wss://equilibrium-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
@@ -880,7 +918,7 @@ name = "peaq-node-krest"
 title = "krest"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg"
-rpc_endpoints = ["wss://wss-krest.peaq.network"]
+rpc_endpoints = ["wss://krest.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
@@ -976,6 +1014,40 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "curio-mainnet"
+title = "Curio"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Curio.svg"
+rpc_endpoints = [
+    "wss://archive.parachain.curioinvest.com",
+    "wss://parachain.curioinvest.com/",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
+
+[[chains]]
+name = "mythos"
+title = "Mythos"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg"
+rpc_endpoints = ["wss://polkadot-mythos-rpc.polkadot.io"]
+testnet = false
+verifier = "novasama"
+encryption = "ethereum"
+relay_chain = "polkadot"
+
+[[chains]]
+name = "acurast-parachain"
+title = "Acurast Canary"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg"
+rpc_endpoints = ["wss://acurast-canarynet-ws.prod.gke.papers.tech"]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
 
 [[chains]]
 name = "paseo"
