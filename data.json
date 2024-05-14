@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://polkadot.public.curie.radiumblock.co/ws",
+    "rpcEndpoint": "wss://rpc-polkadot.novasamatech.org",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -32,7 +32,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://kusama-rpc.dwellir.com",
+    "rpcEndpoint": "wss://rpc-kusama.novasamatech.org",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -1052,7 +1052,7 @@
   "polkadot-nodle-para": {
     "title": "Nodle Parachain",
     "color": "#1ab394",
-    "rpcEndpoint": "wss://eden-rpc.dwellir.com",
+    "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
     "unit": "NODL",
     "base58prefix": 37,
@@ -1739,6 +1739,36 @@
     "testnet": false,
     "relayChain": "polkadot"
   },
+  "polkadot-avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 61,
+    "metadataQr": {
+      "version": 61,
+      "file": {
+        "path": "qr/polkadot-avn-parachain_metadata_61.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb6a081701af36a58d739403e44749b6dd448c434357de3ce7c48518840043082"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-avn-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#000000",
@@ -2072,7 +2102,7 @@
   "kusama-peaq-node-krest": {
     "title": "krest",
     "color": "#000000",
-    "rpcEndpoint": "wss://wss-krest.peaq.network",
+    "rpcEndpoint": "wss://krest.api.onfinality.io/public-ws",
     "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
     "unit": "KREST",
     "base58prefix": 42,
@@ -2368,6 +2398,96 @@
     },
     "testnet": false,
     "relayChain": null
+  },
+  "kusama-curio-mainnet": {
+    "title": "Curio",
+    "color": "#000000",
+    "rpcEndpoint": "wss://archive.parachain.curioinvest.com",
+    "genesisHash": "0x1d73b9f5dc392744e0dee00a6d6254fcfa2305386cceba60315894fa4807053a",
+    "unit": "CGT",
+    "base58prefix": 777,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Curio.svg",
+    "decimals": 18,
+    "liveMetaVersion": 101018,
+    "metadataQr": {
+      "version": 101018,
+      "file": {
+        "path": "qr/kusama-curio-mainnet_metadata_101018.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x45acc237c86bc229454bdb831135e5171b88e2d72a6726f26ad9e23e5c0916a5"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-curio-mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-curio-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
+  },
+  "polkadot-mythos": {
+    "title": "Mythos",
+    "color": "#000000",
+    "rpcEndpoint": "wss://polkadot-mythos-rpc.polkadot.io",
+    "genesisHash": "0xf6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+    "unit": "MYTH",
+    "base58prefix": 29972,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1001,
+    "metadataQr": {
+      "version": 1001,
+      "file": {
+        "path": "qr/polkadot-mythos_metadata_1001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x68b0729bfeb4e9ab335232f74d1921c589b5c9aa999616b61df8f820915f5e88"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-mythos_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-mythos_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
+  "kusama-acurast-parachain": {
+    "title": "Acurast Canary",
+    "color": "#000000",
+    "rpcEndpoint": "wss://acurast-canarynet-ws.prod.gke.papers.tech",
+    "genesisHash": "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
+    "unit": "cACU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
+    "decimals": 12,
+    "liveMetaVersion": 12,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x017aa36a0c6f5d18084d082b4d5b26e13068d85ae5dc82d3b92d05c1770beb6d"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-acurast-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
   },
   "paseo": {
     "title": "Paseo Testnet",
