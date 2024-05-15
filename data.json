@@ -2368,18 +2368,8 @@
     "base58prefix": 777,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Curio.svg",
     "decimals": 18,
-    "liveMetaVersion": 101018,
-    "metadataQr": {
-      "version": 101018,
-      "file": {
-        "path": "qr/kusama-curio-mainnet_metadata_101018.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x45acc237c86bc229454bdb831135e5171b88e2d72a6726f26ad9e23e5c0916a5"
-        }
-      }
-    },
+    "liveMetaVersion": 101019,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-curio-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-curio-mainnet_specs.png",
