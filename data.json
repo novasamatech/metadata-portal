@@ -848,18 +848,8 @@
     "base58prefix": 131,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
     "decimals": 12,
-    "liveMetaVersion": 9151,
-    "metadataQr": {
-      "version": 9151,
-      "file": {
-        "path": "qr/kusama-litmus-parachain_metadata_9151.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x99fc7f7ac69d149569225fcfa27fb50f1c4c6bdf86caa06e502943d81a3bf78d"
-        }
-      }
-    },
+    "liveMetaVersion": 9180,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-litmus-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-litmus-parachain_specs.png",
