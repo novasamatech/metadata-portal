@@ -2019,7 +2019,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 1002002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002002,
+      "file": {
+        "path": "qr/polkadot-bridge-hub-polkadot_metadata_1002002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x507d2161d2cc0c6a01b4b0e84a447d5991a0b3987cdbd5aa30dd9e3e41c09c90"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-bridge-hub-polkadot_specs.png",
