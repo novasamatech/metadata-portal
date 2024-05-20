@@ -159,7 +159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 2901,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2901,
+      "file": {
+        "path": "qr/polkadot-moonbeam_metadata_2901.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x861cbcd8cea2a0eb82f408d2e3f924e6975a11975c038325da55a77e99bb625c"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
@@ -2399,7 +2409,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Curio.svg",
     "decimals": 18,
     "liveMetaVersion": 101020,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 101020,
+      "file": {
+        "path": "qr/kusama-curio-mainnet_metadata_101020.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x427b189b648624e4beea2f30f12e23a14f2b159e3d068e3125f98f2ee0178fbf"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-curio-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-curio-mainnet_specs.png",
