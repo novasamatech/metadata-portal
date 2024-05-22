@@ -677,16 +677,6 @@ verifier = "novasama"
 relay_chain = "kusama"
 
 [[chains]]
-name = "gm_parachain"
-title = "GM (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
-rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
-testnet = false
-verifier = "novasama"
-relay_chain = "kusama"
-
-[[chains]]
 name = "amplitude"
 title = "Amplitude"
 color = "#5defa7"
@@ -785,19 +775,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
-
-[[chains]]
-name = "Equilibrium-parachain"
-title = "Equilibrium (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
-rpc_endpoints = [
-    "wss://node.pol.equilibrium.io",
-    "wss://equilibrium-rpc.dwellir.com",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
