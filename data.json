@@ -119,6 +119,36 @@
     "testnet": false,
     "relayChain": "kusama"
   },
+  "kusama-people-kusama": {
+    "title": "Kusama People",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kusama-people-rpc.polkadot.io",
+    "genesisHash": "0xc1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_People.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1002001,
+    "metadataQr": {
+      "version": 1002001,
+      "file": {
+        "path": "qr/kusama-people-kusama_metadata_1002001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x489d46fe0e12e8bd7db851792b260a047e9f05fdfa9c90a778c7741a9a29d79a"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-people-kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-people-kusama_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
+  },
   "kusama-karura": {
     "title": "Karura",
     "color": "#ff4c3b",
@@ -1208,18 +1238,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 355,
-    "metadataQr": {
-      "version": 355,
-      "file": {
-        "path": "qr/node_metadata_355.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x0e40d64386130b4c806cba26a57c6201eb620f8f8556fb4d29ae7b88c0b15d0d"
-        }
-      }
-    },
+    "liveMetaVersion": 356,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1802,7 +1822,7 @@
   "polkadot-ajuna": {
     "title": "Ajuna",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "rpcEndpoint": "wss://rpc-para.ajuna.network",
     "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
     "unit": "AJUN",
     "base58prefix": 1328,
@@ -1862,7 +1882,7 @@
   "polkadot-darwinia2": {
     "title": "Darwinia",
     "color": "#FF0083",
-    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
+    "rpcEndpoint": "wss://rpc.darwinia.network",
     "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
     "unit": "RING",
     "base58prefix": 18,
@@ -2483,6 +2503,36 @@
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
+  },
+  "kusama-kreivo-parachain": {
+    "title": "Kreivo",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kreivo.io/",
+    "genesisHash": "0xc710a5f16adc17bcd212cff0aedcbf1c1212a043cdc0fb2dcba861efe5305b01",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kreivo.svg",
+    "decimals": 12,
+    "liveMetaVersion": 109,
+    "metadataQr": {
+      "version": 109,
+      "file": {
+        "path": "qr/kusama-kreivo-parachain_metadata_109.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x806bd39427829e8340f4b74c1a652f37856dbcbc544e2d393f7d400563a2327b"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-kreivo-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-kreivo-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
