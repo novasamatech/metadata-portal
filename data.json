@@ -2588,18 +2588,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1011000,
-    "metadataQr": {
-      "version": 1011000,
-      "file": {
-        "path": "qr/rococo_metadata_1011000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbdba6d99ef19deaccd760d9cf2055f897e17bf6615c1e9bb34d38a4a6c53ad60"
-        }
-      }
-    },
+    "liveMetaVersion": 1012000,
+    "metadataQr": null,
     "latestMetadata": "qr/rococo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/rococo_specs.png",
@@ -2638,5 +2628,35 @@
     },
     "testnet": true,
     "relayChain": null
+  },
+  "kusama-coretime-kusama": {
+    "title": "Kusama Coretime Chain",
+    "color": "#795116",
+    "rpcEndpoint": "wss://sys.ibp.network/coretime-kusama",
+    "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1002003,
+    "metadataQr": {
+      "version": 1002003,
+      "file": {
+        "path": "qr/kusama-coretime-kusama_metadata_1002003.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8a075df9e9dec4231efa285bdf89599832c52dcdc84133f5d37b51be5ae28804"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-coretime-kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-coretime-kusama_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
   }
 }
