@@ -431,3 +431,13 @@ rpc_endpoints = ["wss://moonbase-rpc.dwellir.com"]
 testnet = true
 encryption = "ethereum"
 verifier = "novasama"
+
+[[inject_chains]]
+name = "coretime-kusama"
+color = "#795116"
+title = "Kusama Coretime Chain"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
+rpc_endpoints = ["wss://sys.ibp.network/coretime-kusama", "wss://sys.dotters.network/coretime-kusama", "wss://kusama-coretime-rpc.polkadot.io", "wss://ksm-rpc.stakeworld.io/coretime"]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
