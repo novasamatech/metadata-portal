@@ -88,18 +88,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002000,
-    "metadataQr": {
-      "version": 1002000,
-      "file": {
-        "path": "qr/kusama-statemine_metadata_1002000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfa757b01bea8b6b1d4fd9b8f02dfcff12b78962504ea574170888111025ca0ed"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-statemine_specs.png",
@@ -118,18 +108,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_People.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002001,
-    "metadataQr": {
-      "version": 1002001,
-      "file": {
-        "path": "qr/kusama-people-kusama_metadata_1002001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x489d46fe0e12e8bd7db851792b260a047e9f05fdfa9c90a778c7741a9a29d79a"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-people-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-people-kusama_specs.png",
@@ -748,18 +728,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Encointer.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002000,
-    "metadataQr": {
-      "version": 1002000,
-      "file": {
-        "path": "qr/kusama-encointer-parachain_metadata_1002000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2d6b8ee98d74db57ad594e7fd9acf211097c6fd64bec9feed1297e867b64827c"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-encointer-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-encointer-parachain_specs.png",
@@ -2068,18 +2038,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002000,
-    "metadataQr": {
-      "version": 1002000,
-      "file": {
-        "path": "qr/kusama-bridge-hub-kusama_metadata_1002000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbbdcb9a0d59154aa2b9d218bf8f08608784a1b2e765fb5bd3e99c055bdb51afc"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bridge-hub-kusama_specs.png",
@@ -2638,18 +2598,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002003,
-    "metadataQr": {
-      "version": 1002003,
-      "file": {
-        "path": "qr/kusama-coretime-kusama_metadata_1002003.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8a075df9e9dec4231efa285bdf89599832c52dcdc84133f5d37b51be5ae28804"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-coretime-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-coretime-kusama_specs.png",
