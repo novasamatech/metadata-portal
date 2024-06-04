@@ -1238,18 +1238,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 360,
-    "metadataQr": {
-      "version": 360,
-      "file": {
-        "path": "qr/node_metadata_360.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2571fd8b15d989ecc7e376114feb13ad48fa320ccf4ef139ac6cbb2efd176477"
-        }
-      }
-    },
+    "liveMetaVersion": 361,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1958,18 +1948,8 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 74,
-    "metadataQr": {
-      "version": 74,
-      "file": {
-        "path": "qr/polkadot-frequency_metadata_74.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x37bcff3cec6e5b637c7869c329122b395d8ffe4c4451bf7b95fb61106d5a6157"
-        }
-      }
-    },
+    "liveMetaVersion": 78,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-frequency_specs.png",
