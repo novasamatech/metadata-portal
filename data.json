@@ -279,7 +279,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
     "liveMetaVersion": 10000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10000,
+      "file": {
+        "path": "qr/kusama-bifrost_metadata_10000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x91b582a63e0f0c38b09a7f880a9260426524c648a00be545be39742262e3b953"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-bifrost_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bifrost_specs.png",
@@ -1229,7 +1239,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 362,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 362,
+      "file": {
+        "path": "qr/node_metadata_362.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xba6bc3337809f89c74a7364b2d4c49c0d1162ee58102627459b12bac888436b8"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
