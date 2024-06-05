@@ -1238,15 +1238,15 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 362,
+    "liveMetaVersion": 363,
     "metadataQr": {
-      "version": 362,
+      "version": 363,
       "file": {
-        "path": "qr/node_metadata_362.apng",
+        "path": "qr/node_metadata_363.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xba6bc3337809f89c74a7364b2d4c49c0d1162ee58102627459b12bac888436b8"
+          "block": "0xa1db953e5e9aa7f68c75ef59d417c2c40308c02a016e2bb70341d833fd2be24e"
         }
       }
     },
