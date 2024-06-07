@@ -186,7 +186,7 @@
     "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
     "unit": "GLMR",
     "base58prefix": 1284,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 2901,
     "metadataQr": {
@@ -216,7 +216,7 @@
     "genesisHash": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
     "unit": "MOVR",
     "base58prefix": 1285,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg",
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonriver.svg",
     "decimals": 18,
     "liveMetaVersion": 2901,
     "metadataQr": {
@@ -1020,16 +1020,26 @@
     "relayChain": "polkadot"
   },
   "polkadot-hydradx": {
-    "title": "HydraDX",
-    "color": "#f653a2",
+    "title": "Hydration",
+    "color": "#000000",
     "rpcEndpoint": "wss://hydradx-rpc.dwellir.com",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
     "base58prefix": 63,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/HydraDX.svg",
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
     "liveMetaVersion": 241,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 241,
+      "file": {
+        "path": "qr/polkadot-hydradx_metadata_241.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfd70284b31339272c855f96c3fe30a50b553241179f5d15e4b0998d9ec3e1f76"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
@@ -1220,23 +1230,23 @@
     "relayChain": "polkadot"
   },
   "node": {
-    "title": "Polkadex",
-    "color": "#7C30DD",
-    "rpcEndpoint": "wss://polkadex.api.onfinality.io/public-ws",
-    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "unit": "PDEX",
-    "base58prefix": 88,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
-    "decimals": 12,
-    "liveMetaVersion": 363,
+    "title": "Cere",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.mainnet.cere.network/ws",
+    "genesisHash": "0x81443836a9a24caaa23f1241897d1235717535711d1d3fe24eae4fdc942c092c",
+    "unit": "CERE",
+    "base58prefix": 54,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Cere.svg",
+    "decimals": 10,
+    "liveMetaVersion": 52200,
     "metadataQr": {
-      "version": 363,
+      "version": 52200,
       "file": {
-        "path": "qr/node_metadata_363.apng",
+        "path": "qr/node_metadata_52200.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xa1db953e5e9aa7f68c75ef59d417c2c40308c02a016e2bb70341d833fd2be24e"
+          "block": "0xa0974a5c10f853b2bef709fcf933d2842010b21a5e8cabfa0872490fbcb1742c"
         }
       }
     },
@@ -2479,36 +2489,6 @@
     "testnet": false,
     "relayChain": "polkadot"
   },
-  "kusama-acurast-parachain": {
-    "title": "Acurast Canary",
-    "color": "#000000",
-    "rpcEndpoint": "wss://acurast-canarynet-ws.prod.gke.papers.tech",
-    "genesisHash": "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
-    "unit": "cACU",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
-    "decimals": 12,
-    "liveMetaVersion": 13,
-    "metadataQr": {
-      "version": 13,
-      "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_13.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3fefe8c58e3968f7d3780ead24c78e4d75575292f13d351d761c05480069f4a7"
-        }
-      }
-    },
-    "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama-acurast-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "kusama"
-  },
   "kusama-kreivo-parachain": {
     "title": "Kreivo",
     "color": "#000000",
@@ -2538,6 +2518,36 @@
     },
     "testnet": false,
     "relayChain": "kusama"
+  },
+  "polkadot-nexus": {
+    "title": "Hyperbridge Nexus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://hyperbridge-nexus-rpc.blockops.network",
+    "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+    "unit": "NAND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge.svg",
+    "decimals": 12,
+    "liveMetaVersion": 100,
+    "metadataQr": {
+      "version": 100,
+      "file": {
+        "path": "qr/polkadot-nexus_metadata_100.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb4d71711c5f62e46a419b2953a092fcdbbae8e8c3e4b6ad0b7903110493f56c4"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-nexus_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-nexus_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
   },
   "paseo": {
     "title": "Paseo Testnet",
