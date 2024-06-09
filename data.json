@@ -2289,7 +2289,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
     "liveMetaVersion": 54,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 54,
+      "file": {
+        "path": "qr/polkadot-ewx-parachain_metadata_54.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd39e312b725ddb1f709de85a1468bfa8b5a19cc7fc421c44882dcfb51bdb60eb"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ewx-parachain_specs.png",
