@@ -2288,15 +2288,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
-    "liveMetaVersion": 54,
+    "liveMetaVersion": 66,
     "metadataQr": {
-      "version": 54,
+      "version": 66,
       "file": {
-        "path": "qr/polkadot-ewx-parachain_metadata_54.apng",
+        "path": "qr/polkadot-ewx-parachain_metadata_66.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xd39e312b725ddb1f709de85a1468bfa8b5a19cc7fc421c44882dcfb51bdb60eb"
+          "block": "0x4699a9716d131b9d6747aede242f79bac95e056c3967bb6c06f2bc3cea86f8fd"
         }
       }
     },
