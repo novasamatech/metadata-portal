@@ -2228,18 +2228,8 @@
     "base58prefix": 126,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Joystream.svg",
     "decimals": 10,
-    "liveMetaVersion": 2003,
-    "metadataQr": {
-      "version": 2003,
-      "file": {
-        "path": "qr/joystream-node_metadata_2003.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8fa5c083bfb3f31266afd107eb640cf05748daadf7e867de36d1ccc82aca1770"
-        }
-      }
-    },
+    "liveMetaVersion": 2004,
+    "metadataQr": null,
     "latestMetadata": "qr/joystream-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/joystream-node_specs.png",
