@@ -19,7 +19,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-polkadot.novasamatech.org",
     "wss://apps-rpc.polkadot.io",
-    "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
     "wss://polkadot-rpc.dwellir.com",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot.public.curie.radiumblock.co/ws",
@@ -788,19 +787,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
-
-[[chains]]
-name = "Equilibrium-parachain"
-title = "Equilibrium (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
-rpc_endpoints = [
-    "wss://node.pol.equilibrium.io",
-    "wss://equilibrium-rpc.dwellir.com",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
