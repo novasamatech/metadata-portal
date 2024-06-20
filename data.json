@@ -1529,6 +1529,36 @@
     "testnet": false,
     "relayChain": "kusama"
   },
+  "kusama-gm_parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "liveMetaVersion": 10,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/kusama-gm_parachain_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x79a81bda8d085874dd162271284265624c54d3a2ab5ca61ad04a6b563ef597ba"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-gm_parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-gm_parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
+  },
   "kusama-amplitude": {
     "title": "Amplitude",
     "color": "#5defa7",
@@ -2488,6 +2518,36 @@
     },
     "testnet": false,
     "relayChain": "polkadot"
+  },
+  "kusama-acurast-parachain": {
+    "title": "Acurast Canary",
+    "color": "#000000",
+    "rpcEndpoint": "wss://acurast-canarynet-ws.prod.gke.papers.tech",
+    "genesisHash": "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
+    "unit": "cACU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
+    "decimals": 12,
+    "liveMetaVersion": 14,
+    "metadataQr": {
+      "version": 14,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_14.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc22a19ab7de6eeba37338fa20146032d2db876607f0628ffd91552ea1b60ac4c"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-acurast-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
   },
   "kusama-kreivo-parachain": {
     "title": "Kreivo",
