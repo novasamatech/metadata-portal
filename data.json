@@ -2618,18 +2618,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 1002000,
-    "metadataQr": {
-      "version": 1002000,
-      "file": {
-        "path": "qr/paseo_metadata_1002000.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1521048fc68e57ec96bd1e6a08c52c0e02d5574f089ba8429aca5cb18210c80f"
-        }
-      }
-    },
+    "liveMetaVersion": 1002004,
+    "metadataQr": null,
     "latestMetadata": "qr/paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/paseo_specs.png",
