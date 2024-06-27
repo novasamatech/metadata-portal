@@ -2498,18 +2498,8 @@
     "base58prefix": 29972,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg",
     "decimals": 18,
-    "liveMetaVersion": 1001,
-    "metadataQr": {
-      "version": 1001,
-      "file": {
-        "path": "qr/polkadot-mythos_metadata_1001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x68b0729bfeb4e9ab335232f74d1921c589b5c9aa999616b61df8f820915f5e88"
-        }
-      }
-    },
+    "liveMetaVersion": 1004,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-mythos_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-mythos_specs.png",
