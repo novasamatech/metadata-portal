@@ -68,15 +68,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1013000,
+    "liveMetaVersion": 1014000,
     "metadataQr": {
-      "version": 1013000,
+      "version": 1014000,
       "file": {
-        "path": "qr/westend_metadata_1013000.apng",
+        "path": "qr/westend_metadata_1014000.apng",
         "signedBy": "Parity",
         "source": {
           "type": "Rpc",
-          "block": "0xc045f25bc87adf99ab9862578574f9e53c2ec93ca57f704c92c12cbc4108f0b9"
+          "block": "0x35b8e92347a582f041f9272be59a5174a3e34b2318141e48fb434419f94acf25"
         }
       }
     },
@@ -1028,18 +1028,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 241,
-    "metadataQr": {
-      "version": 241,
-      "file": {
-        "path": "qr/polkadot-hydradx_metadata_241.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfd70284b31339272c855f96c3fe30a50b553241179f5d15e4b0998d9ec3e1f76"
-        }
-      }
-    },
+    "liveMetaVersion": 244,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
