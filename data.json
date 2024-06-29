@@ -368,8 +368,18 @@
     "base58prefix": 110,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
     "decimals": 12,
-    "liveMetaVersion": 198,
-    "metadataQr": null,
+    "liveMetaVersion": 205,
+    "metadataQr": {
+      "version": 205,
+      "file": {
+        "path": "qr/kusama-heiko_metadata_205.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x82fd5ae1145e3db8ff2baa7ff7f3a4099f32b55308f54c3a046adc3cd4694eca"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-heiko_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-heiko_specs.png",
@@ -2549,7 +2559,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kreivo.svg",
     "decimals": 12,
     "liveMetaVersion": 111,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 111,
+      "file": {
+        "path": "qr/kusama-kreivo-parachain_metadata_111.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2b7c1733c7ac48c185842e9b8853d82377c339f29db71e9f3bd65bf5020b680c"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-kreivo-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-kreivo-parachain_specs.png",
