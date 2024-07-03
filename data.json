@@ -1898,18 +1898,8 @@
     "base58prefix": 71,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
-    "liveMetaVersion": 126,
-    "metadataQr": {
-      "version": 126,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_126.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9b69ef02feb488f9d68035cd6d88cf6955954271fbdf09e7ca205c7afb60a164"
-        }
-      }
-    },
+    "liveMetaVersion": 128,
+    "metadataQr": null,
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
@@ -2289,7 +2279,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
     "decimals": 6,
     "liveMetaVersion": 59,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 59,
+      "file": {
+        "path": "qr/dock-pos-main-runtime_metadata_59.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x710972df763631b6de393def66b5c8bee58a4610557bdb9b81d4ee6b7d23bc1d"
+        }
+      }
+    },
     "latestMetadata": "qr/dock-pos-main-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dock-pos-main-runtime_specs.png",
