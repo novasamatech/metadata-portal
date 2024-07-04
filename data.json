@@ -998,18 +998,8 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1028,
-    "metadataQr": {
-      "version": 1028,
-      "file": {
-        "path": "qr/polkadot-centrifuge_metadata_1028.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x75a4fb57dfcebefc2f0fb265ef2dac69329d81ee4d791e768e12a3a5c4df165e"
-        }
-      }
-    },
+    "liveMetaVersion": 1103,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-centrifuge_specs.png",
@@ -1628,18 +1618,8 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 6003001,
-    "metadataQr": {
-      "version": 6003001,
-      "file": {
-        "path": "qr/polymesh_mainnet_metadata_6003001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x23c54ec09359e5c90ca5f5c2bd96cb0ae5eddfde179c7ae18b75f0aa4b107548"
-        }
-      }
-    },
+    "liveMetaVersion": 6003010,
+    "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -2558,18 +2538,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kreivo.svg",
     "decimals": 12,
-    "liveMetaVersion": 111,
-    "metadataQr": {
-      "version": 111,
-      "file": {
-        "path": "qr/kusama-kreivo-parachain_metadata_111.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2b7c1733c7ac48c185842e9b8853d82377c339f29db71e9f3bd65bf5020b680c"
-        }
-      }
-    },
+    "liveMetaVersion": 100,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-kreivo-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-kreivo-parachain_specs.png",
