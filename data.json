@@ -2408,18 +2408,8 @@
     "base58prefix": 77,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Manta.svg",
     "decimals": 18,
-    "liveMetaVersion": 4700,
-    "metadataQr": {
-      "version": 4700,
-      "file": {
-        "path": "qr/polkadot-manta_metadata_4700.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1b6beb0831105d6045b076adc78b0f6c0d4c33e6939e970a08e92b5620cf2ea4"
-        }
-      }
-    },
+    "liveMetaVersion": 4710,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-manta_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-manta_specs.png",
