@@ -999,7 +999,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
     "liveMetaVersion": 1103,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1103,
+      "file": {
+        "path": "qr/polkadot-centrifuge_metadata_1103.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5c792bcf670f50ca34c0edecfbb169b6f6d0ff5b2084a74e9e998ec33a18a153"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-centrifuge_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-centrifuge_specs.png",
@@ -1229,7 +1239,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 369,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 369,
+      "file": {
+        "path": "qr/node_metadata_369.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x74e1589176f250641fe1b880f54209ad925904b1b3d041f6ea86c9610a70fa9a"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1609,7 +1629,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
     "liveMetaVersion": 6003010,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6003010,
+      "file": {
+        "path": "qr/polymesh_mainnet_metadata_6003010.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7f0cf3ab3e91f93b9cb13d760c160e9d5e01e259519597fa824d3fb2120f9404"
+        }
+      }
+    },
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -1689,7 +1719,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/XX_network.svg",
     "decimals": 9,
     "liveMetaVersion": 206,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 206,
+      "file": {
+        "path": "qr/xxnetwork_metadata_206.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x66c9c836fed38f7509a28b4fe7ebc1afa6292e6a00804ca1efbc63acfe4cfac7"
+        }
+      }
+    },
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
