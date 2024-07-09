@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
-  pull_request:
 
 env:
   BRANCH_PREFIX: updated-codes
@@ -86,6 +85,7 @@ jobs:
           message: 'metadata update&sign'
 
       - name: New PR branch
+        if: ${{ steps.checkout-pr.outputs.switched == 'false' }}
         id: new-branch
         run: |
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
@@ -99,6 +99,7 @@ jobs:
           private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
 
       - name: Create Pull Request if not exist
+        if: ${{ steps.checkout-pr.outputs.switched == 'false' }}
         id: cpr
         uses: peter-evans/create-pull-request@f22a7da129c901513876a2380e2dae9f8e145330
         with:
