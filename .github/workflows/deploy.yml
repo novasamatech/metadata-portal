@@ -42,11 +42,18 @@ jobs:
           exit $exit_code
         shell: bash {0}
 
+      - name: 🔑 Generate token
+        uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.NOVASAMA_APP_ID }}
+          private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
+
       - uses: ./.github/workflows/deploy
         id: deploy
         if: success() || failure() && (steps.collect.outcome == 'failure')
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Send warning to Matrix channel
         uses: s3krit/matrix-message-action@v0.0.3
