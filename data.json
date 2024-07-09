@@ -9,7 +9,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
     "liveMetaVersion": 1002006,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002006,
+      "file": {
+        "path": "qr/polkadot_metadata_1002006.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe498e3c5f9253a13cb162d50a66347b5da64f0f0fe4cdc7b7ad48b38c186a1c7"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -689,7 +699,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 1002006,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1002006,
+      "file": {
+        "path": "qr/polkadot-statemint_metadata_1002006.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8f7fcaf25aee69da4bd21d81c464c285deb79fbb973e51c448b5201282314881"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-statemint_specs.png",
@@ -1219,7 +1239,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
     "liveMetaVersion": 371,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 371,
+      "file": {
+        "path": "qr/node_metadata_371.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x30579f36945238c46f4eed9aef12b29780e1c942fb6ca536fe170662b9318edb"
+        }
+      }
+    },
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
@@ -1299,7 +1329,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
     "liveMetaVersion": 9182,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9182,
+      "file": {
+        "path": "qr/polkadot-litentry-parachain_metadata_9182.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x92e66ea09c9f9c2eac7753f9dfcfbf2a7c310e72c264bc1c25c55c6f5eda8590"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-litentry-parachain_specs.png",
