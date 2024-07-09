@@ -45,7 +45,6 @@ jobs:
         with:
           app_id: ${{ secrets.NOVASAMA_APP_ID }}
           private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
-  
 
       - name: ➡️ Make pull request
         uses: ./.github/workflows/make-pull-request
