@@ -60,7 +60,8 @@ jobs:
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
           echo "name=$NAME" >> $GITHUB_OUTPUT
 
-      - uses: tibdex/github-app-token@v1
+      - name: 🔑 Generate token
+        uses: tibdex/github-app-token@v1
         id: generate-token
         with:
           app_id: ${{ secrets.NOVASAMA_APP_ID }}

@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
+  pull_request:
 
 env:
   BRANCH_PREFIX: updated-codes
@@ -91,7 +92,8 @@ jobs:
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
           echo "::set-output name=name::$NAME"
 
-      - uses: tibdex/github-app-token@v1
+      - name: 🔑 Generate token
+        uses: tibdex/github-app-token@v1
         id: generate-token
         with:
           app_id: ${{ secrets.NOVASAMA_APP_ID }}
