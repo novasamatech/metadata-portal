@@ -91,6 +91,12 @@ jobs:
           NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
           echo "::set-output name=name::$NAME"
 
+      - uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.NOVASAMA_APP_ID }}
+          private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
+
       - name: Create Pull Request if not exist
         if: ${{ steps.checkout-pr.outputs.switched == 'false' }}
         id: cpr
@@ -105,6 +111,7 @@ jobs:
             Updated metadata QR codes
           reviewers: "stepanLav,pgolovkin,tuul-wq,Asmadek"
           draft: false
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Notify Matrix channel
         uses: s3krit/matrix-message-action@v0.0.3
