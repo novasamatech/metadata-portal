@@ -12,6 +12,9 @@ on:
           - dev
           - prod
 
+permissions:
+  pull-requests: write
+
 jobs:
   update-chains-file:
     runs-on: ubuntu-latest
