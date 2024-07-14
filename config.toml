@@ -549,16 +549,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "composable"
-title = "Composable Finance (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg"
-rpc_endpoints = ["wss://rpc.composable.finance"]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
-
-[[chains]]
 name = "node"
 title = "Polkadex"
 color = "#7C30DD"
@@ -786,19 +776,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
-
-[[chains]]
-name = "Equilibrium-parachain"
-title = "Equilibrium (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
-rpc_endpoints = [
-    "wss://node.pol.equilibrium.io",
-    "wss://equilibrium-rpc.dwellir.com",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
