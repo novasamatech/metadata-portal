@@ -992,7 +992,7 @@
   "polkadot-centrifuge": {
     "title": "Centrifuge Parachain",
     "color": "#fcc367",
-    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
+    "rpcEndpoint": "wss://centrifuge-rpc.dwellir.com",
     "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
     "unit": "CFG",
     "base58prefix": 36,
@@ -1198,36 +1198,6 @@
     },
     "testnet": false,
     "relayChain": null
-  },
-  "polkadot-composable": {
-    "title": "Composable Finance",
-    "color": "#C90E8A",
-    "rpcEndpoint": "wss://rpc.composable.finance",
-    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-    "unit": "LAYR",
-    "base58prefix": 50,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10044,
-    "metadataQr": {
-      "version": 10044,
-      "file": {
-        "path": "qr/polkadot-composable_metadata_10044.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x60de8eefd42be7acee2b0f3a9ba6a353313e0ac58d4bfdb961aa4f94a137453c"
-        }
-      }
-    },
-    "latestMetadata": "qr/polkadot-composable_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polkadot-composable_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "polkadot"
   },
   "node": {
     "title": "Polkadex",
@@ -1802,7 +1772,7 @@
   "polkadot-avn-parachain": {
     "title": "Aventus",
     "color": "#000000",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.network",
     "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
     "unit": "AVT",
     "base58prefix": 42,
