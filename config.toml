@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
-
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -110,7 +110,6 @@ rpc_endpoints = [
     "wss://wss.api.moonbeam.network",
     "wss://moonbeam.public.curie.radiumblock.co/ws",
     "wss://moonbeam.public.blastapi.io",
-    "wss://1rpc.io/glmr",
 ]
 testnet = false
 verifier = "novasama"
@@ -463,7 +462,7 @@ title = "Centrifuge Parachain"
 color = "#fcc367"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg"
 rpc_endpoints = [
-    "wss://fullnode.parachain.centrifuge.io",
+    "wss://centrifuge-rpc.dwellir.com",
     "wss://centrifuge-parachain.api.onfinality.io/public-ws",
 ]
 testnet = false
@@ -551,8 +550,8 @@ verifier = "novasama"
 
 [[chains]]
 name = "composable"
-title = "Composable Finance"
-color = "#C90E8A"
+title = "Composable Finance (PAUSED)"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg"
 rpc_endpoints = ["wss://rpc.composable.finance"]
 testnet = false
@@ -578,7 +577,7 @@ color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg"
 rpc_endpoints = [
     "wss://parachain-rpc.origin-trail.network",
-    "wss://origintrail-rpc.dwellir.com",
+    "wss://neuroweb-rpc.dwellir.com",
 ]
 testnet = false
 verifier = "novasama"
@@ -774,7 +773,7 @@ name = "avn-parachain"
 title = "Aventus"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg"
-rpc_endpoints = ["wss://public-rpc.mainnet.aventus.io"]
+rpc_endpoints = ["wss://public-rpc.mainnet.aventus.network"]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
@@ -787,6 +786,19 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "Equilibrium-parachain"
+title = "Equilibrium (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
+rpc_endpoints = [
+    "wss://node.pol.equilibrium.io",
+    "wss://equilibrium-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "ajuna"
@@ -806,10 +818,7 @@ name = "poscan-runtime"
 title = "3DPass"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg"
-rpc_endpoints = [
-    "wss://rpc.3dpscan.io",
-    "wss://rpc2.3dpass.org",
-]
+rpc_endpoints = ["wss://rpc.3dpscan.io"]
 testnet = false
 verifier = "novasama"
 
@@ -832,7 +841,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://crab-rpc.darwinia.network/",
     "wss://darwiniacrab-rpc.dwellir.com",
-    "wss://crab-rpc.darwiniacommunitydao.xyz",
 ]
 testnet = false
 verifier = "novasama"
