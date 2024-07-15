@@ -189,7 +189,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 3001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 3001,
+      "file": {
+        "path": "qr/polkadot-moonbeam_metadata_3001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa3747a23d042c34a90351ad867eeec7740bf5d2f6062d7795683f93eac4b5499"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
