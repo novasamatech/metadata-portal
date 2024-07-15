@@ -338,18 +338,8 @@
     "base58prefix": 136,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
-    "liveMetaVersion": 1034,
-    "metadataQr": {
-      "version": 1034,
-      "file": {
-        "path": "qr/kusama-altair_metadata_1034.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3f1e0c31add562b8ef45de464b592b48d2f90362356f5bf6f2e3a386851944a3"
-        }
-      }
-    },
+    "liveMetaVersion": 1200,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-altair_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-altair_specs.png",
@@ -1598,18 +1588,8 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 6003010,
-    "metadataQr": {
-      "version": 6003010,
-      "file": {
-        "path": "qr/polymesh_mainnet_metadata_6003010.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x7f0cf3ab3e91f93b9cb13d760c160e9d5e01e259519597fa824d3fb2120f9404"
-        }
-      }
-    },
+    "liveMetaVersion": 6003020,
+    "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
