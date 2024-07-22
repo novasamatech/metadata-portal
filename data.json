@@ -2579,6 +2579,36 @@
     "testnet": false,
     "relayChain": "polkadot"
   },
+  "avail": {
+    "title": "Avail",
+    "color": "#000000",
+    "rpcEndpoint": "wss://zeref-api.slowops.xyz/ws",
+    "genesisHash": "0xb91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a",
+    "unit": "AVAIL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
+    "decimals": 18,
+    "liveMetaVersion": 35,
+    "metadataQr": {
+      "version": 35,
+      "file": {
+        "path": "qr/avail_metadata_35.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4675e9889881a782bcf3309b48af621e8f1d03927f01c847c2119f1872d323c1"
+        }
+      }
+    },
+    "latestMetadata": "qr/avail_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avail_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": null
+  },
   "paseo": {
     "title": "Paseo Testnet",
     "color": "#000000",
