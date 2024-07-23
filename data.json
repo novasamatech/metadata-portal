@@ -1479,7 +1479,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
     "liveMetaVersion": 24,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 24,
+      "file": {
+        "path": "qr/kusama-tinkernet_node_metadata_24.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8dc812b701418df21fcca536d9e051595ed413e146dca2b39c116896a44c6c7e"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
@@ -2458,18 +2468,8 @@
     "base58prefix": 29972,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg",
     "decimals": 18,
-    "liveMetaVersion": 1005,
-    "metadataQr": {
-      "version": 1005,
-      "file": {
-        "path": "qr/polkadot-mythos_metadata_1005.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x231bc7c31a45795c530cc39e67ab25177a822b3e444fefa3a37c0e170f6f1b5c"
-        }
-      }
-    },
+    "liveMetaVersion": 1006,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-mythos_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-mythos_specs.png",
@@ -2579,7 +2579,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
     "decimals": 18,
     "liveMetaVersion": 36,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 36,
+      "file": {
+        "path": "qr/avail_metadata_36.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9ac37ee1b8368eec807760cf35cbff992de8086ec569f69b4e527a82167d89cf"
+        }
+      }
+    },
     "latestMetadata": "qr/avail_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avail_specs.png",
