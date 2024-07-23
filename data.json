@@ -1478,18 +1478,8 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
-    "liveMetaVersion": 23,
-    "metadataQr": {
-      "version": 23,
-      "file": {
-        "path": "qr/kusama-tinkernet_node_metadata_23.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8e8cab1b2f1316fa5b09d302a11ac3f4b4c5f64a3c16f006205885df0ca8d40c"
-        }
-      }
-    },
+    "liveMetaVersion": 24,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
@@ -2588,18 +2578,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
     "decimals": 18,
-    "liveMetaVersion": 35,
-    "metadataQr": {
-      "version": 35,
-      "file": {
-        "path": "qr/avail_metadata_35.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4675e9889881a782bcf3309b48af621e8f1d03927f01c847c2119f1872d323c1"
-        }
-      }
-    },
+    "liveMetaVersion": 36,
+    "metadataQr": null,
     "latestMetadata": "qr/avail_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avail_specs.png",
