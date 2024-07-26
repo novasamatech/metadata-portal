@@ -8,18 +8,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
-    "liveMetaVersion": 1002006,
-    "metadataQr": {
-      "version": 1002006,
-      "file": {
-        "path": "qr/polkadot_metadata_1002006.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe498e3c5f9253a13cb162d50a66347b5da64f0f0fe4cdc7b7ad48b38c186a1c7"
-        }
-      }
-    },
+    "liveMetaVersion": 1002007,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -1028,18 +1018,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 244,
-    "metadataQr": {
-      "version": 244,
-      "file": {
-        "path": "qr/polkadot-hydradx_metadata_244.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x18a16fb4ca9ea9cc955beed8d598f7a93c4abcc8634b89b48df84a75d32d7316"
-        }
-      }
-    },
+    "liveMetaVersion": 253,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
@@ -2258,18 +2238,8 @@
     "base58prefix": 22,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
     "decimals": 6,
-    "liveMetaVersion": 59,
-    "metadataQr": {
-      "version": 59,
-      "file": {
-        "path": "qr/dock-pos-main-runtime_metadata_59.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x710972df763631b6de393def66b5c8bee58a4610557bdb9b81d4ee6b7d23bc1d"
-        }
-      }
-    },
+    "liveMetaVersion": 60,
+    "metadataQr": null,
     "latestMetadata": "qr/dock-pos-main-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dock-pos-main-runtime_specs.png",
