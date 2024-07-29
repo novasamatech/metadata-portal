@@ -818,18 +818,8 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10043,
-    "metadataQr": {
-      "version": 10043,
-      "file": {
-        "path": "qr/kusama-picasso_metadata_10043.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x825b70963a76eaf462ae972aa4bfeff49d4d4bc71ae9e36a76cf4771540ba5af"
-        }
-      }
-    },
+    "liveMetaVersion": 10046,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-picasso_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-picasso_specs.png",
