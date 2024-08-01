@@ -369,7 +369,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
     "decimals": 12,
     "liveMetaVersion": 209,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 209,
+      "file": {
+        "path": "qr/kusama-heiko_metadata_209.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x033ee1e447d71c341692f9d5922ac76cb0b5778bddc6bf0cacae4d0114e60440"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-heiko_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-heiko_specs.png",
