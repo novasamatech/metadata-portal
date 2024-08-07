@@ -909,7 +909,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
     "decimals": 18,
     "liveMetaVersion": 9191,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9191,
+      "file": {
+        "path": "qr/kusama-litmus-parachain_metadata_9191.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc737c4332aa30b747c039666cfc1fd70715cdbbeb6c94c7ac096ee203d4f9590"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-litmus-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-litmus-parachain_specs.png",
@@ -1309,7 +1319,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 18,
     "liveMetaVersion": 9191,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9191,
+      "file": {
+        "path": "qr/polkadot-litentry-parachain_metadata_9191.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8f8d10d51987fc1c6feff8fdc5d7ce10066cce77d039dc35d5a3caec8ef7a8ca"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-litentry-parachain_specs.png",
@@ -2499,7 +2519,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
     "liveMetaVersion": 16,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 16,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_16.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x84c9487158bbec08e83fd82e8c1812902beab63653608f9cf1242e3b88b50953"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
