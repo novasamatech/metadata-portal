@@ -1958,18 +1958,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
-    "liveMetaVersion": 6640,
-    "metadataQr": {
-      "version": 6640,
-      "file": {
-        "path": "qr/kusama-crab2_metadata_6640.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb97a02ebb20da8c451308bc0f888eab2fe49023cbb8442890ab41e772e782024"
-        }
-      }
-    },
+    "liveMetaVersion": 6650,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-crab2_specs.png",
