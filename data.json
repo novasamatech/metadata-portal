@@ -2618,18 +2618,8 @@
     "base58prefix": 9807,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DENTNet.svg",
     "decimals": 18,
-    "liveMetaVersion": 9243,
-    "metadataQr": {
-      "version": 9243,
-      "file": {
-        "path": "qr/dentnet_metadata_9243.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9741b6f1133f1ae1ca61226e4f329c468bf5dc50547f222ebef70f21825b42c2"
-        }
-      }
-    },
+    "liveMetaVersion": 9301,
+    "metadataQr": null,
     "latestMetadata": "qr/dentnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dentnet_specs.png",
