@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
-
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -18,14 +18,14 @@ color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
     "wss://rpc-polkadot.novasamatech.org",
+    "wss://rpc.ibp.network/polkadot",
+    "wss://rpc.dotters.network/polkadot",
     "wss://apps-rpc.polkadot.io",
     "wss://polkadot-rpc.dwellir.com",
     "wss://dot-rpc.stakeworld.io",
     "wss://polkadot.public.curie.radiumblock.co/ws",
     "wss://1rpc.io/dot",
     "wss://rpc-polkadot.luckyfriday.io",
-    "wss://rpc.ibp.network/polkadot",
-    "wss://rpc.dotters.network/polkadot",
 ]
 testnet = false
 verifier = "parity"
@@ -37,12 +37,12 @@ color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
     "wss://rpc-kusama.novasamatech.org",
+    "wss://rpc.ibp.network/kusama",
+    "wss://rpc.dotters.network/kusama",
     "wss://apps-kusama-rpc.polkadot.io",
     "wss://kusama-rpc.dwellir.com",
     "wss://rpc-kusama.luckyfriday.io",
     "wss://1rpc.io/ksm",
-    "wss://rpc.ibp.network/kusama",
-    "wss://rpc.dotters.network/kusama",
     "wss://kusama.public.curie.radiumblock.co/ws",
     "wss://kusama.api.onfinality.io/public-ws",
 ]
@@ -101,6 +101,8 @@ color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_People.svg"
 rpc_endpoints = [
     "wss://kusama-people-rpc.polkadot.io",
+    "wss://sys.ibp.network/people-kusama",
+    "wss://sys.dotters.network/people-kusama",
     "wss://ksm-rpc.stakeworld.io/people",
 ]
 testnet = false
@@ -124,6 +126,8 @@ color = "#53cbc9"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg"
 rpc_endpoints = [
     "wss://wss.api.moonbeam.network",
+    "wss://moonbeam.ibp.network",
+    "wss://moonbeam.dotters.network",
     "wss://moonbeam.public.curie.radiumblock.co/ws",
     "wss://moonbeam.public.blastapi.io",
 ]
@@ -244,6 +248,8 @@ title = "KILT"
 color = "#8c145a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg"
 rpc_endpoints = [
+    "wss://kilt.ibp.network",
+    "wss://kilt.dotters.network",
     "wss://kilt-rpc.dwellir.com",
     "wss://spiritnet.kilt.io/",
     "wss://spiritnet.api.onfinality.io/public-ws",
@@ -351,8 +357,8 @@ title = "Polkadot Asset Hub"
 color = "#86e62a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg"
 rpc_endpoints = [
-    "wss://sys.ibp.network/statemint",
-    "wss://sys.dotters.network/statemint",
+    "wss://sys.ibp.network/asset-hub-polkadot",
+    "wss://sys.dotters.network/asset-hub-polkadot",
     "wss://statemint-rpc.dwellir.com",
     "wss://statemint.api.onfinality.io/public-ws",
 ]
@@ -439,6 +445,7 @@ title = "Subsocial"
 color = "#69058C"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg"
 rpc_endpoints = [
+    "wss://subsocial-rpc.dwellir.com",
     "wss://para.f3joule.space",
     "wss://para.subsocial.network",
 ]
@@ -491,10 +498,10 @@ title = "Hydration"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg"
 rpc_endpoints = [
+    "wss://hydration.ibp.network",
+    "wss://hydration.dotters.network",
     "wss://hydradx-rpc.dwellir.com",
     "wss://rpc.hydradx.cloud",
-    "wss://hydradx.paras.ibp.network",
-    "wss://hydradx.paras.dotters.network",
 ]
 testnet = false
 verifier = "novasama"
@@ -565,6 +572,16 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "composable"
+title = "Composable Finance (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Composable.svg"
+rpc_endpoints = ["wss://rpc.composable.finance"]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
 name = "node"
 title = "Polkadex"
 color = "#7C30DD"
@@ -594,7 +611,11 @@ name = "bifrost_polkadot"
 title = "Bifrost Polkadot"
 color = "#5a25f0"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg"
-rpc_endpoints = ["wss://hk.p.bifrost-rpc.liebi.com/ws"]
+rpc_endpoints = [
+    "wss://bifrost-polkadot.ibp.network",
+    "wss://bifrost-polkadot.dotters.network",
+    "wss://hk.p.bifrost-rpc.liebi.com/ws",
+]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
@@ -621,6 +642,8 @@ rpc_endpoints = [
     "wss://eu-ws.unique.network/",
     "wss://us-ws.unique.network/",
     "wss://asia-ws.unique.network/",
+    "wss://unique.ibp.network",
+    "wss://unique.dotters.network",
 ]
 testnet = false
 verifier = "novasama"
@@ -679,16 +702,6 @@ title = "Tinkernet"
 color = "#161616"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg"
 rpc_endpoints = ["wss://tinkernet-rpc.dwellir.com"]
-testnet = false
-verifier = "novasama"
-relay_chain = "kusama"
-
-[[chains]]
-name = "gm_parachain"
-title = "GM"
-color = "#f47b36"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg"
-rpc_endpoints = ["wss://ws.gm.bldnodes.org"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
@@ -794,12 +807,27 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "Equilibrium-parachain"
+title = "Equilibrium (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
+rpc_endpoints = [
+    "wss://node.pol.equilibrium.io",
+    "wss://equilibrium-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
 name = "ajuna"
 title = "Ajuna"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg"
 rpc_endpoints = [
     "wss://rpc-para.ajuna.network",
+    "wss://ajuna.ibp.network",
+    "wss://ajuna.dotters.network",
     "wss://ajuna.public.curie.radiumblock.co/ws",
 ]
 testnet = false
@@ -990,7 +1018,11 @@ name = "polimec-mainnet"
 title = "Polimec"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg"
-rpc_endpoints = ["wss://rpc.polimec.org"]
+rpc_endpoints = [
+    "wss://rpc.polimec.org",
+    "wss://polimec.ibp.network",
+    "wss://polimec.dotters.network",
+]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
@@ -1063,6 +1095,20 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
+
+[[chains]]
+name = "nexus"
+title = "Hyperbridge Nexus"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge.svg"
+rpc_endpoints = [
+    "wss://nexus.ibp.network",
+    "wss://nexus.dotters.network",
+    "wss://hyperbridge-nexus-rpc.blockops.network",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "avail"
