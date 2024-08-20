@@ -482,7 +482,7 @@
   "polkadot-kilt-spiritnet": {
     "title": "KILT",
     "color": "#8c145a",
-    "rpcEndpoint": "wss://kilt-rpc.dwellir.com",
+    "rpcEndpoint": "wss://kilt.ibp.network",
     "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
     "unit": "KILT",
     "base58prefix": 38,
@@ -722,7 +722,7 @@
   "polkadot-statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
-    "rpcEndpoint": "wss://sys.ibp.network/statemint",
+    "rpcEndpoint": "wss://sys.ibp.network/asset-hub-polkadot",
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "unit": "DOT",
     "base58prefix": 0,
@@ -932,7 +932,7 @@
   "kusama-subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
-    "rpcEndpoint": "wss://para.f3joule.space",
+    "rpcEndpoint": "wss://subsocial-rpc.dwellir.com",
     "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
     "unit": "SUB",
     "base58prefix": 28,
@@ -1052,7 +1052,7 @@
   "polkadot-hydradx": {
     "title": "Hydration",
     "color": "#000000",
-    "rpcEndpoint": "wss://hydradx-rpc.dwellir.com",
+    "rpcEndpoint": "wss://hydration.ibp.network",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
     "base58prefix": 63,
@@ -1292,7 +1292,7 @@
   "polkadot-bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+    "rpcEndpoint": "wss://bifrost-polkadot.ibp.network",
     "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
     "unit": "BNC",
     "base58prefix": 6,
@@ -1523,36 +1523,6 @@
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-tinkernet_node_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "kusama"
-  },
-  "kusama-gm_parachain": {
-    "title": "GM",
-    "color": "#f47b36",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "liveMetaVersion": 10,
-    "metadataQr": {
-      "version": 10,
-      "file": {
-        "path": "qr/kusama-gm_parachain_metadata_10.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x79a81bda8d085874dd162271284265624c54d3a2ab5ca61ad04a6b563ef597ba"
-        }
-      }
-    },
-    "latestMetadata": "qr/kusama-gm_parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama-gm_parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -2578,6 +2548,36 @@
     },
     "testnet": false,
     "relayChain": "kusama"
+  },
+  "polkadot-nexus": {
+    "title": "Hyperbridge Nexus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://nexus.ibp.network",
+    "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+    "unit": "NAND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge.svg",
+    "decimals": 12,
+    "liveMetaVersion": 100,
+    "metadataQr": {
+      "version": 100,
+      "file": {
+        "path": "qr/polkadot-nexus_metadata_100.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8abca50ed1f17e310f166f155e96add92d9e6d9a00ba6c6f060d1e98fd1e3831"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-nexus_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-nexus_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
   },
   "avail": {
     "title": "Avail",
