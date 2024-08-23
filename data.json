@@ -1448,18 +1448,8 @@
     "base58prefix": 1337,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
-    "liveMetaVersion": 704,
-    "metadataQr": {
-      "version": 704,
-      "file": {
-        "path": "qr/kusama-bajun_metadata_704.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1a8ebc93a5ef81061399c48d28806d01b5c122853a7e4bff243ba19a4c657ea6"
-        }
-      }
-    },
+    "liveMetaVersion": 706,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-bajun_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bajun_specs.png",
@@ -1838,18 +1828,8 @@
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
-    "liveMetaVersion": 704,
-    "metadataQr": {
-      "version": 704,
-      "file": {
-        "path": "qr/polkadot-ajuna_metadata_704.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3e345b73dff8eeaa134ecea11405780a29864152b85523f0e46c415343cee9d8"
-        }
-      }
-    },
+    "liveMetaVersion": 706,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ajuna_specs.png",
