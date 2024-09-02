@@ -2259,7 +2259,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
     "decimals": 6,
     "liveMetaVersion": 61,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 61,
+      "file": {
+        "path": "qr/dock-pos-main-runtime_metadata_61.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb99d47523bc988ff576f6a3851a79f8e692a512886fe80eec62483cab73a8565"
+        }
+      }
+    },
     "latestMetadata": "qr/dock-pos-main-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dock-pos-main-runtime_specs.png",
