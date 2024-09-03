@@ -368,15 +368,15 @@
     "base58prefix": 136,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
-    "liveMetaVersion": 1200,
+    "liveMetaVersion": 1300,
     "metadataQr": {
-      "version": 1200,
+      "version": 1300,
       "file": {
-        "path": "qr/kusama-altair_metadata_1200.apng",
+        "path": "qr/kusama-altair_metadata_1300.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x9a95147f659dadd3d6689bca64d4fb8bc6ce1f8e657f1bed079ea47e84fadef0"
+          "block": "0x0691d897fcdd2e25eb90ed4f090c0179b1606b5de95a2e4910757f39d2523762"
         }
       }
     },
@@ -638,15 +638,15 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 92,
+    "liveMetaVersion": 94,
     "metadataQr": {
-      "version": 92,
+      "version": 94,
       "file": {
-        "path": "qr/polkadot-astar_metadata_92.apng",
+        "path": "qr/polkadot-astar_metadata_94.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xbf5b87a73e649b2eb60c6837562d98c5f2b5f77ce61dda1b503ef77b07f299d8"
+          "block": "0xc697e0b5c786bf36316a6960465beb283fef7c10031b8c025f6d72c1d18aa84f"
         }
       }
     },
@@ -878,15 +878,15 @@
     "base58prefix": 73,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
     "decimals": 10,
-    "liveMetaVersion": 56,
+    "liveMetaVersion": 57,
     "metadataQr": {
-      "version": 56,
+      "version": 57,
       "file": {
-        "path": "qr/kusama-zeitgeist_metadata_56.apng",
+        "path": "qr/kusama-zeitgeist_metadata_57.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x30f60cd512fa4a4a68362c086d75d19e530489b116d15c8b7fe0fc6f70ba9ab3"
+          "block": "0xe1ae2c01ebe58f2497e6a83c36c5ad6a353924391a957c8d4269e16be19e8577"
         }
       }
     },
