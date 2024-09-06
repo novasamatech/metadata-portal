@@ -1268,18 +1268,8 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg",
     "decimals": 12,
-    "liveMetaVersion": 130,
-    "metadataQr": {
-      "version": 130,
-      "file": {
-        "path": "qr/polkadot-origintrail-parachain_metadata_130.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x277716f4c1f8856b206747b6d0bb9dd9aedea9398a82cbadd4059f47b652345e"
-        }
-      }
-    },
+    "liveMetaVersion": 133,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-origintrail-parachain_specs.png",
