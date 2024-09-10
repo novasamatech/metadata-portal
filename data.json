@@ -69,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1016000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1016000,
+      "file": {
+        "path": "qr/westend_metadata_1016000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfe7dddb1705712a83b11e0285223130e4d8bfcbd57a56491f46c05f6f6d1c26d"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -1799,7 +1809,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
     "liveMetaVersion": 198,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 198,
+      "file": {
+        "path": "qr/node-subtensor_metadata_198.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x101d1bea057fc8f93a97bca8de358cdd6f02e1a3560e6961960935a72297c352"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
@@ -2149,7 +2169,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1012,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1012,
+      "file": {
+        "path": "qr/matrix-enjin_metadata_1012.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1280558617b23ea9ad400665328ddd70d3d5f9a446157f5cc0c3800959536e31"
+        }
+      }
+    },
     "latestMetadata": "qr/matrix-enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/matrix-enjin_specs.png",
@@ -2379,7 +2409,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1032,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1032,
+      "file": {
+        "path": "qr/enjin_metadata_1032.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2b86a113820696dfc11b26c8543ed147d6bb99a05f6164b94a04ad9f65b83864"
+        }
+      }
+    },
     "latestMetadata": "qr/enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/enjin_specs.png",
