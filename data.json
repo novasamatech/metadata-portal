@@ -1839,7 +1839,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
     "liveMetaVersion": 707,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 707,
+      "file": {
+        "path": "qr/polkadot-ajuna_metadata_707.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x65dec941e012398bd4e73955ad1087f54a07e21b43dff4f3b931be1c92ae6a06"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ajuna_specs.png",
