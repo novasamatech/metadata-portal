@@ -729,7 +729,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 1003000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1003000,
+      "file": {
+        "path": "qr/polkadot-statemint_metadata_1003000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x527d500ac08195182e40209716fd136703a13ebbeb16363fd7afdd2f556794ac"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-statemint_specs.png",
@@ -1589,7 +1599,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
     "liveMetaVersion": 6003040,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6003040,
+      "file": {
+        "path": "qr/polymesh_mainnet_metadata_6003040.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xffd6dbf70df0033c1c71662aa2a1c4b5bb2be3d29330cfd155dfc8f1e14bbd4c"
+        }
+      }
+    },
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -1789,7 +1809,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
     "liveMetaVersion": 202,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 202,
+      "file": {
+        "path": "qr/node-subtensor_metadata_202.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9ddc1e2becf712ab75a65c30baf2a80c9ff63fc6566a641124605db23f52bcc4"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
