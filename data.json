@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://rpc-polkadot.novasama-tech.org",
+    "rpcEndpoint": "wss://rpc-polkadot.novasamatech.org",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -32,7 +32,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-kusama.novasama-tech.org",
+    "rpcEndpoint": "wss://rpc-kusama.novasamatech.org",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -872,7 +872,7 @@
   "kusama-zeitgeist": {
     "title": "Zeitgeist",
     "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
-    "rpcEndpoint": "wss://main.rpc.zeitgeist.pm/ws",
+    "rpcEndpoint": "wss://zeitgeist.api.onfinality.io/public-ws",
     "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
     "unit": "ZTG",
     "base58prefix": 73,
@@ -1622,7 +1622,7 @@
   "kusama-ipci": {
     "title": "DAO IPCI",
     "color": "#800742",
-    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "rpcEndpoint": "wss://ipci.rpc.robonomics.network",
     "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
     "unit": "MITO",
     "base58prefix": 32,
@@ -2192,7 +2192,7 @@
   "polkadot-watr-mainnet": {
     "title": "Watr",
     "color": "#000000",
-    "rpcEndpoint": "wss://watr-rpc.watr-api.network",
+    "rpcEndpoint": "wss://watr.public.curie.radiumblock.co/ws",
     "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
     "unit": "WATR",
     "base58prefix": 19,
