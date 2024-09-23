@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://rpc-polkadot.novasamatech.org",
+    "rpcEndpoint": "wss://rpc-polkadot.novasama-tech.org",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -32,7 +32,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-kusama.novasamatech.org",
+    "rpcEndpoint": "wss://rpc-kusama.novasama-tech.org",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -218,18 +218,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 3100,
-    "metadataQr": {
-      "version": 3100,
-      "file": {
-        "path": "qr/polkadot-moonbeam_metadata_3100.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xe12981665e5d5d88ba1ccb1c66200ec2af8e8fb99c0caa8f786f66ef7334c165"
-        }
-      }
-    },
+    "liveMetaVersion": 3102,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
