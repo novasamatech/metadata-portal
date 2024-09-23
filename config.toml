@@ -17,7 +17,7 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
-    "wss://rpc-polkadot.novasamatech.org",
+    "wss://rpc-polkadot.novasama-tech.org",
     "wss://rpc.ibp.network/polkadot",
     "wss://rpc.dotters.network/polkadot",
     "wss://apps-rpc.polkadot.io",
@@ -36,7 +36,7 @@ title = "Kusama"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
-    "wss://rpc-kusama.novasamatech.org",
+    "wss://rpc-kusama.novasama-tech.org",
     "wss://rpc.ibp.network/kusama",
     "wss://rpc.dotters.network/kusama",
     "wss://apps-kusama-rpc.polkadot.io",
