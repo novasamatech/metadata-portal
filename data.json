@@ -1058,18 +1058,8 @@
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 253,
-    "metadataQr": {
-      "version": 253,
-      "file": {
-        "path": "qr/polkadot-hydradx_metadata_253.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x049d2b6ac5cdcf121e49457f628ec0005c042e6cfd4e087dac599a3845b0aa54"
-        }
-      }
-    },
+    "liveMetaVersion": 257,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
