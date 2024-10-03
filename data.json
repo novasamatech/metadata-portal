@@ -759,7 +759,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
     "liveMetaVersion": 33,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 33,
+      "file": {
+        "path": "qr/kusama-robonomics_metadata_33.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdb311956efabb9e29e3cbc305cd9fc8c21775d7dc7e3f2d5f15177f8d36d0b24"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-robonomics_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-robonomics_specs.png",
