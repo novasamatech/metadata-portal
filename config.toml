@@ -19,7 +19,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-polkadot.novasama-tech.org",
     "wss://rpc.ibp.network/polkadot",
-    "wss://rpc.dotters.network/polkadot",
+    "wss://polkadot.dotters.network",
     "wss://apps-rpc.polkadot.io",
     "wss://polkadot-rpc.dwellir.com",
     "wss://dot-rpc.stakeworld.io",
@@ -38,7 +38,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-kusama.novasama-tech.org",
     "wss://rpc.ibp.network/kusama",
-    "wss://rpc.dotters.network/kusama",
+    "wss://kusama.dotters.network",
     "wss://apps-kusama-rpc.polkadot.io",
     "wss://kusama-rpc.dwellir.com",
     "wss://rpc-kusama.luckyfriday.io",
@@ -57,7 +57,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://westend-rpc.dwellir.com",
     "wss://rpc.ibp.network/westend",
-    "wss://rpc.dotters.network/westend",
+    "wss://westend.dotters.network",
     "wss://westend.public.curie.radiumblock.co/ws",
     "wss://westend.api.onfinality.io/public-ws",
 ]
@@ -70,8 +70,8 @@ title = "Kusama Asset Hub"
 color = "#113911"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg"
 rpc_endpoints = [
-    "wss://sys.ibp.network/statemine",
-    "wss://sys.dotters.network/statemine",
+    "wss://sys.ibp.network/asset-hub-kusama",
+    "wss://asset-hub-kusama.dotters.network",
     "wss://statemine-rpc.dwellir.com",
 ]
 testnet = false
@@ -86,7 +86,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://polkadot-people-rpc.polkadot.io",
     "wss://sys.ibp.network/people-polkadot",
-    "wss://sys.dotters.network/people-polkadot",
+    "wss://people-polkadot.dotters.network",
     "wss://rpc-people-polkadot.luckyfriday.io",
     "wss://people-polkadot.public.curie.radiumblock.co/ws",
 ]
@@ -102,7 +102,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://kusama-people-rpc.polkadot.io",
     "wss://sys.ibp.network/people-kusama",
-    "wss://sys.dotters.network/people-kusama",
+    "wss://people-kusama.dotters.network",
     "wss://ksm-rpc.stakeworld.io/people",
 ]
 testnet = false
@@ -358,7 +358,7 @@ color = "#86e62a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/asset-hub-polkadot",
-    "wss://sys.dotters.network/asset-hub-polkadot",
+    "wss://asset-hub-polkadot.dotters.network",
     "wss://statemint-rpc.dwellir.com",
     "wss://statemint.api.onfinality.io/public-ws",
 ]
@@ -386,7 +386,7 @@ color = "#0000cc"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Encointer.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/encointer-kusama",
-    "wss://sys.dotters.network/encointer-kusama",
+    "wss://encointer-kusama.dotters.network",
     "wss://api.kusama.encointer.org",
 ]
 testnet = false
@@ -883,7 +883,7 @@ color = "#2B73C5"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/bridgehub-polkadot",
-    "wss://sys.dotters.network/bridgehub-polkadot",
+    "wss://bridge-hub-polkadot.dotters.network",
     "wss://dot-rpc.stakeworld.io/bridgehub",
 ]
 testnet = false
@@ -897,7 +897,7 @@ color = "#B34FF6"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/bridgehub-kusama",
-    "wss://sys.dotters.network/bridgehub-kusama",
+    "wss://bridge-hub-kusama.dotters.network",
     "wss://ksm-rpc.stakeworld.io/bridgehub",
 ]
 testnet = false
@@ -911,7 +911,7 @@ color = "#e6777a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/collectives-polkadot",
-    "wss://sys.dotters.network/collectives-polkadot",
+    "wss://collectives-polkadot.dotters.network",
     "wss://collectives.public.curie.radiumblock.co/ws",
     "wss://dot-rpc.stakeworld.io/collectives",
     "wss://collectives.api.onfinality.io/public-ws",
@@ -1112,9 +1112,60 @@ verifier = "novasama"
 [[chains]]
 name = "paseo"
 title = "Paseo Testnet"
-color = "#000000"
+color = "#38393F"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = ["wss://rpc.ibp.network/paseo"]
+rpc_endpoints = [
+    "wss://rpc.ibp.network/paseo",
+    "wss://paseo.dotters.network",
+]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
+name = "asset-hub-paseo"
+title = "Asset Hub Paseo Testnet"
+color = "#77BB77"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = [
+    "wss://rpc.ibp.network/asset-hub-paseo",
+    "wss://asset-hub-paseo.dotters.network",
+]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
+name = "bridge-hub-paseo"
+title = "Bridge Hub Paseo Testnet"
+color = "#AAADD7"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = [
+    "wss://rpc.ibp.network/bridge-hub-paseo",
+    "wss://bridge-hub-paseo.dotters.network",
+]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
+name = "coretime-paseo"
+title = "Coretime Paseo Testnet"
+color = "#113911"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = [
+    "wss://rpc.ibp.network/coretime-paseo",
+    "wss://coretime-paseo.dotters.network",
+]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
+name = "people-paseo"
+title = "people Paseo Testnet"
+color = "#e84366"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = [
+    "wss://rpc.ibp.network/people-paseo",
+    "wss://people-paseo.dotters.network",
+]
 testnet = true
 verifier = "novasama"
 
@@ -1144,7 +1195,7 @@ color = "#795116"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/coretime-kusama",
-    "wss://sys.dotters.network/coretime-kusama",
+    "wss://coretime-kusama.dotters.network",
     "wss://kusama-coretime-rpc.polkadot.io",
     "wss://ksm-rpc.stakeworld.io/coretime",
 ]
