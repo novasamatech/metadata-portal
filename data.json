@@ -899,36 +899,6 @@
     "testnet": false,
     "relayChain": "kusama"
   },
-  "kusama-litmus-parachain": {
-    "title": "Litmus",
-    "color": "#6822fb",
-    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
-    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
-    "unit": "LIT",
-    "base58prefix": 131,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
-    "decimals": 18,
-    "liveMetaVersion": 9191,
-    "metadataQr": {
-      "version": 9191,
-      "file": {
-        "path": "qr/kusama-litmus-parachain_metadata_9191.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc737c4332aa30b747c039666cfc1fd70715cdbbeb6c94c7ac096ee203d4f9590"
-        }
-      }
-    },
-    "latestMetadata": "qr/kusama-litmus-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama-litmus-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "kusama"
-  },
   "kusama-subsocial-parachain": {
     "title": "Subsocial",
     "color": "#69058C",
@@ -2188,36 +2158,6 @@
     },
     "testnet": false,
     "relayChain": null
-  },
-  "polkadot-watr-mainnet": {
-    "title": "Watr",
-    "color": "#000000",
-    "rpcEndpoint": "wss://watr.public.curie.radiumblock.co/ws",
-    "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
-    "unit": "WATR",
-    "base58prefix": 19,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Watr.svg",
-    "decimals": 18,
-    "liveMetaVersion": 1240,
-    "metadataQr": {
-      "version": 1240,
-      "file": {
-        "path": "qr/polkadot-watr-mainnet_metadata_1240.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfa711103a2ca006a9392988def498f19eda83c18615069c35054d52857df6fb0"
-        }
-      }
-    },
-    "latestMetadata": "qr/polkadot-watr-mainnet_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/polkadot-watr-mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "polkadot"
   },
   "joystream-node": {
     "title": "Joystream",
