@@ -29,36 +29,6 @@
     "testnet": false,
     "relayChain": null
   },
-  "kusama": {
-    "title": "Kusama",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc-kusama.novasama-tech.org",
-    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "unit": "KSM",
-    "base58prefix": 2,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
-    "decimals": 12,
-    "liveMetaVersion": 1003000,
-    "metadataQr": {
-      "version": 1003000,
-      "file": {
-        "path": "qr/kusama_metadata_1003000.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc74fcc5ccaefb59bb2b8b00f437bdd79e14a283547dfd201fc9b6622fe3f6d9b"
-        }
-      }
-    },
-    "latestMetadata": "qr/kusama_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": null
-  },
   "westend": {
     "title": "Westend",
     "color": "#f27230",
@@ -87,6 +57,36 @@
       "source": null
     },
     "testnet": true,
+    "relayChain": null
+  },
+  "kusama": {
+    "title": "Kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-kusama.novasama-tech.org",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1003000,
+    "metadataQr": {
+      "version": 1003000,
+      "file": {
+        "path": "qr/kusama_metadata_1003000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc74fcc5ccaefb59bb2b8b00f437bdd79e14a283547dfd201fc9b6622fe3f6d9b"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": false,
     "relayChain": null
   },
   "kusama-statemine": {
@@ -2012,7 +2012,7 @@
   "giant-runtime": {
     "title": "GIANT",
     "color": "#45B549",
-    "rpcEndpoint": "wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443",
+    "rpcEndpoint": "wss://rpc-anchor-1-mainnet-az-ue1.giantprotocol.org:443",
     "genesisHash": "0x49f4849244114177544d73d2412289f6d73a892b9eb1ca97cef81c9c0c9ec0ff",
     "unit": "GIANT",
     "base58prefix": 42,
@@ -2732,7 +2732,7 @@
   "kusama-coretime-kusama": {
     "title": "Kusama Coretime Chain",
     "color": "#795116",
-    "rpcEndpoint": "wss://sys.ibp.network/coretime-kusama",
+    "rpcEndpoint": "wss://coretime-kusama.dotters.network",
     "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
     "unit": "KSM",
     "base58prefix": 2,
