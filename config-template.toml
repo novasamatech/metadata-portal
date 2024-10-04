@@ -414,54 +414,6 @@ testnet = true
 verifier = "novasama"
 
 [[inject_chains]]
-name = "asset-hub-paseo"
-title = "Asset Hub Paseo Testnet"
-color = "#77BB77"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = [
-    "wss://rpc.ibp.network/asset-hub-paseo",
-    "wss://asset-hub-paseo.dotters.network",
-]
-testnet = true
-verifier = "novasama"
-
-[[inject_chains]]
-name = "bridge-hub-paseo"
-title = "Bridge Hub Paseo Testnet"
-color = "#AAADD7"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = [
-    "wss://rpc.ibp.network/bridge-hub-paseo",
-    "wss://bridge-hub-paseo.dotters.network",
-]
-testnet = true
-verifier = "novasama"
-
-[[inject_chains]]
-name = "coretime-paseo"
-title = "Coretime Paseo Testnet"
-color = "#113911"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = [
-    "wss://rpc.ibp.network/coretime-paseo",
-    "wss://coretime-paseo.dotters.network",
-]
-testnet = true
-verifier = "novasama"
-
-[[inject_chains]]
-name = "people-paseo"
-title = "people Paseo Testnet"
-color = "#e84366"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = [
-    "wss://rpc.ibp.network/people-paseo",
-    "wss://people-paseo.dotters.network",
-]
-testnet = true
-verifier = "novasama"
-
-[[inject_chains]]
 name = "rococo"
 title = "Rococo Testnet"
 color = "#000000"
