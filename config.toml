@@ -31,6 +31,21 @@ testnet = false
 verifier = "parity"
 
 [[chains]]
+name = "westend"
+title = "Westend"
+color = "#f27230"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
+rpc_endpoints = [
+    "wss://westend-rpc.dwellir.com",
+    "wss://rpc.ibp.network/westend",
+    "wss://rpc.dotters.network/westend",
+    "wss://westend.public.curie.radiumblock.co/ws",
+    "wss://westend.api.onfinality.io/public-ws",
+]
+testnet = true
+verifier = "parity"
+
+[[chains]]
 name = "kusama"
 title = "Kusama"
 color = "#000000"
@@ -414,6 +429,16 @@ verifier = "novasama"
 relay_chain = "kusama"
 
 [[chains]]
+name = "litmus-parachain"
+title = "Litmus"
+color = "#6822fb"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg"
+rpc_endpoints = ["wss://rpc.litmus-parachain.litentry.io"]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
+
+[[chains]]
 name = "subsocial-parachain"
 title = "Subsocial"
 color = "#69058C"
@@ -771,19 +796,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "Equilibrium-parachain"
-title = "Equilibrium (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
-rpc_endpoints = [
-    "wss://node.pol.equilibrium.io",
-    "wss://equilibrium-rpc.dwellir.com",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
-
-[[chains]]
 name = "ajuna"
 title = "Ajuna"
 color = "#000000"
@@ -931,6 +943,16 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "watr-mainnet"
+title = "Watr"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Watr.svg"
+rpc_endpoints = ["wss://watr.public.curie.radiumblock.co/ws"]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "joystream-node"
