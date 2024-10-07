@@ -2349,7 +2349,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
     "liveMetaVersion": 1033,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1033,
+      "file": {
+        "path": "qr/enjin_metadata_1033.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x39bc11a1b31f40e329659e51ea77ef80d5731a8ff0f9e28c04d78d303ee404b2"
+        }
+      }
+    },
     "latestMetadata": "qr/enjin_metadata_latest.apng",
     "specsQr": {
       "path": "qr/enjin_specs.png",
