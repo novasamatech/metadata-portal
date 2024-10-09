@@ -1299,7 +1299,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 18,
     "liveMetaVersion": 9201,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9201,
+      "file": {
+        "path": "qr/polkadot-litentry-parachain_metadata_9201.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x73134dded0716affb735fd701c41ee52d8a41330e045fee314ae02b2a33fe7e6"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-litentry-parachain_specs.png",
