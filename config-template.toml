@@ -409,7 +409,7 @@ name = "paseo"
 title = "Paseo Testnet"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = ["wss://paseo.dotters.network", "wss://rpc.dotters.network/paseo", "wss://paseo.ibp.network", "wss://rpc.ibp.network/paseo"]
+rpc_endpoints = ["wss://paseo.rpc.amforc.com"]
 testnet = true
 verifier = "novasama"
 
