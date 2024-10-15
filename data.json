@@ -19,36 +19,6 @@
     "testnet": false,
     "relayChain": null
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 1016001,
-    "metadataQr": {
-      "version": 1016001,
-      "file": {
-        "path": "qr/westend_metadata_1016001.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2cbd01ef7a1f1caaeda6398c018b439a267e4e1641f4755d666b6da8126f13b9"
-        }
-      }
-    },
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true,
-    "relayChain": null
-  },
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
@@ -79,10 +49,40 @@
     "testnet": false,
     "relayChain": null
   },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1016001,
+    "metadataQr": {
+      "version": 1016001,
+      "file": {
+        "path": "qr/westend_metadata_1016001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2cbd01ef7a1f1caaeda6398c018b439a267e4e1641f4755d666b6da8126f13b9"
+        }
+      }
+    },
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true,
+    "relayChain": null
+  },
   "kusama-statemine": {
     "title": "Kusama Asset Hub",
     "color": "#113911",
-    "rpcEndpoint": "wss://sys.ibp.network/statemine",
+    "rpcEndpoint": "wss://sys.ibp.network/asset-hub-kusama",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
@@ -2521,7 +2521,7 @@
   },
   "paseo": {
     "title": "Paseo Testnet",
-    "color": "#000000",
+    "color": "#38393F",
     "rpcEndpoint": "wss://paseo.rpc.amforc.com",
     "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
     "unit": "PAS",
@@ -2612,7 +2612,7 @@
   "kusama-coretime-kusama": {
     "title": "Kusama Coretime Chain",
     "color": "#795116",
-    "rpcEndpoint": "wss://coretime-kusama.dotters.network",
+    "rpcEndpoint": "wss://sys.ibp.network/coretime-kusama",
     "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
     "unit": "KSM",
     "base58prefix": 2,
