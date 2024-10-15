@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
-
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -50,27 +50,12 @@ testnet = false
 verifier = "parity"
 
 [[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
-verifier = "parity"
-
-[[chains]]
 name = "statemine"
 title = "Kusama Asset Hub"
 color = "#113911"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg"
 rpc_endpoints = [
-    "wss://sys.ibp.network/asset-hub-kusama",
+    "wss://sys.ibp.network/statemine",
     "wss://asset-hub-kusama.dotters.network",
     "wss://statemine-rpc.dwellir.com",
 ]
@@ -335,7 +320,10 @@ name = "parallel"
 title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
-rpc_endpoints = ["wss://parallel-rpc.dwellir.com"]
+rpc_endpoints = [
+    "wss://polkadot-parallel-rpc.parallel.fi",
+    "wss://parallel-rpc.dwellir.com",
+]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
@@ -786,6 +774,19 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "Equilibrium-parachain"
+title = "Equilibrium (PAUSED)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg"
+rpc_endpoints = [
+    "wss://node.pol.equilibrium.io",
+    "wss://equilibrium-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
 name = "ajuna"
 title = "Ajuna"
 color = "#000000"
@@ -1094,7 +1095,7 @@ verifier = "novasama"
 [[chains]]
 name = "paseo"
 title = "Paseo Testnet"
-color = "#38393F"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
 rpc_endpoints = ["wss://paseo.rpc.amforc.com"]
 testnet = true
@@ -1125,8 +1126,10 @@ title = "Kusama Coretime Chain"
 color = "#795116"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
 rpc_endpoints = [
-    "wss://sys.ibp.network/coretime-kusama",
     "wss://coretime-kusama.dotters.network",
+    "wss://sys.dotters.network/coretime-kusama",
+    "wss://coretime-kusama.ibp.network",
+    "wss://sys.ibp.network/coretime-kusama",
     "wss://kusama-coretime-rpc.polkadot.io",
     "wss://ksm-rpc.stakeworld.io/coretime",
 ]
