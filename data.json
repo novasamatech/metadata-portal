@@ -599,7 +599,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
     "liveMetaVersion": 2260,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2260,
+      "file": {
+        "path": "qr/polkadot-acala_metadata_2260.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x170c25fa944cf34832d2f9b27c3361a1f74a801d68ffdeeb2b9adda065233fb7"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acala_specs.png",
@@ -1669,7 +1679,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 19,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 19,
+      "file": {
+        "path": "qr/polkadot-pendulum_metadata_19.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1f07d9facf5e8b1c5a55b8dd4e5f17546fb408211344aa070ed148aa8feb7e9c"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-pendulum_specs.png",
