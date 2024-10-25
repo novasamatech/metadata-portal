@@ -1919,7 +1919,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
     "liveMetaVersion": 121,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 121,
+      "file": {
+        "path": "qr/polkadot-frequency_metadata_121.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1f096a4ce707576b7b5910ffce2f3e805e0a57382f53f4001cc83a8767136d13"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-frequency_specs.png",
