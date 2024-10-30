@@ -2498,18 +2498,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge.svg",
     "decimals": 12,
-    "liveMetaVersion": 1300,
-    "metadataQr": {
-      "version": 1300,
-      "file": {
-        "path": "qr/polkadot-nexus_metadata_1300.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xcb6ffe71a4c3ee4f6db7f9ac565217afb893f4d06b5673aa3686912bd208e68c"
-        }
-      }
-    },
+    "liveMetaVersion": 1400,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-nexus_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-nexus_specs.png",
