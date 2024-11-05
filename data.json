@@ -249,7 +249,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonriver.svg",
     "decimals": 18,
     "liveMetaVersion": 3300,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 3300,
+      "file": {
+        "path": "qr/kusama-moonriver_metadata_3300.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf3fff1a277d1237c12e305797ae6112e42d6bd204e8187d1c29eadb97e1b8f68"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-moonriver_specs.png",
@@ -269,7 +279,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
     "liveMetaVersion": 1000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1000,
+      "file": {
+        "path": "qr/kusama-shiden_metadata_1000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe4c113df94bc9f194d00c6cec68c1bec217849a7c87d6f74d78c16561f0f6531"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-shiden_specs.png",
@@ -2239,7 +2259,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg",
     "decimals": 12,
     "liveMetaVersion": 8,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/polkadot-invarch_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xf0d02e2fffc0239129ba5245b5e71a36a3e3f9405ed1933203014c00ff1dddda"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-invarch_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-invarch_specs.png",
@@ -2409,7 +2439,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
     "liveMetaVersion": 20,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 20,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_20.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2be6aa8825723185b18d3e4992585650286554db35341087034211648a4750d3"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
