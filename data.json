@@ -2258,18 +2258,8 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg",
     "decimals": 12,
-    "liveMetaVersion": 8,
-    "metadataQr": {
-      "version": 8,
-      "file": {
-        "path": "qr/polkadot-invarch_metadata_8.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf0d02e2fffc0239129ba5245b5e71a36a3e3f9405ed1933203014c00ff1dddda"
-        }
-      }
-    },
+    "liveMetaVersion": 9,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-invarch_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-invarch_specs.png",
