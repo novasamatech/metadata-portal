@@ -669,7 +669,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
     "decimals": 12,
     "liveMetaVersion": 311,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 311,
+      "file": {
+        "path": "qr/polkadot-parallel_metadata_311.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3c6acfd3242f29a637adb9d2f183bfddbba714598d19b078d2af67409ae878c9"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-parallel_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-parallel_specs.png",
@@ -1229,7 +1239,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg",
     "decimals": 12,
     "liveMetaVersion": 137,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 137,
+      "file": {
+        "path": "qr/polkadot-origintrail-parachain_metadata_137.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3d310c0b38d819d285bb848be49018cd83e58e8af32d1ee10be36129bf5bb4b7"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-origintrail-parachain_specs.png",
@@ -2299,7 +2319,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Manta.svg",
     "decimals": 18,
     "liveMetaVersion": 4730,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 4730,
+      "file": {
+        "path": "qr/polkadot-manta_metadata_4730.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd59c8ae910dba1c88429ce221ab318a6272a3ffe1c2c82419a0f2a42c9cec8e7"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-manta_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-manta_specs.png",
