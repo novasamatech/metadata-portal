@@ -50,21 +50,6 @@ testnet = false
 verifier = "parity"
 
 [[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
-verifier = "parity"
-
-[[chains]]
 name = "statemine"
 title = "Kusama Asset Hub"
 color = "#113911"
@@ -781,21 +766,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "ajuna"
-title = "Ajuna"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg"
-rpc_endpoints = [
-    "wss://rpc-para.ajuna.network",
-    "wss://ajuna.ibp.network",
-    "wss://ajuna.dotters.network",
-    "wss://ajuna.public.curie.radiumblock.co/ws",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
-
-[[chains]]
 name = "poscan-runtime"
 title = "3DPass"
 color = "#000000"
@@ -1051,20 +1021,6 @@ verifier = "novasama"
 relay_chain = "kusama"
 
 [[chains]]
-name = "nexus"
-title = "Hyperbridge Nexus"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge.svg"
-rpc_endpoints = [
-    "wss://nexus.ibp.network",
-    "wss://nexus.dotters.network",
-    "wss://hyperbridge-nexus-rpc.blockops.network",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
-
-[[chains]]
 name = "avail"
 title = "Avail"
 color = "#000000"
@@ -1087,9 +1043,45 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "creditcoin-node"
+title = "CC Enterprise"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg"
+rpc_endpoints = ["wss://mainnet.creditcoin.network/ws"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "creditcoin3"
+title = "Creditcoin"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg"
+rpc_endpoints = ["wss://mainnet3.creditcoin.network"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "humanode"
+title = "Humanode"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg"
+rpc_endpoints = ["wss://explorer-rpc-ws.mainnet.stages.humanode.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
+name = "node"
+title = "DeepBrain"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg"
+rpc_endpoints = ["wss://info.dbcwallet.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
 name = "paseo"
 title = "Paseo Testnet"
-color = "#38393F"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
 rpc_endpoints = ["wss://paseo.rpc.amforc.com"]
 testnet = true
