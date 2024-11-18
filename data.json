@@ -139,7 +139,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_People.svg",
     "decimals": 12,
     "liveMetaVersion": 1003003,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1003003,
+      "file": {
+        "path": "qr/kusama-people-kusama_metadata_1003003.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8b8c2024868430fb39a55c01d652ac2aa08d5c9649ae8d071fb0e889eaca67df"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-people-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-people-kusama_specs.png",
@@ -188,18 +198,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 3200,
-    "metadataQr": {
-      "version": 3200,
-      "file": {
-        "path": "qr/polkadot-moonbeam_metadata_3200.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb1c1d4d0ff8ea26dd39df5f6b01f65c15254261175f20aca56a99af92149a83a"
-        }
-      }
-    },
+    "liveMetaVersion": 3300,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
@@ -308,15 +308,15 @@
     "base58prefix": 10041,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
-    "liveMetaVersion": 121,
+    "liveMetaVersion": 122,
     "metadataQr": {
-      "version": 121,
+      "version": 122,
       "file": {
-        "path": "qr/kusama-basilisk_metadata_121.apng",
+        "path": "qr/kusama-basilisk_metadata_122.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x096c7cbba15b1d316e88b5fcb7e802d25639068cd2944333899db19810de725e"
+          "block": "0xff08b56f7948e36339acc648312af13541f815b952cf0e2ffa58d69827a0897a"
         }
       }
     },
