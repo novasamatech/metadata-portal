@@ -448,15 +448,15 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1192,
+    "liveMetaVersion": 1270,
     "metadataQr": {
-      "version": 1192,
+      "version": 1270,
       "file": {
-        "path": "qr/kusama-khala_metadata_1192.apng",
+        "path": "qr/kusama-khala_metadata_1270.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xe5c5c1aad940c101ff12ffd63d29d67e361be14eb743fcfefef8e52bd93d1593"
+          "block": "0xde5f3dec13bb21c2726ffe028dba41895bfb5ab4a430a29ea6e7cf7d0b37781b"
         }
       }
     },
