@@ -452,7 +452,7 @@
   "kusama-khala": {
     "title": "Khala",
     "color": "#03f3f3",
-    "rpcEndpoint": "wss://khala-api.phala.network/ws",
+    "rpcEndpoint": "wss://khala-rpc.dwellir.com",
     "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "unit": "PHA",
     "base58prefix": 30,
@@ -1022,7 +1022,7 @@
   "polkadot-hydradx": {
     "title": "Hydration",
     "color": "#000000",
-    "rpcEndpoint": "wss://hydration.ibp.network",
+    "rpcEndpoint": "wss://rpc.hydradx.cloud",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
     "base58prefix": 63,
@@ -1799,6 +1799,36 @@
     "testnet": false,
     "relayChain": null
   },
+  "polkadot-ajuna": {
+    "title": "Ajuna",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-para.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "liveMetaVersion": 802,
+    "metadataQr": {
+      "version": 802,
+      "file": {
+        "path": "qr/polkadot-ajuna_metadata_802.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x310079563ad2e171517738819bd37fceb986a06215b582b85f51c8f9fd22ede2"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
   "poscan-runtime": {
     "title": "3DPass",
     "color": "#000000",
@@ -1868,15 +1898,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
-    "liveMetaVersion": 6710,
+    "liveMetaVersion": 6800,
     "metadataQr": {
-      "version": 6710,
+      "version": 6800,
       "file": {
-        "path": "qr/kusama-crab2_metadata_6710.apng",
+        "path": "qr/kusama-crab2_metadata_6800.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x1842ee917b577fc5746fe0c999b3f7c5fa13f0cd652272f6cda12d66aaa4361c"
+          "block": "0x0ba3ce3397a46d004ff67e53f9952545b6845672b0e6851f6fc9ed0e97fc4d3d"
         }
       }
     },
@@ -2608,6 +2638,66 @@
     },
     "testnet": false,
     "relayChain": null
+  },
+  "polkadot-peaq-node": {
+    "title": "peaq",
+    "color": "#000000",
+    "rpcEndpoint": "wss://peaq.api.onfinality.io/public",
+    "genesisHash": "0xd2a5d385932d1f650dae03ef8e2748983779ee342c614f80854d32b8cd8fa48c",
+    "unit": "PEAQ",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/peaq.svg",
+    "decimals": 18,
+    "liveMetaVersion": 103,
+    "metadataQr": {
+      "version": 103,
+      "file": {
+        "path": "qr/polkadot-peaq-node_metadata_103.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xde819adeb104f483c8e73d8d9eca62850ed2b8079db006f450c407f01b588608"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-peaq-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-peaq-node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
+  "polkadot-laos": {
+    "title": "Laos",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.laos.laosfoundation.io",
+    "genesisHash": "0xe8aecc950e82f1a375cf650fa72d07e0ad9bef7118f49b92283b63e88b1de88b",
+    "unit": "LAOS",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/LAOS.svg",
+    "decimals": 18,
+    "liveMetaVersion": 2201,
+    "metadataQr": {
+      "version": 2201,
+      "file": {
+        "path": "qr/polkadot-laos_metadata_2201.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xee6a4df88d60f2e7ccf7c0049e12b0511960f3f98be1ffc62af80d9875103199"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-laos_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-laos_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
   },
   "paseo": {
     "title": "Paseo Testnet",
