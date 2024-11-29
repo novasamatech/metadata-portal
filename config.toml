@@ -2,14 +2,14 @@ data_file = "public/data.json"
 public_dir = "public"
 qr_dir = "public/qr"
 
+[verifiers.parity]
+name = "Parity"
+public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+
 [verifiers.novasama]
 name = "Novasama Technologies"
 public_key = "16d5a6266345874d8f5b7f88a6619711b2829b52b2865826b1ecefb62beef34f"
 ethereum_public_key = "031b195495f907908aeedd8e9a0ae128dcf23b6a7425dd16d282df7d867855e7f1"
-
-[verifiers.parity]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
 
 [[chains]]
 name = "polkadot"
@@ -47,21 +47,6 @@ rpc_endpoints = [
     "wss://kusama.api.onfinality.io/public-ws",
 ]
 testnet = false
-verifier = "parity"
-
-[[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
 verifier = "parity"
 
 [[chains]]
@@ -232,10 +217,11 @@ title = "Khala"
 color = "#03f3f3"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg"
 rpc_endpoints = [
-    "wss://khala-api.phala.network/ws",
     "wss://khala-rpc.dwellir.com",
-    "wss://khala.public.curie.radiumblock.co/ws",
+    "wss://rpc.helikon.io/khala",
     "wss://khala.api.onfinality.io/public-ws",
+    "wss://khala-api.phala.network/ws",
+    "wss://khala.public.curie.radiumblock.co/ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -482,10 +468,10 @@ title = "Hydration"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg"
 rpc_endpoints = [
+    "wss://rpc.hydradx.cloud",
     "wss://hydration.ibp.network",
     "wss://hydration.dotters.network",
     "wss://hydradx-rpc.dwellir.com",
-    "wss://rpc.hydradx.cloud",
 ]
 testnet = false
 verifier = "novasama"
@@ -525,9 +511,10 @@ color = "#c6fa4c"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg"
 rpc_endpoints = [
     "wss://phala-rpc.dwellir.com",
+    "wss://rpc.helikon.io/phala",
+    "wss://phala.api.onfinality.io/public-ws",
     "wss://api.phala.network/ws",
     "wss://phala.public.curie.radiumblock.co/ws",
-    "wss://phala.api.onfinality.io/public-ws",
 ]
 testnet = false
 verifier = "novasama"
@@ -560,10 +547,7 @@ name = "node"
 title = "Polkadex"
 color = "#7C30DD"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg"
-rpc_endpoints = [
-    "wss://polkadex.api.onfinality.io/public-ws",
-    "wss://polkadex.public.curie.radiumblock.co/ws",
-]
+rpc_endpoints = ["wss://polkadex.public.curie.radiumblock.co/ws"]
 testnet = false
 verifier = "novasama"
 
@@ -779,6 +763,21 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://entrypoint-finney.opentensor.ai:443"]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "ajuna"
+title = "Ajuna"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg"
+rpc_endpoints = [
+    "wss://rpc-para.ajuna.network",
+    "wss://ajuna.ibp.network",
+    "wss://ajuna.dotters.network",
+    "wss://ajuna.public.curie.radiumblock.co/ws",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "poscan-runtime"
@@ -1092,6 +1091,34 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = ["wss://info.dbcwallet.io"]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "peaq-node"
+title = "peaq"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/peaq.svg"
+rpc_endpoints = [
+    "wss://peaq.api.onfinality.io/public",
+    "wss://peaq-rpc.publicnode.com",
+    "wss://peaq-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
+name = "laos"
+title = "Laos"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/LAOS.svg"
+rpc_endpoints = [
+    "wss://rpc.laos.laosfoundation.io",
+    "wss://laos-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
+encryption = "ethereum"
+relay_chain = "polkadot"
 
 [[chains]]
 name = "paseo"
