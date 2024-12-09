@@ -1208,18 +1208,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg",
     "decimals": 15,
-    "liveMetaVersion": 277,
-    "metadataQr": {
-      "version": 277,
-      "file": {
-        "path": "qr/node_metadata_277.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x88adb5146354700269bf78ecf10420a00cb6b1bf93ff6c43914e5a009adaeac9"
-        }
-      }
-    },
+    "liveMetaVersion": 278,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
