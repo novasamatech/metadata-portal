@@ -2428,18 +2428,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 20,
-    "metadataQr": {
-      "version": 20,
-      "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_20.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2be6aa8825723185b18d3e4992585650286554db35341087034211648a4750d3"
-        }
-      }
-    },
+    "liveMetaVersion": 21,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
