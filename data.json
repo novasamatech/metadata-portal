@@ -2691,22 +2691,22 @@
   },
   "paseo": {
     "title": "Paseo Testnet",
-    "color": "#38393F",
+    "color": "#000000",
     "rpcEndpoint": "wss://paseo.rpc.amforc.com",
     "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
     "unit": "PAS",
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 1003000,
+    "liveMetaVersion": 1003004,
     "metadataQr": {
-      "version": 1003000,
+      "version": 1003004,
       "file": {
-        "path": "qr/paseo_metadata_1003000.apng",
+        "path": "qr/paseo_metadata_1003004.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6375c19d6de3268f4ab6249eed6802e56f4be6c971c4ad5c166e5cad14a1a3fe"
+          "block": "0x980d0c510605070c51aa1685f91ae68be262e473467e0ec73016e17b61add81e"
         }
       }
     },
