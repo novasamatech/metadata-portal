@@ -50,21 +50,6 @@ testnet = false
 verifier = "parity"
 
 [[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
-verifier = "parity"
-
-[[chains]]
 name = "statemine"
 title = "Kusama Asset Hub"
 color = "#113911"
@@ -1136,18 +1121,36 @@ encryption = "ethereum"
 relay_chain = "polkadot"
 
 [[chains]]
+name = "template-parachain"
+title = "Xode"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Xode.svg"
+rpc_endpoints = [
+    "wss://rpc-kr.xode.net",
+    "wss://rpcnodea01.xode.net/n7yoxCmcIrCF6VziCcDmYTwL8R03a/rpc",
+]
+testnet = false
+verifier = "novasama"
+relay_chain = "kusama"
+
+[[chains]]
+name = "jamton-runtime"
+title = "JAMTON"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Jamton.svg"
+rpc_endpoints = ["wss://rpc.jamton.network"]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
+
+[[chains]]
 name = "paseo"
 title = "Paseo Testnet"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = ["wss://paseo.rpc.amforc.com", "wss://paseo.dotters.network"]
+rpc_endpoints = ["wss://paseo.rpc.amforc.com"]
 testnet = true
 verifier = "novasama"
-
-[chains.github_release]
-owner = "paseo-network"
-repo = "runtimes"
-genesis_hash = "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f"
 
 [[chains]]
 name = "rococo"
