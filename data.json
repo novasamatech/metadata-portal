@@ -2729,6 +2729,66 @@
     "testnet": false,
     "relayChain": "polkadot"
   },
+  "kusama-template-parachain": {
+    "title": "Xode",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-kr.xode.net",
+    "genesisHash": "0x28cc1df52619f4edd9f0389a7e910a636276075ecc429600f1dd434e281a04e9",
+    "unit": "XON",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Xode.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1,
+    "metadataQr": {
+      "version": 1,
+      "file": {
+        "path": "qr/kusama-template-parachain_metadata_1.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfad4edef775524322268d5993d2a995f06df0c5f908f4dc9feb8e4eabd7edde5"
+        }
+      }
+    },
+    "latestMetadata": "qr/kusama-template-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama-template-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "kusama"
+  },
+  "polkadot-jamton-runtime": {
+    "title": "JAMTON",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.jamton.network",
+    "genesisHash": "0xbb9233e202ec014707f82ddb90e84ee9efece8fefee287ad4ad646d869a6c24a",
+    "unit": "DOTON",
+    "base58prefix": 5589,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Jamton.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1120020,
+    "metadataQr": {
+      "version": 1120020,
+      "file": {
+        "path": "qr/polkadot-jamton-runtime_metadata_1120020.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x40527b37bd53c9b3070a24b6d5433529cf9e21a19684e77d6a9f8129157b4587"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-jamton-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-jamton-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
+  },
   "paseo": {
     "title": "Paseo Testnet",
     "color": "#000000",
