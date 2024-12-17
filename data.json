@@ -1748,15 +1748,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
     "decimals": 18,
-    "liveMetaVersion": 75,
+    "liveMetaVersion": 78,
     "metadataQr": {
-      "version": 75,
+      "version": 78,
       "file": {
-        "path": "qr/polkadot-avn-parachain_metadata_75.apng",
+        "path": "qr/polkadot-avn-parachain_metadata_78.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x7ce123ae47331826b3e4bba817169aa50814c539824363c7db4f2b45efea816b"
+          "block": "0xf35f4d1dc2f99db8bdc8ea38bb63eb48ebaeacb8e5b73732739e5eb29e74a8c6"
         }
       }
     },
