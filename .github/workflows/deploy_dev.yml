@@ -1,0 +1,53 @@
+name: Deploy
+
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Checkout
+        id: checkout
+        uses: actions/checkout@v3
+
+      - uses: ./.github/workflows/rust-install
+
+      - name: ⚙ Run verifier
+        id: verify
+        run: make verifier
+
+      - name: ⚙ Run collector
+        id: collect
+        run: |
+          cargo run --release -- -c=config.toml collect
+          exit_code=$?
+          if [ $exit_code -eq 12 ]
+          then
+            echo "::set-output name=redeploy::true"
+            exit 0
+          fi
+          echo "::set-output name=redeploy::false"
+          exit $exit_code
+        shell: bash {0}
+
+      - name: ⚙ Run collector dev
+        id: collect
+        run: |
+          cargo run --release -- -c=config_dev.toml collect
+          exit_code=$?
+          if [ $exit_code -eq 12 ]
+          then
+            echo "::set-output name=redeploy::true"
+            exit 0
+          fi
+          echo "::set-output name=redeploy::false"
+          exit $exit_code
+        shell: bash {0}
+
+      - uses: ./.github/workflows/deploy
+        id: deploy
+        if: success() || failure() && (steps.collect.outcome == 'failure')
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
