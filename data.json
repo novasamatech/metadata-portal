@@ -638,18 +638,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 1100,
-    "metadataQr": {
-      "version": 1100,
-      "file": {
-        "path": "qr/polkadot-astar_metadata_1100.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1c27e31b6f9c7247d783437794326c8190940244838def4cb00c9ddc2b42eaa2"
-        }
-      }
-    },
+    "liveMetaVersion": 1200,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-astar_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-astar_specs.png",
