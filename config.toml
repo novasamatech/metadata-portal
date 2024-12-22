@@ -50,21 +50,6 @@ testnet = false
 verifier = "parity"
 
 [[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
-verifier = "parity"
-
-[[chains]]
 name = "statemine"
 title = "Kusama Asset Hub"
 color = "#113911"
@@ -355,6 +340,7 @@ title = "Polkadot Asset Hub"
 color = "#86e62a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg"
 rpc_endpoints = [
+    "wss://rpc-assethub.novasama-tech.org",
     "wss://sys.ibp.network/asset-hub-polkadot",
     "wss://asset-hub-polkadot.dotters.network",
     "wss://statemint-rpc.dwellir.com",
@@ -483,6 +469,7 @@ title = "Hydration"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg"
 rpc_endpoints = [
+    "wss://rpc-hydra.novasama-tech.org",
     "wss://rpc.hydradx.cloud",
     "wss://hydration.ibp.network",
     "wss://hydration.dotters.network",
@@ -1159,11 +1146,29 @@ verifier = "novasama"
 relay_chain = "polkadot"
 
 [[chains]]
+name = "westend"
+title = "Westend"
+color = "#f27230"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
+rpc_endpoints = [
+    "wss://westend-rpc.dwellir.com",
+    "wss://rpc.ibp.network/westend",
+    "wss://westend.dotters.network",
+    "wss://westend.public.curie.radiumblock.co/ws",
+    "wss://westend.api.onfinality.io/public-ws",
+]
+testnet = true
+verifier = "parity"
+
+[[chains]]
 name = "paseo"
 title = "Paseo Testnet"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
-rpc_endpoints = ["wss://paseo.rpc.amforc.com", "wss://paseo.dotters.network"]
+rpc_endpoints = [
+    "wss://paseo.rpc.amforc.com",
+    "wss://paseo.dotters.network",
+]
 testnet = true
 verifier = "novasama"
 
