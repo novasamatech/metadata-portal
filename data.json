@@ -59,36 +59,6 @@
     "testnet": false,
     "relayChain": null
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 1017000,
-    "metadataQr": {
-      "version": 1017000,
-      "file": {
-        "path": "qr/westend_metadata_1017000.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4220d6a03c314f26a0f8ecde6d6a4d5adc114e7ff3ff39073159760c0a9176fc"
-        }
-      }
-    },
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true,
-    "relayChain": null
-  },
   "kusama-statemine": {
     "title": "Kusama Asset Hub",
     "color": "#113911",
@@ -459,7 +429,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
     "liveMetaVersion": 1272,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1272,
+      "file": {
+        "path": "qr/kusama-khala_metadata_1272.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4fda83f4d15c14ed422d0dda6f0229ea1aacf2d644c6234375bb17bef7e89b80"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-khala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-khala_specs.png",
@@ -712,7 +692,7 @@
   "polkadot-statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
-    "rpcEndpoint": "wss://sys.ibp.network/asset-hub-polkadot",
+    "rpcEndpoint": "wss://rpc-assethub.novasama-tech.org",
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "unit": "DOT",
     "base58prefix": 0,
@@ -1012,7 +992,7 @@
   "polkadot-hydradx": {
     "title": "Hydration",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc.hydradx.cloud",
+    "rpcEndpoint": "wss://rpc-hydra.novasama-tech.org",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
     "base58prefix": 63,
@@ -1109,7 +1089,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
     "liveMetaVersion": 1272,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1272,
+      "file": {
+        "path": "qr/polkadot-phala_metadata_1272.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa4d22cd9d361965f222761b205b192082752260de9770d058e0246c2adaf9ce1"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-phala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-phala_specs.png",
@@ -2768,6 +2758,26 @@
     },
     "testnet": false,
     "relayChain": "polkadot"
+  },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1017001,
+    "metadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true,
+    "relayChain": null
   },
   "paseo": {
     "title": "Paseo Testnet",
