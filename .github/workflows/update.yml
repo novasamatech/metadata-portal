@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
-  pull_request:
 
 env:
   BRANCH_PREFIX: sign-me
@@ -16,7 +15,7 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: 🛎 Checkout
         uses: actions/checkout@v4
