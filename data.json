@@ -59,26 +59,6 @@
     "testnet": false,
     "relayChain": null
   },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 1017001,
-    "metadataQr": null,
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true,
-    "relayChain": null
-  },
   "kusama-statemine": {
     "title": "Kusama Asset Hub",
     "color": "#113911",
@@ -712,7 +692,7 @@
   "polkadot-statemint": {
     "title": "Polkadot Asset Hub",
     "color": "#86e62a",
-    "rpcEndpoint": "wss://sys.ibp.network/asset-hub-polkadot",
+    "rpcEndpoint": "wss://rpc-assethub.novasama-tech.org",
     "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "unit": "DOT",
     "base58prefix": 0,
@@ -1012,21 +992,21 @@
   "polkadot-hydradx": {
     "title": "Hydration",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc.hydradx.cloud",
+    "rpcEndpoint": "wss://rpc-hydra.novasama-tech.org",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
     "base58prefix": 63,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 272,
+    "liveMetaVersion": 276,
     "metadataQr": {
-      "version": 272,
+      "version": 276,
       "file": {
-        "path": "qr/polkadot-hydradx_metadata_272.apng",
+        "path": "qr/polkadot-hydradx_metadata_276.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x35e19ee4b2e979b33223768791975c1a884fbe10dc9714a281c7a43f2969dbf7"
+          "block": "0xbfc9705d7c7e66551f2f47e97bcaf2245e8f9acc85c864e1f8d6480646eb3789"
         }
       }
     },
@@ -2778,6 +2758,26 @@
     },
     "testnet": false,
     "relayChain": "polkadot"
+  },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1017001,
+    "metadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true,
+    "relayChain": null
   },
   "paseo": {
     "title": "Paseo Testnet",
