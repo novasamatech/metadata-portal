@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
-  pull_request:
 
 env:
   BRANCH_PREFIX: updated-codes
@@ -171,7 +170,7 @@ jobs:
           message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
 
   check-deployment:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: 🛎 Checkout
         uses: actions/checkout@v3
