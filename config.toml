@@ -66,7 +66,7 @@ rpc_endpoints = [
     "wss://westend.api.onfinality.io/public-ws",
 ]
 testnet = true
-verifier = "novasama"
+verifier = "parity"
 
 [[chains]]
 name = "statemine"
