@@ -17,6 +17,8 @@ title = "Polkadot"
 color = "#e6007a"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg"
 rpc_endpoints = [
+    "wss://rpc-polkadot-1.novasama-tech.org",
+    "wss://rpc-polkadot-2.novasama-tech.org",
     "wss://rpc-polkadot.novasama-tech.org",
     "wss://rpc.ibp.network/polkadot",
     "wss://polkadot.dotters.network",
@@ -36,6 +38,8 @@ title = "Kusama"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg"
 rpc_endpoints = [
+    "wss://rpc-kusama-1.novasama-tech.org",
+    "wss://rpc-kusama-2.novasama-tech.org",
     "wss://rpc-kusama.novasama-tech.org",
     "wss://rpc.ibp.network/kusama",
     "wss://kusama.dotters.network",
@@ -48,6 +52,21 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "parity"
+
+[[chains]]
+name = "westend"
+title = "Westend (TESTNET)"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
+rpc_endpoints = [
+    "wss://westend-rpc.dwellir.com",
+    "wss://rpc.ibp.network/westend",
+    "wss://westend.dotters.network",
+    "wss://westend.public.curie.radiumblock.co/ws",
+    "wss://westend.api.onfinality.io/public-ws",
+]
+testnet = true
+verifier = "novasama"
 
 [[chains]]
 name = "statemine"
@@ -572,8 +591,6 @@ title = "Bifrost Polkadot"
 color = "#5a25f0"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg"
 rpc_endpoints = [
-    "wss://hk.p.bifrost-rpc.liebi.com/ws",
-    "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
     "wss://bifrost-polkadot.ibp.network",
     "wss://bifrost-polkadot.dotters.network",
     "wss://hk.p.bifrost-rpc.liebi.com/ws",
