@@ -591,6 +591,8 @@ title = "Bifrost Polkadot"
 color = "#5a25f0"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg"
 rpc_endpoints = [
+    "wss://hk.p.bifrost-rpc.liebi.com/ws",
+    "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
     "wss://bifrost-polkadot.ibp.network",
     "wss://bifrost-polkadot.dotters.network",
     "wss://hk.p.bifrost-rpc.liebi.com/ws",
@@ -1163,21 +1165,6 @@ rpc_endpoints = ["wss://rpc.jamton.network"]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
-
-[[chains]]
-name = "westend"
-title = "Westend"
-color = "#f27230"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg"
-rpc_endpoints = [
-    "wss://westend-rpc.dwellir.com",
-    "wss://rpc.ibp.network/westend",
-    "wss://westend.dotters.network",
-    "wss://westend.public.curie.radiumblock.co/ws",
-    "wss://westend.api.onfinality.io/public-ws",
-]
-testnet = true
-verifier = "parity"
 
 [[chains]]
 name = "paseo"
