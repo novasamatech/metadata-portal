@@ -275,18 +275,18 @@
     "rpcEndpoint": "wss://bifrost-rpc.liebi.com/ws",
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
-    "base58prefix": 6,
+    "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 15003,
+    "liveMetaVersion": 16000,
     "metadataQr": {
-      "version": 15003,
+      "version": 16000,
       "file": {
-        "path": "qr/kusama-bifrost_metadata_15003.apng",
+        "path": "qr/kusama-bifrost_metadata_16000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x1025430d841abb9a2d6ac0945c4ee2400864fb8003ff6ca44217f372ef8cf2bb"
+          "block": "0xb0fa4bcc2c28896eab72621f06309fbe22644aeb7931323aa54f1bcfeec936a1"
         }
       }
     },
@@ -1232,21 +1232,21 @@
   "polkadot-bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-polkadot.ibp.network",
+    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
     "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
     "unit": "BNC",
-    "base58prefix": 6,
+    "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 15003,
+    "liveMetaVersion": 16000,
     "metadataQr": {
-      "version": 15003,
+      "version": 16000,
       "file": {
-        "path": "qr/polkadot-bifrost_polkadot_metadata_15003.apng",
+        "path": "qr/polkadot-bifrost_polkadot_metadata_16000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdd8d64796a24b92be82d7a3ce934d139567620b439dc1c1d80f60e355d918699"
+          "block": "0xe02628afce6b1b55b3f4da414978e52de56d4ff795d19fadf2c205094551ac61"
         }
       }
     },
