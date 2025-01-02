@@ -2,7 +2,7 @@
   "polkadot": {
     "title": "Polkadot",
     "color": "#e6007a",
-    "rpcEndpoint": "wss://rpc-polkadot.novasama-tech.org",
+    "rpcEndpoint": "wss://rpc-polkadot-1.novasama-tech.org",
     "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "unit": "DOT",
     "base58prefix": 0,
@@ -32,7 +32,7 @@
   "kusama": {
     "title": "Kusama",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-kusama.novasama-tech.org",
+    "rpcEndpoint": "wss://rpc-kusama-1.novasama-tech.org",
     "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "unit": "KSM",
     "base58prefix": 2,
@@ -57,6 +57,26 @@
       "source": null
     },
     "testnet": false,
+    "relayChain": null
+  },
+  "westend": {
+    "title": "Westend (TESTNET)",
+    "color": "#000000",
+    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1017001,
+    "metadataQr": null,
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true,
     "relayChain": null
   },
   "kusama-statemine": {
@@ -2758,26 +2778,6 @@
     },
     "testnet": false,
     "relayChain": "polkadot"
-  },
-  "westend": {
-    "title": "Westend",
-    "color": "#f27230",
-    "rpcEndpoint": "wss://westend-rpc.dwellir.com",
-    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "unit": "WND",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 1017001,
-    "metadataQr": null,
-    "latestMetadata": "qr/westend_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/westend_specs.png",
-      "signedBy": "Parity",
-      "source": null
-    },
-    "testnet": true,
-    "relayChain": null
   },
   "paseo": {
     "title": "Paseo Testnet",
