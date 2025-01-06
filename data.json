@@ -69,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1017001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1017001,
+      "file": {
+        "path": "qr/westend_metadata_1017001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0ab13771d64ed3b04dd08401047cb9ec6d3ad67cb517a2fb81dcb9e75f7fe3dd"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -238,18 +248,8 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 3300,
-    "metadataQr": {
-      "version": 3300,
-      "file": {
-        "path": "qr/kusama-moonriver_metadata_3300.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf3fff1a277d1237c12e305797ae6112e42d6bd204e8187d1c29eadb97e1b8f68"
-        }
-      }
-    },
+    "liveMetaVersion": 3400,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-moonriver_specs.png",
@@ -1266,7 +1266,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdcd9aaf9f4f2a291f9e56b06b85e4d591d6af06b5efe6e16815e0075fa4356c5"
+          "block": "0x388da4b6d3f2de1cced292b542d18af2859caa1e5fe5b6258e36c310996bc1c5"
         }
       }
     },
