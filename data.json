@@ -2649,7 +2649,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg",
     "decimals": 15,
     "liveMetaVersion": 403,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 403,
+      "file": {
+        "path": "qr/deepbrainchain_metadata_403.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdbf252e55f2e5c2a09049788411b4a6636aa617d74fd89572e0c9a45fd0f03d1"
+        }
+      }
+    },
     "latestMetadata": "qr/deepbrainchain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/deepbrainchain_specs.png",
