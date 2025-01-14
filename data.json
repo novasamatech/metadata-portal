@@ -61,7 +61,7 @@
   },
   "westend": {
     "title": "Westend (TESTNET)",
-    "color": "#000000",
+    "color": "#f27230",
     "rpcEndpoint": "wss://westend-rpc.dwellir.com",
     "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
     "unit": "WND",
@@ -1262,7 +1262,7 @@
   "polkadot-bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
-    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+    "rpcEndpoint": "wss://bifrost-polkadot.ibp.network",
     "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
     "unit": "BNC",
     "base58prefix": 0,
