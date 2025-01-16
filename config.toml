@@ -232,8 +232,8 @@ verifier = "novasama"
 
 [[chains]]
 name = "khala"
-title = "Khala"
-color = "#03f3f3"
+title = "Khala (PAUSED)"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg"
 rpc_endpoints = [
     "wss://khala-rpc.dwellir.com",
@@ -660,11 +660,7 @@ name = "bajun"
 title = "Bajun"
 color = "#161212"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg"
-rpc_endpoints = [
-    "wss://rpc-parachain.bajun.network",
-    "wss://bajun.public.curie.radiumblock.co/ws",
-    "wss://bajun.api.onfinality.io/public-ws",
-]
+rpc_endpoints = ["wss://rpc-para.bajun.network"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
@@ -675,16 +671,6 @@ title = "Imbue"
 color = "#baff36"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Imbue.svg"
 rpc_endpoints = ["wss://kusama.imbuenetwork.com"]
-testnet = false
-verifier = "novasama"
-relay_chain = "kusama"
-
-[[chains]]
-name = "tinkernet_node"
-title = "Tinkernet"
-color = "#161616"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg"
-rpc_endpoints = ["wss://tinkernet-rpc.dwellir.com"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
