@@ -450,8 +450,8 @@
     "relayChain": null
   },
   "kusama-khala": {
-    "title": "Khala",
-    "color": "#03f3f3",
+    "title": "Khala (PAUSED)",
+    "color": "#000000",
     "rpcEndpoint": "wss://khala-rpc.dwellir.com",
     "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "unit": "PHA",
@@ -1412,7 +1412,7 @@
   "kusama-bajun": {
     "title": "Bajun",
     "color": "#161212",
-    "rpcEndpoint": "wss://rpc-parachain.bajun.network",
+    "rpcEndpoint": "wss://rpc-para.bajun.network",
     "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
     "unit": "BAJU",
     "base58prefix": 1337,
@@ -1463,36 +1463,6 @@
     "latestMetadata": "qr/kusama-imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-imbue_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false,
-    "relayChain": "kusama"
-  },
-  "kusama-tinkernet_node": {
-    "title": "Tinkernet",
-    "color": "#161616",
-    "rpcEndpoint": "wss://tinkernet-rpc.dwellir.com",
-    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "unit": "TNKR",
-    "base58prefix": 117,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
-    "decimals": 12,
-    "liveMetaVersion": 24,
-    "metadataQr": {
-      "version": 24,
-      "file": {
-        "path": "qr/kusama-tinkernet_node_metadata_24.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8dc812b701418df21fcca536d9e051595ed413e146dca2b39c116896a44c6c7e"
-        }
-      }
-    },
-    "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kusama-tinkernet_node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
