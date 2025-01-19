@@ -2679,7 +2679,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/LAOS.svg",
     "decimals": 18,
     "liveMetaVersion": 2600,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2600,
+      "file": {
+        "path": "qr/polkadot-laos_metadata_2600.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbaf12dd3837c5f2671abc0b132d51a890d1337d7fa60ca5f410db7fefd92bb47"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-laos_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-laos_specs.png",
