@@ -1538,18 +1538,8 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 7000005,
-    "metadataQr": {
-      "version": 7000005,
-      "file": {
-        "path": "qr/polymesh_mainnet_metadata_7000005.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xccf0863cfe543abe5824bc474b9b2cbadcba56c594b9a315207bb3150c038066"
-        }
-      }
-    },
+    "liveMetaVersion": 7001000,
+    "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -2558,18 +2548,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 35,
-    "metadataQr": {
-      "version": 35,
-      "file": {
-        "path": "qr/creditcoin3_metadata_35.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x965a55fe5e75d0fcc384d38c9e5135430db3fc121d88598dfec4f77f32ec8faa"
-        }
-      }
-    },
+    "liveMetaVersion": 39,
+    "metadataQr": null,
     "latestMetadata": "qr/creditcoin3_metadata_latest.apng",
     "specsQr": {
       "path": "qr/creditcoin3_specs.png",
