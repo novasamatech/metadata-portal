@@ -2448,18 +2448,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
     "decimals": 18,
-    "liveMetaVersion": 39,
-    "metadataQr": {
-      "version": 39,
-      "file": {
-        "path": "qr/avail_metadata_39.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x07b3d3c94cea79bd9d23d0b62503d428dc44f2c05339c86abcf1ff3596229b50"
-        }
-      }
-    },
+    "liveMetaVersion": 40,
+    "metadataQr": null,
     "latestMetadata": "qr/avail_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avail_specs.png",
