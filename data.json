@@ -308,18 +308,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 16001,
-    "metadataQr": {
-      "version": 16001,
-      "file": {
-        "path": "qr/kusama-bifrost_metadata_16001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb74078bdc646194b8ea580be422ef959241c0a545c3cec7b7724ee70afa9b670"
-        }
-      }
-    },
+    "liveMetaVersion": 16002,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-bifrost_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bifrost_specs.png",
