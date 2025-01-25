@@ -309,7 +309,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
     "liveMetaVersion": 16002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 16002,
+      "file": {
+        "path": "qr/kusama-bifrost_metadata_16002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd741ea629fe78665dc708a6a2925bb1c0c9e7751fb6c97affb123582f8117f05"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-bifrost_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-bifrost_specs.png",
@@ -1019,7 +1029,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
     "liveMetaVersion": 282,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 282,
+      "file": {
+        "path": "qr/polkadot-hydradx_metadata_282.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa669dda4db0a2036d35a725dbcb8c82d3c0cf17baca125a55e353d83004e54a2"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
@@ -1459,7 +1479,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
     "liveMetaVersion": 20,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 20,
+      "file": {
+        "path": "qr/kusama-amplitude_metadata_20.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc38a4525d8a11025940fcc33e92ff896ea5ada877fac007e8aef3f90c067b0bb"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-amplitude_specs.png",
@@ -1629,7 +1659,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 20,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 20,
+      "file": {
+        "path": "qr/polkadot-pendulum_metadata_20.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x790c69fcae77af6ccfcd17f330f1e915197e8fbe90b42050aa45f86a77e89662"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-pendulum_specs.png",
@@ -1829,7 +1869,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 6910,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 6910,
+      "file": {
+        "path": "qr/kusama-crab2_metadata_6910.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xff7a92a244c2d4528c554e99d2dc541f685108e935e06cac8f620415d3aac905"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-crab2_specs.png",
@@ -2419,7 +2469,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
     "decimals": 18,
     "liveMetaVersion": 40,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 40,
+      "file": {
+        "path": "qr/avail_metadata_40.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3a0d608796a4b9793aedcf86fbc470def7c495a9b66191b1f49cd38c87489920"
+        }
+      }
+    },
     "latestMetadata": "qr/avail_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avail_specs.png",
@@ -2619,7 +2679,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/LAOS.svg",
     "decimals": 18,
     "liveMetaVersion": 2700,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2700,
+      "file": {
+        "path": "qr/polkadot-laos_metadata_2700.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4e185c3e67361d1fbc8c4a4451316fb5cfa6a532b98b87ed6473bd83b6c85844"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-laos_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-laos_specs.png",
