@@ -1268,18 +1268,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 16001,
-    "metadataQr": {
-      "version": 16001,
-      "file": {
-        "path": "qr/polkadot-bifrost_polkadot_metadata_16001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x388da4b6d3f2de1cced292b542d18af2859caa1e5fe5b6258e36c310996bc1c5"
-        }
-      }
-    },
+    "liveMetaVersion": 16002,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-bifrost_polkadot_specs.png",
