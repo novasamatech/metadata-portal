@@ -19,7 +19,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-polkadot-1.novasama-tech.org",
     "wss://rpc-polkadot-2.novasama-tech.org",
-    "wss://rpc-polkadot.novasama-tech.org",
     "wss://rpc.ibp.network/polkadot",
     "wss://polkadot.dotters.network",
     "wss://apps-rpc.polkadot.io",
@@ -40,7 +39,6 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-kusama-1.novasama-tech.org",
     "wss://rpc-kusama-2.novasama-tech.org",
-    "wss://rpc-kusama.novasama-tech.org",
     "wss://rpc.ibp.network/kusama",
     "wss://kusama.dotters.network",
     "wss://apps-kusama-rpc.polkadot.io",
