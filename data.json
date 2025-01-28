@@ -1178,18 +1178,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 74,
-    "metadataQr": {
-      "version": 74,
-      "file": {
-        "path": "qr/aleph-node_metadata_74.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3f633816944a40f18c6f089e2a1293d777fabfcdabb931065212b10056dda48f"
-        }
-      }
-    },
+    "liveMetaVersion": 14000000,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
