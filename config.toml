@@ -19,6 +19,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-polkadot-1.novasama-tech.org",
     "wss://rpc-polkadot-2.novasama-tech.org",
+    "wss://rpc-polkadot.novasama-tech.org",
     "wss://rpc.ibp.network/polkadot",
     "wss://polkadot.dotters.network",
     "wss://apps-rpc.polkadot.io",
@@ -39,6 +40,7 @@ icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/c
 rpc_endpoints = [
     "wss://rpc-kusama-1.novasama-tech.org",
     "wss://rpc-kusama-2.novasama-tech.org",
+    "wss://rpc-kusama.novasama-tech.org",
     "wss://rpc.ibp.network/kusama",
     "wss://kusama.dotters.network",
     "wss://apps-kusama-rpc.polkadot.io",
@@ -336,7 +338,10 @@ name = "parallel"
 title = "Parallel"
 color = "#ef18ac"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg"
-rpc_endpoints = ["wss://polkadot-parallel-rpc.parallel.fi"]
+rpc_endpoints = [
+    "wss://parallel.gatotech.network",
+    "wss://polkadot-parallel-rpc.parallel.fi",
+]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
@@ -1151,6 +1156,18 @@ rpc_endpoints = ["wss://rpc.jamton.network"]
 testnet = false
 verifier = "novasama"
 relay_chain = "polkadot"
+
+[[chains]]
+name = "tangle"
+title = "Tangle"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tangle.svg"
+rpc_endpoints = [
+    "wss://rpc.tangle.tools",
+    "wss://tangle-mainnet-rpc.dwellir.com",
+]
+testnet = false
+verifier = "novasama"
 
 [[chains]]
 name = "paseo"
