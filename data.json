@@ -2439,7 +2439,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kreivo.svg",
     "decimals": 12,
     "liveMetaVersion": 116,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 116,
+      "file": {
+        "path": "qr/kusama-kreivo-parachain_metadata_116.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc1d831c7970ce68d7a821ade0a05afab3db9cc938cb9f681f530d264eca069b8"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-kreivo-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-kreivo-parachain_specs.png",
