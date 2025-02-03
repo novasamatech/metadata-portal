@@ -2759,6 +2759,36 @@
     "testnet": false,
     "relayChain": "polkadot"
   },
+  "tangle": {
+    "title": "Tangle",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.tangle.tools",
+    "genesisHash": "0x44f68476df71ebf765b630bf08dc1e0fedb2bf614a1aa0563b3f74f20e47b3e0",
+    "unit": "TNT",
+    "base58prefix": 5845,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tangle.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1012,
+    "metadataQr": {
+      "version": 1012,
+      "file": {
+        "path": "qr/tangle_metadata_1012.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2678e09434979ddfc0f4141852fffda2155bcbdaf6b8edaae45c07b872601a4e"
+        }
+      }
+    },
+    "latestMetadata": "qr/tangle_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tangle_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": null
+  },
   "paseo": {
     "title": "Paseo Testnet",
     "color": "#000000",
