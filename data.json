@@ -609,7 +609,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
     "liveMetaVersion": 2280,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2280,
+      "file": {
+        "path": "qr/polkadot-acala_metadata_2280.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdedb1c46c21367b17896510509c43692efe08b536b5fe8d52f9d8719e29d8d41"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acala_specs.png",
@@ -2579,7 +2589,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
     "liveMetaVersion": 123,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 123,
+      "file": {
+        "path": "qr/humanode_metadata_123.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x773415a5741900b6e48fe88397ef24a209cebae1df77de832db0382e60beb2eb"
+        }
+      }
+    },
     "latestMetadata": "qr/humanode_metadata_latest.apng",
     "specsQr": {
       "path": "qr/humanode_specs.png",
