@@ -1918,18 +1918,8 @@
     "base58prefix": 137,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
-    "liveMetaVersion": 1700,
-    "metadataQr": {
-      "version": 1700,
-      "file": {
-        "path": "qr/vara_metadata_1700.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1b5f6de636866b948089ec6531e9ea1d259f5ae59c1ae8162f41e8e2e9e36aee"
-        }
-      }
-    },
+    "liveMetaVersion": 1710,
+    "metadataQr": null,
     "latestMetadata": "qr/vara_metadata_latest.apng",
     "specsQr": {
       "path": "qr/vara_specs.png",
