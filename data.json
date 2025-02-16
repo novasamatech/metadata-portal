@@ -399,7 +399,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
     "decimals": 12,
     "liveMetaVersion": 312,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 312,
+      "file": {
+        "path": "qr/kusama-heiko_metadata_312.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0d9950b852f4966f90f201c0ce36473910e95af0a002bb5f7444a1bdb448cf5d"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-heiko_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-heiko_specs.png",
@@ -1739,7 +1749,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
     "liveMetaVersion": 238,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 238,
+      "file": {
+        "path": "qr/node-subtensor_metadata_238.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xeabeb82cebe1c58ceefa0c0e9e765bd19cbeb394f98a0b8e5902110c857b5127"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
