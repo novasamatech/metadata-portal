@@ -1719,7 +1719,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
     "decimals": 18,
     "liveMetaVersion": 84,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 84,
+      "file": {
+        "path": "qr/polkadot-avn-parachain_metadata_84.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xcf3df02fbbf1aa9288b4ada2eb34fd86f6bcb4bfccc86248b556651e0223e4b1"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-avn-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-avn-parachain_specs.png",
@@ -2459,7 +2469,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Avail.svg",
     "decimals": 18,
     "liveMetaVersion": 41,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 41,
+      "file": {
+        "path": "qr/avail_metadata_41.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6241aefebfb52c76a425e9675e15f46d35a2bcb2059a6a4eb6f38ae79d020bfb"
+        }
+      }
+    },
     "latestMetadata": "qr/avail_metadata_latest.apng",
     "specsQr": {
       "path": "qr/avail_specs.png",
