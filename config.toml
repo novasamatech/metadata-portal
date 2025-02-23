@@ -229,22 +229,6 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
-name = "khala"
-title = "Khala (PAUSED)"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg"
-rpc_endpoints = [
-    "wss://khala-rpc.dwellir.com",
-    "wss://rpc.helikon.io/khala",
-    "wss://khala.api.onfinality.io/public-ws",
-    "wss://khala-api.phala.network/ws",
-    "wss://khala.public.curie.radiumblock.co/ws",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "kusama"
-
-[[chains]]
 name = "kilt-spiritnet"
 title = "KILT"
 color = "#8c145a"
@@ -606,8 +590,8 @@ relay_chain = "polkadot"
 
 [[chains]]
 name = "litentry-parachain"
-title = "Litentry"
-color = "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)"
+title = "Heima"
+color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg"
 rpc_endpoints = [
     "wss://rpc.litentry-parachain.litentry.io",
@@ -713,15 +697,6 @@ rpc_endpoints = ["wss://ipci.rpc.robonomics.network"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
-
-[[chains]]
-name = "appchain"
-title = "Myriad"
-color = "#7342CC"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Myriad.svg"
-rpc_endpoints = ["wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0"]
-testnet = false
-verifier = "novasama"
 
 [[chains]]
 name = "xxnetwork"
