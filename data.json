@@ -2589,7 +2589,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
     "liveMetaVersion": 124,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 124,
+      "file": {
+        "path": "qr/humanode_metadata_124.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x22c899736f8ed6d500b133c0f229ea65fd251a286ef5d73dbc1b64867fe63bc2"
+        }
+      }
+    },
     "latestMetadata": "qr/humanode_metadata_latest.apng",
     "specsQr": {
       "path": "qr/humanode_specs.png",
