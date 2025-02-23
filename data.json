@@ -338,18 +338,8 @@
     "base58prefix": 10041,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
-    "liveMetaVersion": 123,
-    "metadataQr": {
-      "version": 123,
-      "file": {
-        "path": "qr/kusama-basilisk_metadata_123.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x296e3a9d293f2d4dbb3c84c7db934919d6228f2f44d90cd29b667cdcc1420ac4"
-        }
-      }
-    },
+    "liveMetaVersion": 124,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-basilisk_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-basilisk_specs.png",
