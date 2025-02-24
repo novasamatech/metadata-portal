@@ -339,7 +339,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
     "liveMetaVersion": 124,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 124,
+      "file": {
+        "path": "qr/kusama-basilisk_metadata_124.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe7e4532eba522ddc78d803ee0559d8f41ee2731b07be605b72ec3f79f898de80"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-basilisk_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-basilisk_specs.png",
@@ -838,15 +848,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 200,
+    "liveMetaVersion": 10046,
     "metadataQr": {
-      "version": 200,
+      "version": 10046,
       "file": {
-        "path": "qr/kusama-picasso_metadata_200.apng",
+        "path": "qr/kusama-picasso_metadata_10046.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
+          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
         }
       }
     },
@@ -1289,7 +1299,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 18,
     "liveMetaVersion": 9233,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9233,
+      "file": {
+        "path": "qr/polkadot-litentry-parachain_metadata_9233.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3c9cbd1e9e3dd907d7f125968c74131007d11ac4be9657611f035f923563d776"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-litentry-parachain_specs.png",
