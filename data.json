@@ -69,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1018001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1018001,
+      "file": {
+        "path": "qr/westend_metadata_1018001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb45a49be250f981c2018a45f6e9049e6e26003b3c633660d09223ac084b91799"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -2579,7 +2589,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
     "liveMetaVersion": 126,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 126,
+      "file": {
+        "path": "qr/humanode_metadata_126.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd37728304803392fc136e72c2c4b1e2ac2caa344becfeef7dd9573938ff7d53e"
+        }
+      }
+    },
     "latestMetadata": "qr/humanode_metadata_latest.apng",
     "specsQr": {
       "path": "qr/humanode_specs.png",
