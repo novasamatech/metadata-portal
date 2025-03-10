@@ -838,15 +838,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 200,
+    "liveMetaVersion": 10046,
     "metadataQr": {
-      "version": 200,
+      "version": 10046,
       "file": {
-        "path": "qr/kusama-picasso_metadata_200.apng",
+        "path": "qr/kusama-picasso_metadata_10046.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
+          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
         }
       }
     },
@@ -2578,18 +2578,8 @@
     "base58prefix": 5234,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
-    "liveMetaVersion": 125,
-    "metadataQr": {
-      "version": 125,
-      "file": {
-        "path": "qr/humanode_metadata_125.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xbfb8fa8b9d6a3eef6a622573369b920320c15e4302da9539cc5e5988850eb88c"
-        }
-      }
-    },
+    "liveMetaVersion": 126,
+    "metadataQr": null,
     "latestMetadata": "qr/humanode_metadata_latest.apng",
     "specsQr": {
       "path": "qr/humanode_specs.png",
