@@ -2229,7 +2229,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg",
     "decimals": 12,
     "liveMetaVersion": 13,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 13,
+      "file": {
+        "path": "qr/polkadot-invarch_metadata_13.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x78a5a97727d3d73d30f5464cbed6678e7ed4e032affc77da9a0789787e2c6771"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-invarch_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-invarch_specs.png",
@@ -2369,7 +2379,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg",
     "decimals": 18,
     "liveMetaVersion": 1014,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1014,
+      "file": {
+        "path": "qr/polkadot-mythos_metadata_1014.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe3d62c57ae145c9af4cd1ca059bb8b708c65d333d45826e46dbef258b013b9d6"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-mythos_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-mythos_specs.png",
