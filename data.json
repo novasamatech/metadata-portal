@@ -2718,18 +2718,8 @@
     "base58prefix": 5845,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tangle.svg",
     "decimals": 18,
-    "liveMetaVersion": 1012,
-    "metadataQr": {
-      "version": 1012,
-      "file": {
-        "path": "qr/tangle_metadata_1012.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x2678e09434979ddfc0f4141852fffda2155bcbdaf6b8edaae45c07b872601a4e"
-        }
-      }
-    },
+    "liveMetaVersion": 1300,
+    "metadataQr": null,
     "latestMetadata": "qr/tangle_metadata_latest.apng",
     "specsQr": {
       "path": "qr/tangle_specs.png",
