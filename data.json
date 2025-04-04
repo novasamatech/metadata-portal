@@ -1718,18 +1718,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 257,
-    "metadataQr": {
-      "version": 257,
-      "file": {
-        "path": "qr/node-subtensor_metadata_257.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x621836b001d532c4a3a7ebf29385d3bb1f0167772fcc2508a4858de3c5b77687"
-        }
-      }
-    },
+    "liveMetaVersion": 258,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
