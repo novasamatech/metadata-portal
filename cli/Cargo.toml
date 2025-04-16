@@ -10,6 +10,9 @@ readme = "README.md"
 repository = "https://github.com/paritytech/metadata-portal"
 version = "0.1.0"
 
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(ocvrs_opencv_branch_32)'] }
+
 [dependencies]
 assert_cmd = "2.0"
 clap = {version = "4.1.14", features = ["derive", "env", "unicode", "cargo"]}
