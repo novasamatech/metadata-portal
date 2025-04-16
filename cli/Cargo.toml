@@ -25,7 +25,7 @@ definitions = {git = "https://github.com/novasamatech/parity-signer", rev = "2a7
 generate_message = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
 transaction_parsing = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
 tempfile = "3.5"
-sp-core = {git = "https://github.com/paritytech/substrate", default-features = false, features = ["full_crypto"]}
+sp-core = {git = "https://github.com/paritytech/substrate", rev = "49734dd1d72a00b9d3b87ba397661a63e0e17af3", default-features = false, features = ["full_crypto"]}
 parity-scale-codec = "3.4.0"
 image = "0.25"
 quircs = "0.10"
