@@ -10,38 +10,41 @@ readme = "README.md"
 repository = "https://github.com/paritytech/metadata-portal"
 version = "0.1.0"
 
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(ocvrs_opencv_branch_32)'] }
+
 [dependencies]
 assert_cmd = "2.0"
 clap = {version = "4.1.14", features = ["derive", "env", "unicode", "cargo"]}
 env_logger = "0.10.0"
 log = "0.4"
 anyhow = "1.0"
-toml = "0.7.3"
+toml = "0.8.20"
 serde = { version = "1.0", features = ["derive"] }
-dialoguer = "0.10"
-qr_reader_phone = {git = "https://github.com/novasamatech/parity-signer", rev = "020583b"}
-qr_reader_pc = {git = "https://github.com/novasamatech/parity-signer", rev = "020583b"}
-definitions = {git = "https://github.com/novasamatech/parity-signer", rev = "020583b"}
-generate_message = {git = "https://github.com/novasamatech/parity-signer", rev = "020583b"}
-transaction_parsing = {git = "https://github.com/novasamatech/parity-signer", rev = "020583b"}
+dialoguer = "0.11"
+qr_reader_phone = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
+qr_reader_pc = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
+definitions = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
+generate_message = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
+transaction_parsing = {git = "https://github.com/novasamatech/parity-signer", rev = "2a706a2"}
 tempfile = "3.5"
-sp-core = {git = "https://github.com/paritytech/substrate", default-features = false, features = ["full_crypto"]}
+sp-core = {git = "https://github.com/paritytech/substrate", rev = "49734dd1d72a00b9d3b87ba397661a63e0e17af3", default-features = false, features = ["full_crypto"]}
 parity-scale-codec = "3.4.0"
-image = "0.24"
+image = "0.25"
 quircs = "0.10"
 hex = "0.4"
 indicatif = "0.17"
 serde_json = "1.0"
-octocrab = "0.19.0"
+octocrab = "0.44.0"
 tokio = { version = "1", features = ["full"] }
-reqwest = { version = "0.11", features = ["json", "blocking"]}
+reqwest = { version = "0.12", features = ["json", "blocking"]}
 png = "0.17.8"
 blake2-rfc = "0.2.18"
 # Hash table which preserves insertion order
-indexmap = {version="1", features=["serde"]}
+indexmap = {version="2", features=["serde"]}
 time = "0.3.28"
 
 [dependencies.opencv]
-version = "0.83.0"
+version = "0.94.2"
 default-features = false
 features = ["videoio", "imgproc", "highgui"]
