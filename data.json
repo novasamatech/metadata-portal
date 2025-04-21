@@ -548,18 +548,8 @@
     "base58prefix": 255,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
     "decimals": 18,
-    "liveMetaVersion": 10030071,
-    "metadataQr": {
-      "version": 10030071,
-      "file": {
-        "path": "qr/kusama-quartz_metadata_10030071.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x633a43ff8f285becc9b6920d359db2841c289613e5e7a90f65fd36fc44b0d292"
-        }
-      }
-    },
+    "liveMetaVersion": 10170080,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-quartz_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-quartz_specs.png",
