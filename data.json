@@ -578,18 +578,8 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2280,
-    "metadataQr": {
-      "version": 2280,
-      "file": {
-        "path": "qr/polkadot-acala_metadata_2280.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xdedb1c46c21367b17896510509c43692efe08b536b5fe8d52f9d8719e29d8d41"
-        }
-      }
-    },
+    "liveMetaVersion": 2290,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acala_specs.png",
