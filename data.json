@@ -98,18 +98,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1004002,
-    "metadataQr": {
-      "version": 1004002,
-      "file": {
-        "path": "qr/kusama-statemine_metadata_1004002.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x662075e7631985681b3e16fdf2bcad74cdf1fdef0c45f794e57e6d3c638f82b3"
-        }
-      }
-    },
+    "liveMetaVersion": 1004003,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-statemine_specs.png",
