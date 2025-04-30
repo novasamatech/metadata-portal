@@ -1678,18 +1678,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crust_Parachain.svg",
     "decimals": 12,
-    "liveMetaVersion": 6,
-    "metadataQr": {
-      "version": 6,
-      "file": {
-        "path": "qr/polkadot-polkadot-crust-parachain_metadata_6.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb151dff0ff24fce352f1ba7c32a13882f3b96d7c920b5597011839941e3e4a8e"
-        }
-      }
-    },
+    "liveMetaVersion": 7,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polkadot-crust-parachain_specs.png",
