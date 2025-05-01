@@ -2678,18 +2678,8 @@
     "base58prefix": 5589,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Jamton.svg",
     "decimals": 18,
-    "liveMetaVersion": 1120020,
-    "metadataQr": {
-      "version": 1120020,
-      "file": {
-        "path": "qr/polkadot-jamton-runtime_metadata_1120020.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x40527b37bd53c9b3070a24b6d5433529cf9e21a19684e77d6a9f8129157b4587"
-        }
-      }
-    },
+    "liveMetaVersion": 1120104,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-jamton-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-jamton-runtime_specs.png",
