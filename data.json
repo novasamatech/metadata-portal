@@ -219,7 +219,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 3600,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 3600,
+      "file": {
+        "path": "qr/polkadot-moonbeam_metadata_3600.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa744981b13131e8069c79d40c563614e1d3b2e7175e853cf2a834c5c473c22da"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
@@ -2249,7 +2259,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
     "liveMetaVersion": 1001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1001000,
+      "file": {
+        "path": "qr/polkadot-polimec-mainnet_metadata_1001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x062b45ed2ecaec785ccda491e8f31fc3c081738f8c83435c1912034bd3de4926"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-polimec-mainnet_specs.png",
