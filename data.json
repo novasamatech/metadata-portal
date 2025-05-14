@@ -1329,7 +1329,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
     "liveMetaVersion": 10170080,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10170080,
+      "file": {
+        "path": "qr/polkadot-unique_metadata_10170080.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe15f0e9b3dd37264eb0bb41421751942cd4ad1476e594d4cce6e9682c84993b2"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-unique_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-unique_specs.png",
