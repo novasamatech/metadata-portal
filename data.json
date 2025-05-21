@@ -268,18 +268,8 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 1302,
-    "metadataQr": {
-      "version": 1302,
-      "file": {
-        "path": "qr/kusama-shiden_metadata_1302.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xfcbd8c41687a0333111dfd07cdb4d81e8c97e6f6f5d89f83683ae8398b6a9b88"
-        }
-      }
-    },
+    "liveMetaVersion": 1500,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-shiden_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-shiden_specs.png",
@@ -1005,21 +995,11 @@
     "rpcEndpoint": "wss://rpc-hydra.novasama-tech.org",
     "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "unit": "HDX",
-    "base58prefix": 63,
+    "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 308,
-    "metadataQr": {
-      "version": 308,
-      "file": {
-        "path": "qr/polkadot-hydradx_metadata_308.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x8e48be8db863afa1ef466a26af41ee43dbc4d1dc232fe77068ba4e420f6cdd09"
-        }
-      }
-    },
+    "liveMetaVersion": 313,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-hydradx_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-hydradx_specs.png",
