@@ -38,18 +38,8 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
-    "liveMetaVersion": 1005000,
-    "metadataQr": {
-      "version": 1005000,
-      "file": {
-        "path": "qr/kusama_metadata_1005000.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0xea3afe3210a8061117f080da0eebdfd73743bb81fc0bfef39d042751d3ef06cc"
-        }
-      }
-    },
+    "liveMetaVersion": 1005001,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama_specs.png",
@@ -798,15 +788,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 200,
+    "liveMetaVersion": 10046,
     "metadataQr": {
-      "version": 200,
+      "version": 10046,
       "file": {
-        "path": "qr/kusama-picasso_metadata_200.apng",
+        "path": "qr/kusama-picasso_metadata_10046.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
+          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
         }
       }
     },
@@ -1298,18 +1288,8 @@
     "base58prefix": 27,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kabocha.svg",
     "decimals": 12,
-    "liveMetaVersion": 28,
-    "metadataQr": {
-      "version": 28,
-      "file": {
-        "path": "qr/kusama-kabocha-parachain_metadata_28.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x33823e29d2d654412fb46402ee9f134527f45235bbe5bc5ada5167fffcaf440c"
-        }
-      }
-    },
+    "liveMetaVersion": 6,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-kabocha-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-kabocha-parachain_specs.png",
