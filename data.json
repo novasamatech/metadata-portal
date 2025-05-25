@@ -1698,7 +1698,7 @@
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
-    "liveMetaVersion": 806,
+    "liveMetaVersion": 807,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
     "specsQr": {
