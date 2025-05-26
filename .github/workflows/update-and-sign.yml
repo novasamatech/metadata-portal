@@ -110,7 +110,7 @@ jobs:
           title: '[Automated] Review new metadata QRs'
           body: |
             Updated metadata QR codes
-          reviewers: "stepanLav,pgolovkin,tuul-wq,Asmadek"
+          reviewers: "stepanLav"
           draft: false
           token: ${{ steps.generate-token.outputs.token }}
 
