@@ -16,6 +16,11 @@ inputs:
     description: 'Token for making operations with GitHub'
     required: true
 
+outputs:
+  pr_url:
+    description: 'URL of the created pull request'
+    value: ${{ steps.pull-request.outputs.pr_url }}
+
 runs:
   using: 'composite'
   steps:
@@ -38,6 +43,7 @@ runs:
 
     - uses: repo-sync/pull-request@v2
       if: steps.commit.outcome == 'success'
+      id: pull-request
       name: pull-request
       with:
         source_branch: "${{ inputs.branch-name }}-${{github.run_number}}"
