@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
+  pull_request:
 
 env:
   BRANCH_PREFIX: updated-codes
