@@ -7,8 +7,6 @@ on:
 
 env:
   BRANCH_PREFIX: updated-codes
-  NOTIFY_MATRIX: false
-  NOTIFY_TELEGRAM: true
   GITHUB_WORKFLOW_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
 permissions:
@@ -27,19 +25,6 @@ jobs:
       - name: 🔧 Install rust dependencies
         uses: ./.github/workflows/rust-install
 
-      - name: Try to checkout exising PR branch
-        id: checkout-pr
-        run: |
-          SIGN_ME_BRANCH=$(git branch -r --list "origin/$BRANCH_PREFIX-*" --sort=-refname | head -n 1)
-          if [ -z "$SIGN_ME_BRANCH" ]
-          then
-            switched="false"
-          else
-            git checkout --track $SIGN_ME_BRANCH
-            switched="true"
-          fi
-          echo "::set-output name=switched::$switched"
-
       - name: ⚙ Build metadata-cli
         uses: actions-rs/cargo@v1
         with:
@@ -48,48 +33,16 @@ jobs:
 
       - name: ⚙ Update QRs from RPC nodes
         id: update-nodes
+        continue-on-error: true
         run: |
-          cargo run --release -- -c=config.toml update --sign --signing-key ${{secrets.SIGNING_KEY}} --source node
-          exit_code=$?
-          if [ $exit_code -eq 12 ]
-          then
-            echo "::set-output name=chainsSkipped::true"
-            exit 0
-          fi
-          echo "::set-output name=chainsSkipped::false"
-          exit $exit_code
-        shell: bash {0}
-
-      - name: ⚙ Update QRs from GitHub releases
-        run: |
-          cargo run --release update --sign --signing-key ${{secrets.SIGNING_KEY}} --source github
+          cargo run --release -- -c=config.toml update --sign --signing-key ${{secrets.SIGNING_KEY}} --source node || true
+        shell: bash
 
       - name: ⚙ Run collector
         id: collect
         run: |
           cargo run --release collect
-          exit_code=$?
-          if [ $exit_code -eq 12 ]
-          then
-            echo "::set-output name=chainsSkipped::true"
-            exit 0
-          fi
-          echo "::set-output name=chainsSkipped::false"
-          exit $exit_code
-        shell: bash {0}
-
-      - name: 📌 Commit changes if PR exists
-        if: ${{ steps.checkout-pr.outputs.switched == 'true' }}
-        uses: ./.github/workflows/commit-changes
-        with:
-          message: 'metadata update&sign'
-
-      - name: New PR branch
-        if: ${{ steps.checkout-pr.outputs.switched == 'false' }}
-        id: new-branch
-        run: |
-          NAME="$BRANCH_PREFIX-$(date '+%Y-%m-%d')"
-          echo "::set-output name=name::$NAME"
+        shell: bash
 
       - name: 🔑 Generate token
         uses: tibdex/github-app-token@v1
@@ -98,114 +51,21 @@ jobs:
           app_id: ${{ secrets.NOVASAMA_APP_ID }}
           private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
 
-      - name: Create Pull Request if not exist
-        if: ${{ steps.checkout-pr.outputs.switched == 'false' }}
+      - name: ➡️ Make pull request
         id: cpr
-        uses: peter-evans/create-pull-request@f22a7da129c901513876a2380e2dae9f8e145330
+        uses: ./.github/workflows/make-pull-request
         with:
-          commit-message: add updated QR codes
-          branch: ${{ steps.new-branch.outputs.name }}
-          delete-branch: true
-          base: master
-          title: '[Automated] Review new metadata QRs'
-          body: |
-            Updated metadata QR codes
-          reviewers: "stepanLav"
-          draft: false
-          token: ${{ steps.generate-token.outputs.token }}
+          commit-path: public/
+          commit-message: Update config file with chains-config
+          branch-name: update-chains-config
+          github-token: ${{ steps.generate-token.outputs.token }}
 
-      - name: Notify Matrix channel
-        uses: s3krit/matrix-message-action@v0.0.3
-        if: ${{ env.NOTIFY_MATRIX == 'true' && steps.cpr.outputs.pull-request-operation == 'created' }}
-        with:
-          room_id: ${{ secrets.MATRIX_ROOM_ID }}
-          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
-          server: ${{ secrets.MATRIX_SERVER }}
-          message: "# New metadata is available and signed! 📑 [GitHub PR#${{ steps.cpr.outputs.pull-request-number }}](${{ steps.cpr.outputs.pull-request-url }})"
-
-      - name: Notify Telegram channel
-        uses: appleboy/telegram-action@master
-        if: ${{ env.NOTIFY_TELEGRAM == 'true' && steps.cpr.outputs.pull-request-operation == 'created' }}
+      - name: Send Telegram notification
+        uses: appleboy/telegram-action@v1.0.1
+        if: ${{ steps.cpr.outputs.pr_url != '' }}
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: markdown
           message: |
-            New metadata is available and signed! 📑
-            ${{ steps.cpr.outputs.pull-request-url }}
-
-      - name: Send error to Matrix channel
-        uses: s3krit/matrix-message-action@v0.0.3
-        if: ${{ failure() && env.NOTIFY_MATRIX == 'true' }}
-        with:
-          room_id: ${{ secrets.MATRIX_ROOM_ID }}
-          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
-          server: ${{ secrets.MATRIX_SERVER }}
-          message: "❌️ Error updating metadata! ❌ ${{ env.GITHUB_WORKFLOW_URL }}"
-
-      - name: Send error to Telegram channel
-        uses: appleboy/telegram-action@master
-        if: ${{ failure() && env.NOTIFY_TELEGRAM == 'true' }}
-        with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: |
-            ❌️ Error updating metadata! ❌
-            ${{ env.GITHUB_WORKFLOW_URL }}
-
-      - name: Send update warning to Matrix channel
-        uses: s3krit/matrix-message-action@v0.0.3
-        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_MATRIX == 'true'}}
-        with:
-          room_id: ${{ secrets.MATRIX_ROOM_ID }}
-          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
-          server: ${{ secrets.MATRIX_SERVER }}
-          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
-
-      - name: Send update warning to Telegram channel
-        uses: appleboy/telegram-action@master
-        if: ${{ steps.update-nodes.outputs.chainsSkipped == 'true' && env.NOTIFY_TELEGRAM == 'true'}}
-        with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: "⚠️ Some networks were not available! Please, check the log! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}"
-
-  check-deployment:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: 🛎 Checkout
-        uses: actions/checkout@v3
-
-      - name: 🔧 Install rust dependencies
-        uses: ./.github/workflows/rust-install
-
-      - name: ⚙ Check existing deployment
-        id: check-deployment
-        run: |
-          cargo run --release -- check-deployment
-          exit_code=$?
-          if [ $exit_code -eq 12 ]
-          then
-            echo "::set-output name=redeploy::true"
-            exit 0
-          fi
-          echo "::set-output name=redeploy::false"
-          exit $exit_code
-        shell: bash {0}
-
-      - name: ⚙ Run collector
-        id: collect
-        if: ${{ steps.check-deployment.outputs.redeploy == 'true' }}
-        run: |
-          cargo run --release -- -c=config.toml collect
-          exit_code=$?
-          if [ $exit_code -eq 12 ]
-          then
-            exit 0
-          fi
-          exit $exit_code
-        shell: bash {0}
-
-      - if: ${{ steps.check-deployment.outputs.redeploy == 'true' }}
-        uses: ./.github/workflows/deploy
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+            ${{ format('New metadata is available and signed! 📑 {0}', steps.cpr.outputs.pr_url) }}
