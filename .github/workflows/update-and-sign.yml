@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
-  pull_request:
 
 env:
   BRANCH_PREFIX: updated-codes
@@ -69,4 +68,4 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            ${{ format('New metadata is available and signed! 📑 \n {0}', steps.cpr.outputs.pr_url) }}
+            ${{ format('New metadata is available and signed! 📑 {0}', steps.cpr.outputs.pr_url) }}
