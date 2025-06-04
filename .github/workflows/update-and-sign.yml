@@ -34,8 +34,9 @@ jobs:
 
       - name: ⚙ Update QRs from RPC nodes
         id: update-nodes
+        continue-on-error: true
         run: |
-          cargo run --release -- -c=config.toml update --sign --signing-key ${{secrets.SIGNING_KEY}} --source node
+          cargo run --release -- -c=config.toml update --sign --signing-key ${{secrets.SIGNING_KEY}} --source node || true
         shell: bash
 
       - name: ⚙ Run collector
