@@ -63,10 +63,10 @@ jobs:
 
       - name: Send Telegram notification
         uses: appleboy/telegram-action@v1.0.1
-        if: ${{ steps.cpr.outputs.pr_url != '' || failure() }}
+        if: ${{ steps.cpr.outputs.pr_url != '' }}
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            ${{ steps.cpr.outputs.pr_url != '' && format('New metadata is available and signed! 📑 \n {0}', steps.cpr.outputs.pr_url) || format('❌️ Error updating metadata! ❌ \n {0}', env.GITHUB_WORKFLOW_URL) }}
+            ${{ format('New metadata is available and signed! 📑 \n {0}', steps.cpr.outputs.pr_url) }}
