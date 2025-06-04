@@ -69,4 +69,4 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            ${{ steps.cpr.outputs.pr_url != '' && format('New metadata is available and signed! 📑\n {0}', steps.cpr.outputs.pr_url) || format('❌️ Error updating metadata! ❌\n{0}', env.GITHUB_WORKFLOW_URL) }}
+            ${{ steps.cpr.outputs.pr_url != '' && format('New metadata is available and signed! 📑 \n {0}', steps.cpr.outputs.pr_url) || format('❌️ Error updating metadata! ❌ \n {0}', env.GITHUB_WORKFLOW_URL) }}
