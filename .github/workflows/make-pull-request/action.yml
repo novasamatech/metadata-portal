@@ -39,7 +39,7 @@ runs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ inputs.github-token }}
-        branch: refs/heads/${{ inputs.branch-name }}-${{github.run_number}}
+        branch: refs/heads/${{ inputs.branch-name }}
 
     - uses: repo-sync/pull-request@v2
       if: steps.commit.outcome == 'success'
