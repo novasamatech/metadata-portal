@@ -1869,7 +1869,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
     "liveMetaVersion": 7020,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 7020,
+      "file": {
+        "path": "qr/kusama-crab2_metadata_7020.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc21c4c6b456ca9d4b6e97b7cbbeaa01fbd63fba5d9c75558ef8660a1bea914e1"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-crab2_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-crab2_specs.png",
@@ -2189,7 +2199,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
     "liveMetaVersion": 81,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 81,
+      "file": {
+        "path": "qr/polkadot-ewx-parachain_metadata_81.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x68aa263b6c01af41469f70a76624f77157ac5f022b6fa5ad1245b4e02c15f016"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ewx-parachain_specs.png",
@@ -2389,7 +2409,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
     "liveMetaVersion": 26,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 26,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_26.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2c4fe7405199dd63a4849d8fcbc4ac29689316114059595cc4c9d153390b876a"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
