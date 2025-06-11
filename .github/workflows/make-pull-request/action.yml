@@ -46,7 +46,7 @@ runs:
       id: pull-request
       name: pull-request
       with:
-        source_branch: "${{ inputs.branch-name }}-${{github.run_number}}"
+        source_branch: "${{ inputs.branch-name }}"
         destination_branch: "master"
         pr_title: ${{ inputs.commit-message }}
         pr_body: |
