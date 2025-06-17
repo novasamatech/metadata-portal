@@ -249,7 +249,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonriver.svg",
     "decimals": 18,
     "liveMetaVersion": 3701,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 3701,
+      "file": {
+        "path": "qr/kusama-moonriver_metadata_3701.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0be785e9db015e4351b902688562caaa43829ff297640e43a2bcab2e65fe7551"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-moonriver_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-moonriver_specs.png",
@@ -1049,7 +1059,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Interlay.svg",
     "decimals": 0,
     "liveMetaVersion": 1025005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1025005,
+      "file": {
+        "path": "qr/polkadot-interlay-parachain_metadata_1025005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe8fe49db005d3f06326675aa5ebf44216814fcdd37a85a0b92ef1515cbe216cf"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-interlay-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-interlay-parachain_specs.png",
@@ -1728,15 +1748,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 276,
+    "liveMetaVersion": 277,
     "metadataQr": {
-      "version": 276,
+      "version": 277,
       "file": {
-        "path": "qr/node-subtensor_metadata_276.apng",
+        "path": "qr/node-subtensor_metadata_277.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x335be434540143ff452e6a13343cf096811259c540c1bf74ff2c16ec2a6b86a0"
+          "block": "0x696d41598c054fb9c4ad6f096694b8b51c18459cc65b3b56d1cf83c3292a798e"
         }
       }
     },
