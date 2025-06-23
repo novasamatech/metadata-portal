@@ -1269,7 +1269,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
     "liveMetaVersion": 19001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 19001,
+      "file": {
+        "path": "qr/polkadot-bifrost_polkadot_metadata_19001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9781f60c02c2ed8ce7ab15b5d6a47b269d79526a684d2484bd682d75c2773a7c"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-bifrost_polkadot_specs.png",
@@ -2609,7 +2619,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg",
     "decimals": 15,
     "liveMetaVersion": 405,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 405,
+      "file": {
+        "path": "qr/deepbrainchain_metadata_405.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x38816b0af83e122433942c0545baa264065feb14608cf194427e074af05aa1b0"
+        }
+      }
+    },
     "latestMetadata": "qr/deepbrainchain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/deepbrainchain_specs.png",
