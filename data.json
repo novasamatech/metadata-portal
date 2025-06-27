@@ -278,15 +278,15 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 1501,
+    "liveMetaVersion": 1601,
     "metadataQr": {
-      "version": 1501,
+      "version": 1601,
       "file": {
-        "path": "qr/kusama-shiden_metadata_1501.apng",
+        "path": "qr/kusama-shiden_metadata_1601.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x7ce82d31466aa3a00b5e564b5016dc1d568bc552b5ceab5554752b082a40c5db"
+          "block": "0x8564d4928475ebcfe365ba96290fcc76280988bdb609f040c1ccb709dcce980d"
         }
       }
     },
