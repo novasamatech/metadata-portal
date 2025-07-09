@@ -38,15 +38,15 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
-    "liveMetaVersion": 1005001,
+    "liveMetaVersion": 1006001,
     "metadataQr": {
-      "version": 1005001,
+      "version": 1006001,
       "file": {
-        "path": "qr/kusama_metadata_1005001.apng",
+        "path": "qr/kusama_metadata_1006001.apng",
         "signedBy": "Parity",
         "source": {
           "type": "Rpc",
-          "block": "0xd88f87e0cdfe4a9981735bd55c975fa3ab283a8d6fccbaa01e277171f1e1e418"
+          "block": "0x41a1449e5c6bafdfbd90a454922f19658915485c94207f10f44048b7f5c035f5"
         }
       }
     },
@@ -68,18 +68,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1018011,
-    "metadataQr": {
-      "version": 1018011,
-      "file": {
-        "path": "qr/westend_metadata_1018011.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0x34bc4b5f55ff068b0c13f26fc57510f399d62da34d87d46c268b021eade24057"
-        }
-      }
-    },
+    "liveMetaVersion": 1018013,
+    "metadataQr": null,
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
