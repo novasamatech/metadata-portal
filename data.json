@@ -1888,15 +1888,15 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 154,
+    "liveMetaVersion": 169,
     "metadataQr": {
-      "version": 154,
+      "version": 169,
       "file": {
-        "path": "qr/polkadot-frequency_metadata_154.apng",
+        "path": "qr/polkadot-frequency_metadata_169.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdba24046d41514dbf438ba1e73b46e5b509471c6753fac8c34d5415609518efe"
+          "block": "0xc659d7485ed7e47766854c2852631a75006fa735c2d9f39c0c632c24f2407c4c"
         }
       }
     },
