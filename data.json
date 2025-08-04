@@ -848,15 +848,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10046,
+    "liveMetaVersion": 200,
     "metadataQr": {
-      "version": 10046,
+      "version": 200,
       "file": {
-        "path": "qr/kusama-picasso_metadata_10046.apng",
+        "path": "qr/kusama-picasso_metadata_200.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
+          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
         }
       }
     },
@@ -1666,7 +1666,7 @@
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xa95b3b1a7700081daca4dbf126a65ce96d28ad434b8bd51f14daba2e4e08917f"
+          "block": "0x096a6d7bda1aff2c7782ca2992d14a8e9d5835fb75df7c3c41e26ab1dfef1e08"
         }
       }
     },
@@ -1749,7 +1749,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
     "liveMetaVersion": 298,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 298,
+      "file": {
+        "path": "qr/node-subtensor_metadata_298.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa121fc36d312bc37026031448679dff890dad7bc825a7ddfe08e6f56fbe4b6bc"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
@@ -2399,7 +2409,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
     "liveMetaVersion": 29,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 29,
+      "file": {
+        "path": "qr/kusama-acurast-parachain_metadata_29.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb8b9623230aeb6570dfcdc93e88ec5e93c1ba1a8c9746b3e9e39643d4877080d"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
@@ -2569,7 +2589,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
     "liveMetaVersion": 130,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 130,
+      "file": {
+        "path": "qr/humanode_metadata_130.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe4694f02799b5c3b80a889d9d9fd11948b515e2e5fee6e257177508bc327d459"
+        }
+      }
+    },
     "latestMetadata": "qr/humanode_metadata_latest.apng",
     "specsQr": {
       "path": "qr/humanode_specs.png",
@@ -2739,7 +2769,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tangle.svg",
     "decimals": 18,
     "liveMetaVersion": 1401,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1401,
+      "file": {
+        "path": "qr/tangle_metadata_1401.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x094f246915b02bd9785785bf52adfa2fc6c34655791559ca15a64dada20e0d9e"
+        }
+      }
+    },
     "latestMetadata": "qr/tangle_metadata_latest.apng",
     "specsQr": {
       "path": "qr/tangle_specs.png",
