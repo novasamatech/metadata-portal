@@ -2648,15 +2648,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/peaq.svg",
     "decimals": 18,
-    "liveMetaVersion": 108,
+    "liveMetaVersion": 109,
     "metadataQr": {
-      "version": 108,
+      "version": 109,
       "file": {
-        "path": "qr/polkadot-peaq-node_metadata_108.apng",
+        "path": "qr/polkadot-peaq-node_metadata_109.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x895eb939e50383a97779575748a35c95bf95193e1373c76c20122f9cd0cb4a1c"
+          "block": "0x1e65bb71329694160207b8e61a6292eb1b942d5bbe16aa4d765aaa968afbca0f"
         }
       }
     },
