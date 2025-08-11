@@ -1,5 +1,5 @@
 name: Making a pull request
-description: That action create a pull request with all changes
+description: That action create a pull request with all changes using GitHub CLI
 inputs:
   commit-path:
     description: 'Path to the files that will be committed'
@@ -15,6 +15,10 @@ inputs:
   github-token:
     description: 'Token for making operations with GitHub'
     required: true
+  base-branch:
+    description: 'Base branch for the pull request'
+    required: false
+    default: 'master'
 
 outputs:
   pr_url:
@@ -24,32 +28,43 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - name: Commit files
-      id: commit
-      continue-on-error: true
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ inputs.github-token }}
+        fetch-depth: 0
+
+    - name: Setup Git
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add ${{ inputs.commit-path }}
-        git commit -m "${{ inputs.commit-message }}"
       shell: bash
 
-    - name: Push changes
-      if: steps.commit.outcome == 'success'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ inputs.github-token }}
-        branch: refs/heads/${{ inputs.branch-name }}
+    - name: Commit and push changes
+      id: commit
+      run: |
+        git add ${{ inputs.commit-path }}
+        git commit -m "${{ inputs.commit-message }}" || echo "No changes to commit"
+        git push origin HEAD:${{ inputs.branch-name }} --force-with-lease
+      shell: bash
 
-    - uses: repo-sync/pull-request@v2
+    - name: Create or update Pull Request
       if: steps.commit.outcome == 'success'
       id: pull-request
-      name: pull-request
-      with:
-        source_branch: "${{ inputs.branch-name }}"
-        destination_branch: "master"
-        pr_title: ${{ inputs.commit-message }}
-        pr_body: |
-          That pull-request was generated automatically 🤖
-        pr_draft: false
-        github_token: ${{ inputs.github-token }}
+      run: |
+        # Try to create PR, if it fails due to existing PR, get its URL
+        if PR_URL=$(gh pr create \
+          --title "${{ inputs.commit-message }}" \
+          --body "That pull-request was generated automatically 🤖" \
+          --base ${{ inputs.base-branch }} \
+          --head ${{ inputs.branch-name }} \
+          --json url --jq '.[0].url' 2>/dev/null); then
+          echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+        else
+          # PR already exists, get its URL
+          PR_URL=$(gh pr list --head ${{ inputs.branch-name }} --json url --jq '.[0].url')
+          echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+        fi
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
