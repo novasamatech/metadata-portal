@@ -488,15 +488,15 @@
     "base58prefix": 38,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
-    "liveMetaVersion": 11602,
+    "liveMetaVersion": 11603,
     "metadataQr": {
-      "version": 11602,
+      "version": 11603,
       "file": {
-        "path": "qr/polkadot-kilt-spiritnet_metadata_11602.apng",
+        "path": "qr/polkadot-kilt-spiritnet_metadata_11603.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xc5f95a5e61a408dfc1382fdbcfe3eed4d81dffd0e1f92ebdf0d114b27041bd9c"
+          "block": "0x36fd40d82e414ec18f0ae852fed0155f084d684b3a62607d9809b0d8ebd94931"
         }
       }
     },
