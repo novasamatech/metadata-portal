@@ -1180,6 +1180,17 @@ testnet = true
 verifier = "novasama"
 
 [[chains]]
+name = "asset-hub-paseo"
+title = "Paseo Asset Hub"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = [
+    "wss://asset-hub-paseo-rpc.n.dwellir.com",
+]
+testnet = true
+verifier = "novasama"
+
+[[chains]]
 name = "rococo"
 title = "Rococo Testnet"
 color = "#000000"
