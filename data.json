@@ -2819,6 +2819,36 @@
     "testnet": true,
     "relayChain": null
   },
+  "asset-hub-paseo": {
+    "title": "Paseo Asset Hub",
+    "color": "#000000",
+    "rpcEndpoint": "wss://asset-hub-paseo-rpc.n.dwellir.com",
+    "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+    "unit": "PAS",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
+    "decimals": 10,
+    "liveMetaVersion": 1006002,
+    "metadataQr": {
+      "version": 1006002,
+      "file": {
+        "path": "qr/asset-hub-paseo_metadata_1006002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2df5204f56bb9ea7b7681f96b93ec546ffa62a21ba8ecebd2108aba42a47db8f"
+        }
+      }
+    },
+    "latestMetadata": "qr/asset-hub-paseo_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/asset-hub-paseo_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": true,
+    "relayChain": null
+  },
   "rococo": {
     "title": "Rococo Testnet",
     "color": "#000000",
