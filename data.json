@@ -848,15 +848,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 200,
+    "liveMetaVersion": 10046,
     "metadataQr": {
-      "version": 200,
+      "version": 10046,
       "file": {
-        "path": "qr/kusama-picasso_metadata_200.apng",
+        "path": "qr/kusama-picasso_metadata_10046.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
+          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
         }
       }
     },
@@ -1028,15 +1028,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hydration.svg",
     "decimals": 12,
-    "liveMetaVersion": 336,
+    "liveMetaVersion": 347,
     "metadataQr": {
-      "version": 336,
+      "version": 347,
       "file": {
-        "path": "qr/polkadot-hydradx_metadata_336.apng",
+        "path": "qr/polkadot-hydradx_metadata_347.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x6e10352ab4b204318ec689f1e70379cdacbc82d0fd3c743e5bb4eaa8111ff54e"
+          "block": "0x026580df641b7193566f43a50993d763ac8f97cc77bbccfb4eb81b60651f651c"
         }
       }
     },
@@ -2558,15 +2558,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 39,
+    "liveMetaVersion": 52,
     "metadataQr": {
-      "version": 39,
+      "version": 52,
       "file": {
-        "path": "qr/creditcoin3_metadata_39.apng",
+        "path": "qr/creditcoin3_metadata_52.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x5ce58e49931b93cd2bb0f1314aae6649033f4fe5ade8352c33c2b65c4a982a43"
+          "block": "0xe90315a2659fd39b637fded3730cae8ff19cf7230f64be3c3a8c55ceb04fe0c3"
         }
       }
     },
