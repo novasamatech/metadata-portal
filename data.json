@@ -1748,18 +1748,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 315,
-    "metadataQr": {
-      "version": 315,
-      "file": {
-        "path": "qr/node-subtensor_metadata_315.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc513395b590a2da6f8eab20aed6f8b9f15ea653c8d3b26c9e294cd04c0caf482"
-        }
-      }
-    },
+    "liveMetaVersion": 320,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
@@ -2198,18 +2188,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
-    "liveMetaVersion": 93,
-    "metadataQr": {
-      "version": 93,
-      "file": {
-        "path": "qr/polkadot-ewx-parachain_metadata_93.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xed142ed351cbc9a60c7ce5641d70c30b7488775f8ae5937ed788e366f3bb2ed0"
-        }
-      }
-    },
+    "liveMetaVersion": 96,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ewx-parachain_specs.png",
@@ -2408,18 +2388,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 33,
-    "metadataQr": {
-      "version": 33,
-      "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_33.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x74fd4283a7b402368e3787f791818abf8e2a07f8c5c057e5367620da0ba824be"
-        }
-      }
-    },
+    "liveMetaVersion": 36,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
