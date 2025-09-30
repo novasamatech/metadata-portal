@@ -9,7 +9,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
     "liveMetaVersion": 1007001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1007001,
+      "file": {
+        "path": "qr/polkadot_metadata_1007001.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa756475048ef79b368b8aa8498dfa5ecf2961b16cbb7f8c7e1d36ec8659a32e5"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -1468,18 +1478,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 22,
-    "metadataQr": {
-      "version": 22,
-      "file": {
-        "path": "qr/kusama-amplitude_metadata_22.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x59954a87fc2916a8ebbddb774fe528c8c195a0afef0a69d7e682741d27948a3d"
-        }
-      }
-    },
+    "liveMetaVersion": 23,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-amplitude_specs.png",
@@ -1978,18 +1978,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 1006001,
-    "metadataQr": {
-      "version": 1006001,
-      "file": {
-        "path": "qr/polkadot-bridge-hub-polkadot_metadata_1006001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xcca267c8d0527fa16d5794f82be915f6c06caab34b134d7be1b5f456106e64ef"
-        }
-      }
-    },
+    "liveMetaVersion": 1007001,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-bridge-hub-polkadot_specs.png",
