@@ -119,7 +119,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_People.svg",
     "decimals": 10,
     "liveMetaVersion": 1007001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1007001,
+      "file": {
+        "path": "qr/polkadot-people-polkadot_metadata_1007001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x542d1973090131ef1585b4b879ab81734cf4f3d1064cf6cac7ccfba2d7026ba6"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-people-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-people-polkadot_specs.png",
@@ -828,15 +838,15 @@
     "base58prefix": 49,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Picasso.svg",
     "decimals": 12,
-    "liveMetaVersion": 10046,
+    "liveMetaVersion": 200,
     "metadataQr": {
-      "version": 10046,
+      "version": 200,
       "file": {
-        "path": "qr/kusama-picasso_metadata_10046.apng",
+        "path": "qr/kusama-picasso_metadata_200.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x77a395ec282dfd6a84b0b21ca97e72084a97fd95f64fe474d915d8716dcc0c2c"
+          "block": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc"
         }
       }
     },
@@ -2029,7 +2039,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
     "liveMetaVersion": 1007001,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1007001,
+      "file": {
+        "path": "qr/polkadot-collectives_metadata_1007001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdac9578280b9aebe4907628cd66b3b00cc24dcfd6d0245622a9c404afc52bc6a"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-collectives_specs.png",
