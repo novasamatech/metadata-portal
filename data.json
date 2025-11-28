@@ -758,18 +758,8 @@
     "base58prefix": 32,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
-    "liveMetaVersion": 36,
-    "metadataQr": {
-      "version": 36,
-      "file": {
-        "path": "qr/kusama-robonomics_metadata_36.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xc6aef302334224c3c8f875afacd4698b08597083dcc58a5cd684bb130d68b357"
-        }
-      }
-    },
+    "liveMetaVersion": 40,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-robonomics_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-robonomics_specs.png",
@@ -1238,15 +1228,15 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg",
     "decimals": 12,
-    "liveMetaVersion": 149,
+    "liveMetaVersion": 151,
     "metadataQr": {
-      "version": 149,
+      "version": 151,
       "file": {
-        "path": "qr/polkadot-origintrail-parachain_metadata_149.apng",
+        "path": "qr/polkadot-origintrail-parachain_metadata_151.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xb462589c1613f26160ecd340e9861816eb15b3ff2e357a1f120cdf5c906a589b"
+          "block": "0x37405a1a1e7e277fe389d31484727cd3fdcc361415a00791055b8678deda8b09"
         }
       }
     },
