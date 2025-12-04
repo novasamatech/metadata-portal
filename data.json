@@ -759,7 +759,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
     "liveMetaVersion": 40,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 40,
+      "file": {
+        "path": "qr/kusama-robonomics_metadata_40.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc61a524cf4443081b672bb4d05562cba185cb4feb094b5f6b7239725e0f3bbcb"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-robonomics_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-robonomics_specs.png",
@@ -1918,15 +1928,15 @@
     "base58prefix": 137,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
     "decimals": 12,
-    "liveMetaVersion": 1920,
+    "liveMetaVersion": 11000,
     "metadataQr": {
-      "version": 1920,
+      "version": 11000,
       "file": {
-        "path": "qr/vara_metadata_1920.apng",
+        "path": "qr/vara_metadata_11000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x1fab588f021ebd03caac5ac652a9cc5df8bc202401fa00ebb6868229b9f41458"
+          "block": "0xcaa05f88719f2c51414de13d821e90db61c113f0d332c966a9daef9d815ddc45"
         }
       }
     },
