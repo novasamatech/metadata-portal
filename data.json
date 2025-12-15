@@ -98,15 +98,15 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 2000002,
+    "liveMetaVersion": 2000003,
     "metadataQr": {
-      "version": 2000002,
+      "version": 2000003,
       "file": {
-        "path": "qr/kusama-statemine_metadata_2000002.apng",
+        "path": "qr/kusama-statemine_metadata_2000003.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xc07371f9b229b2956f97c25b0f4412aac65f5efaa011d983d744f63f8afff6a8"
+          "block": "0x09e9f3938633251557bfab0d7c6670c2b04cf635e10ec7a96c108a3f5ffb12d4"
         }
       }
     },
@@ -218,15 +218,15 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 3901,
+    "liveMetaVersion": 4001,
     "metadataQr": {
-      "version": 3901,
+      "version": 4001,
       "file": {
-        "path": "qr/polkadot-moonbeam_metadata_3901.apng",
+        "path": "qr/polkadot-moonbeam_metadata_4001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xc3587a2e47c441a08ee1a863f8f776859955f8f688d809ccaf1bd93342853603"
+          "block": "0x3df85c3ade32a34adb46b828675d94b24a5e96031cb8e15d520f42af828b3898"
         }
       }
     },
@@ -608,15 +608,15 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2320,
+    "liveMetaVersion": 2330,
     "metadataQr": {
-      "version": 2320,
+      "version": 2330,
       "file": {
-        "path": "qr/polkadot-acala_metadata_2320.apng",
+        "path": "qr/polkadot-acala_metadata_2330.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x2a3ae04a20da5fb86b16c83990ac283c90abba2c25c8c2867f5a6231007c5818"
+          "block": "0xf478e3773b7739b8c216ca81dedb05457fbda241b34dbb6be36164c113aa8cb3"
         }
       }
     },
@@ -1748,15 +1748,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 361,
+    "liveMetaVersion": 362,
     "metadataQr": {
-      "version": 361,
+      "version": 362,
       "file": {
-        "path": "qr/node-subtensor_metadata_361.apng",
+        "path": "qr/node-subtensor_metadata_362.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x9ddfc976c1d284b3a2d4ca2ec75c26691eba9e9540565a1cd9b6cf9d7ffac493"
+          "block": "0x5f42ef61fb09e2667c633c995b2fa77f32395f00ac06f1f4ef0a4bf5194acb70"
         }
       }
     },
@@ -2108,15 +2108,15 @@
     "base58prefix": 1110,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
-    "liveMetaVersion": 1022,
+    "liveMetaVersion": 1031,
     "metadataQr": {
-      "version": 1022,
+      "version": 1031,
       "file": {
-        "path": "qr/matrix-enjin_metadata_1022.apng",
+        "path": "qr/matrix-enjin_metadata_1031.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x46f353cf60b633ca02b52afd460e06aae61a3770f3f52af2069f84ad03ffdcb3"
+          "block": "0x423d3f18afc84c842ac9414fc78262e922e69e806e4ead84c720a05adeec5ef1"
         }
       }
     },
@@ -2408,15 +2408,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 42,
+    "liveMetaVersion": 44,
     "metadataQr": {
-      "version": 42,
+      "version": 44,
       "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_42.apng",
+        "path": "qr/kusama-acurast-parachain_metadata_44.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xe26906ca502e6a551791ab23f7ec843dadf847e29c65bc516d337b676aa4aee4"
+          "block": "0x6ae6c6ebd2f0e060702a3daa9dbb8d4d903621b12151d9d50a1851ad360b8132"
         }
       }
     },
