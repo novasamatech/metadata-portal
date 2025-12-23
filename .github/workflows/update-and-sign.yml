@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: 🛎 Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -62,10 +62,26 @@ jobs:
 
       - name: Send Telegram notification
         uses: appleboy/telegram-action@v1.0.1
-        if: ${{ steps.cpr.outputs.pr_url != '' }}
+        if: steps.cpr.outputs.has_changes == 'true' && steps.cpr.outputs.pr_url != ''
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
             ${{ format('New metadata is available and signed! 📑 {0}', steps.cpr.outputs.pr_url) }}
+
+      - name: Send failure notification
+        if: failure()
+        uses: appleboy/telegram-action@v1.0.1
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: markdown
+          message: |
+            ⚠️ *Workflow Failed*
+            
+            Workflow: `${{ github.workflow }}`
+            Run: [${{ github.run_number }}](${{ env.GITHUB_WORKFLOW_URL }})
+            Commit: `${{ github.sha }}`
+            
+            Please check the workflow logs for details.
