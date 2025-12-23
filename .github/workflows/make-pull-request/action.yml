@@ -24,6 +24,9 @@ outputs:
   pr_url:
     description: 'URL of the created pull request'
     value: ${{ steps.pull-request.outputs.pr_url }}
+  has_changes:
+    description: 'Whether changes were detected'
+    value: ${{ steps.check-changes.outputs.has_changes }}
 
 runs:
   using: 'composite'
@@ -40,19 +43,42 @@ runs:
         git config --local user.name "github-actions[bot]"
       shell: bash
 
-    - name: Commit and push changes
-      id: commit
+    - name: Check for changes
+      id: check-changes
       run: |
         git add ${{ inputs.commit-path }}
+        if git diff --staged --quiet; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+      shell: bash
+
+    - name: Create or checkout branch
+      if: steps.check-changes.outputs.has_changes == 'true'
+      run: |
+        if git ls-remote --heads origin ${{ inputs.branch-name }} | grep -q .; then
+          git fetch origin ${{ inputs.branch-name }}:${{ inputs.branch-name }}
+          git checkout ${{ inputs.branch-name }}
+          git merge origin/${{ inputs.base-branch }} --no-edit || true
+        else
+          git checkout -b ${{ inputs.branch-name }}
+        fi
+        git add ${{ inputs.commit-path }}
+      shell: bash
+
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.has_changes == 'true'
+      id: commit
+      run: |
         git commit -m "${{ inputs.commit-message }}" || echo "No changes to commit"
         git push origin HEAD:${{ inputs.branch-name }} --force-with-lease
       shell: bash
 
     - name: Create or update Pull Request
-      if: steps.commit.outcome == 'success'
+      if: steps.check-changes.outputs.has_changes == 'true'
       id: pull-request
       run: |
-        # Try to create PR, if it fails due to existing PR, get its URL
         if PR_URL=$(gh pr create \
           --title "${{ inputs.commit-message }}" \
           --body "That pull-request was generated automatically 🤖" \
@@ -61,7 +87,6 @@ runs:
           --json url --jq '.[0].url' 2>/dev/null); then
           echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
         else
-          # PR already exists, get its URL
           PR_URL=$(gh pr list --head ${{ inputs.branch-name }} --json url --jq '.[0].url')
           echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
         fi
