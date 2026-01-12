@@ -69,33 +69,61 @@ runs:
       if: steps.check-changes.outputs.has_changes == 'true'
       id: pull-request
       run: |
+        # Get repository info from git remote
+        REMOTE_URL=$(git config --get remote.origin.url)
+        # Extract owner and repo name (handles both https:// and git@ formats)
+        # Remove .git suffix if present, then extract path components
+        CLEAN_URL=$(echo "$REMOTE_URL" | sed 's/\.git$//')
+        REPO_PATH=$(echo "$CLEAN_URL" | sed -E 's/.*github\.com[:/](.+)$/\1/')
+        REPO_OWNER=$(echo "$REPO_PATH" | cut -d'/' -f1)
+        REPO_NAME=$(echo "$REPO_PATH" | cut -d'/' -f2)
+        if [ -z "$REPO_OWNER" ] || [ -z "$REPO_NAME" ] || [ "$REPO_OWNER" = "$REPO_PATH" ]; then
+          echo "Error: Could not determine repository from remote URL: $REMOTE_URL"
+          exit 1
+        fi
+        
         # Try to create a new pull request
-        # Capture stderr separately to show errors if creation fails
-        PR_URL=$(gh pr create \
+        PR_OUTPUT=$(gh pr create \
           --title "${{ inputs.commit-message }}" \
           --body "That pull-request was generated automatically 🤖" \
           --base ${{ inputs.base-branch }} \
-          --head ${{ inputs.branch-name }} \
-          --json url --jq '.[0].url' 2>pr_error.log) && CREATE_SUCCESS=true || CREATE_SUCCESS=false
+          --head ${{ inputs.branch-name }} 2>&1) && CREATE_SUCCESS=true || CREATE_SUCCESS=false
         
-        # If creation failed, try to find an existing PR
-        if [ "$CREATE_SUCCESS" = "false" ]; then
-          echo "PR creation failed. Error output:"
-          cat pr_error.log || true
+        if [ "$CREATE_SUCCESS" = "true" ]; then
+          # Extract URL from output - gh pr create usually outputs the URL
+          PR_URL=$(echo "$PR_OUTPUT" | grep -oE 'https://github\.com/[^/]+/[^/]+/pull/[0-9]+' | head -1)
+          # If not found, try to extract PR number and construct URL
+          if [ -z "$PR_URL" ]; then
+            PR_NUMBER=$(echo "$PR_OUTPUT" | grep -oE 'pull/[0-9]+' | head -1 | grep -oE '[0-9]+')
+            if [ -n "$PR_NUMBER" ]; then
+              PR_URL="https://github.com/$REPO_OWNER/$REPO_NAME/pull/$PR_NUMBER"
+            fi
+          fi
+        else
+          echo "PR creation failed. Output:"
+          echo "$PR_OUTPUT"
           echo "Checking for existing PR..."
-          PR_URL=$(gh pr list --head ${{ inputs.branch-name }} --json url --jq '.[0].url' 2>&1) || PR_URL=""
+          # Try to find existing PR by listing and extracting PR number
+          PR_LIST_OUTPUT=$(gh pr list --head ${{ inputs.branch-name }} 2>/dev/null || echo "")
+          if [ -n "$PR_LIST_OUTPUT" ]; then
+            # Extract PR number (format: #123  Title or https://...)
+            PR_NUMBER=$(echo "$PR_LIST_OUTPUT" | head -1 | grep -oE '#[0-9]+' | head -1 | grep -oE '[0-9]+')
+            if [ -z "$PR_NUMBER" ]; then
+              PR_NUMBER=$(echo "$PR_LIST_OUTPUT" | head -1 | grep -oE '[0-9]+' | head -1)
+            fi
+            if [ -n "$PR_NUMBER" ]; then
+              PR_URL="https://github.com/$REPO_OWNER/$REPO_NAME/pull/$PR_NUMBER"
+            fi
+          fi
         fi
         
-        # Clean up error log
-        rm -f pr_error.log
-        
-        # Validate that we have a non-empty, non-null URL
-        if [ -n "$PR_URL" ] && [ "$PR_URL" != "null" ] && [ "$PR_URL" != "" ]; then
+        # Validate that we have a non-empty URL
+        if [ -n "$PR_URL" ] && [ "$PR_URL" != "" ]; then
           echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
           echo "✓ PR URL: $PR_URL"
         else
           echo "Error: Failed to create or find pull request"
-          echo "PR URL value: '$PR_URL'"
+          echo "PR output: '$PR_OUTPUT'"
           exit 1
         fi
       shell: bash
