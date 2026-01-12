@@ -31,12 +31,6 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ inputs.github-token }}
-        fetch-depth: 0
-
     - name: Setup Git
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -57,13 +51,8 @@ runs:
     - name: Create or checkout branch
       if: steps.check-changes.outputs.has_changes == 'true'
       run: |
-        if git ls-remote --heads origin ${{ inputs.branch-name }} | grep -q .; then
-          git fetch origin ${{ inputs.branch-name }}:${{ inputs.branch-name }}
-          git checkout ${{ inputs.branch-name }}
-          git merge origin/${{ inputs.base-branch }} --no-edit || true
-        else
-          git checkout -b ${{ inputs.branch-name }}
-        fi
+        # Always create/reset branch from current HEAD to replace all commits on remote
+        git checkout -B ${{ inputs.branch-name }}
         git add ${{ inputs.commit-path }}
       shell: bash
 
@@ -72,23 +61,60 @@ runs:
       id: commit
       run: |
         git commit -m "${{ inputs.commit-message }}" || echo "No changes to commit"
-        git push origin HEAD:${{ inputs.branch-name }} --force-with-lease
+        git push origin HEAD:${{ inputs.branch-name }} --force
       shell: bash
 
     - name: Create or update Pull Request
       if: steps.check-changes.outputs.has_changes == 'true'
       id: pull-request
       run: |
-        if PR_URL=$(gh pr create \
+        REMOTE_URL=$(git config --get remote.origin.url)
+        CLEAN_URL=$(echo "$REMOTE_URL" | sed 's/\.git$//')
+        REPO_PATH=$(echo "$CLEAN_URL" | sed -E 's/.*github\.com[:/](.+)$/\1/')
+        REPO_OWNER=$(echo "$REPO_PATH" | cut -d'/' -f1)
+        REPO_NAME=$(echo "$REPO_PATH" | cut -d'/' -f2)
+        if [ -z "$REPO_OWNER" ] || [ -z "$REPO_NAME" ] || [ "$REPO_OWNER" = "$REPO_PATH" ]; then
+          echo "Error: Could not determine repository from remote URL: $REMOTE_URL"
+          exit 1
+        fi
+        
+        PR_OUTPUT=$(gh pr create \
           --title "${{ inputs.commit-message }}" \
           --body "That pull-request was generated automatically 🤖" \
           --base ${{ inputs.base-branch }} \
-          --head ${{ inputs.branch-name }} \
-          --json url --jq '.[0].url' 2>/dev/null); then
-          echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+          --head ${{ inputs.branch-name }} 2>&1) && CREATE_SUCCESS=true || CREATE_SUCCESS=false
+        
+        if [ "$CREATE_SUCCESS" = "true" ]; then
+          PR_URL=$(echo "$PR_OUTPUT" | grep -oE 'https://github\.com/[^/]+/[^/]+/pull/[0-9]+' | head -1)
+          if [ -z "$PR_URL" ]; then
+            PR_NUMBER=$(echo "$PR_OUTPUT" | grep -oE 'pull/[0-9]+' | head -1 | grep -oE '[0-9]+')
+            if [ -n "$PR_NUMBER" ]; then
+              PR_URL="https://github.com/$REPO_OWNER/$REPO_NAME/pull/$PR_NUMBER"
+            fi
+          fi
         else
-          PR_URL=$(gh pr list --head ${{ inputs.branch-name }} --json url --jq '.[0].url')
+          echo "PR creation failed. Output:"
+          echo "$PR_OUTPUT"
+          echo "Checking for existing PR..."
+          PR_LIST_OUTPUT=$(gh pr list --head ${{ inputs.branch-name }} 2>/dev/null || echo "")
+          if [ -n "$PR_LIST_OUTPUT" ]; then
+            PR_NUMBER=$(echo "$PR_LIST_OUTPUT" | head -1 | grep -oE '#[0-9]+' | head -1 | grep -oE '[0-9]+')
+            if [ -z "$PR_NUMBER" ]; then
+              PR_NUMBER=$(echo "$PR_LIST_OUTPUT" | head -1 | grep -oE '[0-9]+' | head -1)
+            fi
+            if [ -n "$PR_NUMBER" ]; then
+              PR_URL="https://github.com/$REPO_OWNER/$REPO_NAME/pull/$PR_NUMBER"
+            fi
+          fi
+        fi
+        
+        if [ -n "$PR_URL" ] && [ "$PR_URL" != "" ]; then
           echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+          echo "✓ PR URL: $PR_URL"
+        else
+          echo "Error: Failed to create or find pull request"
+          echo "PR output: '$PR_OUTPUT'"
+          exit 1
         fi
       shell: bash
       env:
