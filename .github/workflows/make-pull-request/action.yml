@@ -51,13 +51,9 @@ runs:
     - name: Create or checkout branch
       if: steps.check-changes.outputs.has_changes == 'true'
       run: |
-        if git ls-remote --heads origin ${{ inputs.branch-name }} | grep -q .; then
-          git fetch origin ${{ inputs.branch-name }}:${{ inputs.branch-name }}
-          git checkout ${{ inputs.branch-name }}
-          git merge origin/${{ inputs.base-branch }} --no-edit || true
-        else
-          git checkout -b ${{ inputs.branch-name }}
-        fi
+        # Always create/reset branch from current HEAD to replace all commits on remote
+        # This ensures we use the current local state (including any changes made in the action)
+        git checkout -B ${{ inputs.branch-name }}
         git add ${{ inputs.commit-path }}
       shell: bash
 
@@ -66,7 +62,7 @@ runs:
       id: commit
       run: |
         git commit -m "${{ inputs.commit-message }}" || echo "No changes to commit"
-        git push origin HEAD:${{ inputs.branch-name }} --force-with-lease
+        git push origin HEAD:${{ inputs.branch-name }} --force
       shell: bash
 
     - name: Create or update Pull Request
