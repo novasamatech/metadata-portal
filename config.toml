@@ -1225,3 +1225,15 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
+
+[[chains]]
+name = "subspace"
+title = "Autonomys Network"
+color = "#000000" # provide a valid color code
+icon = "" # provide an svg icon for the chain
+rpc_endpoints = [
+    "wss://rpc.mainnet.subspace.foundation/ws",
+    "wss://rpc.mainnet.autonomys.xyz/ws"
+]
+testnet = false
+verifier = "novasama"
