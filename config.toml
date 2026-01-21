@@ -1229,7 +1229,7 @@ relay_chain = "kusama"
 [[chains]]
 name = "subspace"
 title = "Autonomys Network"
-color = "#000000" # provide a valid color code
+color = "#5870B3"
 icon = "" # provide an svg icon for the chain
 rpc_endpoints = [
     "wss://rpc.mainnet.subspace.foundation/ws",
