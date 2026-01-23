@@ -2938,5 +2938,35 @@
     },
     "testnet": false,
     "relayChain": "kusama"
+  },
+  "subspace": {
+    "title": "Autonomys Network",
+    "color": "#5870B3",
+    "rpcEndpoint": "wss://rpc.mainnet.subspace.foundation/ws",
+    "genesisHash": "0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd",
+    "unit": "AI3",
+    "base58prefix": 6094,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Autonomys.svg",
+    "decimals": 18,
+    "liveMetaVersion": 8,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/subspace_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7a45823cc66ca10b3f45372252c6157b8ba52a5f3d1065bb37aeeab3e994e697"
+        }
+      }
+    },
+    "latestMetadata": "qr/subspace_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subspace_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": null
   }
 }
