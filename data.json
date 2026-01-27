@@ -9,7 +9,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/polkadot_metadata_2000005.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5377033c39aaa13072406c5742d484849a3352bc6f2d1e005d8b4e8e3bcc6704"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -119,7 +129,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_People.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/polkadot-people-polkadot_metadata_2000005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbbe94b57a35328b5aaa4f497558d95afe3f33319b63fda6ead2a1ca0949ecbdf"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-people-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-people-polkadot_specs.png",
@@ -709,7 +729,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/polkadot-statemint_metadata_2000005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd6bb9e399d0192fcc0272be64890d7ffa1cb6921b31d36bc696fdebd23bdf2ad"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-statemint_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-statemint_specs.png",
@@ -1959,7 +1989,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/polkadot-bridge-hub-polkadot_metadata_2000005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd075a7e99facb0e9404852f9249377eb42e2c767cf77826b568684f6ec406b59"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-bridge-hub-polkadot_specs.png",
@@ -2009,7 +2049,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/polkadot-collectives_metadata_2000005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8ce6bac5276789d2546fdf3e0be081899bfd795eb8718e64f7700b7e33cad9c0"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-collectives_specs.png",
@@ -2779,7 +2829,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
     "liveMetaVersion": 2000005,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000005,
+      "file": {
+        "path": "qr/asset-hub-paseo_metadata_2000005.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8910d4fe609e9afb32c3a8925164323295a62c64558737633f98092f9c3d4d62"
+        }
+      }
+    },
     "latestMetadata": "qr/asset-hub-paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/asset-hub-paseo_specs.png",
