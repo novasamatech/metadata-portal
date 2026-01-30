@@ -218,18 +218,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 4001,
-    "metadataQr": {
-      "version": 4001,
-      "file": {
-        "path": "qr/polkadot-moonbeam_metadata_4001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3df85c3ade32a34adb46b828675d94b24a5e96031cb8e15d520f42af828b3898"
-        }
-      }
-    },
+    "liveMetaVersion": 4101,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
@@ -1748,18 +1738,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 372,
-    "metadataQr": {
-      "version": 372,
-      "file": {
-        "path": "qr/node-subtensor_metadata_372.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x50f414a23ad3f6c71cfb751c18e2dfc1aa678472106992c6be2f71d35903e93b"
-        }
-      }
-    },
+    "liveMetaVersion": 373,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
@@ -2408,15 +2388,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 49,
+    "liveMetaVersion": 50,
     "metadataQr": {
-      "version": 49,
+      "version": 50,
       "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_49.apng",
+        "path": "qr/kusama-acurast-parachain_metadata_50.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xe9ebdc0449192ccb15cecaeba41d3c5025fb48267352de166a86b7363751e5e4"
+          "block": "0x791ca95a17edc7a150d3fb5b79d62a5aadb1a861019a325efebe19dbf1f1cf92"
         }
       }
     },
