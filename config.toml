@@ -1237,3 +1237,13 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
+
+[[chains]]
+name = "acurast-parachain"
+title = "Acurast Mainnet"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg"
+rpc_endpoints = ["wss://public-archive.mainnet.acurast.com"]
+testnet = false
+verifier = "novasama"
+relay_chain = "polkadot"
