@@ -1240,7 +1240,7 @@ verifier = "novasama"
 
 [[chains]]
 name = "Acurast Mainnet"
-title = "Acurast"
+title = "Acurast Mainnet"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg"
 rpc_endpoints = ["wss://public-archive.mainnet.acurast.com"]
