@@ -2968,5 +2968,35 @@
     },
     "testnet": false,
     "relayChain": null
+  },
+  "polkadot-acurast-parachain": {
+    "title": "Acurast Mainnet",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-archive.mainnet.acurast.com",
+    "genesisHash": "0x4b5f95eefedf0d0fb514339edc24d2d411310520f687b4146145bcedb99885b9",
+    "unit": "ACU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg",
+    "decimals": 12,
+    "liveMetaVersion": 10,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/polkadot-acurast-parachain_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb76f8e7593474e2f5eff6669f61af528994d1338b58d4476d38fca3277e80166"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-acurast-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-acurast-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false,
+    "relayChain": "polkadot"
   }
 }
