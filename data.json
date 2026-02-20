@@ -248,15 +248,15 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 4102,
+    "liveMetaVersion": 4103,
     "metadataQr": {
-      "version": 4102,
+      "version": 4103,
       "file": {
-        "path": "qr/kusama-moonriver_metadata_4102.apng",
+        "path": "qr/kusama-moonriver_metadata_4103.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdc7b88132d6e0d661ef5ecec31d692d370f11adc2d9b4729db6625659f7bac2a"
+          "block": "0x153566fc80adee7827cdeb5889e4f69736eb7f1fe74baac4ccff2145ceb76463"
         }
       }
     },
@@ -308,15 +308,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 23001,
+    "liveMetaVersion": 23002,
     "metadataQr": {
-      "version": 23001,
+      "version": 23002,
       "file": {
-        "path": "qr/kusama-bifrost_metadata_23001.apng",
+        "path": "qr/kusama-bifrost_metadata_23002.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x0a64074a0420a29cc4d08554bff81a65f858729c69289c4229f5404e13c9484a"
+          "block": "0x6489211c7aef71a981b16747ad1049f779364e176068bc9fecae1caf1dfb59f4"
         }
       }
     },
@@ -1268,15 +1268,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 23001,
+    "liveMetaVersion": 23002,
     "metadataQr": {
-      "version": 23001,
+      "version": 23002,
       "file": {
-        "path": "qr/polkadot-bifrost_polkadot_metadata_23001.apng",
+        "path": "qr/polkadot-bifrost_polkadot_metadata_23002.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xa05c75d11b348e65b498a72c061087ce3b59fa5b11af86e53c69c41260bde0c3"
+          "block": "0x3624823ee7dfd97ca7e8eac7b890d4f1259fdcd0cd4da7b9c5ad5dd8a2ffc0c3"
         }
       }
     },
