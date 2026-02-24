@@ -39,7 +39,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
     "liveMetaVersion": 2000007,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2000007,
+      "file": {
+        "path": "qr/kusama_metadata_2000007.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbc588cbb4b5daa23ac4fdb241766b9ab7375cc99e90bd2f306a61383006696d1"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama_specs.png",
@@ -59,7 +69,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
     "liveMetaVersion": 1022000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 1022000,
+      "file": {
+        "path": "qr/westend_metadata_1022000.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x306c8bba64b3edee032a1aff0a13dd69b76e3b02cdbc6562b2fc2f72cadb0ff9"
+        }
+      }
+    },
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -588,15 +608,15 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2330,
+    "liveMetaVersion": 2340,
     "metadataQr": {
-      "version": 2330,
+      "version": 2340,
       "file": {
-        "path": "qr/polkadot-acala_metadata_2330.apng",
+        "path": "qr/polkadot-acala_metadata_2340.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xf478e3773b7739b8c216ca81dedb05457fbda241b34dbb6be36164c113aa8cb3"
+          "block": "0x7f2b2f1c7fb4255b13398d40c4c89b50211af8767ac91a7e1c8d9670347fe61a"
         }
       }
     },
@@ -2358,15 +2378,15 @@
     "base58prefix": 29972,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Mythos.svg",
     "decimals": 18,
-    "liveMetaVersion": 1016,
+    "liveMetaVersion": 1019,
     "metadataQr": {
-      "version": 1016,
+      "version": 1019,
       "file": {
-        "path": "qr/polkadot-mythos_metadata_1016.apng",
+        "path": "qr/polkadot-mythos_metadata_1019.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x917f35f6d3ae06c23c0b7763a9f4503d70afc76f103894ea67c1cc770ea78424"
+          "block": "0xcbc3265d5a1cf31a2ac857141551add0673e2ab0f57f841264978a2fb3e94da3"
         }
       }
     },
