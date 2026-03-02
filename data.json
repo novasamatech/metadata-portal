@@ -1538,15 +1538,15 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 7003003,
+    "liveMetaVersion": 7004001,
     "metadataQr": {
-      "version": 7003003,
+      "version": 7004001,
       "file": {
-        "path": "qr/polymesh_mainnet_metadata_7003003.apng",
+        "path": "qr/polymesh_mainnet_metadata_7004001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x5109864cc6362232a96ecb9df05789c76c74ebd66a01eae83ed736affd39c673"
+          "block": "0x164b0ba87abff9eabcaca821048326a64e62884ea7c9135c6c7a4b60dbb2ddc5"
         }
       }
     },
@@ -2408,18 +2408,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 50,
-    "metadataQr": {
-      "version": 50,
-      "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_50.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x791ca95a17edc7a150d3fb5b79d62a5aadb1a861019a325efebe19dbf1f1cf92"
-        }
-      }
-    },
+    "liveMetaVersion": 51,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-acurast-parachain_specs.png",
