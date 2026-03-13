@@ -99,7 +99,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
     "liveMetaVersion": 2001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2001000,
+      "file": {
+        "path": "qr/kusama-statemine_metadata_2001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xce1d83c0bc26b6f1e8209ef189b66964655f51074e580918bd3100c6b2fc12b8"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-statemine_specs.png",
@@ -149,7 +159,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_People.svg",
     "decimals": 12,
     "liveMetaVersion": 2001000,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2001000,
+      "file": {
+        "path": "qr/kusama-people-kusama_metadata_2001000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9e4dfcaad69b23f4fe161aafb793647fc7d7ac8067b4286c9f224149a5888d9e"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-people-kusama_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-people-kusama_specs.png",
@@ -738,15 +758,15 @@
     "base58prefix": 32,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Robonomics.svg",
     "decimals": 9,
-    "liveMetaVersion": 41,
+    "liveMetaVersion": 42,
     "metadataQr": {
-      "version": 41,
+      "version": 42,
       "file": {
-        "path": "qr/kusama-robonomics_metadata_41.apng",
+        "path": "qr/kusama-robonomics_metadata_42.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x4a1b66999fdab7bb82cd93ac33f2d461289b305f887a6138349b7a47dd4c03b3"
+          "block": "0x5c0ac5dd6e6758eeeb505a70e914d7351827dd077a897fbabf32f64206241e3d"
         }
       }
     },
