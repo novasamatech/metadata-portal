@@ -2978,15 +2978,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg",
     "decimals": 12,
-    "liveMetaVersion": 10,
+    "liveMetaVersion": 11,
     "metadataQr": {
-      "version": 10,
+      "version": 11,
       "file": {
-        "path": "qr/polkadot-acurast-parachain_metadata_10.apng",
+        "path": "qr/polkadot-acurast-parachain_metadata_11.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xb76f8e7593474e2f5eff6669f61af528994d1338b58d4476d38fca3277e80166"
+          "block": "0xec3170d9c1a8cb0c896ad032d146c1107cacdaecfe5a394cb247940a5572d11c"
         }
       }
     },
