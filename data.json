@@ -2979,7 +2979,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg",
     "decimals": 12,
     "liveMetaVersion": 12,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/polkadot-acurast-parachain_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x009e2f8fe4de991575a05796607bc454a612e151bbe9ad3be3f92fbdcc9cf90d"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acurast-parachain_specs.png",
