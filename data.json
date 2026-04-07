@@ -68,18 +68,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1022001,
-    "metadataQr": {
-      "version": 1022001,
-      "file": {
-        "path": "qr/westend_metadata_1022001.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0x0e6f2fb6d0d2991ca3dc36c576132b22e13e40c596c08c1ca4175c522615e54e"
-        }
-      }
-    },
+    "liveMetaVersion": 1022002,
+    "metadataQr": null,
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -1268,15 +1258,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 23003,
+    "liveMetaVersion": 24000,
     "metadataQr": {
-      "version": 23003,
+      "version": 24000,
       "file": {
-        "path": "qr/polkadot-bifrost_polkadot_metadata_23003.apng",
+        "path": "qr/polkadot-bifrost_polkadot_metadata_24000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x250692ba7d8d1fe5a3d8b878691a9fff9cf2579468a43be9f6585bc66a0a5d29"
+          "block": "0xcf6941da21c0047130265cd50ade725616a418f135f6d1b5f1d883981bafc08b"
         }
       }
     },
@@ -2198,18 +2188,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
-    "liveMetaVersion": 101,
-    "metadataQr": {
-      "version": 101,
-      "file": {
-        "path": "qr/polkadot-ewx-parachain_metadata_101.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x261592a1ce076c9f96e40623000a28a811330e4bfe187e1461d5d33df590e821"
-        }
-      }
-    },
+    "liveMetaVersion": 105,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ewx-parachain_specs.png",
