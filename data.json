@@ -68,18 +68,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1022002,
-    "metadataQr": {
-      "version": 1022002,
-      "file": {
-        "path": "qr/westend_metadata_1022002.apng",
-        "signedBy": "Parity",
-        "source": {
-          "type": "Rpc",
-          "block": "0xd5a7846ef9e60cef1e2c0253d22d20aac83be82db29efedd261dae9460f04154"
-        }
-      }
-    },
+    "liveMetaVersion": 1022003,
+    "metadataQr": null,
     "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
       "path": "qr/westend_specs.png",
@@ -2558,15 +2548,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 61,
+    "liveMetaVersion": 64,
     "metadataQr": {
-      "version": 61,
+      "version": 64,
       "file": {
-        "path": "qr/creditcoin3_metadata_61.apng",
+        "path": "qr/creditcoin3_metadata_64.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x1ce2e98e8e54d198cb525816a8094f624e7ec66661a383c70b5c81344fff37af"
+          "block": "0xd0bcc553735ae40681014b1dcb00374c298f256d313212bac71f15410f85f2bb"
         }
       }
     },
