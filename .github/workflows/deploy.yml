@@ -11,22 +11,26 @@ env:
   GITHUB_WORKFLOW_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
 jobs:
-  deploy:
+  verify:
     runs-on: ubuntu-22.04
-
     steps:
       - name: 🛎 Checkout
-        id: checkout
         uses: actions/checkout@v4
 
       - uses: ./.github/workflows/rust-install
 
       - name: ⚙ Run verifier
-        id: verify
-        uses: actions-rs/cargo@v1
-        with:
-          command: run
-          args: --release -- verify
+        run: cargo run --release -- verify
+
+  collect:
+    runs-on: ubuntu-22.04
+    outputs:
+      redeploy: ${{ steps.collect.outputs.redeploy }}
+    steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@v4
+
+      - uses: ./.github/workflows/rust-install
 
       - name: ⚙ Run collector
         id: collect
@@ -35,12 +39,35 @@ jobs:
           exit_code=$?
           if [ $exit_code -eq 12 ]
           then
-            echo "::set-output name=redeploy::true"
+            echo "redeploy=true" >> $GITHUB_OUTPUT
             exit 0
           fi
-          echo "::set-output name=redeploy::false"
+          echo "redeploy=false" >> $GITHUB_OUTPUT
           exit $exit_code
         shell: bash {0}
+
+      - name: ⬆️ Upload collector output
+        uses: actions/upload-artifact@v4
+        with:
+          name: collector-output
+          path: |
+            public/data.json
+            public/qr/*_metadata_latest.apng
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    needs: [verify, collect]
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@v4
+
+      - name: ⬇️ Download collector output
+        uses: actions/download-artifact@v4
+        with:
+          name: collector-output
+          path: public/
 
       - name: 🔑 Generate token
         uses: tibdex/github-app-token@v1
@@ -50,14 +77,12 @@ jobs:
           private_key: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
 
       - uses: ./.github/workflows/deploy
-        id: deploy
-        if: success() || failure() && (steps.collect.outcome == 'failure')
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Send warning to Matrix channel
         uses: s3krit/matrix-message-action@v0.0.3
-        if: steps.collect.outputs.redeploy == 'true' && env.NOTIFY_MATRIX == 'true'
+        if: needs.collect.outputs.redeploy == 'true' && env.NOTIFY_MATRIX == 'true'
         with:
           room_id: ${{ secrets.MATRIX_ROOM_ID }}
           access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
@@ -66,15 +91,20 @@ jobs:
 
       - name: Send warning to Telegram channel
         uses: appleboy/telegram-action@master
-        if:  steps.collect.outputs.redeploy == 'true' && env.NOTIFY_TELEGRAM == 'true'
+        if: needs.collect.outputs.redeploy == 'true' && env.NOTIFY_TELEGRAM == 'true'
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: "⚠️ Warning metadata deployed but should be updated one more time! ⚠️ ${{ env.GITHUB_WORKFLOW_URL }}️"
 
+  notify_failure:
+    needs: [verify, collect, deploy]
+    if: failure()
+    runs-on: ubuntu-22.04
+    steps:
       - name: Send error to Matrix channel
+        if: env.NOTIFY_MATRIX == 'true'
         uses: s3krit/matrix-message-action@v0.0.3
-        if: failure() && (steps.deploy.outcome == 'failure' || steps.verify.outcome == 'failure') && env.NOTIFY_MATRIX == 'true'
         with:
           room_id: ${{ secrets.MATRIX_ROOM_ID }}
           access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
@@ -82,8 +112,8 @@ jobs:
           message: "❌️ Error deploying metadata! ❌ ${{ env.GITHUB_WORKFLOW_URL }}"
 
       - name: Send error to Telegram channel
+        if: env.NOTIFY_TELEGRAM == 'true'
         uses: appleboy/telegram-action@master
-        if:  failure() && (steps.deploy.outcome == 'failure' || steps.verify.outcome == 'failure') && env.NOTIFY_TELEGRAM == 'true'
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}

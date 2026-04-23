@@ -10,6 +10,7 @@ use definitions::network_specs::Verifier as NetworkVerifier;
 use definitions::network_specs::VerifierValue;
 use definitions::qr_transfers::ContentLoadMeta;
 use log::info;
+use rayon::prelude::*;
 use transaction_parsing::check_signature::pass_crypto;
 
 use crate::common::camera::read_qr_file;
@@ -33,15 +34,19 @@ pub(crate) fn validate_signed_qrs(dir: impl AsRef<Path>, config: &AppConfig) -> 
         ensure!(qr.file_name.is_signed, "{} is not signed", qr.file_name);
     }
 
-    for qr in &all_qrs {
-        if let ContentType::Metadata(_) = qr.file_name.content_type {
+    all_qrs
+        .par_iter()
+        .filter(|qr| matches!(qr.file_name.content_type, ContentType::Metadata(_)))
+        .try_for_each(|qr| -> Result<()> {
             let f_name = &qr.file_name;
             match validate_metadata_qr(qr, &chain_verifiers_map) {
-                Ok(_) => info!("🎉 {} is verified!", f_name),
+                Ok(_) => {
+                    info!("🎉 {} is verified!", f_name);
+                    Ok(())
+                }
                 Err(e) => bail!("failed to verify {}: {}", f_name, e),
             }
-        }
-    }
+        })?;
     Ok(())
 }
 
