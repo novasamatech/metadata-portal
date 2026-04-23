@@ -64,7 +64,7 @@ fn camera_capture(camera: &mut videoio::VideoCapture) -> anyhow::Result<GrayImag
     };
 
     let mut gray = Mat::default();
-    cvt_color(&frame, &mut gray, COLOR_BGR2GRAY, 0, opencv::core::AlgorithmHint::ALGO_HINT_DEFAULT)?;
+    cvt_color(&frame, &mut gray, COLOR_BGR2GRAY, 0)?;
 
     let rows = gray.rows() as u32;
     let cols = gray.cols() as u32;
