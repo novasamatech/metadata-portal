@@ -28,7 +28,14 @@ where
         .par_iter()
         .map(|chain| {
             info!("Collecting {} info...", chain.name);
-            build_chain_spec(chain, config, &fetcher, &all_specs, &all_metadata, online.as_ref())
+            build_chain_spec(
+                chain,
+                config,
+                &fetcher,
+                &all_specs,
+                &all_metadata,
+                online.as_ref(),
+            )
         })
         .collect();
 
