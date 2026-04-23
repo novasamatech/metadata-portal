@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::path::Path;
 
-use anyhow::{anyhow, bail, ensure, Result};
+use anyhow::{anyhow, bail, ensure, Context, Result};
 use definitions::crypto::Encryption;
 use definitions::error::TransferContent;
 use definitions::helpers::{multisigner_to_encryption, multisigner_to_public};
@@ -23,10 +23,13 @@ pub(crate) fn validate_signed_qrs(dir: impl AsRef<Path>, config: &AppConfig) -> 
     let all_qrs = qrs_in_dir(&dir)?;
     let mut chain_verifiers_map = HashMap::new();
     for chain in &config.chains {
-        chain_verifiers_map.insert(
-            chain.name.clone().to_lowercase(),
-            config.verifiers.get(&chain.verifier).unwrap(),
-        );
+        let verifier = config.verifiers.get(&chain.verifier).with_context(|| {
+            format!(
+                "chain {} references unknown verifier {}",
+                chain.name, chain.verifier
+            )
+        })?;
+        chain_verifiers_map.insert(chain.name.clone().to_lowercase(), verifier);
     }
 
     // Quick check that latest files are signed
@@ -75,10 +78,14 @@ fn validate_metadata_qr(
         .meta_genhash()
         .map_err(|e| anyhow!("{:?}", e))?;
     let meta_values = MetaValues::from_slice_metadata(&meta).map_err(|e| anyhow!("{:?}", e))?;
-    println!("Verifying {}", meta_values.name.to_lowercase());
-    let verifier = &chain_verifier_map
-        .get(&meta_values.name.to_lowercase())
-        .unwrap();
+    let runtime_name = meta_values.name.to_lowercase();
+    info!("Verifying {}", runtime_name);
+    let verifier = chain_verifier_map.get(&runtime_name).with_context(|| {
+        format!(
+            "no chain with runtime name `{}` in config.toml — stale QR file?",
+            runtime_name
+        )
+    })?;
     let public_key = match encryption {
         Encryption::Sr25519 => &verifier.public_key,
         Encryption::Ethereum | Encryption::Ecdsa => verifier.ethereum_public_key.as_ref().unwrap(),
