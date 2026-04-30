@@ -338,15 +338,15 @@
     "base58prefix": 10041,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
-    "liveMetaVersion": 130,
+    "liveMetaVersion": 132,
     "metadataQr": {
-      "version": 130,
+      "version": 132,
       "file": {
-        "path": "qr/kusama-basilisk_metadata_130.apng",
+        "path": "qr/kusama-basilisk_metadata_132.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x204717306cbc1b3c0d2f110f19332824784ec0af658b39daf4b07a7b63bd26fe"
+          "block": "0x6f3da567d74affe3168cda5e229f9f06bda67c1165f61f91541cef59d344d987"
         }
       }
     },
@@ -2798,18 +2798,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 2001001,
-    "metadataQr": {
-      "version": 2001001,
-      "file": {
-        "path": "qr/paseo_metadata_2001001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x56b6946b5764711f2400518d0ed88ac37966aaf0ab77c83e284a5c864506bb87"
-        }
-      }
-    },
+    "liveMetaVersion": 2002002,
+    "metadataQr": null,
     "latestMetadata": "qr/paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/paseo_specs.png",
@@ -2828,18 +2818,8 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 2001001,
-    "metadataQr": {
-      "version": 2001001,
-      "file": {
-        "path": "qr/asset-hub-paseo_metadata_2001001.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xb81c92f1f242cfdeaa1dd1d65a38b447320f373c7208f59023ad2b502b7fd9c8"
-        }
-      }
-    },
+    "liveMetaVersion": 2002002,
+    "metadataQr": null,
     "latestMetadata": "qr/asset-hub-paseo_metadata_latest.apng",
     "specsQr": {
       "path": "qr/asset-hub-paseo_specs.png",
