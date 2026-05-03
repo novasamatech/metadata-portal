@@ -129,7 +129,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_People.svg",
     "decimals": 10,
     "liveMetaVersion": 2002002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2002002,
+      "file": {
+        "path": "qr/polkadot-people-polkadot_metadata_2002002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x06d952c66b96c12de70c2d15dfac31c95e971f465e3625af5ea9448e8f1fa0e5"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-people-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-people-polkadot_specs.png",
