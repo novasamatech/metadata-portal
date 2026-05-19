@@ -2318,15 +2318,15 @@
     "base58prefix": 2135,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
-    "liveMetaVersion": 1063,
+    "liveMetaVersion": 1070,
     "metadataQr": {
-      "version": 1063,
+      "version": 1070,
       "file": {
-        "path": "qr/enjin_metadata_1063.apng",
+        "path": "qr/enjin_metadata_1070.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x7b99539500a2a9f60b9e902573e442cf8a5ac8d02915d535760739d4a32612c1"
+          "block": "0xdf3773cf956cfd8d865d96a86cadbcda6b1a355b60173f18559d2c66ddd3a281"
         }
       }
     },
