@@ -2618,15 +2618,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg",
     "decimals": 15,
-    "liveMetaVersion": 406,
+    "liveMetaVersion": 411,
     "metadataQr": {
-      "version": 406,
+      "version": 411,
       "file": {
-        "path": "qr/deepbrainchain_metadata_406.apng",
+        "path": "qr/deepbrainchain_metadata_411.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x52369ef8b8554965150dbba7a629426c643535b3599d823b752ebe86e85cc209"
+          "block": "0x1030ea187da3b9eb96220c69ddda82c14b030c1d1b1934648f1774983af48592"
         }
       }
     },
