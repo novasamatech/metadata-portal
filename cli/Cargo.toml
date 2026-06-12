@@ -43,6 +43,7 @@ blake2-rfc = "0.2.18"
 # Hash table which preserves insertion order
 indexmap = {version="2", features=["serde"]}
 time = "0.3.28"
+rayon = "1.10"
 
 [dependencies.opencv]
 version = "0.94.2"
