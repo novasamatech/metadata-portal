@@ -728,15 +728,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 2003000,
+    "liveMetaVersion": 2003001,
     "metadataQr": {
-      "version": 2003000,
+      "version": 2003001,
       "file": {
-        "path": "qr/polkadot-statemint_metadata_2003000.apng",
+        "path": "qr/polkadot-statemint_metadata_2003001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xeaabaddffbf982b5aa61b3bd9866b03b51b96b417c4c0f28c3b58ab064241ede"
+          "block": "0x00f5688b3b8002d62eb91b87a3eeadc9abcb45297ff48b97e8102cf027eee3a2"
         }
       }
     },
