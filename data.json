@@ -219,7 +219,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/moonbeam.svg",
     "decimals": 18,
     "liveMetaVersion": 4401,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 4401,
+      "file": {
+        "path": "qr/polkadot-moonbeam_metadata_4401.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7f080a72bf62377549c97bc6dd054bfe209d56d9fa098a3956916268ee5274de"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-moonbeam_specs.png",
@@ -2549,7 +2559,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
     "liveMetaVersion": 128,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 128,
+      "file": {
+        "path": "qr/creditcoin3_metadata_128.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2a223950ad74e79c67c0bc9d90a9905ca2489cba12cb2e55eda55e98ba10c379"
+        }
+      }
+    },
     "latestMetadata": "qr/creditcoin3_metadata_latest.apng",
     "specsQr": {
       "path": "qr/creditcoin3_specs.png",
