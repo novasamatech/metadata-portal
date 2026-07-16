@@ -2948,18 +2948,8 @@
     "base58prefix": 6094,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Autonomys.svg",
     "decimals": 18,
-    "liveMetaVersion": 9,
-    "metadataQr": {
-      "version": 9,
-      "file": {
-        "path": "qr/subspace_metadata_9.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x7c6901c5f505a38a394bbe20075217eaf34519b2442740e06ef80ef892023217"
-        }
-      }
-    },
+    "liveMetaVersion": 10,
+    "metadataQr": null,
     "latestMetadata": "qr/subspace_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subspace_specs.png",
