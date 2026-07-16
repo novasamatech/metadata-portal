@@ -2949,7 +2949,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Autonomys.svg",
     "decimals": 18,
     "liveMetaVersion": 10,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 10,
+      "file": {
+        "path": "qr/subspace_metadata_10.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x09c7f9e9c857f2fec91750bbb3b7a8a1d7db174e9a024db61f4637823a8eae52"
+        }
+      }
+    },
     "latestMetadata": "qr/subspace_metadata_latest.apng",
     "specsQr": {
       "path": "qr/subspace_specs.png",
