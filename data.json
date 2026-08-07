@@ -2408,15 +2408,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acurast_Canary.svg",
     "decimals": 12,
-    "liveMetaVersion": 58,
+    "liveMetaVersion": 59,
     "metadataQr": {
-      "version": 58,
+      "version": 59,
       "file": {
-        "path": "qr/kusama-acurast-parachain_metadata_58.apng",
+        "path": "qr/kusama-acurast-parachain_metadata_59.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xcb238ff281d768f312d59fb39f560414478b8bbdaa72e900b6cc28549c891645"
+          "block": "0x5d89db0d6c20a8dcd33fa21c4d654e6921c9d9a86e75cc86cc89796ebc914b71"
         }
       }
     },
@@ -2558,15 +2558,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 130,
+    "liveMetaVersion": 131,
     "metadataQr": {
-      "version": 130,
+      "version": 131,
       "file": {
-        "path": "qr/creditcoin3_metadata_130.apng",
+        "path": "qr/creditcoin3_metadata_131.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x27afb3b235630453ce2e4b00af6a5e744af1938bc18a02355fc68b323f83ea10"
+          "block": "0xe8044bf9f6ef929a87d5676441b2971e701b3346093bafa8703436773f6b0473"
         }
       }
     },
