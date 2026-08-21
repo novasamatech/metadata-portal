@@ -1,7 +1,7 @@
 use std::path::Path;
 
-use anyhow::bail;
-use image::{GrayImage, ImageBuffer, Luma};
+use anyhow::{anyhow, bail};
+use image::GrayImage;
 use indicatif::ProgressBar;
 use opencv::{
     imgproc::{cvt_color, COLOR_BGR2GRAY},
@@ -9,10 +9,6 @@ use opencv::{
     videoio,
 };
 use qr_reader_phone::process_payload::{process_decoded_payload, InProgress, Ready};
-
-// Default camera settings
-const DEFAULT_WIDTH: u32 = 640;
-const DEFAULT_HEIGHT: u32 = 480;
 
 pub(crate) fn read_qr_file(source_file: &Path) -> anyhow::Result<String> {
     let mut camera = create_camera(source_file)?;
@@ -67,19 +63,25 @@ fn camera_capture(camera: &mut videoio::VideoCapture) -> anyhow::Result<GrayImag
         Err(e) => bail!("Can`t read camera. {}", e),
     };
 
-    let mut image: GrayImage = ImageBuffer::new(DEFAULT_WIDTH, DEFAULT_HEIGHT);
-    let mut ocv_gray_image = Mat::default();
+    let mut gray = Mat::default();
+    cvt_color(&frame, &mut gray, COLOR_BGR2GRAY, 0)?;
 
-    cvt_color(&frame, &mut ocv_gray_image, COLOR_BGR2GRAY, 0)?;
+    let rows = gray.rows() as u32;
+    let cols = gray.cols() as u32;
 
-    for y in 0..ocv_gray_image.rows() {
-        for x in 0..ocv_gray_image.cols() {
-            let pixel: Luma<u8> = Luma([*ocv_gray_image.at_2d(y, x)?]);
-            image.put_pixel(x as u32, y as u32, pixel);
+    if gray.is_continuous() {
+        let bytes = gray.data_bytes()?;
+        GrayImage::from_raw(cols, rows, bytes.to_vec())
+            .ok_or_else(|| anyhow!("failed to build GrayImage from continuous Mat"))
+    } else {
+        let mut buf = Vec::with_capacity((rows * cols) as usize);
+        for y in 0..rows as i32 {
+            let row: &[u8] = gray.at_row::<u8>(y)?;
+            buf.extend_from_slice(&row[..cols as usize]);
         }
+        GrayImage::from_raw(cols, rows, buf)
+            .ok_or_else(|| anyhow!("failed to build GrayImage from non-continuous Mat"))
     }
-
-    Ok(image)
 }
 
 fn process_qr_image(image: &GrayImage, decoding: InProgress) -> anyhow::Result<Ready> {
