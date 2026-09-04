@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::path::Path;
 
-use anyhow::{anyhow, bail, ensure, Result};
+use anyhow::{anyhow, bail, ensure, Context, Result};
 use definitions::crypto::Encryption;
 use definitions::error::TransferContent;
 use definitions::helpers::{multisigner_to_encryption, multisigner_to_public};
@@ -10,6 +10,7 @@ use definitions::network_specs::Verifier as NetworkVerifier;
 use definitions::network_specs::VerifierValue;
 use definitions::qr_transfers::ContentLoadMeta;
 use log::info;
+use rayon::prelude::*;
 use transaction_parsing::check_signature::pass_crypto;
 
 use crate::common::camera::read_qr_file;
@@ -22,10 +23,13 @@ pub(crate) fn validate_signed_qrs(dir: impl AsRef<Path>, config: &AppConfig) -> 
     let all_qrs = qrs_in_dir(&dir)?;
     let mut chain_verifiers_map = HashMap::new();
     for chain in &config.chains {
-        chain_verifiers_map.insert(
-            chain.name.clone().to_lowercase(),
-            config.verifiers.get(&chain.verifier).unwrap(),
-        );
+        let verifier = config.verifiers.get(&chain.verifier).with_context(|| {
+            format!(
+                "chain {} references unknown verifier {}",
+                chain.name, chain.verifier
+            )
+        })?;
+        chain_verifiers_map.insert(chain.name.clone().to_lowercase(), verifier);
     }
 
     // Quick check that latest files are signed
@@ -33,15 +37,19 @@ pub(crate) fn validate_signed_qrs(dir: impl AsRef<Path>, config: &AppConfig) -> 
         ensure!(qr.file_name.is_signed, "{} is not signed", qr.file_name);
     }
 
-    for qr in &all_qrs {
-        if let ContentType::Metadata(_) = qr.file_name.content_type {
+    all_qrs
+        .par_iter()
+        .filter(|qr| matches!(qr.file_name.content_type, ContentType::Metadata(_)))
+        .try_for_each(|qr| -> Result<()> {
             let f_name = &qr.file_name;
             match validate_metadata_qr(qr, &chain_verifiers_map) {
-                Ok(_) => info!("🎉 {} is verified!", f_name),
+                Ok(_) => {
+                    info!("🎉 {} is verified!", f_name);
+                    Ok(())
+                }
                 Err(e) => bail!("failed to verify {}: {}", f_name, e),
             }
-        }
-    }
+        })?;
     Ok(())
 }
 
@@ -70,10 +78,14 @@ fn validate_metadata_qr(
         .meta_genhash()
         .map_err(|e| anyhow!("{:?}", e))?;
     let meta_values = MetaValues::from_slice_metadata(&meta).map_err(|e| anyhow!("{:?}", e))?;
-    println!("Verifying {}", meta_values.name.to_lowercase());
-    let verifier = &chain_verifier_map
-        .get(&meta_values.name.to_lowercase())
-        .unwrap();
+    let runtime_name = meta_values.name.to_lowercase();
+    info!("Verifying {}", runtime_name);
+    let verifier = chain_verifier_map.get(&runtime_name).with_context(|| {
+        format!(
+            "no chain with runtime name `{}` in config.toml — stale QR file?",
+            runtime_name
+        )
+    })?;
     let public_key = match encryption {
         Encryption::Sr25519 => &verifier.public_key,
         Encryption::Ethereum | Encryption::Ecdsa => verifier.ethereum_public_key.as_ref().unwrap(),

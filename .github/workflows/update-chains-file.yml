@@ -11,6 +11,9 @@ on:
         options:
           - dev
           - prod
+  schedule:
+    # Weekly sync of config.toml with latest nova-utils chains definitions.
+    - cron: '0 3 * * 1'
 
 permissions:
   pull-requests: write
@@ -33,7 +36,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: run
-          args: --release -- update-chain-config --env ${{ github.event.inputs.environment }} --version ${{ env.NOVA_CONFIG_VERSION }}
+          args: --release -- update-chain-config --env ${{ github.event.inputs.environment || 'prod' }} --version ${{ env.NOVA_CONFIG_VERSION }}
 
       - name: 🗓️Get current date
         id: date
