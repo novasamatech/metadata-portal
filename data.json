@@ -2828,15 +2828,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 2005002,
+    "liveMetaVersion": 2005003,
     "metadataQr": {
-      "version": 2005002,
+      "version": 2005003,
       "file": {
-        "path": "qr/asset-hub-paseo_metadata_2005002.apng",
+        "path": "qr/asset-hub-paseo_metadata_2005003.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x2ed5e2eeb29ee4cbcce6f664352772d7075b5dd1ff77c6f75b82baccd14f79f6"
+          "block": "0x504fefb180264050d68653454403c7d29bb5735f42c182316c5b90483a68d04a"
         }
       }
     },
