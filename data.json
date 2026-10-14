@@ -1748,15 +1748,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 477,
+    "liveMetaVersion": 478,
     "metadataQr": {
-      "version": 477,
+      "version": 478,
       "file": {
-        "path": "qr/node-subtensor_metadata_477.apng",
+        "path": "qr/node-subtensor_metadata_478.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x2321a5d4a30c4ec3d47decf76493fa88d8c21be42534f1548f1de8efd19b7040"
+          "block": "0x23dcb099d9f041adf8b78d0d1742a8d258ecee0a161e45e542b30506dec1ae9d"
         }
       }
     },
@@ -2558,15 +2558,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 131,
+    "liveMetaVersion": 134,
     "metadataQr": {
-      "version": 131,
+      "version": 134,
       "file": {
-        "path": "qr/creditcoin3_metadata_131.apng",
+        "path": "qr/creditcoin3_metadata_134.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xe8044bf9f6ef929a87d5676441b2971e701b3346093bafa8703436773f6b0473"
+          "block": "0x3fbde69dd18cb7f2599368771d9fdb337ec899a1c6b6a86bf062af7b95e1af25"
         }
       }
     },
@@ -2978,18 +2978,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg",
     "decimals": 12,
-    "liveMetaVersion": 16,
-    "metadataQr": {
-      "version": 16,
-      "file": {
-        "path": "qr/polkadot-acurast-parachain_metadata_16.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xaa56f1b074cb836f93910cac21c36d19dee0a5f4222baf188fe4259bbaa0e1e3"
-        }
-      }
-    },
+    "liveMetaVersion": 17,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-acurast-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acurast-parachain_specs.png",
