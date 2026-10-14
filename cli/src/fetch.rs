@@ -1,5 +1,3 @@
-use std::{thread, time};
-
 use std::fs;
 use std::path::Path;
 
@@ -20,22 +18,26 @@ pub(crate) trait Fetcher {
     fn fetch_metadata(&self, chain: &Chain) -> Result<MetaFetched>;
 }
 
-// try to call all urls unless successful
+// Try each URL once; move on quickly when a node is unreachable so a single
+// dead endpoint doesn't hold up the whole chain.
 fn call_urls<F, T>(urls: &[String], f: F) -> Result<T>
 where
     F: Fn(&str) -> Result<T, generate_message::Error>,
 {
+    let mut last_err: Option<generate_message::Error> = None;
     for url in urls.iter() {
-        for i in 1..3 {
-            match f(url) {
-                Ok(res) => return Ok(res),
-                Err(e) => warn!("Failed to fetch {}: {:?}", url, e),
+        match f(url) {
+            Ok(res) => return Ok(res),
+            Err(e) => {
+                warn!("Failed to fetch {}: {:?}", url, e);
+                last_err = Some(e);
             }
-            let interval_seconds = time::Duration::from_secs(i);
-            thread::sleep(interval_seconds);
         }
     }
-    bail!("Error calling chain node");
+    match last_err {
+        Some(e) => bail!("Error calling chain node: {:?}", e),
+        None => bail!("Error calling chain node: no urls configured"),
+    }
 }
 
 pub(crate) struct RpcFetcher;

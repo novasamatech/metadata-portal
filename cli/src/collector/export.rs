@@ -5,82 +5,118 @@ use std::path::PathBuf;
 use anyhow::{Context, Result};
 use indexmap::IndexMap;
 use log::{info, warn};
+use rayon::prelude::*;
 
 use crate::common::path::{ContentType, QrPath};
 use crate::common::types::MetaVersion;
+use crate::config::Chain;
 use crate::export::{ExportChainSpec, ExportData, MetadataQr, QrCode, ReactAssetPath};
 use crate::fetch::{fetch_deployed_data, Fetcher};
 use crate::qrs::{collect_metadata_qrs, metadata_files, spec_files};
 use crate::AppConfig;
 
-pub(crate) fn export_specs(config: &AppConfig, fetcher: impl Fetcher) -> Result<ExportData> {
+pub(crate) fn export_specs<F>(config: &AppConfig, fetcher: F) -> Result<ExportData>
+where
+    F: Fetcher + Sync,
+{
     let all_specs = spec_files(&config.qr_dir)?;
     let all_metadata = metadata_files(&config.qr_dir)?;
     let online = fetch_deployed_data(config).ok();
 
+    let chain_specs: Vec<Result<(String, ExportChainSpec)>> = config
+        .chains
+        .par_iter()
+        .map(|chain| {
+            info!("Collecting {} info...", chain.name);
+            build_chain_spec(
+                chain,
+                config,
+                &fetcher,
+                &all_specs,
+                &all_metadata,
+                online.as_ref(),
+            )
+        })
+        .collect();
+
     let mut export_specs = IndexMap::new();
-    for chain in &config.chains {
-        info!("Collecting {} info...", chain.name);
-        let specs = match fetcher.fetch_specs(chain) {
-            Ok(specs) => specs,
-            Err(e) => {
-                if let Some(online_specs) = online.as_ref() {
-                    if let Some(online_chain_specs) = online_specs.get(&chain.portal_id()) {
-                        warn!(
-                            "Unable to fetch specs for {}. Keep current online specs. Err: {}.",
-                            chain.name, e
-                        );
-                        export_specs.insert(chain.portal_id(), online_chain_specs.clone());
-                        continue;
-                    }
-                }
-                return Err(e);
-            }
-        };
-        let meta = fetcher.fetch_metadata(chain)?;
-        let live_meta_version = meta.meta_values.version;
-
-        let metadata_qrs =
-            collect_metadata_qrs(&all_metadata, &chain.portal_id(), &live_meta_version)?;
-
-        let specs_qr = all_specs
-            .get(&chain.portal_id())
-            .with_context(|| format!("No specs qr found for {}", chain.portal_id()))?
-            .clone();
-        let pointer_to_latest_meta = update_pointer_to_latest_metadata(
-            metadata_qrs
-                .first()
-                .context(format!("No metadata QRs for {}", &chain.name))?,
-        )?;
-        export_specs.insert(
-            chain.portal_id(),
-            ExportChainSpec {
-                title: chain.title.as_ref().unwrap_or(&chain.name).clone(),
-                color: chain.color.clone(),
-                rpc_endpoint: chain.rpc_endpoints[0].clone(), // keep only the first one
-                genesis_hash: format!("0x{}", hex::encode(specs.genesis_hash)),
-                unit: specs.unit,
-                icon: chain.icon.clone(),
-                decimals: specs.decimals,
-                base58prefix: specs.base58prefix,
-                specs_qr: QrCode::from_qr_path(config, specs_qr, &chain.verifier)?,
-                latest_metadata: ReactAssetPath::from_fs_path(
-                    &pointer_to_latest_meta,
-                    &config.public_dir,
-                )?,
-                metadata_qr: export_live_metadata(
-                    config,
-                    metadata_qrs,
-                    &live_meta_version,
-                    &chain.verifier,
-                ),
-                live_meta_version,
-                testnet: chain.testnet.unwrap_or(false),
-                relay_chain: chain.relay_chain.clone(),
-            },
-        );
+    for result in chain_specs {
+        let (portal_id, chain_spec) = result?;
+        export_specs.insert(portal_id, chain_spec);
     }
     Ok(export_specs)
+}
+
+fn build_chain_spec<F>(
+    chain: &Chain,
+    config: &AppConfig,
+    fetcher: &F,
+    all_specs: &std::collections::HashMap<String, QrPath>,
+    all_metadata: &std::collections::HashMap<
+        String,
+        std::collections::BTreeMap<MetaVersion, QrPath>,
+    >,
+    online: Option<&ExportData>,
+) -> Result<(String, ExportChainSpec)>
+where
+    F: Fetcher + Sync,
+{
+    let specs = match fetcher.fetch_specs(chain) {
+        Ok(specs) => specs,
+        Err(e) => {
+            if let Some(online_specs) = online {
+                if let Some(online_chain_specs) = online_specs.get(&chain.portal_id()) {
+                    warn!(
+                        "Unable to fetch specs for {}. Keep current online specs. Err: {}.",
+                        chain.name, e
+                    );
+                    return Ok((chain.portal_id(), online_chain_specs.clone()));
+                }
+            }
+            return Err(e);
+        }
+    };
+    let meta = fetcher.fetch_metadata(chain)?;
+    let live_meta_version = meta.meta_values.version;
+
+    let metadata_qrs = collect_metadata_qrs(all_metadata, &chain.portal_id(), &live_meta_version)?;
+
+    let specs_qr = all_specs
+        .get(&chain.portal_id())
+        .with_context(|| format!("No specs qr found for {}", chain.portal_id()))?
+        .clone();
+    let pointer_to_latest_meta = update_pointer_to_latest_metadata(
+        metadata_qrs
+            .first()
+            .context(format!("No metadata QRs for {}", &chain.name))?,
+    )?;
+    Ok((
+        chain.portal_id(),
+        ExportChainSpec {
+            title: chain.title.as_ref().unwrap_or(&chain.name).clone(),
+            color: chain.color.clone(),
+            rpc_endpoint: chain.rpc_endpoints[0].clone(), // keep only the first one
+            genesis_hash: format!("0x{}", hex::encode(specs.genesis_hash)),
+            unit: specs.unit,
+            icon: chain.icon.clone(),
+            decimals: specs.decimals,
+            base58prefix: specs.base58prefix,
+            specs_qr: QrCode::from_qr_path(config, specs_qr, &chain.verifier)?,
+            latest_metadata: ReactAssetPath::from_fs_path(
+                &pointer_to_latest_meta,
+                &config.public_dir,
+            )?,
+            metadata_qr: export_live_metadata(
+                config,
+                metadata_qrs,
+                &live_meta_version,
+                &chain.verifier,
+            ),
+            live_meta_version,
+            testnet: chain.testnet.unwrap_or(false),
+            relay_chain: chain.relay_chain.clone(),
+        },
+    ))
 }
 
 fn export_live_metadata(
