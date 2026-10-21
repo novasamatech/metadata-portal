@@ -2578,15 +2578,15 @@
     "base58prefix": 5234,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
     "decimals": 18,
-    "liveMetaVersion": 131,
+    "liveMetaVersion": 132,
     "metadataQr": {
-      "version": 131,
+      "version": 132,
       "file": {
-        "path": "qr/humanode_metadata_131.apng",
+        "path": "qr/humanode_metadata_132.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x3466699dfef5976ddc80c547cf0d1502d412426f1daf299ae057c12eeb60dc87"
+          "block": "0x9138806104d8d3e0c99d0b65401fa369d2f482dca5e484a3ec870c85ab4d615a"
         }
       }
     },
