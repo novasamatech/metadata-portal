@@ -728,15 +728,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 2005000,
+    "liveMetaVersion": 2005001,
     "metadataQr": {
-      "version": 2005000,
+      "version": 2005001,
       "file": {
-        "path": "qr/polkadot-statemint_metadata_2005000.apng",
+        "path": "qr/polkadot-statemint_metadata_2005001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x9bdbef51a861475d17a5e01fa6e617b034eb751a2607b9db79871a523e9b2d4c"
+          "block": "0xacdd5271df79b51341f7e205e23fa376fb1499ebcddd31496274891c2bb8854f"
         }
       }
     },
@@ -1988,15 +1988,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 2005000,
+    "liveMetaVersion": 2005001,
     "metadataQr": {
-      "version": 2005000,
+      "version": 2005001,
       "file": {
-        "path": "qr/polkadot-bridge-hub-polkadot_metadata_2005000.apng",
+        "path": "qr/polkadot-bridge-hub-polkadot_metadata_2005001.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdf50c4ae4f44a8cd6defe5c9f9f72d99f82f7dbd191e7c3808c2027aedaa2f3e"
+          "block": "0x89694167210e56fb3f8d39e030d3e805cad2c0a7ab90e0e5745a5bb52a4a3995"
         }
       }
     },
@@ -2348,15 +2348,15 @@
     "base58prefix": 777,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Curio.svg",
     "decimals": 18,
-    "liveMetaVersion": 1160290,
+    "liveMetaVersion": 1160291,
     "metadataQr": {
-      "version": 1160290,
+      "version": 1160291,
       "file": {
-        "path": "qr/kusama-curio-mainnet_metadata_1160290.apng",
+        "path": "qr/kusama-curio-mainnet_metadata_1160291.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xa5199cc1e125db7e6aed960a826a334b1316208d909feacddf713b074e7dd3df"
+          "block": "0x422bbc81f2566be481f07dee83ef3e9d151f57ae8f9659f887bcb26cc8ce1a2e"
         }
       }
     },
