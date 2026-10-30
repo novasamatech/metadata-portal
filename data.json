@@ -9,7 +9,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot.svg",
     "decimals": 10,
     "liveMetaVersion": 2005002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2005002,
+      "file": {
+        "path": "qr/polkadot_metadata_2005002.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfcb56496f11127c4ce6e5d508d39dfa8877da8a01e14c5c98fc5bfb4b310539c"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot_specs.png",
@@ -119,7 +129,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_People.svg",
     "decimals": 10,
     "liveMetaVersion": 2005002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2005002,
+      "file": {
+        "path": "qr/polkadot-people-polkadot_metadata_2005002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe01f476f1855d7bf6225acf9b81ffe6718ea4a59249c460c6c00b3317fa74e97"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-people-polkadot_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-people-polkadot_specs.png",
@@ -2029,7 +2049,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
     "decimals": 10,
     "liveMetaVersion": 2005002,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 2005002,
+      "file": {
+        "path": "qr/polkadot-collectives_metadata_2005002.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x867802717a12eea3e6ca8678278180437a5adfad6d8902d43857957809f50b00"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-collectives_specs.png",
