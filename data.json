@@ -2558,15 +2558,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Creditcoin.svg",
     "decimals": 18,
-    "liveMetaVersion": 139,
+    "liveMetaVersion": 140,
     "metadataQr": {
-      "version": 139,
+      "version": 140,
       "file": {
-        "path": "qr/creditcoin3_metadata_139.apng",
+        "path": "qr/creditcoin3_metadata_140.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xa6afe8c9f1981fe0ede5088d722be32e4f6776547838158e9056d6ef275a0cbf"
+          "block": "0x21b5063cd1fe72bb96273e18db653da9a65d9cce5bbd8326a92dd1763ff0ba0e"
         }
       }
     },
