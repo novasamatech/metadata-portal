@@ -1748,15 +1748,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 486,
+    "liveMetaVersion": 488,
     "metadataQr": {
-      "version": 486,
+      "version": 488,
       "file": {
-        "path": "qr/node-subtensor_metadata_486.apng",
+        "path": "qr/node-subtensor_metadata_488.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xc1a6c2c31162c692e50e9ac72db6905f0eb4636824dd07f34d374d5d18e66322"
+          "block": "0x623a4cb38e5fad4c563b54030a0c071faec1c81eee84643df5d63790e9b116d5"
         }
       }
     },
@@ -1838,15 +1838,15 @@
     "base58prefix": 18,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
-    "liveMetaVersion": 7050,
+    "liveMetaVersion": 7060,
     "metadataQr": {
-      "version": 7050,
+      "version": 7060,
       "file": {
-        "path": "qr/polkadot-darwinia2_metadata_7050.apng",
+        "path": "qr/polkadot-darwinia2_metadata_7060.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x690b11defd4401f73138a8f0b08304be8e644615f4d6c941621cbb40a85e6517"
+          "block": "0x6dfa2f80ef06306f381eee00937d8a345ba34fffe30150c6d98e9255775ed116"
         }
       }
     },
@@ -2828,15 +2828,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg",
     "decimals": 10,
-    "liveMetaVersion": 2005004,
+    "liveMetaVersion": 2005005,
     "metadataQr": {
-      "version": 2005004,
+      "version": 2005005,
       "file": {
-        "path": "qr/asset-hub-paseo_metadata_2005004.apng",
+        "path": "qr/asset-hub-paseo_metadata_2005005.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x62c1be49c1f2229427372099783a5ef27d7727dad936dea8599a22a8c700457e"
+          "block": "0xa736f58dac309c5d9a8782b39b9945bc57b942a92f1b42eae40326c07ecdb192"
         }
       }
     },
