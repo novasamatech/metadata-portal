@@ -308,15 +308,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 26000,
+    "liveMetaVersion": 27000,
     "metadataQr": {
-      "version": 26000,
+      "version": 27000,
       "file": {
-        "path": "qr/kusama-bifrost_metadata_26000.apng",
+        "path": "qr/kusama-bifrost_metadata_27000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x2c28d07475a0bd3a9a6ac26cb4277234f2fccfde17cb458090f6e467d747f39d"
+          "block": "0x834a62cf954226b726c20ede1414bdac137a64c715f812d00f0a6980c7f5a4be"
         }
       }
     },
@@ -1268,15 +1268,15 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 26000,
+    "liveMetaVersion": 27000,
     "metadataQr": {
-      "version": 26000,
+      "version": 27000,
       "file": {
-        "path": "qr/polkadot-bifrost_polkadot_metadata_26000.apng",
+        "path": "qr/polkadot-bifrost_polkadot_metadata_27000.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x00f5dc1dad383dfb962142886ce9adce17f825a753debd3e043d07aba5da9f3e"
+          "block": "0x347031094201f104e8f8b5b660e0e176e5c7489c4de0b9f61e69dd4a2776f262"
         }
       }
     },
@@ -2318,15 +2318,15 @@
     "base58prefix": 2135,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Enjin.svg",
     "decimals": 18,
-    "liveMetaVersion": 1070,
+    "liveMetaVersion": 1080,
     "metadataQr": {
-      "version": 1070,
+      "version": 1080,
       "file": {
-        "path": "qr/enjin_metadata_1070.apng",
+        "path": "qr/enjin_metadata_1080.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0xdf3773cf956cfd8d865d96a86cadbcda6b1a355b60173f18559d2c66ddd3a281"
+          "block": "0x17a86f1fc2420aee87dc00286f9806c536159d82e494ad4f006e310c86cb8819"
         }
       }
     },
