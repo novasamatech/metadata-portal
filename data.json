@@ -1538,18 +1538,8 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 8000020,
-    "metadataQr": {
-      "version": 8000020,
-      "file": {
-        "path": "qr/polymesh_mainnet_metadata_8000020.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x929a0a132b19b9ae2ed397020d218dd16a54dbb172ae7ffb5dc2e300e8119bfa"
-        }
-      }
-    },
+    "liveMetaVersion": 8001030,
+    "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polymesh_mainnet_specs.png",
@@ -1748,15 +1738,15 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
     "decimals": 9,
-    "liveMetaVersion": 488,
+    "liveMetaVersion": 490,
     "metadataQr": {
-      "version": 488,
+      "version": 490,
       "file": {
-        "path": "qr/node-subtensor_metadata_488.apng",
+        "path": "qr/node-subtensor_metadata_490.apng",
         "signedBy": "Novasama Technologies",
         "source": {
           "type": "Rpc",
-          "block": "0x623a4cb38e5fad4c563b54030a0c071faec1c81eee84643df5d63790e9b116d5"
+          "block": "0x35f3b364ffdd53f8926245661838334e9bca9758244b4fe8813fe714c4178a54"
         }
       }
     },
