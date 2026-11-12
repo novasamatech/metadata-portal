@@ -54,18 +54,6 @@ pub(crate) struct AppConfig {
     pub(crate) verifiers: HashMap<String, Verifier>,
     pub(crate) chains: Vec<Chain>,
 }
-#[derive(Serialize, Deserialize, Debug)]
-pub(crate) struct ChainJSON {
-    pub(crate) name: String,
-    pub(crate) nodes: Vec<ChainNode>,
-    pub(crate) icon: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-pub(crate) struct ChainNode {
-    pub(crate) name: String,
-    pub(crate) url: String,
-}
 
 #[cfg(test)]
 impl Default for AppConfig {
