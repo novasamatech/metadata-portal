@@ -1,0 +1,6 @@
+# Pinned: trie-db 0.24.0 (pulled in by sp-trie from the pinned substrate rev)
+# does not compile on Rust >= 1.100.0 (rust-lang/rust#148922).
+# Bump only together with the substrate / parity-signer dependencies.
+[toolchain]
+channel = "1.99.1"
+components = ["rustfmt", "clippy"]
