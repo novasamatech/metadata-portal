@@ -790,20 +790,6 @@ verifier = "novasama"
 relay_chain = "kusama"
 
 [[chains]]
-name = "nexus"
-title = "Hyperbridge Nexus"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Hyperbridge_Nexus.svg"
-rpc_endpoints = [
-    "wss://nexus.ibp.network",
-    "wss://nexus.dotters.network",
-    "wss://hyperbridge-nexus-rpc.blockops.network",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
-
-[[chains]]
 name = "avail"
 title = "Avail"
 color = "#000000"
@@ -921,15 +907,6 @@ rpc_endpoints = [
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
-
-[[chains]]
-name = "starlight"
-title = "Tanssi"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tanssi.svg"
-rpc_endpoints = ["wss://services.tanssi-mainnet.network/tanssi"]
-testnet = false
-verifier = "novasama"
 
 [[chains]]
 name = "acurast-parachain"

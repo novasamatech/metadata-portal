@@ -22,6 +22,18 @@ qr_dir = "public/qr"
   color = "#000000"
   verifier = "parity"
 
+  # nova-utils renamed the relay chains; without these entries a regenerated
+  # config would hand them to the default verifier instead of Parity.
+  [chains."Polkadot Relay"]
+  name = "polkadot"
+  color = "#e6007a"
+  verifier = "parity"
+
+  [chains."Kusama Relay"]
+  name = "kusama"
+  color = "#000000"
+  verifier = "parity"
+
   [chains.Acala]
   name = "acala"
   color = "#645AFF"
