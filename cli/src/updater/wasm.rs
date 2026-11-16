@@ -42,7 +42,7 @@ impl TryFrom<Asset> for WasmRuntime {
 }
 
 pub(crate) async fn download_wasm(wasm: WasmRuntime) -> anyhow::Result<Vec<u8>> {
-    info!("⬇️  Downloading {} runtime...", &wasm.chain);
+    info!("⬇️  Downloading {} runtime...", wasm.chain);
     let response = reqwest::get(wasm.download_url.clone()).await?;
     ensure!(
         response.status().is_success(),

@@ -88,7 +88,7 @@ where
     let pointer_to_latest_meta = update_pointer_to_latest_metadata(
         metadata_qrs
             .first()
-            .context(format!("No metadata QRs for {}", &chain.name))?,
+            .context(format!("No metadata QRs for {}", chain.name))?,
     )?;
     Ok((
         chain.portal_id(),

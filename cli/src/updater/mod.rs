@@ -23,6 +23,12 @@ use crate::updater::generate::{download_metadata_qr, generate_metadata_qr, gener
 use crate::updater::github::fetch_latest_runtime;
 use crate::updater::wasm::{download_wasm, meta_values_from_wasm_bytes};
 
+/// Verifier whose chains are signed by Parity: their QRs are downloaded, not generated.
+const PARITY_VERIFIER: &str = "parity";
+/// Where Parity publishes the QRs it signed.
+const PARITY_QR_BASE_URL: &str =
+    "https://github.com/paritytech/metadata-portal/raw/master/public/qr";
+
 pub(crate) fn update_from_node<F>(
     config: AppConfig,
     sign: bool,
@@ -69,6 +75,10 @@ where
     Ok(())
 }
 
+/// Generates the QRs one chain is missing. Returns whether anything was added.
+///
+/// A node that can't be reached is not an error: the chain is skipped and
+/// `error_fetching_data` is raised, so the other chains still get updated.
 #[allow(clippy::too_many_arguments)]
 fn process_chain<F>(
     chain: &Chain,
@@ -89,7 +99,7 @@ where
     if !specs_qrs.contains_key(&chain.portal_id()) {
         match fetcher.fetch_specs(chain) {
             Ok(specs) => {
-                if chain.verifier == "parity" {
+                if chain.verifier == PARITY_VERIFIER {
                     warn!("The chain {} should be added and signed by Parity, please check it on the Parity Metadata portal https://metadata.parity.io/", chain.name);
                 } else {
                     generate_spec_qr(
@@ -129,9 +139,9 @@ where
         }
     }
 
-    if chain.verifier == "parity" {
+    if chain.verifier == PARITY_VERIFIER {
         download_metadata_qr(
-            "https://github.com/paritytech/metadata-portal/raw/master/public/qr",
+            PARITY_QR_BASE_URL,
             &fetched_meta.meta_values,
             &config.qr_dir,
         )?;
