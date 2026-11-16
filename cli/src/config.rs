@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::path::{Path, PathBuf};
 use std::{fmt, fs};
 
@@ -78,11 +78,34 @@ impl AppConfig {
 
         let config_toml = fs::read_to_string(&path)?;
         let mut config = toml::from_str::<AppConfig>(config_toml.as_str())?;
+        config.validate()?;
 
         config.public_dir = root.join(config.public_dir);
         config.data_file = root.join(config.data_file);
         config.qr_dir = root.join(config.qr_dir);
         Ok(config)
+    }
+
+    /// Rejects a config where several chains share one portal id.
+    ///
+    /// Such chains map to the same QR files, and since chains are processed in
+    /// parallel they would race on those files.
+    fn validate(&self) -> anyhow::Result<()> {
+        let mut seen = HashSet::new();
+        let mut duplicates = Vec::new();
+        for chain in &self.chains {
+            let portal_id = chain.portal_id();
+            if !seen.insert(portal_id.clone()) && !duplicates.contains(&portal_id) {
+                duplicates.push(portal_id);
+            }
+        }
+        if !duplicates.is_empty() {
+            bail!(
+                "chains are listed more than once in the config: {}",
+                duplicates.join(", ")
+            );
+        }
+        Ok(())
     }
 
     pub(crate) fn save(&self, path: impl AsRef<Path>) -> anyhow::Result<()> {
@@ -170,5 +193,42 @@ impl Default for Chain {
             verifier: String::from("novasama"),
             encryption: None,
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn accepts_same_name_on_different_relay_chains() {
+        let config = AppConfig {
+            chains: vec![
+                Chain {
+                    name: "statemine".to_string(),
+                    relay_chain: Some("kusama".to_string()),
+                    ..Chain::default()
+                },
+                Chain {
+                    name: "statemine".to_string(),
+                    relay_chain: Some("rococo".to_string()),
+                    ..Chain::default()
+                },
+            ],
+            ..AppConfig::default()
+        };
+
+        assert!(config.validate().is_ok());
+    }
+
+    #[test]
+    fn rejects_duplicated_portal_id() {
+        let config = AppConfig {
+            chains: vec![Chain::default(), Chain::default()],
+            ..AppConfig::default()
+        };
+
+        let err = config.validate().unwrap_err();
+        assert!(err.to_string().contains("polkadot"));
     }
 }
