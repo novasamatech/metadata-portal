@@ -719,15 +719,6 @@ testnet = true
 verifier = 'novasama'
 
 [[chains]]
-name = 'turing'
-title = 'Turing Staging'
-color = '#27948E'
-icon = 'https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Turing_Staging.svg'
-rpc_endpoints = ['wss://rpc.turing-staging.oak.tech']
-testnet = true
-verifier = 'novasama'
-
-[[chains]]
 name = 'governance2'
 title = 'Governance2 Testnet'
 color = '#B3250A'

@@ -693,7 +693,7 @@ name = "peaq-node-krest"
 title = "krest"
 color = "#000000"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg"
-rpc_endpoints = ["wss://krest.api.onfinality.io/public-ws'"]
+rpc_endpoints = ["wss://krest.api.onfinality.io/public-ws"]
 testnet = false
 verifier = "novasama"
 relay_chain = "kusama"
@@ -852,6 +852,15 @@ testnet = false
 verifier = "novasama"
 
 [[chains]]
+name = "DeepBrainChain"
+title = "DeepBrain"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/DeepBrain.svg"
+rpc_endpoints = ["wss://info.dbcwallet.io"]
+testnet = false
+verifier = "novasama"
+
+[[chains]]
 name = "peaq-node"
 title = "peaq"
 color = "#000000"
@@ -900,7 +909,7 @@ relay_chain = "polkadot"
 [[chains]]
 name = "coretime-kusama"
 title = "Kusama Coretime"
-color = "#000000"
+color = "#795116"
 icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
 rpc_endpoints = [
     "wss://sys.ibp.network/coretime-kusama",
@@ -975,23 +984,6 @@ verifier = "novasama"
 encryption = "ethereum"
 
 [[chains]]
-name = "coretime-kusama"
-title = "Kusama Coretime Chain"
-color = "#795116"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
-rpc_endpoints = [
-    "wss://coretime-kusama.dotters.network",
-    "wss://sys.dotters.network/coretime-kusama",
-    "wss://coretime-kusama.ibp.network",
-    "wss://sys.ibp.network/coretime-kusama",
-    "wss://kusama-coretime-rpc.polkadot.io",
-    "wss://ksm-rpc.stakeworld.io/coretime",
-]
-testnet = false
-verifier = "novasama"
-relay_chain = "kusama"
-
-[[chains]]
 name = "subspace"
 title = "Autonomys Network"
 color = "#5870B3"
@@ -1002,13 +994,3 @@ rpc_endpoints = [
 ]
 testnet = false
 verifier = "novasama"
-
-[[chains]]
-name = "acurast-parachain"
-title = "Acurast Mainnet"
-color = "#000000"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Acurast.svg"
-rpc_endpoints = ["wss://public-archive.mainnet.acurast.com"]
-testnet = false
-verifier = "novasama"
-relay_chain = "polkadot"
