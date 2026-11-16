@@ -22,6 +22,18 @@ qr_dir = "public/qr"
   color = "#000000"
   verifier = "parity"
 
+  # nova-utils renamed the relay chains; without these entries a regenerated
+  # config would hand them to the default verifier instead of Parity.
+  [chains."Polkadot Relay"]
+  name = "polkadot"
+  color = "#e6007a"
+  verifier = "parity"
+
+  [chains."Kusama Relay"]
+  name = "kusama"
+  color = "#000000"
+  verifier = "parity"
+
   [chains.Acala]
   name = "acala"
   color = "#645AFF"
@@ -404,6 +416,18 @@ color = "#B34FF6"
 name = "collectives"
 color = '#e6777a'
 
+[chains."Kusama Coretime"]
+name = "coretime-kusama"
+color = "#795116"
+
+[chains.Acurast]
+name = "acurast-parachain"
+color = "#000000"
+
+[chains.DeepBrain]
+name = "DeepBrainChain"
+color = "#000000"
+
 [[inject_chains]]
 name = "paseo"
 title = "Paseo Testnet"
@@ -433,11 +457,19 @@ encryption = "ethereum"
 verifier = "novasama"
 
 [[inject_chains]]
-name = "coretime-kusama"
-color = "#795116"
-title = "Kusama Coretime Chain"
-icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Coretime.svg"
-rpc_endpoints = ["wss://coretime-kusama.dotters.network", "wss://sys.dotters.network/coretime-kusama", "wss://coretime-kusama.ibp.network", "wss://sys.ibp.network/coretime-kusama", "wss://kusama-coretime-rpc.polkadot.io", "wss://ksm-rpc.stakeworld.io/coretime"]
+name = "asset-hub-paseo"
+title = "Paseo Asset Hub"
+color = "#000000"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Paseo_Testnet.svg"
+rpc_endpoints = ["wss://asset-hub-paseo-rpc.n.dwellir.com"]
+testnet = true
+verifier = "novasama"
+
+[[inject_chains]]
+name = "subspace"
+title = "Autonomys Network"
+color = "#5870B3"
+icon = "https://raw.githubusercontent.com/novasamatech/nova-utils/refs/heads/master/icons/chains/gradient/Autonomys.svg"
+rpc_endpoints = ["wss://rpc.mainnet.subspace.foundation/ws", "wss://rpc.mainnet.autonomys.xyz/ws"]
 testnet = false
 verifier = "novasama"
-relay_chain = "kusama"

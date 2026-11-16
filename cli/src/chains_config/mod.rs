@@ -63,6 +63,42 @@ const EXCLUDE_CHAINS: [&str; 4] = [
     "Cere",               //TODO spece name is `node` that is the same for the Polkadex
 ];
 
+/// Chains of the config generated last time, keyed by title.
+///
+/// Empty when there is no readable config yet.
+fn previous_chains_by_title(config_path: &Path) -> HashMap<String, Chain> {
+    match AppConfig::load(config_path) {
+        Ok(config) => config
+            .chains
+            .into_iter()
+            .filter_map(|chain| chain.title.clone().map(|title| (title, chain)))
+            .collect(),
+        Err(e) => {
+            warn!(
+                "Can't read previous {}, chains with unreachable nodes will be skipped. {}",
+                config_path.display(),
+                e
+            );
+            HashMap::new()
+        }
+    }
+}
+
+/// Adds `chain` unless a chain with the same portal id is already listed.
+///
+/// Returns whether the chain was added.
+fn push_unique(chains: &mut Vec<Chain>, chain: Chain) -> bool {
+    let portal_id = chain.portal_id().to_lowercase();
+    if chains
+        .iter()
+        .any(|listed| listed.portal_id().to_lowercase() == portal_id)
+    {
+        return false;
+    }
+    chains.push(chain);
+    true
+}
+
 pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
     let template_path = Path::new("config-template.toml");
     let config_template_toml = fs::read_to_string(template_path)?;
@@ -106,6 +142,8 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
         ),
         _ => bail!("Unknown env. Should be dev or prod"),
     };
+
+    let previous_chains = previous_chains_by_title(Path::new(chain_params.0));
 
     let chains_json_response = reqwest::blocking::get(chain_params.2).unwrap();
     let chains_json: Vec<ChainJSON> = chains_json_response.json().unwrap();
@@ -199,10 +237,25 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
                 let chain_specs = match fetch_result {
                     Ok(res) => res,
                     Err(e) => {
-                        warn!(
-                            "Error getting network {} chainspec, skip it. {}",
-                            dummy_chain.name, e
-                        );
+                        // An unreachable node must not drop a chain that is already
+                        // served: the cleaner would delete its QRs afterwards.
+                        match previous_chains.get(&chain.name) {
+                            Some(previous) => {
+                                warn!(
+                                    "Error getting network {} chainspec, keep its previous config. {}",
+                                    dummy_chain.name, e
+                                );
+                                chains.push(Chain {
+                                    icon: dummy_chain.icon,
+                                    rpc_endpoints: dummy_chain.rpc_endpoints,
+                                    ..previous.clone()
+                                });
+                            }
+                            None => warn!(
+                                "Error getting network {} chainspec, skip it. {}",
+                                dummy_chain.name, e
+                            ),
+                        }
                         continue;
                     }
                 };
@@ -244,7 +297,7 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
         }
     }
     for chain in config_template.inject_chains {
-        chains.push(Chain {
+        let injected = Chain {
             name: chain.name.clone(),
             title: Some(chain.title.clone()),
             color: chain.color,
@@ -257,7 +310,13 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
             verifier: chain.verifier,
             encryption: chain.encryption.as_ref().map(String::from),
             relay_chain: chain.relay_chain.clone(),
-        });
+        };
+        if !push_unique(&mut chains, injected) {
+            warn!(
+                "Injected chain {} is already in the chains list, remove it from config-template.toml",
+                chain.name
+            );
+        }
     }
 
     let new_config = AppConfig {
@@ -273,4 +332,43 @@ pub(crate) fn update_chains_config(chains_opts: ChainsOpts) -> Result<()> {
     }
 
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn push_unique_skips_listed_portal_id() {
+        let mut chains = vec![Chain::default()];
+
+        let added = push_unique(
+            &mut chains,
+            Chain {
+                name: "Polkadot".to_string(),
+                title: Some("Injected".to_string()),
+                ..Chain::default()
+            },
+        );
+
+        assert!(!added);
+        assert_eq!(chains.len(), 1);
+        assert_eq!(chains[0].title, None);
+    }
+
+    #[test]
+    fn push_unique_adds_same_name_on_another_relay_chain() {
+        let mut chains = vec![Chain::default()];
+
+        let added = push_unique(
+            &mut chains,
+            Chain {
+                relay_chain: Some("kusama".to_string()),
+                ..Chain::default()
+            },
+        );
+
+        assert!(added);
+        assert_eq!(chains.len(), 2);
+    }
 }

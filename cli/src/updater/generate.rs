@@ -58,7 +58,7 @@ pub(crate) fn download_metadata_qr(
     )
     .to_string();
     let path = target_dir.join(&file_name);
-    let url = format!("{}/{}", url, &file_name);
+    let url = format!("{}/{}", url, file_name);
     let response = reqwest::blocking::get(url).unwrap();
     if response.status() == 200 {
         let mut content = Cursor::new(response.bytes().unwrap());
